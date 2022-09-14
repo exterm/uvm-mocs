@@ -1,7 +1,7 @@
-import matplotlib.pyplot as plt
+files = [
+    "examples/discrete_model_example.py",
+    "examples/logistic_growth.py",
+    "examples/predator_prey.py",
+]
 
-plt.loglog([1, 2, 3, 4], [1, 4, 2, 5], color='red')
-plt.ylabel('some numbers')
-plt.show()
-
-
+exec(open(f"./{files[2]}").read())
