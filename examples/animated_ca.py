@@ -4,9 +4,6 @@ import matplotlib.animation as ani
 
 
 def rule_index(triplet):
-    """
-    Returns the index of the rule that generated the triplet.
-    """
     L, C, R = triplet
     index = 7 - (4 * L + 2 * C + R)
     return int(index)
@@ -22,20 +19,23 @@ def CA_step(current_state, rule_number):
         np.roll(current_state, -1),
     ])
 
-    return rule[np.apply_along_axis(rule_index, 0, all_triplets)]
+    rule_indexes = np.apply_along_axis(rule_index, 0, all_triplets)
 
+    return rule[rule_indexes]
 
-fig = plt.figure()
-ax = fig.add_subplot()
-ax.axis(False)
 
 WIDTH = 300
-STEPS = 150
+STEPS = 250
 RULE_NUMBER = 30
+RENDER_INTERVAL = 50
 
 rng = np.random.RandomState(0)
 
 blank = lambda: np.zeros((STEPS, WIDTH))
+
+fig = plt.figure()
+ax = fig.add_subplot()
+ax.axis(False)
 
 history = blank()
 stateplot = ax.imshow(blank(), cmap='binary', aspect='equal', vmin=0, vmax=1)
@@ -53,14 +53,14 @@ def animate(i):
     return [stateplot]
 
 
-render_interval = 50
+plt.tight_layout(pad=0)
 anim = ani.FuncAnimation(fig,
                          animate,
                          STEPS,
-                         interval=render_interval,
+                         interval=RENDER_INTERVAL,
                          blit=True,
                          repeat=False)
-writervideo = ani.FFMpegWriter(fps=1000 / render_interval)
+writervideo = ani.FFMpegWriter(fps=1000 / RENDER_INTERVAL)
 anim.save('output/animated_ca.mp4', writer=writervideo)
 plt.savefig('output/animated_ca.png', dpi=600)
 plt.show()
