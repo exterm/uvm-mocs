@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from matplotlib.animation import FuncAnimation
+import matplotlib.animation as ani
 
 
 def rule_index(triplet):
@@ -43,7 +43,6 @@ stateplot = ax.imshow(blank(), cmap='binary', aspect='equal', vmin=0, vmax=1)
 
 def animate(i):
     global history
-    print(i)
     if i == 0:
         history = blank()
         history[0] = rng.randint(0, 2, WIDTH)
@@ -54,5 +53,14 @@ def animate(i):
     return [stateplot]
 
 
-anim = FuncAnimation(fig, animate, STEPS, interval=50, blit=True, repeat=False)
+render_interval = 50
+anim = ani.FuncAnimation(fig,
+                         animate,
+                         STEPS,
+                         interval=render_interval,
+                         blit=True,
+                         repeat=False)
+writervideo = ani.FFMpegWriter(fps=1000 / render_interval)
+anim.save('output/animated_ca.mp4', writer=writervideo)
+plt.savefig('output/animated_ca.png', dpi=600)
 plt.show()

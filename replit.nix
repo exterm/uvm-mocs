@@ -1,5 +1,6 @@
 { pkgs }: {
   deps = [
+    pkgs.ffmpeg.bin
     pkgs.htop
     pkgs.python38Full
   ];
