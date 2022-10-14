@@ -1,5 +1,7 @@
 { pkgs }: {
   deps = [
+    pkgs.bat
+    pkgs.less
     pkgs.ffmpeg.bin
     pkgs.htop
     pkgs.python38Full
