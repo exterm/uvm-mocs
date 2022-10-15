@@ -94,7 +94,7 @@ anim = ani.FuncAnimation(fig,
                          blit=True,
                          repeat=False)
 plt.tight_layout(pad=0)
-writervideo = ani.FFMpegWriter(fps=1000 / RENDER_INTERVAL)
+writervideo = ani.FFMpegWriter(fps=1000 // RENDER_INTERVAL)
 print("Writing video...")
 anim.save('output/animated_2d_ca.mp4', writer=writervideo)
 # print("Writing image...")
