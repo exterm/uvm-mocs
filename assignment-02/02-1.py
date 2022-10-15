@@ -60,11 +60,11 @@ def random_world():
     return rng.choice([1, 0], size=(HEIGHT, WIDTH), p=[P_TREE, 1 - P_TREE])
 
 def step(current_state):
-    results = pf.starmap(update_step, zip(all_cells, repeat(current_state)))
+    results = pf.starmap(step_one_cell, zip(all_cells, repeat(current_state)))
     results_arry = np.array(results)
     return np.reshape(results_arry, (-1, WIDTH))
 
-def update_step(positions, current_state):
+def step_one_cell(positions, current_state):
     row = positions[0]
     col = positions[1]
     next_state = 0
