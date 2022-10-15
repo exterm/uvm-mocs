@@ -5,6 +5,11 @@ import matplotlib.animation as ani
 import matplotlib.colors as clrs
 import numpy as np
 from enum import Enum
+import time
+from multiprocessing import Pool
+from itertools import repeat
+import functools
+import itertools
 print("Done.")
 
 # Model forest fires in a way that demonstrates the following:
@@ -43,7 +48,7 @@ S_BURNING = 2
 
 print("Initializing random state..")
 rng = np.random.RandomState()
-
+all_cells = list(itertools.product(range(HEIGHT),range(WIDTH)))
 
 def blank_world():
     return np.zeros((HEIGHT, WIDTH))
@@ -54,22 +59,29 @@ def random_world():
 
 def step(current_state):
     next_state = blank_world()
-    for row in range(len(next_state)):
-        for col in range(len(next_state[row])):
-            if current_state[row][col] == S_TREE:
-                if rng.random() < P_LIGHTNING:
-                    next_state[row][col] = S_BURNING
-                else:
-                    next_state[row][col] = catch_fire(row, col, current_state)
-            elif current_state[row][col] == S_BURNING:
-                next_state[row][col] = S_EMPTY
-            else:
-                # empty
-                if rng.random() < P_SPROUT:
-                    next_state[row][col] = S_TREE
-                else:
-                    next_state[row][col] = propagate(row, col, current_state)
+    results = pf.starmap(update_step, zip(all_cells, repeat(current_state)))
+    results_arry = np.array(results)
+    return np.reshape(results_arry, (-1, WIDTH))
+
+def update_step(positions, current_state):
+    row = positions[0]
+    col = positions[1]
+    next_state = 0
+    if current_state[row][col] == S_TREE:
+        if rng.random() < P_LIGHTNING:
+            next_state = S_BURNING
+        else:
+            next_state = catch_fire(row, col, current_state)
+    elif current_state[row][col] == S_BURNING:
+        next_state = S_EMPTY
+    else:
+        # empty
+        if rng.random() < P_SPROUT:
+            next_state = S_TREE
+        else:
+            next_state = propagate(row, col, current_state)
     return next_state
+
 
 
 def catch_fire(row, column, current_state):
@@ -141,7 +153,11 @@ def print_stats(history):
   print(f" Highest tree density: {highest_tree_density}")
 
 print("Simulating...")
+pf = Pool(8)
+startTime = time.time()
 history = simulate(STEPS)
+executionTime = (time.time() - startTime)
+print('Simulation Execution time in seconds: ' + str(executionTime))
 print_stats(history)
 
 def animate(i):
