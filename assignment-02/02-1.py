@@ -93,9 +93,14 @@ def catch_fire(row, column, current_state):
         return S_TREE
 
 def propagate(row, column, current_state):
+    rand = rng.random()
+    if rand > P_PROPAGATE * 8:
+      # short-circuit if there's no way to propagate
+      return S_EMPTY
+
     neighbors = get_neighbors(row, column, current_state)
     number_of_tree_neighbors = neighbors[neighbors == S_TREE].size
-    if rng.random() < P_PROPAGATE * number_of_tree_neighbors:
+    if rand < P_PROPAGATE * number_of_tree_neighbors:
         return S_TREE
     return S_EMPTY
 
