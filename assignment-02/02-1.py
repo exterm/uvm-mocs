@@ -8,7 +8,6 @@ from enum import Enum
 import time
 from multiprocessing import Pool
 from itertools import repeat
-import functools
 import itertools
 print("Done.")
 
