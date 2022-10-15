@@ -6,7 +6,7 @@ print("Done.")
 
 WIDTH = 120
 HEIGHT = 100
-STEPS = 250
+STEPS = 750
 RENDER_INTERVAL = 50
 P1 = 0.2
 
@@ -94,9 +94,9 @@ anim = ani.FuncAnimation(fig,
                          blit=True,
                          repeat=False)
 plt.tight_layout(pad=0)
-# writervideo = ani.FFMpegWriter(fps=1000 / RENDER_INTERVAL)
-# print("Writing video...")
-# anim.save('output/animated_2d_ca.mp4', writer=writervideo)
+writervideo = ani.FFMpegWriter(fps=1000 / RENDER_INTERVAL)
+print("Writing video...")
+anim.save('output/animated_2d_ca.mp4', writer=writervideo)
 # print("Writing image...")
 # plt.savefig('output/animated_2d_ca.png', dpi=600)
 print("Show!")
