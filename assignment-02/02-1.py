@@ -33,6 +33,8 @@ print("Done.")
 # - trees age and die
 # - different types of trees
 
+N_PROCS = 8 # number of pool processes to use
+
 WIDTH = 120
 HEIGHT = 100
 STEPS = 750
@@ -153,7 +155,7 @@ def print_stats(history):
   print(f" Highest tree density: {highest_tree_density}")
 
 print("Simulating...")
-pf = Pool(8)
+pf = Pool(N_PROCS)
 startTime = time.time()
 history = simulate(STEPS)
 executionTime = (time.time() - startTime)
