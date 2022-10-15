@@ -73,26 +73,28 @@ def step(current_state):
 
 
 def catch_fire(row, column, current_state):
-    burning_neighbor = any(s == S_BURNING for s in neighbors(row, column, current_state))
+    neighbors = get_neighbors(row, column, current_state)
+    burning_neighbor = any(neighbors[neighbors == S_BURNING])
     if burning_neighbor:
         return S_BURNING
     else:
         return S_TREE
 
 def propagate(row, column, current_state):
-    number_of_tree_neighbors = sum(s == S_TREE for s in neighbors(row, column, current_state))
+    neighbors = get_neighbors(row, column, current_state)
+    number_of_tree_neighbors = neighbors[neighbors == S_TREE].size
     if rng.random() < P_PROPAGATE * number_of_tree_neighbors:
         return S_TREE
     return S_EMPTY
 
 
-def neighbors(row, column, current_state):
+def get_neighbors(row, column, current_state):
     # Moore neighborhood and periodic bundary condition
     rowup = (row - 1) % HEIGHT
     rowdown = (row + 1) % HEIGHT
     colleft = (column - 1) % WIDTH
     colright = (column + 1) % WIDTH
-    return [
+    return np.array([
         current_state[rowup][colleft],
         current_state[rowup][column],
         current_state[rowup][colright],
