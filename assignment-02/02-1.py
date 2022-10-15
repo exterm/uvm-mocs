@@ -143,10 +143,16 @@ def get_statistics(current_state):
       trees += 1
   return (burning / len(cells), trees / len(cells))
 
+def print_stats(history):
+  largest_fire = np.max([h[1][0] for h in history]) * HEIGHT * WIDTH
+  highest_tree_density = np.max([h[1][1] for h in history])
+  print("Statistics:")
+  print(f" Largest fire: {largest_fire}")
+  print(f" Highest tree density: {highest_tree_density}")
 
 print("Simulating...")
 history = simulate(STEPS)
-
+print_stats(history)
 
 def animate(i):
     worldplot.set_data(history[i][0])
