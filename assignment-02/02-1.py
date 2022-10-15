@@ -103,33 +103,21 @@ def get_neighbors(row, column, current_state):
         current_state[rowdown][colleft],
         current_state[rowdown][column],
         current_state[rowdown][colright]
-    ]
-
-print("Initializing plot..")
-fig = plt.figure()
-ax = fig.add_subplot()
-ax.axis(False)
-
-colors = clrs.ListedColormap(['white', 'green', 'red'])  # type: ignore
-worldplot = ax.imshow(blank_world(),
-                      cmap=colors,
-                      aspect='equal',
-                      vmin=0,
-                      vmax=2)
-
+    ])
 
 def simulate(steps):
   world = random_world()
   history = []
   for i in range(steps):
-    print(f"Step {i}/{steps}")
-    stats = get_statistics(world)
+    if i%50 == 0:
+      print(f"Step {i}/{steps}")
+    stats = analyze(world)
     world = step(world)
     history += [(world, stats)]
   return history
 
 
-def get_statistics(current_state):
+def analyze(current_state):
   '''
   Return statistics about the current state of the world. For now:
   - fractions of cells that are burning
@@ -160,6 +148,17 @@ def animate(i):
     worldplot.set_data(history[i][0])
     return [worldplot]
 
+print("Initializing plot..")
+fig = plt.figure()
+ax = fig.add_subplot()
+ax.axis(False)
+
+colors = clrs.ListedColormap(['white', 'green', 'red'])  # type: ignore
+worldplot = ax.imshow(blank_world(),
+                      cmap=colors,
+                      aspect='equal',
+                      vmin=0,
+                      vmax=2)
 
 print("Animation starting...")
 anim = ani.FuncAnimation(fig,
