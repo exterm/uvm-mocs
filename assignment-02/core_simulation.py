@@ -104,7 +104,7 @@ class forestSimulation:
                 burning += 1
             elif cell == self.S_TREE:
                 trees += 1
-        return (burning / len(cells), trees / len(cells))
+        return (burning, trees)
 
     def simulate(self, initial_state=None, steps=None):
         self.currentState = initial_state or self.random_world()
@@ -124,8 +124,8 @@ class forestSimulation:
 
 
     def print_stats(self):
-        largest_fire = np.max([s[0] for s in self.stats]) * self.config.height * self.config.width
-        highest_tree_density = np.max([s[1] for s in self.stats])
+        largest_fire = np.max([s[0] for s in self.stats])
+        highest_tree_density = np.max([s[1] for s in self.stats]) / self.config.height * self.config.width
         print("Statistics:")
         print(f" Largest fire: {largest_fire}")
         print(f" Highest tree density: {highest_tree_density}")
