@@ -106,17 +106,34 @@ class forestSimulation:
                 trees += 1
         return (burning, trees)
 
-    def simulate(self, initial_state=None, steps=None):
-        self.currentState = initial_state or self.random_world()
+    def simulate(self, initial_state=None, steps=None, stop_when_no_burning=False):
+        if initial_state is None:
+            self.currentState = self.random_world()
+        else:
+            self.currentState = initial_state
+
         if steps:
           for i in range(steps):
-              if i%50 == 0:
+              if i % 50 == 0:
                   print(f"Step {i}/{steps}")
               stats = self.analyze()
               world = self.step()
               self.currentState = world
               self.history += [world]
               self.stats += [stats]
+        elif stop_when_no_burning:
+            i = 0
+            while True:
+                if i % 10 == 0:
+                  print(f"Step {i}")
+                stats = self.analyze()
+                world = self.step()
+                self.currentState = world
+                self.history += [world]
+                self.stats += [stats]
+                if stats[0] == 0:
+                    break
+                i += 1
         else:
           raise "Invalid simulation parameters"
         print("Done!")
