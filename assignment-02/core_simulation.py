@@ -111,6 +111,8 @@ class forestSimulation:
             self.currentState = self.random_world()
         else:
             self.currentState = initial_state
+        self.history = []
+        self.stats = []
 
         if steps:
           for i in range(steps):
