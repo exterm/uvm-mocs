@@ -122,8 +122,8 @@ class forestSimulation:
 
 
     def print_stats(self):
-        largest_fire = np.max([h[1][0] for h in self.history]) * self.config.height * self.config.width
-        highest_tree_density = np.max([h[1][1] for h in self.history])
+        largest_fire = np.max([s[0] for s in self.stats]) * self.config.height * self.config.width
+        highest_tree_density = np.max([s[1] for s in self.stats])
         print("Statistics:")
         print(f" Largest fire: {largest_fire}")
         print(f" Highest tree density: {highest_tree_density}")
