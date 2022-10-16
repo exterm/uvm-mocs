@@ -49,15 +49,15 @@ def plots(sim, render_interval, video_filename=None, image_filename=None):
       burn_history, label="Fraction of cells burning", color="red")
   ax1.set_ylabel("Fraction of cells burning")
   ax1.set_ylim(ymin=0)
-  max_fire = np.max(burn_history) / num_cells
+  max_fire = np.max(burn_history)
   max_fire_line = ax1.axhline(y=max_fire,  color='k', linestyle='dotted', lw=2,
                               label=f'Largest fire: ${round(max_fire * 100, 2)}\\%$')
 
   ax2 = ax1.twinx()
-  # ax2.tick_params(axis='y', labelcolor='blue')
   treeline, = ax2.plot([s[1] / num_cells
                       for s in sim.stats], label="Tree density")
   ax2.set_ylabel("Fraction of cells with trees")
+  ax2.set_ylim(ymin=0)
   plt.legend(handles=[burnline, treeline, max_fire_line])
   plt.xlabel("Step")
   plt.title("Forest fire simulation")
