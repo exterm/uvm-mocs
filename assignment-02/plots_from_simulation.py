@@ -3,7 +3,7 @@ import matplotlib.animation as ani
 import matplotlib.colors as clrs
 import numpy as np
 
-def plots(sim, render_interval, video_filename=None, image_filename=None):
+def plots(sim, anim_interval_ms=50, video_filename=None, image_filename=None):
   def animate(i):
       worldplot.set_data(sim.history[i])
       return [worldplot]
@@ -27,14 +27,14 @@ def plots(sim, render_interval, video_filename=None, image_filename=None):
   anim = ani.FuncAnimation(fig,
                           animate,
                           len(sim.history),
-                           interval=render_interval,
+                           interval=anim_interval_ms,
                           blit=True,
                           repeat=False)
   plt.tight_layout(pad=0)
 
   if video_filename:
     print("Writing video...")
-    writervideo = ani.FFMpegWriter(fps=1000 // render_interval)
+    writervideo = ani.FFMpegWriter(fps=1000 // anim_interval_ms)
     print("Writing video...")
     anim.save('output/video_filename', writer=writervideo)
 

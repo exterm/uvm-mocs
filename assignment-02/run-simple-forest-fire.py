@@ -46,4 +46,4 @@ executionTime = (time.time() - startTime)
 print('Simulation Execution time in seconds: ' + str(executionTime))
 sim.print_stats()
 
-plots(sim, RENDER_INTERVAL)
+plots(sim, anim_interval_ms=RENDER_INTERVAL)
