@@ -158,11 +158,11 @@ def analyze(current_state):
   return (burning / len(cells), trees / len(cells))
 
 def print_stats(history):
-  largest_fire = np.max([h[1][0] for h in history]) * HEIGHT * WIDTH
-  highest_tree_density = np.max([h[1][1] for h in history])
+  largest_fire = np.max([h[1][0] for h in history])*100
+  highest_tree_density = np.max([h[1][1] for h in history])*100
   print("Statistics:")
-  print(f" Largest fire: {largest_fire}")
-  print(f" Highest tree density: {highest_tree_density}")
+  print(f" Largest fire: {largest_fire}%")
+  print(f" Highest tree density: {highest_tree_density}%")
 
 print("Simulating...")
 startTime = time.time()
@@ -212,16 +212,16 @@ plt.tight_layout(pad=0)
 fig, ax1 = plt.subplots()
 burn_history = [h[1][0] for h in history]
 burnline, = ax1.plot(burn_history, label="Fraction of cells burning", color="red")
-# ax1.set_ylabel("Fraction of cells burning")
+ax1.set_ylabel("Fraction of cells burning")
 # ax1.set_ylim(ymin=0)
 max_fire = np.max(burn_history)
-max_fire_line = plt.axhline(y=max_fire,  color='k', linestyle='dotted', lw=3,
-            label=f'Largest fire: {int(max_fire * HEIGHT * WIDTH)} cells')
+max_fire_line = ax1.axhline(y=max_fire,  color='k', linestyle='dotted', lw=3,
+            label=f'Largest fire: ${round(max_fire * 100, 2)}\\%$')
 
-# ax2 = ax1.twinx()
+ax2 = ax1.twinx()
 # ax2.tick_params(axis='y', labelcolor='blue')
-treeline, = ax1.plot([h[1][1] for h in history], label="Tree density")
-# ax2.set_ylabel("Fraction of cells with trees")
+treeline, = ax2.plot([h[1][1] for h in history], label="Tree density")
+ax2.set_ylabel("Fraction of cells with trees")
 plt.legend(handles=[burnline, treeline, max_fire_line])
 plt.xlabel("Step")
 
