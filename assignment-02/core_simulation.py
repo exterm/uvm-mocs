@@ -75,7 +75,7 @@ class forestSimulation:
         return self.S_TREE
 
     def get_neighbors(self, row, column):
-        # Moore neighborhood and periodic bundary condition
+        # Moore neighborhood and periodic boundary condition
         rowup = (row - 1) % self.config.height
         rowdown = (row + 1) % self.config.height
         colleft = (column - 1) % self.config.width
@@ -107,7 +107,7 @@ class forestSimulation:
                 trees += 1
         return (burning / len(cells), trees / len(cells))
 
-    def simulate(self,):
+    def simulate(self):
         self.currentState = self.random_world()
         for i in range(self.config.steps):
             if i%50 == 0:
