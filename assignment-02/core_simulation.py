@@ -5,7 +5,6 @@ from collections import namedtuple
 ForestConfig = namedtuple('ForestConfig', [
   'width',
   'height',
-  'steps',
   'p_tree',  # probability of a cell initially containing a tree
   'p_sprout',  # probability of an empty cell sprouting a tree each step
   'p_propagate',  # probability of a tree propagating to a neighboring empty cell
@@ -107,16 +106,19 @@ class forestSimulation:
                 trees += 1
         return (burning / len(cells), trees / len(cells))
 
-    def simulate(self):
-        self.currentState = self.random_world()
-        for i in range(self.config.steps):
-            if i%50 == 0:
-                print(f"Step {i}/{self.config.steps}")
-            stats = self.analyze()
-            world = self.step()
-            self.currentState = world
-            self.history += [world]
-            self.stats += [stats]
+    def simulate(self, initial_state=None, steps=None):
+        self.currentState = initial_state or self.random_world()
+        if steps:
+          for i in range(steps):
+              if i%50 == 0:
+                  print(f"Step {i}/{steps}")
+              stats = self.analyze()
+              world = self.step()
+              self.currentState = world
+              self.history += [world]
+              self.stats += [stats]
+        else:
+          raise "Invalid simulation parameters"
         print("Done!")
         return self.stats
 
