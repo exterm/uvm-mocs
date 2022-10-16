@@ -27,7 +27,7 @@ def plots(sim, anim_interval_ms=50, video_filename=None, image_filename=None):
   anim = ani.FuncAnimation(fig,
                           animate,
                           len(sim.history),
-                           interval=anim_interval_ms,
+                          interval=anim_interval_ms,
                           blit=True,
                           repeat=False)
   plt.tight_layout(pad=0)
