@@ -110,6 +110,7 @@ class forestSimulation:
                 print(f"Step {i}/{self.steps}")
             stats = self.analyze()
             world = self.step()
+            self.currentState = world
             self.history += [world]
             self.stats += [stats]
         return self.stats
