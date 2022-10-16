@@ -1,8 +1,10 @@
 import itertools
 import numpy as np
-from itertools import repeat
 
 class forestSimulation:
+    S_EMPTY = 0
+    S_TREE = 1
+    S_BURNING = 2
 
     def __init__(self, params):
         self.width = params["width"]
@@ -10,11 +12,8 @@ class forestSimulation:
         self.steps = params["steps"]
         self.p_tree = params["p_tree"]  # probability of a cell initially containing a tree
         self.p_sprout = params["p_sprout"] # likelihood of an empty cell sprouting a tree each step
-        self.p_propogate = params["p_propogate"]  # likelihood of a tree propagating to a neighboring empty cell
-        self.p_lightening = params["p_lightening"] # likelihood of a tree catching fire each step
-        self.s_empty = params["s_empty"]
-        self.s_tree = params["s_tree"]
-        self.s_burning = params["s_burning"]
+        self.p_propagate = params["p_propagate"]  # likelihood of a tree propagating to a neighboring empty cell
+        self.p_lightning = params["p_lightning"] # likelihood of a tree catching fire each step
         self.rng = np.random.RandomState(params["seed"])
         self.allCells = list(itertools.product(range(self.height),range(self.width)))
         self.currentState = []
@@ -23,7 +22,7 @@ class forestSimulation:
 
     def blank_world(self):
         return np.zeros((self.height, self.width))
-    
+
     def random_world(self):
         return self.rng.choice([1, 0], size=(self.height, self.width), p=[self.p_tree, 1 - self.p_tree])
 
@@ -36,39 +35,39 @@ class forestSimulation:
 
     def step_one_cell(self, row, col):
         next_state = 0
-        if self.currentState[row][col] == self.s_tree:
-            if self.rng.random() < self.p_lightening:
-                next_state = self.s_burning
+        if self.currentState[row][col] == self.S_TREE:
+            if self.rng.random() < self.p_lightning:
+                next_state = self.S_BURNING
             else:
                 next_state = self.catch_fire(row, col)
-        elif self.currentState[row][col] == self.s_burning:
-            next_state = self.s_empty
+        elif self.currentState[row][col] == self.S_BURNING:
+            next_state = self.S_EMPTY
         else:
             # empty
             if self.rng.random() < self.p_sprout:
-                next_state = self.s_tree
+                next_state = self.S_TREE
             else:
                 next_state = self.propagate(row, col)
         return next_state
 
     def catch_fire(self, row, column):
         neighbors = self.get_neighbors(row, column)
-        burning_neighbor = any(neighbors[neighbors == self.s_burning])
+        burning_neighbor = any(neighbors[neighbors == self.S_BURNING])
         if burning_neighbor:
-            return self.s_burning
+            return self.S_BURNING
         else:
-            return self.s_tree
+            return self.S_TREE
 
     def propagate(self, row, column):
         rand = self.rng.random()
-        if rand > self.p_propogate * 8:
+        if rand > self.p_propagate * 8:
         # short-circuit if there's no way to propagate
-            return self.s_empty
+            return self.S_EMPTY
         neighbors = self.get_neighbors(row, column)
-        number_of_tree_neighbors = neighbors[neighbors == self.s_tree].size
-        if rand < self.p_propogate * number_of_tree_neighbors:
-            return self.s_tree
-        return self.s_tree
+        number_of_tree_neighbors = neighbors[neighbors == self.S_TREE].size
+        if rand < self.p_propagate * number_of_tree_neighbors:
+            return self.S_TREE
+        return self.S_TREE
 
     def get_neighbors(self, row, column):
         # Moore neighborhood and periodic bundary condition
@@ -97,9 +96,9 @@ class forestSimulation:
         burning = 0
         trees = 0
         for cell in cells:
-            if cell == self.s_burning:
+            if cell == self.S_BURNING:
                 burning += 1
-            elif cell == self.s_tree:
+            elif cell == self.S_TREE:
                 trees += 1
         return (burning / len(cells), trees / len(cells))
 
@@ -114,7 +113,7 @@ class forestSimulation:
             self.history += [world]
             self.stats += [stats]
         return self.stats
-        
+
 
     def print_stats(self):
         largest_fire = np.max([h[1][0] for h in self.history]) * self.height * self.width
