@@ -7,6 +7,7 @@ import numpy as np
 from enum import Enum
 import time
 from multiprocessing import Pool
+from psutil import cpu_count
 from itertools import repeat
 import itertools
 print("Done.")
@@ -32,57 +33,63 @@ print("Done.")
 # - trees age and die
 # - different types of trees
 
-N_PROCS = 8 # number of pool processes to use
+# get number of CPU cores
+N_PROCS = cpu_count(logical=False)-1
 
 WIDTH = 120
 HEIGHT = 100
-STEPS = 750
+STEPS = 250
 RENDER_INTERVAL = 25
 P_TREE = 0.01 # probability of a cell initially containing a tree
 P_SPROUT = 0.0005 # likelihood of an empty cell sprouting a tree each step
 P_PROPAGATE = 0.001 # likelihood of a tree propagating to a neighboring empty cell
-P_LIGHTNING = 0.00005 # likelihood of a tree catching fire each step
+P_LIGHTNING = 0.00001 # likelihood of a tree catching fire each step
 
 S_EMPTY = 0
 S_TREE = 1
 S_BURNING = 2
 
 print("Initializing random state..")
-rng = np.random.RandomState()
-all_cells = list(itertools.product(range(HEIGHT),range(WIDTH)))
+rng = np.random.RandomState(0)
+
+# initialize parallel processing
+cell_coords = list(itertools.product(range(HEIGHT), range(WIDTH)))
+row_indexes, col_indexes = np.transpose(cell_coords)  # type: ignore
 
 def blank_world():
     return np.zeros((HEIGHT, WIDTH))
-
 
 def random_world():
     return rng.choice([1, 0], size=(HEIGHT, WIDTH), p=[P_TREE, 1 - P_TREE])
 
 def step(current_state):
-    results = pf.starmap(step_one_cell, zip(all_cells, repeat(current_state)))
-    results_arry = np.array(results)
-    return np.reshape(results_arry, (-1, WIDTH))
+    if N_PROCS > 1:
+      results = pf.starmap(
+          step_one_cell,
+          zip(row_indexes, col_indexes, repeat(current_state)))
+      results_arry = np.array(results)
+      return np.reshape(results_arry, (-1, WIDTH))
+    else:
+      next_state = blank_world()
+      for row in range(len(next_state)):
+          for col in range(len(next_state[row])):
+            next_state[row][col] = step_one_cell(row, col, current_state)
+      return next_state
 
-def step_one_cell(positions, current_state):
-    row = positions[0]
-    col = positions[1]
-    next_state = 0
+def step_one_cell(row, col, current_state):
     if current_state[row][col] == S_TREE:
         if rng.random() < P_LIGHTNING:
-            next_state = S_BURNING
+            return S_BURNING
         else:
-            next_state = catch_fire(row, col, current_state)
+            return catch_fire(row, col, current_state)
     elif current_state[row][col] == S_BURNING:
-        next_state = S_EMPTY
+        return S_EMPTY
     else:
         # empty
         if rng.random() < P_SPROUT:
-            next_state = S_TREE
+            return S_TREE
         else:
-            next_state = propagate(row, col, current_state)
-    return next_state
-
-
+            return propagate(row, col, current_state)
 
 def catch_fire(row, column, current_state):
     neighbors = get_neighbors(row, column, current_state)
@@ -158,9 +165,14 @@ def print_stats(history):
   print(f" Highest tree density: {highest_tree_density}")
 
 print("Simulating...")
-pf = Pool(N_PROCS)
 startTime = time.time()
-history = simulate(STEPS)
+history = []
+if N_PROCS > 1:
+  print(f"Using {N_PROCS} processes.")
+  with Pool(N_PROCS) as pf:
+    history = simulate(STEPS)
+else:
+  history = simulate(STEPS)
 executionTime = (time.time() - startTime)
 print('Simulation Execution time in seconds: ' + str(executionTime))
 print_stats(history)
