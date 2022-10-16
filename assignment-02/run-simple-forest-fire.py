@@ -36,10 +36,6 @@ P_SPROUT = 0.0005 # likelihood of an empty cell sprouting a tree each step
 P_PROPAGATE = 0.001 # likelihood of a tree propagating to a neighboring empty cell
 P_LIGHTNING = 0.00001  # likelihood of a tree catching fire each step
 
-S_EMPTY = 0
-S_TREE = 1
-S_BURNING = 2
-
 
 print("Simulating...")
 startTime = time.time()
@@ -87,17 +83,17 @@ plt.tight_layout(pad=0)
 # plt.savefig('output/animated_2d_ca.png', dpi=600)
 
 fig, ax1 = plt.subplots()
-burn_history = [s[0] for s in sim.stats]
+burn_history = [s[0] / (HEIGHT * WIDTH) for s in sim.stats]
 burnline, = ax1.plot(burn_history, label="Fraction of cells burning", color="red")
 ax1.set_ylabel("Fraction of cells burning")
 # ax1.set_ylim(ymin=0)
-max_fire = np.max(burn_history)
+max_fire = np.max(burn_history) / (HEIGHT * WIDTH)
 max_fire_line = ax1.axhline(y=max_fire,  color='k', linestyle='dotted', lw=2,
             label=f'Largest fire: ${round(max_fire * 100, 2)}\\%$')
 
 ax2 = ax1.twinx()
 # ax2.tick_params(axis='y', labelcolor='blue')
-treeline, = ax2.plot([s[1] for s in sim.stats], label="Tree density")
+treeline, = ax2.plot([s[1]/ (HEIGHT * WIDTH) for s in sim.stats], label="Tree density")
 ax2.set_ylabel("Fraction of cells with trees")
 plt.legend(handles=[burnline, treeline, max_fire_line])
 plt.xlabel("Step")
