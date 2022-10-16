@@ -66,6 +66,7 @@ colors = clrs.ListedColormap(['white', 'green', 'red'])  # type: ignore
 worldplot = ax.imshow(np.zeros((config.height, config.width)),
                       cmap=colors,
                       aspect='equal',
+                      interpolation='none',
                       vmin=0,
                       vmax=2)
 
