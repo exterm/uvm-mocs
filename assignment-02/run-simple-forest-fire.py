@@ -1,4 +1,4 @@
-from core_simulation import (forestSimulation, ForestConfig)
+from core_simulation import (forestSimulation, forestConfig)
 from plots_from_simulation import (plots)
 import time
 import cProfile
@@ -13,7 +13,7 @@ import cProfile
 # - each tree cell has a probability of catching fire spontaneously from lightning
 # - each tree cell catches fire if any of its neighbors are on fire
 # - each tree cell burns for exactly one time step
-# - each empty cell fills with a tree with probability P_TREE
+# - each empty cell fills with a tree with probability P_SPROUT
 #
 # States: 0 = empty, 1 = tree, 2 = burning
 #
@@ -33,10 +33,9 @@ P_SPROUT = 0.0005 # likelihood of an empty cell sprouting a tree each step
 P_PROPAGATE = 0.001 # likelihood of a tree propagating to a neighboring empty cell
 P_LIGHTNING = 0.00001  # likelihood of a tree catching fire each step
 
-
 print("Simulating...")
 startTime = time.time()
-config = ForestConfig(WIDTH, HEIGHT, P_TREE, P_SPROUT, P_PROPAGATE, P_LIGHTNING, 17)
+config = forestConfig(WIDTH, HEIGHT, P_TREE, P_SPROUT, P_PROPAGATE, P_LIGHTNING, 17)
 sim = forestSimulation(config)
 # profiler = cProfile.Profile()
 # profiler.run('sim.simulate()')

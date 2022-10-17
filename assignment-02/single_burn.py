@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-from core_simulation import (forestSimulation, ForestConfig)
+from core_simulation import (forestSimulation, forestConfig)
 from plots_from_simulation import (plots)
 
 # 1. Prepare an initial state
@@ -22,7 +22,7 @@ results = []
 
 for density in INITIAL_DENSITIES:
   print(f"Running simulations for density {round(density, 3)}")
-  config = ForestConfig(width=100, height=100, p_tree=density,
+  config = forestConfig(width=100, height=100, p_tree=density,
                         p_sprout=0, p_propagate=0, p_lightning=0, seed=17)
 
   sim = forestSimulation(config)

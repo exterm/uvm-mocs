@@ -1,7 +1,7 @@
 import numpy as np
 from collections import namedtuple
 
-ForestConfig = namedtuple('ForestConfig', [
+forestConfig = namedtuple('forestConfig', [
   'width',
   'height',
   'p_tree',  # probability of a cell initially containing a tree
@@ -144,10 +144,9 @@ class forestSimulation:
                     break
                 i += 1
         else:
-          raise "Invalid simulation parameters"
+            raise RuntimeError("Invalid simulation parameters")
         print("Done!")
         return self.stats
-
 
     def print_stats(self):
         largest_fire = np.max([s[0] for s in self.stats])
