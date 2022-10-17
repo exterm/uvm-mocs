@@ -99,7 +99,7 @@ class forestSimulation:
         #     self.currentState[rowdown][column]
         # ])
 
-    def analyze(self):
+    def analyze_current_state(self):
         '''
         Return statistics about the current state of the world. For now:
         - fractions of cells that are burning
@@ -123,21 +123,25 @@ class forestSimulation:
         self.history = []
         self.stats = []
 
+        return self.continue_simulation(steps, stop_when_no_burning)
+
+
+    def continue_simulation(self, steps=None, stop_when_no_burning=False):
         if steps:
-          for i in range(steps):
-              if i % 50 == 0:
-                  print(f"Step {i}/{steps}")
-              stats = self.analyze()
-              world = self.step()
-              self.currentState = world
-              self.history += [world]
-              self.stats += [stats]
+            for i in range(steps):
+                if i % 50 == 0:
+                    print(f"Step {i}/{steps}")
+                stats = self.analyze_current_state()
+                world = self.step()
+                self.currentState = world
+                self.history += [world]
+                self.stats += [stats]
         elif stop_when_no_burning:
             i = 0
             while True:
                 if i % 10 == 0:
                   print(f"Step {i}")
-                stats = self.analyze()
+                stats = self.analyze_current_state()
                 world = self.step()
                 self.currentState = world
                 self.history += [world]
@@ -148,7 +152,11 @@ class forestSimulation:
         else:
             raise RuntimeError("Invalid simulation parameters")
         print("Done!")
-        return self.stats
+        return self.history
+
+    def spark_fire(self):
+        print("Sparking fire")
+        self.currentState[self.rng.randint(0, self.config.height)][self.rng.randint(0, self.config.width)] = self.S_BURNING
 
     def print_stats(self):
         largest_fire = np.max([s[0] for s in self.stats])
