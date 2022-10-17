@@ -80,23 +80,23 @@ class forestSimulation:
         colleft = (column - 1) % self.config.width
         colright = (column + 1) % self.config.width
         # Moore neighborhood
-        # return np.array([
-        #     self.currentState[rowup][colleft],
-        #     self.currentState[rowup][column],
-        #     self.currentState[rowup][colright],
-        #     self.currentState[row][colleft],
-        #     self.currentState[row][colright],
-        #     self.currentState[rowdown][colleft],
-        #     self.currentState[rowdown][column],
-        #     self.currentState[rowdown][colright]
-        # ])
-        # Von Neumann neighborhood
         return np.array([
+            self.currentState[rowup][colleft],
             self.currentState[rowup][column],
+            self.currentState[rowup][colright],
             self.currentState[row][colleft],
             self.currentState[row][colright],
-            self.currentState[rowdown][column]
+            self.currentState[rowdown][colleft],
+            self.currentState[rowdown][column],
+            self.currentState[rowdown][colright]
         ])
+        # Von Neumann neighborhood
+        # return np.array([
+        #     self.currentState[rowup][column],
+        #     self.currentState[row][colleft],
+        #     self.currentState[row][colright],
+        #     self.currentState[rowdown][column]
+        # ])
 
     def analyze(self):
         '''
