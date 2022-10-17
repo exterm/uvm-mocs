@@ -74,20 +74,28 @@ class forestSimulation:
         return self.S_TREE
 
     def get_neighbors(self, row, column):
-        # Moore neighborhood and periodic boundary condition
+        # Periodic boundary condition
         rowup = (row - 1) % self.config.height
         rowdown = (row + 1) % self.config.height
         colleft = (column - 1) % self.config.width
         colright = (column + 1) % self.config.width
+        # Moore neighborhood
+        # return np.array([
+        #     self.currentState[rowup][colleft],
+        #     self.currentState[rowup][column],
+        #     self.currentState[rowup][colright],
+        #     self.currentState[row][colleft],
+        #     self.currentState[row][colright],
+        #     self.currentState[rowdown][colleft],
+        #     self.currentState[rowdown][column],
+        #     self.currentState[rowdown][colright]
+        # ])
+        # Von Neumann neighborhood
         return np.array([
-            self.currentState[rowup][colleft],
             self.currentState[rowup][column],
-            self.currentState[rowup][colright],
             self.currentState[row][colleft],
             self.currentState[row][colright],
-            self.currentState[rowdown][colleft],
-            self.currentState[rowdown][column],
-            self.currentState[rowdown][colright]
+            self.currentState[rowdown][column]
         ])
 
     def analyze(self):
