@@ -1,6 +1,5 @@
 import numpy as np
 from collections import namedtuple
-from percolation import *
 
 ForestConfig = namedtuple('ForestConfig', [
   'width',
