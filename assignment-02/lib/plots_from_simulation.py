@@ -34,12 +34,7 @@ def plots(sim, anim_interval_ms=None, video_filename=None, image_filename=None):
         if video_filename:
             print("Writing video...")
             writervideo = ani.FFMpegWriter(fps=1000 // anim_interval_ms)
-            print("Writing video...")
-            anim.save('output/video_filename', writer=writervideo)
-
-    if image_filename:
-        print("Writing image...")
-        plt.savefig('output/animated_2d_ca.png', dpi=600)
+            anim.save('output/' + video_filename, writer=writervideo)
 
     print("Plotting...")
     num_cells = config.width * config.height
@@ -65,5 +60,10 @@ def plots(sim, anim_interval_ms=None, video_filename=None, image_filename=None):
                max_fire_line, percolation_threshold_line])
     plt.xlabel("Step")
     plt.title("Forest fire simulation")
+
+    if image_filename:
+        print("Writing image...")
+        plt.savefig('output/' + image_filename, dpi=600)
+
     print("Show!")
     plt.show()
