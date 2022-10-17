@@ -2,6 +2,36 @@
 
 from percolation import *
 import numpy as np
+import pandas as pd
+import math
+from sklearn.linear_model import LinearRegression
+
+def get_box_sum(row_start, row_end, col_start, col_end, mat):
+    sub_mat = mat[row_start:row_end, col_start:col_end]
+    return np.sum(sub_mat)  > 0
+
+def get_fractal_dimension(hist):
+    box_sizes = np.arange(2, min(hist.shape)/2, 4)
+
+    coverage_results = []
+
+    for size in box_sizes:
+        col_starts = np.append([np.arange(0, hist.shape[1], size)], hist.shape[1])
+        row_starts = np.append([np.arange(0, hist.shape[0], size)], hist.shape[0])
+        size_count = 0
+        for i in range(len(col_starts) -1):
+            for j in range(len(row_starts)- 1):
+                size_count += get_box_sum(int(row_starts[j]), int(row_starts[j+1]), int(col_starts[i]), int(col_starts[i + 1]), hist)
+        coverage_results.append((size, size_count)) 
+
+    coverage_results_df = pd.DataFrame(coverage_results, columns = ["size", "size_count"])
+    coverage_results_df["size"] = coverage_results_df["size"].map(lambda x: math.log10(1/x))
+    coverage_results_df["size_count"] = coverage_results_df["size_count"].map(lambda x: math.log10(x))
+    model = LinearRegression()
+
+    model.fit(coverage_results_df[["size"]], coverage_results_df[["size_count"]])
+
+    return model.coef_[0][0]
 
 recoded_vals = {1:1, 0:0, 2: 0}
 
