@@ -165,6 +165,7 @@ class TestSimulation(unittest.TestCase):
     # for much more concise tests.
 
     def test_basic_properties(self):
+        steps = 10
         config = forestConfig(
             height=10,
             width=10,
@@ -175,10 +176,10 @@ class TestSimulation(unittest.TestCase):
             seed=0
         )
         sim = forestSimulation(config)
-        sim.simulate(steps=10)
+        sim.simulate(steps=steps)
 
-        self.assertEqual(len(sim.history), 10)
-        self.assertEqual(len(sim.stats), 10)
+        self.assertEqual(len(sim.history), steps)
+        self.assertEqual(len(sim.stats), steps)
 
         np.testing.assert_array_equal(sim.history[-1], sim.currentState)
 
