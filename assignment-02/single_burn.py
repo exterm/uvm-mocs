@@ -1,8 +1,8 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-from core_simulation import (forestSimulation, forestConfig)
-from plots_from_simulation import (plots)
+from lib.core_simulation import (forestSimulation, forestConfig)
+from lib.plots_from_simulation import (plots)
 
 # 1. Prepare an initial state
 # 2. Set a random cell on fire

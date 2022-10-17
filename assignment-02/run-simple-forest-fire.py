@@ -1,5 +1,5 @@
-from core_simulation import (forestSimulation, forestConfig)
-from plots_from_simulation import (plots)
+from lib.core_simulation import (forestSimulation, forestConfig)
+from lib.plots_from_simulation import (plots)
 import time
 import cProfile
 
