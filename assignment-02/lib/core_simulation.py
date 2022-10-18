@@ -19,7 +19,10 @@ class forestSimulation:
 
     def __init__(self, config):
         self.config = config
-        self.rng = np.random.RandomState(config.seed)
+        if config.seed != None:
+            self.rng = np.random.default_rng(config.seed)
+        else:
+            self.rng = np.random.default_rng()
         self.currentState = np.ndarray((0, 0))
         self.history = []
         self.stats = []
