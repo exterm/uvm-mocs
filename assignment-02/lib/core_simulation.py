@@ -71,7 +71,7 @@ class forestSimulation:
         number_of_tree_neighbors = neighbors[neighbors == self.S_TREE].size
         if rand < self.config.p_propagate * number_of_tree_neighbors:
             return self.S_TREE
-        return self.S_TREE
+        return self.S_EMPTY
 
     def get_neighbors(self, row, column):
         # Periodic boundary condition
@@ -204,16 +204,16 @@ class TestSimulation(unittest.TestCase):
         sim = forestSimulation(config)
         sim.simulate(steps=10)
         # golden sample (brittle, but will do for now)
-        expected = np.array([[1., 0., 1., 0., 1., 0., 1., 0., 2., 1.,],
-                             [1., 1., 2., 0., 1., 1., 0., 2., 2., 2.,],
-                             [0., 1., 1., 2., 1., 2., 1., 0., 2., 1.,],
-                             [2., 0., 1., 0., 0., 0., 2., 0., 2., 1.,],
-                             [0., 0., 1., 0., 2., 2., 2., 2., 2., 1.,],
-                             [0., 1., 1., 0., 2., 1., 1., 1., 1., 2.,],
-                             [0., 2., 0., 0., 1., 1., 0., 0., 0., 2.,],
-                             [2., 2., 0., 0., 2., 1., 1., 0., 1., 2.,],
-                             [1., 0., 0., 0., 2., 2., 2., 1., 1., 1.,],
-                             [1., 2., 2., 0., 0., 0., 0., 2., 2., 1.,],])
+        expected = np.array([[2., 0., 0., 1., 0., 0., 0., 0., 0., 0.],
+                             [2., 2., 0., 1., 0., 0., 0., 0., 2., 0.],
+                             [0., 2., 1., 0., 0., 1., 1., 0., 2., 2.],
+                             [2., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+                             [0., 0., 2., 0., 0., 0., 0., 0., 0., 1.],
+                             [1., 0., 0., 0., 0., 2., 0., 2., 0., 2.],
+                             [1., 0., 1., 0., 0., 0., 1., 0., 0., 0.],
+                             [1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+                             [0., 0., 0., 0., 2., 0., 0., 1., 0., 0.],
+                             [2., 0., 1., 0., 0., 0., 1., 0., 1., 1.],])
         np.testing.assert_array_equal(sim.currentState, expected)
 
 if __name__ == '__main__':
