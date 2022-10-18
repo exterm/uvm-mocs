@@ -20,7 +20,7 @@ class forestSimulation:
     def __init__(self, config):
         self.config = config
         self.rng = np.random.RandomState(config.seed)
-        self.currentState = []
+        self.currentState = np.ndarray((0, 0))
         self.history = []
         self.stats = []
 
@@ -114,7 +114,7 @@ class forestSimulation:
                 trees += 1
         return (burning, trees)
 
-    def simulate(self, initial_state=None, steps=None, stop_when_no_burning=False):
+    def simulate(self, initial_state: np.ndarray | None = None, steps=None, stop_when_no_burning=False):
         if initial_state is None:
             self.currentState = self.random_world()
         else:
