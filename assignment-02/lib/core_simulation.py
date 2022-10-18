@@ -1,7 +1,6 @@
 import unittest
 import numpy as np
 from collections import namedtuple
-from percolation import *
 
 forestConfig = namedtuple('forestConfig', [
   'width',
