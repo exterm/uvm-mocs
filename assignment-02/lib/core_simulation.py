@@ -126,7 +126,7 @@ class forestSimulation:
 
 
     def continue_simulation(self, steps=None, stop_when_no_burning=False):
-        if steps:
+        if steps != None:
             for i in range(steps):
                 if i % 50 == 0:
                     print(f"Step {i}/{steps}")

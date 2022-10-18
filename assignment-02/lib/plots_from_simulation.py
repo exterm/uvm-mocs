@@ -3,7 +3,7 @@ import matplotlib.animation as ani
 import matplotlib.colors as clrs
 import numpy as np
 
-def plots(sim, anim_interval_ms=None, video_filename=None, image_filename=None):
+def plots(sim, anim_interval_ms: int | None = None, video_filename: str | None = None, image_filename: str | None = None):
     def animate(i):
         worldplot.set_data(sim.history[i])
         return [worldplot]
@@ -54,10 +54,13 @@ def plots(sim, anim_interval_ms=None, video_filename=None, image_filename=None):
     percolation_threshold = 0.4
     percolation_threshold_line = ax2.axhline(y=percolation_threshold,  color='blue', linestyle='dotted',
                                    label=f'Percolation threshold: ${round(percolation_threshold * 100, 2)}\\%$')
+    min_trees = np.min(density_history)
+    min_trees_line = ax2.axhline(y=min_trees,  color='green', linestyle='dotted',
+                                      label=f'Minimum tree density: ${round(min_trees * 100, 2)}\\%$')
     ax2.set_ylabel("Fraction of cells with trees")
     ax2.set_ylim(ymin=0)
     plt.legend(handles=[burnline, treeline,
-               max_fire_line, percolation_threshold_line])
+               max_fire_line, percolation_threshold_line, min_trees_line])
     plt.xlabel("Step")
     plt.title("Forest fire simulation")
 
