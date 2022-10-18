@@ -155,7 +155,13 @@ class forestSimulation:
 
     def spark_fire(self):
         print("Sparking fire")
-        self.currentState[self.rng.randint(0, self.config.height)][self.rng.randint(0, self.config.width)] = self.S_BURNING
+        # find a tree to set on fire
+        while True:
+            row = self.rng.randint(0, self.config.height)
+            col = self.rng.randint(0, self.config.width)
+            if self.currentState[row][col] == self.S_TREE:
+                self.currentState[row][col] = self.S_BURNING
+                break
 
     def print_stats(self):
         largest_fire = np.max([s[0] for s in self.stats])
