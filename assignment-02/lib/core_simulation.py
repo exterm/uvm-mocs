@@ -1,5 +1,6 @@
 import unittest
 import numpy as np
+import sys
 from collections import namedtuple
 
 forestConfig = namedtuple('forestConfig', [
@@ -157,9 +158,13 @@ class forestSimulation:
         return self.history
 
     def spark_fire(self):
-        print("Sparking fire")
+        print("Finding best spot to spark fire")
         # set fire to the largest cluster of trees
+        oldlimit = sys.getrecursionlimit()
+        sys.setrecursionlimit(self.config.height * self.config.width + 100)
         row, col = self.largest_cluster()
+        sys.setrecursionlimit(oldlimit)
+        print(f"Sparking fire at {row}, {col}")
         self.currentState[row][col] = self.S_BURNING
 
     def largest_cluster(self):
@@ -263,6 +268,25 @@ class TestSimulation(unittest.TestCase):
                              [1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
                              [0., 0., 0., 0., 2., 0., 0., 1., 0., 0.],
                              [2., 0., 1., 0., 0., 0., 1., 0., 1., 1.],])
+        np.testing.assert_array_equal(sim.currentState, expected)
+
+    def test_spark_fire(self):
+        config = forestConfig(
+            height=10,
+            width=10,
+            p_tree=1,
+            p_lightning=0,
+            p_sprout=0,
+            p_propagate=0,
+            seed=0
+        )
+        sim = forestSimulation(config)
+        sim.simulate(steps=0)
+        sim.spark_fire()
+        sim.continue_simulation(steps=max(config.height, config.width))
+
+        # world should be empty
+        expected = np.zeros((config.height, config.width))
         np.testing.assert_array_equal(sim.currentState, expected)
 
 if __name__ == '__main__':
