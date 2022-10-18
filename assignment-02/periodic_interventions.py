@@ -13,7 +13,7 @@ args = parser.parse_args()
 
 WIDTH = 120
 HEIGHT = 100
-STEPS = 2000
+STEPS = 1000
 P_TREE = 0.25  # probability of a cell initially containing a tree
 P_SPROUT = args.p_sprout  # likelihood of an empty cell sprouting a tree each step
 P_PROPAGATE = 0  # likelihood of a tree propagating to a neighboring empty cell

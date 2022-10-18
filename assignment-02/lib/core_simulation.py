@@ -155,13 +155,53 @@ class forestSimulation:
 
     def spark_fire(self):
         print("Sparking fire")
-        # find a tree to set on fire
-        while True:
-            row = self.rng.randint(0, self.config.height)
-            col = self.rng.randint(0, self.config.width)
-            if self.currentState[row][col] == self.S_TREE:
-                self.currentState[row][col] = self.S_BURNING
-                break
+        # set fire to the largest cluster of trees
+        row, col = self.largest_cluster()
+        self.currentState[row][col] = self.S_BURNING
+
+    def largest_cluster(self):
+        '''
+        Returns the position of a cell in the largest cluster of trees.
+        '''
+        height = self.config.height
+        width = self.config.width
+        largest_cluster = 0
+        largest_cluster_pos = (0, 0)
+        visited = np.zeros((height, width))
+        for row in range(height):
+            for col in range(width):
+                if visited[row][col] == 0 and self.currentState[row][col] == self.S_TREE:
+                    cluster_size = self.cluster_size_helper(row, col, visited)
+                    if cluster_size > largest_cluster:
+                        largest_cluster = cluster_size
+                        largest_cluster_pos = (row, col)
+        return largest_cluster_pos
+
+    def cluster_size_helper(self, row, col, visited):
+        '''
+        Helper function that calculates the size of a cluster of trees.
+        '''
+        height = self.config.height
+        width = self.config.width
+        if visited[row][col] == 1:
+            return 0
+        visited[row][col] = 1
+        if self.currentState[row][col] != self.S_TREE:
+            return 0
+        size = 1
+        rowup = (row - 1) % height
+        rowdown = (row + 1) % height
+        colleft = (col - 1) % width
+        colright = (col + 1) % width
+        size += self.cluster_size_helper(rowup, colleft, visited)
+        size += self.cluster_size_helper(rowup, col, visited)
+        size += self.cluster_size_helper(rowup, colright, visited)
+        size += self.cluster_size_helper(row, colleft, visited)
+        size += self.cluster_size_helper(row, colright, visited)
+        size += self.cluster_size_helper(rowdown, colleft, visited)
+        size += self.cluster_size_helper(rowdown, col, visited)
+        size += self.cluster_size_helper(rowdown, colright, visited)
+        return size
 
     def print_stats(self):
         largest_fire = np.max([s[0] for s in self.stats])
