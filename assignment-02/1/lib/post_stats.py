@@ -34,7 +34,7 @@ def get_fractal_dimension(hist):
 
 def plot_fractal_dimension(box_df):
     fig, ax = plt.subplots()
-    plt.xlabel("1/box_size (Log10)")
+    plt.xlabel("box_size (Log10)")
     plt.ylabel("Number of Boxes (Log10)")
     plt.scatter(box_df["size"], box_df["size_count"])
     fig.suptitle("Box Size vs Number of Boxes: Fractal Dimension")
