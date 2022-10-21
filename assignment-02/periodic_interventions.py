@@ -71,6 +71,11 @@ def sweep_frequency(config, intervention_every_values, steps, repetitions):
         writer.writerow(['intervention_every', 'mean_tree_cover', 'min_tree_cover'])
         writer.writerows(results)
 
+    plot_sweep_results(results)
+
+    return results
+
+def plot_sweep_results(results):
     intervention_every = [r[0] for r in results]
     mean_tree_cover = [r[1] for r in results]
     min_tree_cover = [r[2] for r in results]
@@ -81,14 +86,19 @@ def sweep_frequency(config, intervention_every_values, steps, repetitions):
     ax.set_xlabel('intervention frequency')
     ax.set_ylabel('tree cover')
     ax.legend()
-    fig.savefig(f'output/{SHA}/PIs_PT{P_TREE}_PS{P_SPROUT}_Sweep.png')
-    print(results)
+    fig.savefig(f'assignment-02/outputs/{SHA}/PIs_PT{P_TREE}_PS{P_SPROUT}_Sweep_1-50.png')
     plt.show()
-
-    return results
-
 
 config = forestConfig(WIDTH, HEIGHT, P_TREE, P_SPROUT,
                       P_PROPAGATE, P_LIGHTNING, None)
-# sweep_frequency(config, [1,2,3,4,5,7,10,15,30,50,100,200], 2000)
-sweep_frequency(config, [1,2,5,10], 20, 3)
+# sweep_frequency(config, [1,2,3,4,5,7,10,15,30,50,100,200], 2000, 5)
+# sweep_frequency(config, [100,200], 2000, 5)
+# sweep_frequency(config, [200], 2000, 10)
+
+# plot results read from a CSV file
+# with open(f'assignment-02/outputs/{SHA}/PIs_PT{P_TREE}_PS{P_SPROUT}_Sweep_1-50.csv', 'r') as f:
+#     reader = csv.reader(f)
+#     next(reader)  # skip header
+#     results = [(int(row[0]), float(row[1]), float(row[2])) for row in reader]
+
+# plot_sweep_results(results)
