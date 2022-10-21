@@ -11,7 +11,7 @@ def get_box_sum(row_start, row_end, col_start, col_end, mat):
     return np.sum(sub_mat)  > 0
 
 def get_fractal_dimension(hist):
-    box_sizes = np.arange(2, min(hist.shape)//4, 1)
+    box_sizes = np.arange(1, min(hist.shape)//4, 1)
     coverage_results = []
 
     for size in box_sizes:

@@ -5,8 +5,6 @@ import matplotlib.colors as clrs
 import sys
 import matplotlib.pyplot as plt
 
-
-
 sys.path.append('../1/lib')
 
 from post_stats import (get_fractal_dimension,plot_fractal_dimension)
@@ -101,7 +99,7 @@ def step(world):
                 # sort neighbors by distance from center
                 neighbor_coords = neighbor_coords[np.argsort(np.linalg.norm(neighbor_coords - np.array([center, center]), axis=1))]
                 # duplicate the first half of the neighbors
-                neighbor_coords = np.concatenate((neighbor_coords[:len(neighbor_coords)//2], neighbor_coords))
+                neighbor_coords = np.concatenate((neighbor_coords[:len(neighbor_coords)//4*3], neighbor_coords))
             empty_neighbors = neighbor_coords[world[neighbor_coords[:, 0], neighbor_coords[:, 1]] == S_EMPTY]
             if len(empty_neighbors) > 0:
                 new_row, new_column = empty_neighbors[np.random.randint(len(empty_neighbors))]
@@ -124,7 +122,7 @@ def step(world):
             new_world[new_walkers[:, 0], new_walkers[:, 1]] = S_WALKER
     return new_world
 
-SIZE = 50
+SIZE = 125
 STEPS = 8000
 NUM_WALKERS = SIZE
 BIAS_MOVEMENT = False
@@ -178,5 +176,8 @@ if __name__ == "__main__":
 
     print(f'Fractal dimension of final state: {fractal_dimension_final_state}')
 
+
+    plt.show()
+
     # render
-    render_animation(history, args.write_video)
+    #render_animation(history, args.write_video)
