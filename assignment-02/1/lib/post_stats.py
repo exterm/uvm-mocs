@@ -1,18 +1,17 @@
 ## provides post-processing statistical extraction based on a list of 2d arrays, representing history of states
 
-from percolation import *
 import numpy as np
 import pandas as pd
 import math
 from sklearn.linear_model import LinearRegression
+import matplotlib.pyplot as plt
 
 def get_box_sum(row_start, row_end, col_start, col_end, mat):
     sub_mat = mat[row_start:row_end, col_start:col_end]
     return np.sum(sub_mat)  > 0
 
 def get_fractal_dimension(hist):
-    box_sizes = np.arange(2, min(hist.shape)/2, 4)
-
+    box_sizes = np.arange(2, min(hist.shape)//4, 1)
     coverage_results = []
 
     for size in box_sizes:
@@ -31,7 +30,14 @@ def get_fractal_dimension(hist):
 
     model.fit(coverage_results_df[["size"]], coverage_results_df[["size_count"]])
 
-    return model.coef_[0][0]
+    return (model.coef_[0][0], coverage_results_df)
+
+def plot_fractal_dimension(box_df):
+    fig, ax = plt.subplots()
+    plt.scatter(1/box_df["size"], box_df["size_count"])
+    fig.suptitle("Box Size vs Number of Boxes: Fractal Dimension")
+    fig.show()
+
 
 recoded_vals = {1:1, 0:0, 2: 0}
 
