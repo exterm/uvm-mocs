@@ -2,6 +2,14 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.animation as ani
 import matplotlib.colors as clrs
+import sys
+import matplotlib.pyplot as plt
+
+
+
+sys.path.append('../1/lib')
+
+from post_stats import (get_fractal_dimension,plot_fractal_dimension)
 
 # Diffusion-limited aggregation
 
@@ -117,10 +125,10 @@ def step(world):
     return new_world
 
 SIZE = 50
-STEPS = 100
+STEPS = 8000
 NUM_WALKERS = SIZE
 BIAS_MOVEMENT = False
-ANIM_INTERVAL_MS = 25
+ANIM_INTERVAL_MS = 1000
 
 # if file is run directly, not imported
 if __name__ == "__main__":
@@ -154,6 +162,21 @@ if __name__ == "__main__":
     history = [initial_state]
     for i in range(STEPS):
         history.append(step(history[-1]))
+
+    agg_cells = history[-1].copy()
+    agg_cells[agg_cells == S_WALKER] = 0
+
+    fig, ax = plt.subplots()
+    ax.matshow(agg_cells, cmap='Greens')
+    ax.axis('off')
+
+    fig = plt.gcf()
+
+    fractal_dimension_final_state, box_size_df = get_fractal_dimension(agg_cells)
+
+    plot_fractal_dimension(box_size_df)
+
+    print(f'Fractal dimension of final state: {fractal_dimension_final_state}')
 
     # render
     render_animation(history, args.write_video)
