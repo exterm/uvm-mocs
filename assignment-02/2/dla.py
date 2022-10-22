@@ -90,17 +90,20 @@ def step(world):
             new_world[row, column] = S_AGGREGATE
         else:
             # move walker to an empty neighboring cell
-            if BIAS_MOVEMENT:
-                # Make walkers prefer moves towards the center of the world
-                # so that they're twice as likely to move towards the center as away from it
-                center = SIZE // 2
-                # sort neighbors by distance from center
-                neighbor_coords = neighbor_coords[np.argsort(np.linalg.norm(neighbor_coords - np.array([center, center]), axis=1))]
-                # duplicate the neighbors that are closer to the center
-                neighbor_coords = np.concatenate((neighbor_coords[:len(neighbor_coords)//4*3], neighbor_coords))
-            empty_neighbors = neighbor_coords[world[neighbor_coords[:, 0], neighbor_coords[:, 1]] == S_EMPTY]
+            empty_neighbors = neighbor_coords[world[neighbor_coords[:,0], neighbor_coords[:, 1]] == S_EMPTY]
             if len(empty_neighbors) > 0:
-                new_row, new_column = empty_neighbors[np.random.randint(len(empty_neighbors))]
+                new_row, new_column = [0, 0]
+                if BIAS_MOVEMENT:
+                    # Make walkers prefer moves towards the center
+                    center = SIZE // 2
+                    # get distances from center for each neighbor
+                    distances = np.linalg.norm(empty_neighbors - np.array([center, center]), axis=1)
+                    weights = 1 / distances**10
+                    weights /= np.sum(weights)
+                    new_pos_idx = np.random.choice(range(len(empty_neighbors)), p=weights, size=1)[0]
+                    new_row, new_column = empty_neighbors[new_pos_idx]
+                else:
+                    new_row, new_column = empty_neighbors[np.random.randint(len(empty_neighbors))]
                 new_world[new_row, new_column] = S_WALKER
                 new_world[row, column] = S_EMPTY
     # Add new walkers at the outer edge of the world
