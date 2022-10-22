@@ -96,7 +96,7 @@ def step(world):
                 center = SIZE // 2
                 # sort neighbors by distance from center
                 neighbor_coords = neighbor_coords[np.argsort(np.linalg.norm(neighbor_coords - np.array([center, center]), axis=1))]
-                # duplicate the first half of the neighbors
+                # duplicate the neighbors that are closer to the center
                 neighbor_coords = np.concatenate((neighbor_coords[:len(neighbor_coords)//4*3], neighbor_coords))
             empty_neighbors = neighbor_coords[world[neighbor_coords[:, 0], neighbor_coords[:, 1]] == S_EMPTY]
             if len(empty_neighbors) > 0:
