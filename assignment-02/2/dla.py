@@ -5,9 +5,7 @@ import matplotlib.colors as clrs
 import sys
 import matplotlib.pyplot as plt
 
-sys.path.append('../1/lib')
-
-from post_stats import (get_fractal_dimension,plot_fractal_dimension)
+from lib.post_stats import (get_fractal_dimension,plot_fractal_dimension)
 
 # Diffusion-limited aggregation
 
