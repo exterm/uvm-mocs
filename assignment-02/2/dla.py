@@ -124,7 +124,7 @@ SIZE = 125
 STEPS = 8000
 NUM_WALKERS = SIZE
 BIAS_MOVEMENT = False
-ANIM_INTERVAL_MS = 100
+ANIM_INTERVAL_MS = 50
 
 # if file is run directly, not imported
 if __name__ == "__main__":
