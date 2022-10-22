@@ -31,24 +31,24 @@ def get_fractal_dimension(hist):
     return ( (res.params[0], res.conf_int(0.05)), coverage_results_df)
 
 def plot_fractal_dimension(box_df, write_plots, steps, size, bias):
-    fig, ax = plt.subplots()
+    fig, ax = plt.subplots(layout='constrained')
     plt.xlabel("Box Size (Log10)")
     plt.ylabel("Number of Boxes (Log10)")
     plt.scatter(box_df["size"], box_df["size_count"])
     fig.suptitle(f"Box Size vs Number of Boxes: Fractal Dimension \n Steps: {steps} Dimension Size: {size}")
     fig.show()
     if write_plots:
-        fig.savefig(f"Output/fractal_dim_steps{steps}_size{size}_bias_{bias}.png")
+        fig.savefig(f"output/fractal_dim_steps{steps}_size{size}_bias_{bias}.png", dpi=600)
 
 def plot_final_state(agg_cells, write_plots, steps, size, bias):
-    fig, ax = plt.subplots()
+    fig, ax = plt.subplots(layout='constrained')
     ax.matshow(agg_cells, cmap='Greens')
     ax.axis('off')
     fig = plt.gcf()
     fig.suptitle(f"Final State of Simulation \n Steps: {steps} Dimension Size: {size}")
     fig.show()
     if write_plots:
-        fig.savefig(f"Output/final_state_steps{steps}_size{size}_bias_{bias}.png")
+        fig.savefig(f"output/final_state_steps{steps}_size{size}_bias_{bias}.png", dpi=600)
 
 
 recoded_vals = {1:1, 0:0, 2: 0}
