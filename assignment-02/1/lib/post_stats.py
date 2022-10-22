@@ -21,7 +21,7 @@ def get_fractal_dimension(hist):
         for i in range(len(col_starts) -1):
             for j in range(len(row_starts)- 1):
                 size_count += get_box_sum(int(row_starts[j]), int(row_starts[j+1]), int(col_starts[i]), int(col_starts[i + 1]), hist)
-        coverage_results.append((size, size_count)) 
+        coverage_results.append((size, size_count))
 
     coverage_results_df = pd.DataFrame(coverage_results, columns = ["size", "size_count"])
     coverage_results_df["size"] = coverage_results_df["size"].map(lambda x: math.log10(x))
