@@ -70,7 +70,7 @@ def render_animation(history: list[np.ndarray], write_video=False):
                              repeat=False)
     if write_video:
         print("Writing video...")
-        anim.save('dla.mp4', fps=1000//ANIM_INTERVAL_MS)
+        anim.save('dla.gif', fps=1000//ANIM_INTERVAL_MS)
     print("Showing animation...")
     plt.show()
 
@@ -124,7 +124,7 @@ SIZE = 125
 STEPS = 8000
 NUM_WALKERS = SIZE
 BIAS_MOVEMENT = False
-ANIM_INTERVAL_MS = 1000
+ANIM_INTERVAL_MS = 100
 
 # if file is run directly, not imported
 if __name__ == "__main__":
@@ -172,8 +172,5 @@ if __name__ == "__main__":
 
     print(f'Fractal dimension of final state: {fractal_dimension_final_state}')
 
-
-    plt.show()
-
     # render
-    #render_animation(history, args.write_video)
+    render_animation(history, args.write_video)
