@@ -3,7 +3,7 @@
 import numpy as np
 import pandas as pd
 import math
-from sklearn.linear_model import LinearRegression
+import statsmodels.api as sm
 import matplotlib.pyplot as plt
 
 def get_box_sum(row_start, row_end, col_start, col_end, mat):
@@ -26,20 +26,29 @@ def get_fractal_dimension(hist):
     coverage_results_df = pd.DataFrame(coverage_results, columns = ["size", "size_count"])
     coverage_results_df["size"] = coverage_results_df["size"].map(lambda x: math.log10(x))
     coverage_results_df["size_count"] = coverage_results_df["size_count"].map(lambda x: math.log10(x))
-    model = LinearRegression()
+    mod = sm.OLS(coverage_results_df[["size_count"]], coverage_results_df[["size"]])
+    res = mod.fit()
+    return ( (res.params[0], res.conf_int(0.05)), coverage_results_df)
 
-    model.fit(coverage_results_df[["size"]], coverage_results_df[["size_count"]])
-
-    return (model.coef_[0][0], coverage_results_df)
-
-def plot_fractal_dimension(box_df):
+def plot_fractal_dimension(box_df, write_plots, steps, size, bias):
     fig, ax = plt.subplots()
-    plt.xlabel("box_size (Log10)")
+    plt.xlabel("Box Size (Log10)")
     plt.ylabel("Number of Boxes (Log10)")
     plt.scatter(box_df["size"], box_df["size_count"])
-    fig.suptitle("Box Size vs Number of Boxes: Fractal Dimension")
- 
+    fig.suptitle(f"Box Size vs Number of Boxes: Fractal Dimension \n Steps: {steps} Dimension Size: {size}")
     fig.show()
+    if write_plots:
+        fig.savefig(f"Output/fractal_dim_steps{steps}_size{size}_bias_{bias}.png")
+
+def plot_final_state(agg_cells, write_plots, steps, size, bias):
+    fig, ax = plt.subplots()
+    ax.matshow(agg_cells, cmap='Greens')
+    ax.axis('off')
+    fig = plt.gcf()
+    fig.suptitle(f"Final State of Simulation \n Steps: {steps} Dimension Size: {size}")
+    fig.show()
+    if write_plots:
+        fig.savefig(f"Output/final_state_steps{steps}_size{size}_bias_{bias}.png")
 
 
 recoded_vals = {1:1, 0:0, 2: 0}

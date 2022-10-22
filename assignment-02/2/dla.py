@@ -5,7 +5,7 @@ import matplotlib.colors as clrs
 import sys
 import matplotlib.pyplot as plt
 
-from lib.post_stats import (get_fractal_dimension,plot_fractal_dimension)
+from lib.post_stats import (get_fractal_dimension,plot_fractal_dimension, plot_final_state)
 
 # Diffusion-limited aggregation
 
@@ -143,6 +143,8 @@ if __name__ == "__main__":
                         help='Bias movement towards the center of the world')
     parser.add_argument('--write-video', action='store_true',
                         help='Write video to file')
+    parser.add_argument('--write-plots', action='store_true',
+                        help='Write plots to file')
     args = parser.parse_args()
     SIZE = args.size
     STEPS = args.steps
@@ -162,15 +164,11 @@ if __name__ == "__main__":
     agg_cells = history[-1].copy()
     agg_cells[agg_cells == S_WALKER] = 0
 
-    fig, ax = plt.subplots()
-    ax.matshow(agg_cells, cmap='Greens')
-    ax.axis('off')
-
-    fig = plt.gcf()
+    plot_final_state(agg_cells, args.write_plots, args.steps, args.size, args.bias_movement)
 
     fractal_dimension_final_state, box_size_df = get_fractal_dimension(agg_cells)
 
-    plot_fractal_dimension(box_size_df)
+    plot_fractal_dimension(box_size_df, args.write_plots, args.steps, args.size, args.bias_movement)
 
     print(f'Fractal dimension of final state: {fractal_dimension_final_state}')
 
