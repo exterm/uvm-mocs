@@ -168,9 +168,7 @@ if __name__ == "__main__":
 
     fractal_dimension_final_state, box_size_df = get_fractal_dimension(agg_cells)
 
-    plot_fractal_dimension(box_size_df, args.write_plots, args.steps, args.size, args.bias_movement)
-
-    print(f'Fractal dimension of final state: {fractal_dimension_final_state}')
+    plot_fractal_dimension(box_size_df, args.write_plots, args.steps, args.size, args.bias_movement, fractal_dimension_final_state)
 
     # render
     render_animation(history, args.write_video)
