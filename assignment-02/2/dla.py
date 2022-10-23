@@ -2,7 +2,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.animation as ani
 import matplotlib.colors as clrs
-import sys
 import matplotlib.pyplot as plt
 
 from lib.post_stats import (get_fractal_dimension,plot_fractal_dimension, plot_final_state)
