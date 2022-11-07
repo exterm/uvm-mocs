@@ -1,1866 +1,2487 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="node" attr.name="inner class" attr.type="boolean" />
   <key id="d0" for="node" attr.name="top-level package" attr.type="string" />
   <graph edgedefault="directed">
     <node id="com.google.common.base.CharMatcher">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.base.Predicate">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.base.CharMatcher$1">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.CharMatcher$10">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.CharMatcher$11">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.CharMatcher$12">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.CharMatcher$13">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.CharMatcher$14">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.CharMatcher$15">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.CharMatcher$2">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.CharMatcher$3">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.CharMatcher$4">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.CharMatcher$5">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.CharMatcher$6">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.CharMatcher$7">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.CharMatcher$8">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.CharMatcher$9">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.CharMatcher$And">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.CharMatcher$Or">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.Equivalences">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.base.Equivalence">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.base.Equivalences$Impl">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.Equivalences$Impl$1">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.Equivalences$Impl$2">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.Equivalences$Impl$3">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.FinalizablePhantomReference">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.base.FinalizableReference">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.base.FinalizableReferenceQueue$DecoupledLoader">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.FinalizableReferenceQueue$FinalizerLoader">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.FinalizableReferenceQueue$DirectLoader">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.FinalizableReferenceQueue$SystemLoader">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.FinalizableSoftReference">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.base.FinalizableWeakReference">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.base.Functions">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.base.Function">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.base.Functions$ConstantFunction">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.Functions$ForMapWithDefault">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.Functions$FunctionComposition">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.Functions$FunctionForMapNoDefault">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.Functions$IdentityFunction">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.Functions$PredicateFunction">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.Functions$ToStringFunction">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.Joiner">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.base.Joiner$MapJoiner">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.Joiner$1">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.Joiner$2">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.Objects">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.base.Objects$ToStringHelper">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.Predicates">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.base.Predicates$AndPredicate">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.Predicates$CompositionPredicate">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.Predicates$ContainsPatternPredicate">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.Predicates$InPredicate">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.Predicates$InstanceOfPredicate">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.Predicates$IsEqualToPredicate">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.Predicates$NotPredicate">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.Predicates$ObjectPredicate">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.Predicates$ObjectPredicate$1">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.Predicates$ObjectPredicate$2">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.Predicates$ObjectPredicate$3">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.Predicates$ObjectPredicate$4">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.Predicates$OrPredicate">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.Service">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.base.Service$State">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.Splitter">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.base.Splitter$1">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.Splitter$Strategy">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.Splitter$SplittingIterator">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.Splitter$1$1">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.Splitter$2">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.Splitter$2$1">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.Splitter$3">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.Splitter$3$1">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.Splitter$4">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.Splitter$4$1">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.Splitter$AbstractIterator">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.Suppliers">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.base.Supplier">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.base.Suppliers$ExpiringMemoizingSupplier">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.Suppliers$MemoizingSupplier">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.Suppliers$SupplierComposition">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.Suppliers$SupplierOfInstance">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.base.Suppliers$ThreadSafeSupplier">
       <data key="d0">com.google.common.base</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.AbstractBiMap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.ForwardingMap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.BiMap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.AbstractBiMap$EntrySet">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.ForwardingSet">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.AbstractBiMap$EntrySet$1$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.ForwardingMapEntry">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.AbstractBiMap$Inverse">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.AbstractBiMap$KeySet">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.AbstractBiMap$ValueSet">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.AbstractIndexedIterator">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.UnmodifiableListIterator">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.AbstractIterator">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.UnmodifiableIterator">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.AbstractListMultimap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.AbstractMultimap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.ListMultimap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.Multimap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.Multiset">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.AbstractMapBasedMultiset">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.AbstractMultiset">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.AbstractMapBasedMultiset$EntrySet$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Multiset$Entry">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.AbstractMapBasedMultiset$EntrySet$1$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Multisets$AbstractEntry">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.AbstractMapBasedMultiset$MapBasedElementSet">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.AbstractMultimap$EntrySet">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.AbstractMultimap$Entries">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.AbstractMultimap$MultisetEntry">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.AbstractMultimap$MultisetEntryIterator">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.AbstractMultimap$MultisetView">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.AbstractMultimap$RandomAccessWrappedList">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.AbstractMultimap$WrappedList">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.AbstractMultimap$SortedAsMap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.AbstractMultimap$AsMap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.AbstractMultimap$SortedKeySet">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.AbstractMultimap$KeySet">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.AbstractMultimap$WrappedCollection">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.AbstractMultimap$WrappedList$WrappedListIterator">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.AbstractMultimap$WrappedCollection$WrappedIterator">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.AbstractMultimap$WrappedSet">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.AbstractMultimap$WrappedSortedSet">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.AbstractSetMultimap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.SetMultimap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.AbstractSortedSetMultimap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.SortedSetMultimap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.ArrayListMultimap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.AsynchronousComputationException">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.ComputationException">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.ByFunctionOrdering">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.Ordering">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.ImmutableList">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.Collections2">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.Collections2$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Collections2$FilteredCollection$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Collections2$FilteredCollection$2">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.ComparatorOrdering">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.ComparisonChain$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.ComparisonChain">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.ComparisonChain$InactiveComparisonChain">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.CompoundOrdering">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.ComputingConcurrentHashMap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.CustomConcurrentHashMap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.MapMaker$Cache">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.CustomConcurrentHashMap$ReferenceEntry">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.CustomConcurrentHashMap$Segment">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.ComputingConcurrentHashMap$ComputationExceptionReference">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.CustomConcurrentHashMap$ValueReference">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.ComputingConcurrentHashMap$ComputingSerializationProxy">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.CustomConcurrentHashMap$AbstractSerializationProxy">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.ComputingConcurrentHashMap$FutureValueReference">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.ComputingConcurrentHashMap$NullOutputExceptionReference">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.ConcurrentHashMultiset">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.GenericMapMaker">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.ConcurrentHashMultiset$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.ConcurrentHashMultiset$EntrySet$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Constraints">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.Constraint">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.Constraints$ConstrainedCollection">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.ForwardingCollection">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.Constraints$ConstrainedList">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.ForwardingList">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.Constraints$ConstrainedListIterator">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.ForwardingListIterator">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.Constraints$ConstrainedMultiset">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.ForwardingMultiset">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.Constraints$ConstrainedRandomAccessList">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Constraints$ConstrainedSet">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Constraints$ConstrainedSortedSet">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.ForwardingSortedSet">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.Constraints$NotNullConstraint">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.CustomConcurrentHashMap$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.ForwardingConcurrentMap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.CustomConcurrentHashMap$EntryFactory$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.CustomConcurrentHashMap$EntryFactory">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.CustomConcurrentHashMap$EntryFactory$10">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.CustomConcurrentHashMap$EntryFactory$11">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.CustomConcurrentHashMap$EntryFactory$12">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.CustomConcurrentHashMap$EntryFactory$2">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.CustomConcurrentHashMap$EntryFactory$3">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.CustomConcurrentHashMap$EntryFactory$4">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.CustomConcurrentHashMap$EntryFactory$5">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.CustomConcurrentHashMap$EntryFactory$6">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.CustomConcurrentHashMap$EntryFactory$7">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.CustomConcurrentHashMap$EntryFactory$8">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.CustomConcurrentHashMap$EntryFactory$9">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.CustomConcurrentHashMap$EntryIterator">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.CustomConcurrentHashMap$HashIterator">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.CustomConcurrentHashMap$KeyIterator">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.CustomConcurrentHashMap$NullEvictable">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.CustomConcurrentHashMap$Evictable">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.CustomConcurrentHashMap$NullExpirable">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.CustomConcurrentHashMap$Expirable">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.CustomConcurrentHashMap$NullListener">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.MapEvictionListener">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.CustomConcurrentHashMap$Segment$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.CustomConcurrentHashMap$Segment$2">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.CustomConcurrentHashMap$SerializationProxy">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.CustomConcurrentHashMap$SoftEntry">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.CustomConcurrentHashMap$SoftEvictableEntry">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.CustomConcurrentHashMap$SoftExpirableEntry">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.CustomConcurrentHashMap$SoftExpirableEvictableEntry">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.CustomConcurrentHashMap$SoftValueReference">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.CustomConcurrentHashMap$Strength$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.CustomConcurrentHashMap$Strength">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.CustomConcurrentHashMap$Strength$2">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.CustomConcurrentHashMap$Strength$3">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.CustomConcurrentHashMap$StrongEntry">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.CustomConcurrentHashMap$StrongEvictableEntry">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.CustomConcurrentHashMap$StrongExpirableEntry">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.CustomConcurrentHashMap$StrongExpirableEvictableEntry">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.CustomConcurrentHashMap$StrongValueReference">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.CustomConcurrentHashMap$ValueIterator">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.CustomConcurrentHashMap$WeakEntry">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.CustomConcurrentHashMap$WeakEvictableEntry">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.CustomConcurrentHashMap$WeakExpirableEntry">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.CustomConcurrentHashMap$WeakExpirableEvictableEntry">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.CustomConcurrentHashMap$WeakValueReference">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.CustomConcurrentHashMap$WriteThroughEntry">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.AbstractMapEntry">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.EmptyImmutableList">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.ImmutableList$Builder">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.EmptyImmutableList$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.EmptyImmutableListMultimap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.ImmutableListMultimap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.ImmutableCollection">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.ImmutableListMultimap$Builder">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.ImmutableMultimap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.ImmutableMultiset">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.ImmutableSet">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.ImmutableMultimap$Builder">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.ImmutableMap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.EmptyImmutableMap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.ImmutableMap$Builder">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.EmptyImmutableMultiset">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.ImmutableMultiset$Builder">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.EmptyImmutableSet">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.ImmutableSet$Builder">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.EmptyImmutableSetMultimap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.ImmutableSetMultimap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.ImmutableSetMultimap$Builder">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.EmptyImmutableSortedSet">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.ImmutableSortedSet">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.ImmutableSortedSet$Builder">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.EnumBiMap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.EnumHashBiMap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.EnumMultiset">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.EvictionListeners">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.EvictionListeners$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.ExplicitOrderedImmutableSortedSet">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.ExplicitOrdering">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.ForwardingObject">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.ForwardingIterator">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.ForwardingListMultimap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.ForwardingMultimap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.ForwardingQueue">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.ForwardingSetMultimap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.ForwardingSortedMap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.ForwardingSortedSetMultimap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.ForwardingTable">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.Table">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.GwtSerializationDependencies$HashBasedTableDependencies">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.HashBasedTable">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.GwtSerializationDependencies$ImmutableListMultimapDependencies">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.GwtSerializationDependencies$ImmutableMultisetDependencies">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.GwtSerializationDependencies$ImmutableSetMultimapDependencies">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.GwtSerializationDependencies$TreeBasedTableDependencies">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.TreeBasedTable">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.GwtSerializationDependencies$TreeMultimapDependencies">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.TreeMultimap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.StandardTable">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.HashBasedTable$Factory">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.HashBiMap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.HashMultimap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.HashMultiset">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.ImmutableAsList">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.RegularImmutableList">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.ImmutableBiMap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.ImmutableBiMap$Builder">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.ImmutableBiMap$EmptyBiMap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.ImmutableBiMap$SerializedForm">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.ImmutableMap$SerializedForm">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.ImmutableClassToInstanceMap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.ClassToInstanceMap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.ImmutableClassToInstanceMap$Builder">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.ImmutableCollection$ArrayImmutableCollection">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.ImmutableCollection$Builder">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.ImmutableCollection$EmptyImmutableCollection">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.ImmutableEntry">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.ImmutableEnumSet">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.ImmutableList$ReverseImmutableList">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.ImmutableList$ReverseImmutableList$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.ImmutableMultimap$BuilderMultimap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.ImmutableMultimap$EntryCollection">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.ImmutableMultimap$EntryCollection$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.ImmutableMultimap$Values">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.ImmutableMultimap$Values$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.ImmutableMultiset$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.ImmutableMultiset$EntrySet">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.ImmutableMultiset$EntrySet$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.ImmutableSet$ArrayImmutableSet">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.ImmutableSet$TransformedImmutableSet">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.ImmutableSet$TransformedImmutableSet$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.ImmutableSetMultimap$BuilderMultimap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.ImmutableSortedAsList">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.ImmutableSortedMap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.ImmutableSortedMapFauxverideShim">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.ImmutableSortedMap$Builder">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.ImmutableSortedMap$2">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.ImmutableSortedMap$3">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.TransformedImmutableList">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.ImmutableSortedMap$4">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.ImmutableSortedMap$EntrySet">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.ImmutableSortedMap$SerializedForm">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.ImmutableSortedMap$Values">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.ImmutableSortedSetFauxverideShim">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.Interners">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.Interner">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.Interners$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Interners$WeakInterner">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Interners$WeakInterner$InternReference">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Iterables">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.Iterables$10">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Iterables$IterableWithToString">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Iterables$11">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Iterables$12">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Iterables$3">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Iterables$4">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Iterables$5">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Iterables$6">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Iterables$7">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Iterables$8">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Iterables$9">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Iterators">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.PeekingIterator">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.Iterators$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Iterators$10">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Iterators$11">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Iterators$12">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Iterators$13">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Iterators$14">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Iterators$3">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Iterators$6">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Iterators$7">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Iterators$PeekingImpl">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.LexicographicalOrdering">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.LinkedHashMultimap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.LinkedHashMultimap$SetDecorator">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.LinkedHashMultiset">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.LinkedListMultimap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.LinkedListMultimap$4$1$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.LinkedListMultimap$AsMapEntries$1$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.LinkedListMultimap$MultisetView">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.LinkedListMultimap$MultisetView$2$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.LinkedListMultimap$MultisetView$2$1$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.LinkedListMultimap$NodeIterator">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.LinkedListMultimap$Node">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.LinkedListMultimap$ValueForKeyIterator">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Lists">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.Lists$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Lists$RandomAccessListWrapper">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Lists$2">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Lists$AbstractListWrapper">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Lists$RandomAccessPartition">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Lists$Partition">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Lists$RandomAccessReverseList">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Lists$ReverseList">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Lists$StringAsImmutableList">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Lists$StringAsImmutableList$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.MapConstraints">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.MapConstraint">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.MapConstraints$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.MapConstraints$2">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.MapConstraints$2$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.MapConstraints$ConstrainedAsMapEntries">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.MapConstraints$ConstrainedAsMapEntries$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.MapConstraints$ConstrainedAsMapValues">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.MapConstraints$ConstrainedBiMap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.MapConstraints$ConstrainedMap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.MapConstraints$ConstrainedEntries">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.MapConstraints$ConstrainedEntries$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.MapConstraints$ConstrainedEntrySet">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.MapConstraints$ConstrainedListMultimap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.MapConstraints$ConstrainedMultimap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.MapConstraints$ConstrainedMultimap$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.MapConstraints$ConstrainedMultimap$2">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.MapConstraints$ConstrainedSetMultimap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.MapConstraints$ConstrainedSortedSetMultimap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.MapConstraints$InverseConstraint">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.MapConstraints$NotNullMapConstraint">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.MapMaker">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.MapMaker$ComputingMapAdapter">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Maps">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.MapDifference">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.Maps$EntryTransformer">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Maps$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Maps$2">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Maps$3">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Maps$4">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Maps$AbstractFilteredMap$Values$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Maps$AbstractMapWrapper">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Maps$ImprovedAbstractMap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Maps$FilteredEntryMap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Maps$AbstractFilteredMap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Maps$FilteredEntryMap$EntrySet">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Maps$FilteredEntryMap$EntrySet$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Maps$FilteredEntryMap$EntrySet$1$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Maps$FilteredEntryMap$KeySet$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Maps$FilteredKeyMap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Maps$ImprovedAbstractMap$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Maps$ImprovedAbstractMap$2">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Maps$MapDifferenceImpl">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Maps$TransformedEntriesMap$EntrySet$1$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Maps$UnmodifiableBiMap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Maps$UnmodifiableEntries">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Maps$UnmodifiableEntries$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Maps$UnmodifiableEntrySet">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Maps$ValueDifferenceImpl">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.MapDifference$ValueDifference">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Multimaps">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.Multimaps$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Multimaps$2">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Multimaps$3">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Multimaps$CustomListMultimap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Multimaps$CustomMultimap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Multimaps$CustomSetMultimap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Multimaps$CustomSortedSetMultimap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Multimaps$MapMultimap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Multimaps$MapMultimap$AsMap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Multimaps$MapMultimap$AsMapEntries$1$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Multimaps$TransformedEntriesListMultimap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Multimaps$TransformedEntriesMultimap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Multimaps$TransformedEntriesListMultimap$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Multimaps$TransformedEntriesMultimap$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Multimaps$TransformedEntriesMultimap$2">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Multimaps$TransformedEntriesMultimap$3">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Multimaps$TransformedEntriesMultimap$TransformedEntries">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Collections2$TransformedCollection">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Multimaps$TransformedEntriesMultimap$TransformedEntries$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Multimaps$TransformedEntriesMultimap$TransformedEntries$1$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Multimaps$UnmodifiableAsMapEntries">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Multimaps$UnmodifiableAsMapEntries$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Multimaps$UnmodifiableAsMapValues">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Multimaps$UnmodifiableListMultimap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Multimaps$UnmodifiableMultimap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Multimaps$UnmodifiableMultimap$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Multimaps$UnmodifiableSetMultimap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Multimaps$UnmodifiableSortedSetMultimap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Multisets">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.Multisets$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Multisets$2">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Multisets$2$1$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Multisets$SetMultiset">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Multisets$SetMultiset$ElementSet">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Multisets$SetMultiset$EntrySet$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Multisets$UnmodifiableMultiset">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.MutableClassToInstanceMap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.MutableClassToInstanceMap$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.NaturalOrdering">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.NullsFirstOrdering">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.NullsLastOrdering">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.Ordering$ArbitraryOrdering">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Ordering$ArbitraryOrdering$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.RegularImmutableBiMap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.RegularImmutableList$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.RegularImmutableMap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.RegularImmutableMap$EntrySet">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.RegularImmutableMap$KeySet">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.RegularImmutableMap$LinkedEntry">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.RegularImmutableMap$Values">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.RegularImmutableMap$Values$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.RegularImmutableSet">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.RegularImmutableSortedSet">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.ReverseNaturalOrdering">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.ReverseOrdering">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.Sets">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.Sets$SetView">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Sets$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Sets$2">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Sets$3">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Sets$CartesianSet">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Sets$CartesianSet$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Sets$FilteredSet">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Collections2$FilteredCollection">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Sets$PowerSet$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Sets$PowerSet$BitFilteredSetIterator">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.SingletonImmutableList">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.SingletonImmutableList$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.SingletonImmutableMap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.SingletonImmutableMap$Values">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.SingletonImmutableSet">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.SortedLists">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.SortedLists$Relation">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.SortedLists$Relation$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.SortedLists$Relation$2">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.SortedLists$Relation$3">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.SortedLists$Relation$4">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.SortedLists$Relation$5">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.StandardRowSortedTable">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.StandardRowSortedTable$RowKeySortedSet">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.StandardTable$RowKeySet">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.StandardRowSortedTable$RowSortedMap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.StandardTable$RowMap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.StandardTable$CellIterator">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Table$Cell">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.StandardTable$CellSet">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.StandardTable$TableSet">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.StandardTable$Column">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.StandardTable$Column$EntrySetIterator">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.StandardTable$Column$EntrySetIterator$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.StandardTable$Column$KeySet$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.StandardTable$Column$Values$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.StandardTable$Column$Values$2">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.StandardTable$ColumnKeyIterator">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.StandardTable$ColumnKeySet">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.StandardTable$ColumnMap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.StandardTable$ColumnMap$ColumnMapEntrySet">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.StandardTable$ColumnMap$ColumnMapEntrySet$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.StandardTable$ColumnMap$ColumnMapValues">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.StandardTable$TableCollection">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.StandardTable$Row">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.StandardTable$Row$RowEntrySet$1$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.StandardTable$RowMap$EntrySet">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.StandardTable$Values">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Synchronized$SynchronizedAsMap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Synchronized$SynchronizedMap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Synchronized$SynchronizedAsMapEntries">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Synchronized$SynchronizedSet">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Synchronized$SynchronizedAsMapEntries$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Synchronized$SynchronizedAsMapEntries$1$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Synchronized$SynchronizedAsMapValues">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Synchronized$SynchronizedCollection">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Synchronized$SynchronizedAsMapValues$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Synchronized$SynchronizedBiMap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Synchronized$SynchronizedObject">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Synchronized$SynchronizedList">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Synchronized$SynchronizedListMultimap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Synchronized$SynchronizedMultimap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Synchronized$SynchronizedMultiset">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Synchronized$SynchronizedRandomAccessList">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Synchronized$SynchronizedSetMultimap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Synchronized$SynchronizedSortedMap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Synchronized$SynchronizedSortedSet">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Synchronized$SynchronizedSortedSetMultimap">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Tables">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.Tables$AbstractCell">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Tables$ImmutableCell">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Tables$TransposeTable">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Tables$TransposeTable$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.Tables$TransposeTable$CellSet">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.TransformedImmutableList$1">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.TransformedImmutableList$TransformedView">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.TreeBasedTable$Factory">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.TreeMultiset">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.collect.TreeMultiset$SortedMapBasedElementSet">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.collect.UsingToStringOrdering">
       <data key="d0">com.google.common.collect</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.io.ByteStreams">
       <data key="d0">com.google.common.io</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.io.InputSupplier">
       <data key="d0">com.google.common.io</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.io.OutputSupplier">
       <data key="d0">com.google.common.io</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.io.ByteProcessor">
       <data key="d0">com.google.common.io</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.io.ByteArrayDataInput">
       <data key="d0">com.google.common.io</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.io.ByteArrayDataOutput">
       <data key="d0">com.google.common.io</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.io.ByteStreams$1">
       <data key="d0">com.google.common.io</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.io.ByteStreams$2">
       <data key="d0">com.google.common.io</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.io.ByteStreams$3">
       <data key="d0">com.google.common.io</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.io.ByteStreams$4">
       <data key="d0">com.google.common.io</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.io.ByteStreams$5">
       <data key="d0">com.google.common.io</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.io.ByteStreams$ByteArrayDataInputStream">
       <data key="d0">com.google.common.io</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.io.ByteStreams$ByteArrayDataOutputStream">
       <data key="d0">com.google.common.io</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.io.CharStreams">
       <data key="d0">com.google.common.io</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.io.LineProcessor">
       <data key="d0">com.google.common.io</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.io.CharStreams$1">
       <data key="d0">com.google.common.io</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.io.CharStreams$2">
       <data key="d0">com.google.common.io</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.io.CharStreams$3">
       <data key="d0">com.google.common.io</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.io.CharStreams$4">
       <data key="d0">com.google.common.io</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.io.FileBackedOutputStream">
       <data key="d0">com.google.common.io</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.io.FileBackedOutputStream$1">
       <data key="d0">com.google.common.io</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.io.FileBackedOutputStream$2">
       <data key="d0">com.google.common.io</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.io.Files">
       <data key="d0">com.google.common.io</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.io.Files$1">
       <data key="d0">com.google.common.io</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.io.Files$2">
       <data key="d0">com.google.common.io</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.io.LineReader$1">
       <data key="d0">com.google.common.io</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.io.LineBuffer">
       <data key="d0">com.google.common.io</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.io.Resources">
       <data key="d0">com.google.common.io</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.io.Resources$1">
       <data key="d0">com.google.common.io</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.net.InetAddresses">
       <data key="d0">com.google.common.net</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.net.InetAddresses$TeredoInfo">
       <data key="d0">com.google.common.net</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.net.InternetDomainName">
       <data key="d0">com.google.common.net</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.util.concurrent.AbstractCheckedFuture">
       <data key="d0">com.google.common.util</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.util.concurrent.CheckedFuture">
       <data key="d0">com.google.common.util</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.util.concurrent.AbstractExecutionThreadService">
       <data key="d0">com.google.common.util</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.util.concurrent.AbstractExecutionThreadService$1">
       <data key="d0">com.google.common.util</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.util.concurrent.AbstractService">
       <data key="d0">com.google.common.util</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.util.concurrent.AbstractIdleService">
       <data key="d0">com.google.common.util</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.util.concurrent.AbstractIdleService$1">
       <data key="d0">com.google.common.util</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.util.concurrent.AbstractListenableFuture">
       <data key="d0">com.google.common.util</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.util.concurrent.AbstractFuture">
       <data key="d0">com.google.common.util</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.util.concurrent.ListenableFuture">
       <data key="d0">com.google.common.util</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.util.concurrent.AbstractService$Transition">
       <data key="d0">com.google.common.util</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.util.concurrent.FakeTimeLimiter">
       <data key="d0">com.google.common.util</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.util.concurrent.TimeLimiter">
       <data key="d0">com.google.common.util</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.util.concurrent.ForwardingBlockingQueue">
       <data key="d0">com.google.common.util</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.util.concurrent.ForwardingFuture">
       <data key="d0">com.google.common.util</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.util.concurrent.ForwardingListenableFuture">
       <data key="d0">com.google.common.util</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.util.concurrent.ForwardingService">
       <data key="d0">com.google.common.util</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.util.concurrent.Futures">
       <data key="d0">com.google.common.util</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.util.concurrent.UninterruptibleFuture">
       <data key="d0">com.google.common.util</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.util.concurrent.Futures$1">
       <data key="d0">com.google.common.util</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.util.concurrent.Futures$2">
       <data key="d0">com.google.common.util</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.util.concurrent.Futures$3">
       <data key="d0">com.google.common.util</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.util.concurrent.Futures$4">
       <data key="d0">com.google.common.util</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.util.concurrent.Futures$ChainingListenableFuture">
       <data key="d0">com.google.common.util</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.util.concurrent.Futures$ListenableFutureAdapter">
       <data key="d0">com.google.common.util</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.util.concurrent.Futures$MappingCheckedFuture">
       <data key="d0">com.google.common.util</data>
+      <data key="d1">True</data>
     </node>
     <node id="com.google.common.util.concurrent.ListenableFutureTask">
       <data key="d0">com.google.common.util</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.util.concurrent.SimpleTimeLimiter">
       <data key="d0">com.google.common.util</data>
+      <data key="d1">False</data>
     </node>
     <node id="com.google.common.util.concurrent.ValueFuture">
       <data key="d0">com.google.common.util</data>
+      <data key="d1">False</data>
     </node>
     <edge source="com.google.common.base.CharMatcher" target="com.google.common.base.Predicate" />
     <edge source="com.google.common.base.CharMatcher$1" target="com.google.common.base.CharMatcher" />

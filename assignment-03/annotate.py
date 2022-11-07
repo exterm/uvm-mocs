@@ -1,8 +1,8 @@
 import networkx as nx
 
-# Annotate nodes with their top-level package name.
+# Annotate nodes with their top-level package name and flag whether they are inner classes.
 # - Read graph from GraphML file
-# - Loop over nodes to generate map of node name to package name
+# - Loop over nodes to generate map of node name to package name and inner class flag
 # - Use map to set node attributes
 # - Save annotated graph as GraphML file
 
@@ -18,8 +18,17 @@ for node in G.nodes():
     #      top level package
     node_map[node] = '.'.join(node.split('.')[0:4])
 
-# Use map to set node attributes
+# Use map to set top level package names as node attribute
 nx.set_node_attributes(G, node_map, 'top-level package')
+
+# Loop over nodes to generate map of node name to inner class flag
+inner_map = {}
+for node in G.nodes():
+    # We define an inner class as any node with a $ in the name
+    inner_map[node] = node.find('$') > -1
+
+# Use map to set inner class flags as node attribute
+nx.set_node_attributes(G, inner_map, 'inner class')
 
 # Save the graph as GraphML
 nx.write_graphml(G, 'data/guava.annotated.graphml')
