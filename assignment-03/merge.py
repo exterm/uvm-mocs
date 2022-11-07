@@ -14,10 +14,11 @@ with open('data/guava.map.csv') as f:
         (name, id) = line.split()
         node_map[id] = name
 
-print(node_map)
-
 # Relabel the nodes
 G = nx.relabel_nodes(G, node_map)
+
+# add nodes that are not in the edgelist
+G.add_nodes_from(node_map.values())
 
 # Save the graph as GraphML
 nx.write_graphml(G, 'data/guava.graphml')
