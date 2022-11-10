@@ -5,7 +5,7 @@ import networkx as nx
 # Save as GraphML file.
 
 # Read in the edgelist as a digraph
-G = nx.read_edgelist('data/guava.edges.csv', create_using=nx.DiGraph())
+G = nx.read_edgelist('data/guava.edges.csv', create_using=nx.MultiDiGraph())
 
 # Read in the node name map
 node_map = {}
@@ -20,5 +20,15 @@ G = nx.relabel_nodes(G, node_map)
 # add nodes that are not in the edgelist
 G.add_nodes_from(node_map.values())
 
-# Save the graph as GraphML
-nx.write_graphml(G, 'data/guava.graphml')
+def add_unique_edge_ids(G):
+    """Add a unique id to each edge in the graph G.
+    The id is added as an attribute to the edge.
+    """
+    for i, edge in enumerate(G.edges(data=True)):
+        edge[2]['id'] = i
+    return G
+
+G = add_unique_edge_ids(G)
+
+# Save the graph as GraphML where no two edges have the same id
+nx.write_graphml(G, 'data/guava.graphml', edge_id_from_attribute='id')
