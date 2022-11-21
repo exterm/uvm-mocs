@@ -21,5 +21,7 @@ jobs:
         cache: 'poetry'
     - name: Install dependencies
       run: poetry install
-    - name: Run tests
-      run: poetry run pytest
+    - name: Run assignment 02 tests
+      run: cd assignment-02; poetry run pytest -vv
+    - name: Run project tests
+      run: cd project; poetry run pytest -vv
