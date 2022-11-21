@@ -1,0 +1,46 @@
+{
+   "__main__": {
+        "bacon": 0,
+        "imports": [
+            "wagtail",
+            "wagtail.actions",
+            "wagtail.utils"
+        ],
+        "name": "__main__",
+        "path": null
+    },
+   "wagtail": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.utils"
+        ],
+        "name": "wagtail",
+        "path": "/home/philip/projects/wagtail/wagtail/__init__.py"
+    },
+   "wagtail.actions": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.utils"
+        ],
+        "name": "wagtail.actions",
+        "path": "/home/philip/projects/wagtail/wagtail/actions/__init__.py"
+    },
+    "wagtail.utils": {
+      "bacon": 1,
+      "imported_by": [
+          "__main__",
+          "wagtail"
+      ],
+      "imports": [
+          "wagtail.actions"
+      ],
+      "name": "wagtail.utils",
+      "path": "/home/philip/projects/wagtail/wagtail/utils/__init__.py"
+  }
+}
