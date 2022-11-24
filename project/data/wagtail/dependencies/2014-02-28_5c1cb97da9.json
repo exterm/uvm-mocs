@@ -1,0 +1,1936 @@
+{
+    "__main__": {
+        "bacon": 0,
+        "imports": [
+            "wagtail",
+            "wagtail.tests",
+            "wagtail.tests.models",
+            "wagtail.tests.urls",
+            "wagtail.tests.utils",
+            "wagtail.wagtailadmin",
+            "wagtail.wagtailadmin.edit_handlers",
+            "wagtail.wagtailadmin.forms",
+            "wagtail.wagtailadmin.hooks",
+            "wagtail.wagtailadmin.menu",
+            "wagtail.wagtailadmin.modal_workflow",
+            "wagtail.wagtailadmin.models",
+            "wagtail.wagtailadmin.taggable",
+            "wagtail.wagtailadmin.tasks",
+            "wagtail.wagtailadmin.templatetags",
+            "wagtail.wagtailadmin.templatetags.ellipsistrim",
+            "wagtail.wagtailadmin.templatetags.fieldtype",
+            "wagtail.wagtailadmin.templatetags.gravatar",
+            "wagtail.wagtailadmin.templatetags.localize",
+            "wagtail.wagtailadmin.templatetags.meta_description",
+            "wagtail.wagtailadmin.templatetags.page_permissions",
+            "wagtail.wagtailadmin.templatetags.wagtailadmin_nav",
+            "wagtail.wagtailadmin.templatetags.wagtailuserbar",
+            "wagtail.wagtailadmin.tests",
+            "wagtail.wagtailadmin.urls",
+            "wagtail.wagtailadmin.views",
+            "wagtail.wagtailadmin.views.account",
+            "wagtail.wagtailadmin.views.chooser",
+            "wagtail.wagtailadmin.views.home",
+            "wagtail.wagtailadmin.views.pages",
+            "wagtail.wagtailadmin.views.tags",
+            "wagtail.wagtailcore",
+            "wagtail.wagtailcore.admin",
+            "wagtail.wagtailcore.fields",
+            "wagtail.wagtailcore.management",
+            "wagtail.wagtailcore.management.commands",
+            "wagtail.wagtailcore.management.commands.set_url_paths",
+            "wagtail.wagtailcore.middleware",
+            "wagtail.wagtailcore.models",
+            "wagtail.wagtailcore.rich_text",
+            "wagtail.wagtailcore.templatetags",
+            "wagtail.wagtailcore.templatetags.pageurl",
+            "wagtail.wagtailcore.templatetags.rich_text",
+            "wagtail.wagtailcore.tests",
+            "wagtail.wagtailcore.urls",
+            "wagtail.wagtailcore.util",
+            "wagtail.wagtailcore.views",
+            "wagtail.wagtailcore.whitelist",
+            "wagtail.wagtaildocs",
+            "wagtail.wagtaildocs.admin",
+            "wagtail.wagtaildocs.admin_urls",
+            "wagtail.wagtaildocs.edit_handlers",
+            "wagtail.wagtaildocs.forms",
+            "wagtail.wagtaildocs.models",
+            "wagtail.wagtaildocs.tests",
+            "wagtail.wagtaildocs.urls",
+            "wagtail.wagtaildocs.views",
+            "wagtail.wagtaildocs.views.chooser",
+            "wagtail.wagtaildocs.views.documents",
+            "wagtail.wagtaildocs.views.serve",
+            "wagtail.wagtailembeds",
+            "wagtail.wagtailembeds.embeds",
+            "wagtail.wagtailembeds.format",
+            "wagtail.wagtailembeds.forms",
+            "wagtail.wagtailembeds.models",
+            "wagtail.wagtailembeds.oembed_providers",
+            "wagtail.wagtailembeds.templatetags",
+            "wagtail.wagtailembeds.templatetags.embed_filters",
+            "wagtail.wagtailembeds.tests",
+            "wagtail.wagtailembeds.urls",
+            "wagtail.wagtailembeds.views",
+            "wagtail.wagtailembeds.views.chooser",
+            "wagtail.wagtailimages",
+            "wagtail.wagtailimages.admin",
+            "wagtail.wagtailimages.edit_handlers",
+            "wagtail.wagtailimages.formats",
+            "wagtail.wagtailimages.forms",
+            "wagtail.wagtailimages.image_ops",
+            "wagtail.wagtailimages.models",
+            "wagtail.wagtailimages.templatetags",
+            "wagtail.wagtailimages.templatetags.image_tags",
+            "wagtail.wagtailimages.tests",
+            "wagtail.wagtailimages.urls",
+            "wagtail.wagtailimages.views",
+            "wagtail.wagtailimages.views.chooser",
+            "wagtail.wagtailimages.views.images",
+            "wagtail.wagtailredirects",
+            "wagtail.wagtailredirects.forms",
+            "wagtail.wagtailredirects.middleware",
+            "wagtail.wagtailredirects.models",
+            "wagtail.wagtailredirects.tests",
+            "wagtail.wagtailredirects.urls",
+            "wagtail.wagtailredirects.views",
+            "wagtail.wagtailsearch",
+            "wagtail.wagtailsearch.backends",
+            "wagtail.wagtailsearch.backends.base",
+            "wagtail.wagtailsearch.backends.db",
+            "wagtail.wagtailsearch.backends.elasticsearch",
+            "wagtail.wagtailsearch.forms",
+            "wagtail.wagtailsearch.indexed",
+            "wagtail.wagtailsearch.management",
+            "wagtail.wagtailsearch.management.commands",
+            "wagtail.wagtailsearch.management.commands.search_garbage_collect",
+            "wagtail.wagtailsearch.management.commands.update_index",
+            "wagtail.wagtailsearch.models",
+            "wagtail.wagtailsearch.signal_handlers",
+            "wagtail.wagtailsearch.tests",
+            "wagtail.wagtailsearch.tests.test_backends",
+            "wagtail.wagtailsearch.tests.test_editorspicks",
+            "wagtail.wagtailsearch.tests.test_frontend",
+            "wagtail.wagtailsearch.tests.test_queries",
+            "wagtail.wagtailsearch.urls",
+            "wagtail.wagtailsearch.urls.admin",
+            "wagtail.wagtailsearch.urls.frontend",
+            "wagtail.wagtailsearch.views",
+            "wagtail.wagtailsearch.views.editorspicks",
+            "wagtail.wagtailsearch.views.frontend",
+            "wagtail.wagtailsearch.views.queries",
+            "wagtail.wagtailsnippets",
+            "wagtail.wagtailsnippets.edit_handlers",
+            "wagtail.wagtailsnippets.models",
+            "wagtail.wagtailsnippets.permissions",
+            "wagtail.wagtailsnippets.tests",
+            "wagtail.wagtailsnippets.urls",
+            "wagtail.wagtailsnippets.views",
+            "wagtail.wagtailsnippets.views.chooser",
+            "wagtail.wagtailsnippets.views.snippets",
+            "wagtail.wagtailusers",
+            "wagtail.wagtailusers.forms",
+            "wagtail.wagtailusers.tests",
+            "wagtail.wagtailusers.urls",
+            "wagtail.wagtailusers.views",
+            "wagtail.wagtailusers.views.users"
+        ],
+        "name": "__main__",
+        "path": null
+    },
+    "wagtail": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.tests.models",
+            "wagtail.tests.urls",
+            "wagtail.wagtailadmin.edit_handlers",
+            "wagtail.wagtailadmin.taggable",
+            "wagtail.wagtailadmin.tasks",
+            "wagtail.wagtailadmin.templatetags.fieldtype",
+            "wagtail.wagtailadmin.templatetags.page_permissions",
+            "wagtail.wagtailadmin.templatetags.wagtailadmin_nav",
+            "wagtail.wagtailadmin.tests",
+            "wagtail.wagtailadmin.urls",
+            "wagtail.wagtailadmin.views.chooser",
+            "wagtail.wagtailadmin.views.home",
+            "wagtail.wagtailadmin.views.pages",
+            "wagtail.wagtailcore.admin",
+            "wagtail.wagtailcore.fields",
+            "wagtail.wagtailcore.management.commands.set_url_paths",
+            "wagtail.wagtailcore.middleware",
+            "wagtail.wagtailcore.models",
+            "wagtail.wagtailcore.rich_text",
+            "wagtail.wagtailcore.templatetags.rich_text",
+            "wagtail.wagtaildocs.admin",
+            "wagtail.wagtaildocs.edit_handlers",
+            "wagtail.wagtaildocs.forms",
+            "wagtail.wagtaildocs.models",
+            "wagtail.wagtaildocs.tests",
+            "wagtail.wagtaildocs.views.chooser",
+            "wagtail.wagtaildocs.views.documents",
+            "wagtail.wagtaildocs.views.serve",
+            "wagtail.wagtailembeds.embeds",
+            "wagtail.wagtailembeds.format",
+            "wagtail.wagtailembeds.templatetags.embed_filters",
+            "wagtail.wagtailembeds.tests",
+            "wagtail.wagtailembeds.views.chooser",
+            "wagtail.wagtailimages.admin",
+            "wagtail.wagtailimages.edit_handlers",
+            "wagtail.wagtailimages.forms",
+            "wagtail.wagtailimages.models",
+            "wagtail.wagtailimages.templatetags.image_tags",
+            "wagtail.wagtailimages.tests",
+            "wagtail.wagtailimages.views.chooser",
+            "wagtail.wagtailimages.views.images",
+            "wagtail.wagtailredirects.models",
+            "wagtail.wagtailredirects.tests",
+            "wagtail.wagtailredirects.views",
+            "wagtail.wagtailsearch.backends.base",
+            "wagtail.wagtailsearch.backends.db",
+            "wagtail.wagtailsearch.backends.elasticsearch",
+            "wagtail.wagtailsearch.management.commands.search_garbage_collect",
+            "wagtail.wagtailsearch.management.commands.update_index",
+            "wagtail.wagtailsearch.signal_handlers",
+            "wagtail.wagtailsearch.tests.test_backends",
+            "wagtail.wagtailsearch.tests.test_editorspicks",
+            "wagtail.wagtailsearch.tests.test_queries",
+            "wagtail.wagtailsearch.views.editorspicks",
+            "wagtail.wagtailsearch.views.frontend",
+            "wagtail.wagtailsearch.views.queries",
+            "wagtail.wagtailsnippets.edit_handlers",
+            "wagtail.wagtailsnippets.permissions",
+            "wagtail.wagtailsnippets.views.chooser",
+            "wagtail.wagtailsnippets.views.snippets",
+            "wagtail.wagtailusers.views.users"
+        ],
+        "name": "wagtail",
+        "path": "/home/philip/projects/wagtail/wagtail/__init__.py"
+    },
+    "wagtail.tests": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.wagtailadmin.tests",
+            "wagtail.wagtaildocs.tests",
+            "wagtail.wagtailembeds.tests",
+            "wagtail.wagtailimages.tests",
+            "wagtail.wagtailsearch.tests.test_editorspicks",
+            "wagtail.wagtailsearch.tests.test_queries"
+        ],
+        "name": "wagtail.tests",
+        "path": "/home/philip/projects/wagtail/wagtail/tests/__init__.py"
+    },
+    "wagtail.tests.models": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.wagtailadmin.tests"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.wagtailadmin",
+            "wagtail.wagtailadmin.edit_handlers",
+            "wagtail.wagtailcore",
+            "wagtail.wagtailcore.fields",
+            "wagtail.wagtailcore.models",
+            "wagtail.wagtaildocs",
+            "wagtail.wagtaildocs.edit_handlers",
+            "wagtail.wagtailimages",
+            "wagtail.wagtailimages.edit_handlers"
+        ],
+        "name": "wagtail.tests.models",
+        "path": "/home/philip/projects/wagtail/wagtail/tests/models.py"
+    },
+    "wagtail.tests.urls": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.wagtailadmin",
+            "wagtail.wagtailadmin.urls",
+            "wagtail.wagtailcore",
+            "wagtail.wagtailcore.urls",
+            "wagtail.wagtaildocs",
+            "wagtail.wagtaildocs.admin_urls",
+            "wagtail.wagtaildocs.urls",
+            "wagtail.wagtailembeds",
+            "wagtail.wagtailembeds.urls",
+            "wagtail.wagtailimages",
+            "wagtail.wagtailimages.urls",
+            "wagtail.wagtailredirects",
+            "wagtail.wagtailredirects.urls",
+            "wagtail.wagtailsearch",
+            "wagtail.wagtailsearch.urls",
+            "wagtail.wagtailsearch.urls.admin",
+            "wagtail.wagtailsearch.urls.frontend",
+            "wagtail.wagtailsnippets",
+            "wagtail.wagtailsnippets.urls",
+            "wagtail.wagtailusers",
+            "wagtail.wagtailusers.urls"
+        ],
+        "name": "wagtail.tests.urls",
+        "path": "/home/philip/projects/wagtail/wagtail/tests/urls.py"
+    },
+    "wagtail.tests.utils": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.wagtailadmin.tests",
+            "wagtail.wagtaildocs.tests",
+            "wagtail.wagtailembeds.tests",
+            "wagtail.wagtailimages.tests",
+            "wagtail.wagtailsearch.tests.test_editorspicks",
+            "wagtail.wagtailsearch.tests.test_queries"
+        ],
+        "name": "wagtail.tests.utils",
+        "path": "/home/philip/projects/wagtail/wagtail/tests/utils.py"
+    },
+    "wagtail.wagtailadmin": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.tests.models",
+            "wagtail.tests.urls",
+            "wagtail.wagtailadmin.templatetags.wagtailadmin_nav",
+            "wagtail.wagtailadmin.urls",
+            "wagtail.wagtailadmin.views.chooser",
+            "wagtail.wagtailadmin.views.home",
+            "wagtail.wagtailadmin.views.pages",
+            "wagtail.wagtailcore.fields",
+            "wagtail.wagtaildocs.edit_handlers",
+            "wagtail.wagtaildocs.models",
+            "wagtail.wagtaildocs.views.chooser",
+            "wagtail.wagtaildocs.views.documents",
+            "wagtail.wagtailembeds.views.chooser",
+            "wagtail.wagtailimages.edit_handlers",
+            "wagtail.wagtailimages.models",
+            "wagtail.wagtailimages.views.chooser",
+            "wagtail.wagtailimages.views.images",
+            "wagtail.wagtailredirects.models",
+            "wagtail.wagtailredirects.views",
+            "wagtail.wagtailsearch.views.editorspicks",
+            "wagtail.wagtailsearch.views.queries",
+            "wagtail.wagtailsnippets.edit_handlers",
+            "wagtail.wagtailsnippets.views.chooser",
+            "wagtail.wagtailsnippets.views.snippets",
+            "wagtail.wagtailusers.views.users"
+        ],
+        "name": "wagtail.wagtailadmin",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailadmin/__init__.py"
+    },
+    "wagtail.wagtailadmin.edit_handlers": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.tests.models",
+            "wagtail.wagtailadmin.views.pages",
+            "wagtail.wagtailcore.fields",
+            "wagtail.wagtaildocs.edit_handlers",
+            "wagtail.wagtailimages.edit_handlers",
+            "wagtail.wagtailredirects.models",
+            "wagtail.wagtailredirects.views",
+            "wagtail.wagtailsnippets.edit_handlers",
+            "wagtail.wagtailsnippets.views.snippets"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.wagtailcore",
+            "wagtail.wagtailcore.fields",
+            "wagtail.wagtailcore.models",
+            "wagtail.wagtailcore.util"
+        ],
+        "name": "wagtail.wagtailadmin.edit_handlers",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailadmin/edit_handlers.py"
+    },
+    "wagtail.wagtailadmin.forms": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.wagtailadmin.urls",
+            "wagtail.wagtailadmin.views.chooser",
+            "wagtail.wagtailadmin.views.pages",
+            "wagtail.wagtaildocs.views.chooser",
+            "wagtail.wagtaildocs.views.documents",
+            "wagtail.wagtailimages.views.chooser",
+            "wagtail.wagtailimages.views.images",
+            "wagtail.wagtailredirects.views",
+            "wagtail.wagtailsearch.views.editorspicks",
+            "wagtail.wagtailsearch.views.queries",
+            "wagtail.wagtailusers.views.users"
+        ],
+        "name": "wagtail.wagtailadmin.forms",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailadmin/forms.py"
+    },
+    "wagtail.wagtailadmin.hooks": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.wagtailadmin.templatetags.wagtailadmin_nav",
+            "wagtail.wagtailadmin.views.home",
+            "wagtail.wagtailadmin.views.pages"
+        ],
+        "name": "wagtail.wagtailadmin.hooks",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailadmin/hooks.py"
+    },
+    "wagtail.wagtailadmin.menu": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.wagtailadmin.templatetags.wagtailadmin_nav"
+        ],
+        "name": "wagtail.wagtailadmin.menu",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailadmin/menu.py"
+    },
+    "wagtail.wagtailadmin.modal_workflow": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.wagtailadmin.views.chooser",
+            "wagtail.wagtaildocs.views.chooser",
+            "wagtail.wagtailembeds.views.chooser",
+            "wagtail.wagtailimages.views.chooser",
+            "wagtail.wagtailsearch.views.queries",
+            "wagtail.wagtailsnippets.views.chooser"
+        ],
+        "name": "wagtail.wagtailadmin.modal_workflow",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailadmin/modal_workflow.py"
+    },
+    "wagtail.wagtailadmin.models": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "wagtail.wagtailadmin.models",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailadmin/models.py"
+    },
+    "wagtail.wagtailadmin.taggable": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.wagtaildocs.models",
+            "wagtail.wagtailimages.models"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.wagtailsearch"
+        ],
+        "name": "wagtail.wagtailadmin.taggable",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailadmin/taggable.py"
+    },
+    "wagtail.wagtailadmin.tasks": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.wagtailadmin.views.pages"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.wagtailcore",
+            "wagtail.wagtailcore.models"
+        ],
+        "name": "wagtail.wagtailadmin.tasks",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailadmin/tasks.py"
+    },
+    "wagtail.wagtailadmin.templatetags": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "wagtail.wagtailadmin.templatetags",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailadmin/templatetags/__init__.py"
+    },
+    "wagtail.wagtailadmin.templatetags.ellipsistrim": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "wagtail.wagtailadmin.templatetags.ellipsistrim",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailadmin/templatetags/ellipsistrim.py"
+    },
+    "wagtail.wagtailadmin.templatetags.fieldtype": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.wagtailcore",
+            "wagtail.wagtailcore.util"
+        ],
+        "name": "wagtail.wagtailadmin.templatetags.fieldtype",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailadmin/templatetags/fieldtype.py"
+    },
+    "wagtail.wagtailadmin.templatetags.gravatar": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "wagtail.wagtailadmin.templatetags.gravatar",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailadmin/templatetags/gravatar.py"
+    },
+    "wagtail.wagtailadmin.templatetags.localize": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "wagtail.wagtailadmin.templatetags.localize",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailadmin/templatetags/localize.py"
+    },
+    "wagtail.wagtailadmin.templatetags.meta_description": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "wagtail.wagtailadmin.templatetags.meta_description",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailadmin/templatetags/meta_description.py"
+    },
+    "wagtail.wagtailadmin.templatetags.page_permissions": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.wagtailcore",
+            "wagtail.wagtailcore.models"
+        ],
+        "name": "wagtail.wagtailadmin.templatetags.page_permissions",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailadmin/templatetags/page_permissions.py"
+    },
+    "wagtail.wagtailadmin.templatetags.wagtailadmin_nav": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.wagtailadmin",
+            "wagtail.wagtailadmin.hooks",
+            "wagtail.wagtailadmin.menu",
+            "wagtail.wagtailcore",
+            "wagtail.wagtailcore.models",
+            "wagtail.wagtailsnippets",
+            "wagtail.wagtailsnippets.permissions"
+        ],
+        "name": "wagtail.wagtailadmin.templatetags.wagtailadmin_nav",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailadmin/templatetags/wagtailadmin_nav.py"
+    },
+    "wagtail.wagtailadmin.templatetags.wagtailuserbar": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "wagtail.wagtailadmin.templatetags.wagtailuserbar",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailadmin/templatetags/wagtailuserbar.py"
+    },
+    "wagtail.wagtailadmin.tests": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.tests",
+            "wagtail.tests.models",
+            "wagtail.tests.utils",
+            "wagtail.wagtailcore",
+            "wagtail.wagtailcore.models"
+        ],
+        "name": "wagtail.wagtailadmin.tests",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailadmin/tests.py"
+    },
+    "wagtail.wagtailadmin.urls": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.tests.urls"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.wagtailadmin",
+            "wagtail.wagtailadmin.forms"
+        ],
+        "name": "wagtail.wagtailadmin.urls",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailadmin/urls.py"
+    },
+    "wagtail.wagtailadmin.views": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "wagtail.wagtailadmin.views",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailadmin/views/__init__.py"
+    },
+    "wagtail.wagtailadmin.views.account": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "wagtail.wagtailadmin.views.account",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailadmin/views/account.py"
+    },
+    "wagtail.wagtailadmin.views.chooser": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.wagtailadmin",
+            "wagtail.wagtailadmin.forms",
+            "wagtail.wagtailadmin.modal_workflow",
+            "wagtail.wagtailcore",
+            "wagtail.wagtailcore.models"
+        ],
+        "name": "wagtail.wagtailadmin.views.chooser",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailadmin/views/chooser.py"
+    },
+    "wagtail.wagtailadmin.views.home": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.wagtailadmin",
+            "wagtail.wagtailadmin.hooks",
+            "wagtail.wagtailcore",
+            "wagtail.wagtailcore.models",
+            "wagtail.wagtaildocs",
+            "wagtail.wagtaildocs.models",
+            "wagtail.wagtailimages",
+            "wagtail.wagtailimages.models"
+        ],
+        "name": "wagtail.wagtailadmin.views.home",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailadmin/views/home.py"
+    },
+    "wagtail.wagtailadmin.views.pages": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.wagtailadmin",
+            "wagtail.wagtailadmin.edit_handlers",
+            "wagtail.wagtailadmin.forms",
+            "wagtail.wagtailadmin.hooks",
+            "wagtail.wagtailadmin.tasks",
+            "wagtail.wagtailcore",
+            "wagtail.wagtailcore.models"
+        ],
+        "name": "wagtail.wagtailadmin.views.pages",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailadmin/views/pages.py"
+    },
+    "wagtail.wagtailadmin.views.tags": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "wagtail.wagtailadmin.views.tags",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailadmin/views/tags.py"
+    },
+    "wagtail.wagtailcore": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.tests.models",
+            "wagtail.tests.urls",
+            "wagtail.wagtailadmin.edit_handlers",
+            "wagtail.wagtailadmin.tasks",
+            "wagtail.wagtailadmin.templatetags.fieldtype",
+            "wagtail.wagtailadmin.templatetags.page_permissions",
+            "wagtail.wagtailadmin.templatetags.wagtailadmin_nav",
+            "wagtail.wagtailadmin.tests",
+            "wagtail.wagtailadmin.views.chooser",
+            "wagtail.wagtailadmin.views.home",
+            "wagtail.wagtailadmin.views.pages",
+            "wagtail.wagtailcore.admin",
+            "wagtail.wagtailcore.fields",
+            "wagtail.wagtailcore.management.commands.set_url_paths",
+            "wagtail.wagtailcore.middleware",
+            "wagtail.wagtailcore.models",
+            "wagtail.wagtailcore.rich_text",
+            "wagtail.wagtailcore.templatetags.rich_text",
+            "wagtail.wagtailredirects.tests",
+            "wagtail.wagtailsearch.views.frontend"
+        ],
+        "name": "wagtail.wagtailcore",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailcore/__init__.py"
+    },
+    "wagtail.wagtailcore.admin": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.wagtailcore",
+            "wagtail.wagtailcore.models"
+        ],
+        "name": "wagtail.wagtailcore.admin",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailcore/admin.py"
+    },
+    "wagtail.wagtailcore.fields": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.tests.models",
+            "wagtail.wagtailadmin.edit_handlers"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.wagtailadmin",
+            "wagtail.wagtailadmin.edit_handlers",
+            "wagtail.wagtailcore",
+            "wagtail.wagtailcore.rich_text"
+        ],
+        "name": "wagtail.wagtailcore.fields",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailcore/fields.py"
+    },
+    "wagtail.wagtailcore.management": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "wagtail.wagtailcore.management",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailcore/management/__init__.py"
+    },
+    "wagtail.wagtailcore.management.commands": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "wagtail.wagtailcore.management.commands",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailcore/management/commands/__init__.py"
+    },
+    "wagtail.wagtailcore.management.commands.set_url_paths": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.wagtailcore",
+            "wagtail.wagtailcore.models"
+        ],
+        "name": "wagtail.wagtailcore.management.commands.set_url_paths",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailcore/management/commands/set_url_paths.py"
+    },
+    "wagtail.wagtailcore.middleware": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.wagtailcore",
+            "wagtail.wagtailcore.models"
+        ],
+        "name": "wagtail.wagtailcore.middleware",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailcore/middleware.py"
+    },
+    "wagtail.wagtailcore.models": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.tests.models",
+            "wagtail.wagtailadmin.edit_handlers",
+            "wagtail.wagtailadmin.tasks",
+            "wagtail.wagtailadmin.templatetags.page_permissions",
+            "wagtail.wagtailadmin.templatetags.wagtailadmin_nav",
+            "wagtail.wagtailadmin.tests",
+            "wagtail.wagtailadmin.views.chooser",
+            "wagtail.wagtailadmin.views.home",
+            "wagtail.wagtailadmin.views.pages",
+            "wagtail.wagtailcore.admin",
+            "wagtail.wagtailcore.management.commands.set_url_paths",
+            "wagtail.wagtailcore.middleware",
+            "wagtail.wagtailcore.rich_text",
+            "wagtail.wagtailredirects.tests",
+            "wagtail.wagtailsearch.views.frontend"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.wagtailcore",
+            "wagtail.wagtailcore.util",
+            "wagtail.wagtailsearch"
+        ],
+        "name": "wagtail.wagtailcore.models",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailcore/models.py"
+    },
+    "wagtail.wagtailcore.rich_text": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.wagtailcore.fields",
+            "wagtail.wagtailcore.templatetags.rich_text"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.wagtailcore",
+            "wagtail.wagtailcore.models",
+            "wagtail.wagtailcore.whitelist",
+            "wagtail.wagtaildocs",
+            "wagtail.wagtaildocs.models",
+            "wagtail.wagtailembeds",
+            "wagtail.wagtailembeds.format",
+            "wagtail.wagtailimages",
+            "wagtail.wagtailimages.formats",
+            "wagtail.wagtailimages.models"
+        ],
+        "name": "wagtail.wagtailcore.rich_text",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailcore/rich_text.py"
+    },
+    "wagtail.wagtailcore.templatetags": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "wagtail.wagtailcore.templatetags",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailcore/templatetags/__init__.py"
+    },
+    "wagtail.wagtailcore.templatetags.pageurl": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "wagtail.wagtailcore.templatetags.pageurl",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailcore/templatetags/pageurl.py"
+    },
+    "wagtail.wagtailcore.templatetags.rich_text": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.wagtailcore",
+            "wagtail.wagtailcore.rich_text"
+        ],
+        "name": "wagtail.wagtailcore.templatetags.rich_text",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailcore/templatetags/rich_text.py"
+    },
+    "wagtail.wagtailcore.tests": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "wagtail.wagtailcore.tests",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailcore/tests.py"
+    },
+    "wagtail.wagtailcore.urls": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.tests.urls"
+        ],
+        "name": "wagtail.wagtailcore.urls",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailcore/urls.py"
+    },
+    "wagtail.wagtailcore.util": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.wagtailadmin.edit_handlers",
+            "wagtail.wagtailadmin.templatetags.fieldtype",
+            "wagtail.wagtailcore.models"
+        ],
+        "name": "wagtail.wagtailcore.util",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailcore/util.py"
+    },
+    "wagtail.wagtailcore.views": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "wagtail.wagtailcore.views",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailcore/views.py"
+    },
+    "wagtail.wagtailcore.whitelist": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.wagtailcore.rich_text"
+        ],
+        "name": "wagtail.wagtailcore.whitelist",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailcore/whitelist.py"
+    },
+    "wagtail.wagtaildocs": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.tests.models",
+            "wagtail.tests.urls",
+            "wagtail.wagtailadmin.views.home",
+            "wagtail.wagtailcore.rich_text",
+            "wagtail.wagtaildocs.admin",
+            "wagtail.wagtaildocs.forms",
+            "wagtail.wagtaildocs.tests",
+            "wagtail.wagtaildocs.views.chooser",
+            "wagtail.wagtaildocs.views.documents",
+            "wagtail.wagtaildocs.views.serve"
+        ],
+        "name": "wagtail.wagtaildocs",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtaildocs/__init__.py"
+    },
+    "wagtail.wagtaildocs.admin": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.wagtaildocs",
+            "wagtail.wagtaildocs.models"
+        ],
+        "name": "wagtail.wagtaildocs.admin",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtaildocs/admin.py"
+    },
+    "wagtail.wagtaildocs.admin_urls": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.tests.urls"
+        ],
+        "name": "wagtail.wagtaildocs.admin_urls",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtaildocs/admin_urls.py"
+    },
+    "wagtail.wagtaildocs.edit_handlers": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.tests.models"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.wagtailadmin",
+            "wagtail.wagtailadmin.edit_handlers"
+        ],
+        "name": "wagtail.wagtaildocs.edit_handlers",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtaildocs/edit_handlers.py"
+    },
+    "wagtail.wagtaildocs.forms": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.wagtaildocs.views.chooser",
+            "wagtail.wagtaildocs.views.documents"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.wagtaildocs",
+            "wagtail.wagtaildocs.models"
+        ],
+        "name": "wagtail.wagtaildocs.forms",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtaildocs/forms.py"
+    },
+    "wagtail.wagtaildocs.models": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.wagtailadmin.views.home",
+            "wagtail.wagtailcore.rich_text",
+            "wagtail.wagtaildocs.admin",
+            "wagtail.wagtaildocs.forms",
+            "wagtail.wagtaildocs.tests",
+            "wagtail.wagtaildocs.views.chooser",
+            "wagtail.wagtaildocs.views.documents",
+            "wagtail.wagtaildocs.views.serve"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.wagtailadmin",
+            "wagtail.wagtailadmin.taggable"
+        ],
+        "name": "wagtail.wagtaildocs.models",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtaildocs/models.py"
+    },
+    "wagtail.wagtaildocs.tests": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.tests",
+            "wagtail.tests.utils",
+            "wagtail.wagtaildocs",
+            "wagtail.wagtaildocs.models"
+        ],
+        "name": "wagtail.wagtaildocs.tests",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtaildocs/tests.py"
+    },
+    "wagtail.wagtaildocs.urls": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.tests.urls"
+        ],
+        "name": "wagtail.wagtaildocs.urls",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtaildocs/urls.py"
+    },
+    "wagtail.wagtaildocs.views": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "wagtail.wagtaildocs.views",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtaildocs/views/__init__.py"
+    },
+    "wagtail.wagtaildocs.views.chooser": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.wagtailadmin",
+            "wagtail.wagtailadmin.forms",
+            "wagtail.wagtailadmin.modal_workflow",
+            "wagtail.wagtaildocs",
+            "wagtail.wagtaildocs.forms",
+            "wagtail.wagtaildocs.models"
+        ],
+        "name": "wagtail.wagtaildocs.views.chooser",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtaildocs/views/chooser.py"
+    },
+    "wagtail.wagtaildocs.views.documents": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.wagtailadmin",
+            "wagtail.wagtailadmin.forms",
+            "wagtail.wagtaildocs",
+            "wagtail.wagtaildocs.forms",
+            "wagtail.wagtaildocs.models"
+        ],
+        "name": "wagtail.wagtaildocs.views.documents",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtaildocs/views/documents.py"
+    },
+    "wagtail.wagtaildocs.views.serve": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.wagtaildocs",
+            "wagtail.wagtaildocs.models"
+        ],
+        "name": "wagtail.wagtaildocs.views.serve",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtaildocs/views/serve.py"
+    },
+    "wagtail.wagtailembeds": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.tests.urls",
+            "wagtail.wagtailcore.rich_text",
+            "wagtail.wagtailembeds.embeds",
+            "wagtail.wagtailembeds.format",
+            "wagtail.wagtailembeds.templatetags.embed_filters",
+            "wagtail.wagtailembeds.tests",
+            "wagtail.wagtailembeds.views.chooser"
+        ],
+        "imports": [
+            "wagtail.wagtailembeds.embeds",
+            "wagtail.wagtailembeds.models"
+        ],
+        "name": "wagtail.wagtailembeds",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailembeds/__init__.py"
+    },
+    "wagtail.wagtailembeds.embeds": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.wagtailembeds",
+            "wagtail.wagtailembeds.views.chooser"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.wagtailembeds",
+            "wagtail.wagtailembeds.models",
+            "wagtail.wagtailembeds.oembed_providers"
+        ],
+        "name": "wagtail.wagtailembeds.embeds",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailembeds/embeds.py"
+    },
+    "wagtail.wagtailembeds.format": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.wagtailcore.rich_text",
+            "wagtail.wagtailembeds.views.chooser"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.wagtailembeds"
+        ],
+        "name": "wagtail.wagtailembeds.format",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailembeds/format.py"
+    },
+    "wagtail.wagtailembeds.forms": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.wagtailembeds.views.chooser"
+        ],
+        "name": "wagtail.wagtailembeds.forms",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailembeds/forms.py"
+    },
+    "wagtail.wagtailembeds.models": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.wagtailembeds",
+            "wagtail.wagtailembeds.embeds"
+        ],
+        "name": "wagtail.wagtailembeds.models",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailembeds/models.py"
+    },
+    "wagtail.wagtailembeds.oembed_providers": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.wagtailembeds.embeds"
+        ],
+        "name": "wagtail.wagtailembeds.oembed_providers",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailembeds/oembed_providers.py"
+    },
+    "wagtail.wagtailembeds.templatetags": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "wagtail.wagtailembeds.templatetags",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailembeds/templatetags/__init__.py"
+    },
+    "wagtail.wagtailembeds.templatetags.embed_filters": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.wagtailembeds"
+        ],
+        "name": "wagtail.wagtailembeds.templatetags.embed_filters",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailembeds/templatetags/embed_filters.py"
+    },
+    "wagtail.wagtailembeds.tests": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.tests",
+            "wagtail.tests.utils",
+            "wagtail.wagtailembeds"
+        ],
+        "name": "wagtail.wagtailembeds.tests",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailembeds/tests.py"
+    },
+    "wagtail.wagtailembeds.urls": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.tests.urls"
+        ],
+        "name": "wagtail.wagtailembeds.urls",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailembeds/urls.py"
+    },
+    "wagtail.wagtailembeds.views": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "wagtail.wagtailembeds.views",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailembeds/views/__init__.py"
+    },
+    "wagtail.wagtailembeds.views.chooser": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.wagtailadmin",
+            "wagtail.wagtailadmin.modal_workflow",
+            "wagtail.wagtailembeds",
+            "wagtail.wagtailembeds.embeds",
+            "wagtail.wagtailembeds.format",
+            "wagtail.wagtailembeds.forms"
+        ],
+        "name": "wagtail.wagtailembeds.views.chooser",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailembeds/views/chooser.py"
+    },
+    "wagtail.wagtailimages": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.tests.models",
+            "wagtail.tests.urls",
+            "wagtail.wagtailadmin.views.home",
+            "wagtail.wagtailcore.rich_text",
+            "wagtail.wagtailimages.admin",
+            "wagtail.wagtailimages.forms",
+            "wagtail.wagtailimages.models",
+            "wagtail.wagtailimages.templatetags.image_tags",
+            "wagtail.wagtailimages.tests",
+            "wagtail.wagtailimages.views.chooser",
+            "wagtail.wagtailimages.views.images"
+        ],
+        "name": "wagtail.wagtailimages",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailimages/__init__.py"
+    },
+    "wagtail.wagtailimages.admin": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.wagtailimages",
+            "wagtail.wagtailimages.models"
+        ],
+        "name": "wagtail.wagtailimages.admin",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailimages/admin.py"
+    },
+    "wagtail.wagtailimages.edit_handlers": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.tests.models"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.wagtailadmin",
+            "wagtail.wagtailadmin.edit_handlers"
+        ],
+        "name": "wagtail.wagtailimages.edit_handlers",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailimages/edit_handlers.py"
+    },
+    "wagtail.wagtailimages.formats": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.wagtailcore.rich_text",
+            "wagtail.wagtailimages.forms",
+            "wagtail.wagtailimages.views.chooser"
+        ],
+        "name": "wagtail.wagtailimages.formats",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailimages/formats.py"
+    },
+    "wagtail.wagtailimages.forms": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.wagtailimages.views.chooser",
+            "wagtail.wagtailimages.views.images"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.wagtailimages",
+            "wagtail.wagtailimages.formats",
+            "wagtail.wagtailimages.models"
+        ],
+        "name": "wagtail.wagtailimages.forms",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailimages/forms.py"
+    },
+    "wagtail.wagtailimages.image_ops": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.wagtailimages.models"
+        ],
+        "name": "wagtail.wagtailimages.image_ops",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailimages/image_ops.py"
+    },
+    "wagtail.wagtailimages.models": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.wagtailadmin.views.home",
+            "wagtail.wagtailcore.rich_text",
+            "wagtail.wagtailimages.admin",
+            "wagtail.wagtailimages.forms",
+            "wagtail.wagtailimages.templatetags.image_tags",
+            "wagtail.wagtailimages.tests",
+            "wagtail.wagtailimages.views.chooser",
+            "wagtail.wagtailimages.views.images"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.wagtailadmin",
+            "wagtail.wagtailadmin.taggable",
+            "wagtail.wagtailimages",
+            "wagtail.wagtailimages.image_ops"
+        ],
+        "name": "wagtail.wagtailimages.models",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailimages/models.py"
+    },
+    "wagtail.wagtailimages.templatetags": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.wagtailimages.tests"
+        ],
+        "name": "wagtail.wagtailimages.templatetags",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailimages/templatetags/__init__.py"
+    },
+    "wagtail.wagtailimages.templatetags.image_tags": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.wagtailimages.tests"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.wagtailimages",
+            "wagtail.wagtailimages.models"
+        ],
+        "name": "wagtail.wagtailimages.templatetags.image_tags",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailimages/templatetags/image_tags.py"
+    },
+    "wagtail.wagtailimages.tests": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.tests",
+            "wagtail.tests.utils",
+            "wagtail.wagtailimages",
+            "wagtail.wagtailimages.models",
+            "wagtail.wagtailimages.templatetags",
+            "wagtail.wagtailimages.templatetags.image_tags"
+        ],
+        "name": "wagtail.wagtailimages.tests",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailimages/tests.py"
+    },
+    "wagtail.wagtailimages.urls": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.tests.urls"
+        ],
+        "name": "wagtail.wagtailimages.urls",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailimages/urls.py"
+    },
+    "wagtail.wagtailimages.views": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "wagtail.wagtailimages.views",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailimages/views/__init__.py"
+    },
+    "wagtail.wagtailimages.views.chooser": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.wagtailadmin",
+            "wagtail.wagtailadmin.forms",
+            "wagtail.wagtailadmin.modal_workflow",
+            "wagtail.wagtailimages",
+            "wagtail.wagtailimages.formats",
+            "wagtail.wagtailimages.forms",
+            "wagtail.wagtailimages.models"
+        ],
+        "name": "wagtail.wagtailimages.views.chooser",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailimages/views/chooser.py"
+    },
+    "wagtail.wagtailimages.views.images": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.wagtailadmin",
+            "wagtail.wagtailadmin.forms",
+            "wagtail.wagtailimages",
+            "wagtail.wagtailimages.forms",
+            "wagtail.wagtailimages.models"
+        ],
+        "name": "wagtail.wagtailimages.views.images",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailimages/views/images.py"
+    },
+    "wagtail.wagtailredirects": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.tests.urls",
+            "wagtail.wagtailredirects.tests"
+        ],
+        "name": "wagtail.wagtailredirects",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailredirects/__init__.py"
+    },
+    "wagtail.wagtailredirects.forms": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "wagtail.wagtailredirects.forms",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailredirects/forms.py"
+    },
+    "wagtail.wagtailredirects.middleware": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "wagtail.wagtailredirects.middleware",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailredirects/middleware.py"
+    },
+    "wagtail.wagtailredirects.models": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.wagtailredirects.tests"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.wagtailadmin",
+            "wagtail.wagtailadmin.edit_handlers"
+        ],
+        "name": "wagtail.wagtailredirects.models",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailredirects/models.py"
+    },
+    "wagtail.wagtailredirects.tests": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.wagtailcore",
+            "wagtail.wagtailcore.models",
+            "wagtail.wagtailredirects",
+            "wagtail.wagtailredirects.models"
+        ],
+        "name": "wagtail.wagtailredirects.tests",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailredirects/tests.py"
+    },
+    "wagtail.wagtailredirects.urls": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.tests.urls"
+        ],
+        "name": "wagtail.wagtailredirects.urls",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailredirects/urls.py"
+    },
+    "wagtail.wagtailredirects.views": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.wagtailadmin",
+            "wagtail.wagtailadmin.edit_handlers",
+            "wagtail.wagtailadmin.forms"
+        ],
+        "name": "wagtail.wagtailredirects.views",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailredirects/views.py"
+    },
+    "wagtail.wagtailsearch": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.tests.urls",
+            "wagtail.wagtailadmin.taggable",
+            "wagtail.wagtailcore.models",
+            "wagtail.wagtailsearch.backends.base",
+            "wagtail.wagtailsearch.backends.db",
+            "wagtail.wagtailsearch.backends.elasticsearch",
+            "wagtail.wagtailsearch.management.commands.search_garbage_collect",
+            "wagtail.wagtailsearch.management.commands.update_index",
+            "wagtail.wagtailsearch.signal_handlers",
+            "wagtail.wagtailsearch.tests.test_backends",
+            "wagtail.wagtailsearch.tests.test_editorspicks",
+            "wagtail.wagtailsearch.tests.test_queries",
+            "wagtail.wagtailsearch.views.editorspicks",
+            "wagtail.wagtailsearch.views.frontend",
+            "wagtail.wagtailsearch.views.queries"
+        ],
+        "name": "wagtail.wagtailsearch",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailsearch/__init__.py"
+    },
+    "wagtail.wagtailsearch.backends": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.wagtailsearch.backends.db",
+            "wagtail.wagtailsearch.backends.elasticsearch",
+            "wagtail.wagtailsearch.signal_handlers",
+            "wagtail.wagtailsearch.tests.test_backends"
+        ],
+        "name": "wagtail.wagtailsearch.backends",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailsearch/backends/__init__.py"
+    },
+    "wagtail.wagtailsearch.backends.base": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.wagtailsearch.backends.db",
+            "wagtail.wagtailsearch.backends.elasticsearch"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.wagtailsearch",
+            "wagtail.wagtailsearch.indexed"
+        ],
+        "name": "wagtail.wagtailsearch.backends.base",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailsearch/backends/base.py"
+    },
+    "wagtail.wagtailsearch.backends.db": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.wagtailsearch.tests.test_backends"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.wagtailsearch",
+            "wagtail.wagtailsearch.backends",
+            "wagtail.wagtailsearch.backends.base",
+            "wagtail.wagtailsearch.indexed"
+        ],
+        "name": "wagtail.wagtailsearch.backends.db",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailsearch/backends/db.py"
+    },
+    "wagtail.wagtailsearch.backends.elasticsearch": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.wagtailsearch.tests.test_backends"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.wagtailsearch",
+            "wagtail.wagtailsearch.backends",
+            "wagtail.wagtailsearch.backends.base",
+            "wagtail.wagtailsearch.indexed"
+        ],
+        "name": "wagtail.wagtailsearch.backends.elasticsearch",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailsearch/backends/elasticsearch.py"
+    },
+    "wagtail.wagtailsearch.forms": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.wagtailsearch.views.editorspicks"
+        ],
+        "name": "wagtail.wagtailsearch.forms",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailsearch/forms.py"
+    },
+    "wagtail.wagtailsearch.indexed": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.wagtailsearch.backends.base",
+            "wagtail.wagtailsearch.backends.db",
+            "wagtail.wagtailsearch.backends.elasticsearch",
+            "wagtail.wagtailsearch.signal_handlers"
+        ],
+        "name": "wagtail.wagtailsearch.indexed",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailsearch/indexed.py"
+    },
+    "wagtail.wagtailsearch.management": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "wagtail.wagtailsearch.management",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailsearch/management/__init__.py"
+    },
+    "wagtail.wagtailsearch.management.commands": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "wagtail.wagtailsearch.management.commands",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailsearch/management/commands/__init__.py"
+    },
+    "wagtail.wagtailsearch.management.commands.search_garbage_collect": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.wagtailsearch",
+            "wagtail.wagtailsearch.models"
+        ],
+        "name": "wagtail.wagtailsearch.management.commands.search_garbage_collect",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailsearch/management/commands/search_garbage_collect.py"
+    },
+    "wagtail.wagtailsearch.management.commands.update_index": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.wagtailsearch"
+        ],
+        "name": "wagtail.wagtailsearch.management.commands.update_index",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailsearch/management/commands/update_index.py"
+    },
+    "wagtail.wagtailsearch.models": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.wagtailsearch.management.commands.search_garbage_collect",
+            "wagtail.wagtailsearch.tests.test_backends",
+            "wagtail.wagtailsearch.tests.test_editorspicks",
+            "wagtail.wagtailsearch.tests.test_queries",
+            "wagtail.wagtailsearch.views.editorspicks",
+            "wagtail.wagtailsearch.views.frontend",
+            "wagtail.wagtailsearch.views.queries"
+        ],
+        "name": "wagtail.wagtailsearch.models",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailsearch/models.py"
+    },
+    "wagtail.wagtailsearch.signal_handlers": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.wagtailsearch",
+            "wagtail.wagtailsearch.backends",
+            "wagtail.wagtailsearch.indexed"
+        ],
+        "name": "wagtail.wagtailsearch.signal_handlers",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailsearch/signal_handlers.py"
+    },
+    "wagtail.wagtailsearch.tests": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "wagtail.wagtailsearch.tests",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailsearch/tests/__init__.py"
+    },
+    "wagtail.wagtailsearch.tests.test_backends": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.wagtailsearch",
+            "wagtail.wagtailsearch.backends",
+            "wagtail.wagtailsearch.backends.db",
+            "wagtail.wagtailsearch.backends.elasticsearch",
+            "wagtail.wagtailsearch.models"
+        ],
+        "name": "wagtail.wagtailsearch.tests.test_backends",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailsearch/tests/test_backends.py"
+    },
+    "wagtail.wagtailsearch.tests.test_editorspicks": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.tests",
+            "wagtail.tests.utils",
+            "wagtail.wagtailsearch",
+            "wagtail.wagtailsearch.models"
+        ],
+        "name": "wagtail.wagtailsearch.tests.test_editorspicks",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailsearch/tests/test_editorspicks.py"
+    },
+    "wagtail.wagtailsearch.tests.test_frontend": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "wagtail.wagtailsearch.tests.test_frontend",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailsearch/tests/test_frontend.py"
+    },
+    "wagtail.wagtailsearch.tests.test_queries": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.tests",
+            "wagtail.tests.utils",
+            "wagtail.wagtailsearch",
+            "wagtail.wagtailsearch.models"
+        ],
+        "name": "wagtail.wagtailsearch.tests.test_queries",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailsearch/tests/test_queries.py"
+    },
+    "wagtail.wagtailsearch.urls": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.tests.urls"
+        ],
+        "name": "wagtail.wagtailsearch.urls",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailsearch/urls/__init__.py"
+    },
+    "wagtail.wagtailsearch.urls.admin": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.tests.urls"
+        ],
+        "name": "wagtail.wagtailsearch.urls.admin",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailsearch/urls/admin.py"
+    },
+    "wagtail.wagtailsearch.urls.frontend": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.tests.urls"
+        ],
+        "name": "wagtail.wagtailsearch.urls.frontend",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailsearch/urls/frontend.py"
+    },
+    "wagtail.wagtailsearch.views": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "wagtail.wagtailsearch.views",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailsearch/views/__init__.py"
+    },
+    "wagtail.wagtailsearch.views.editorspicks": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.wagtailadmin",
+            "wagtail.wagtailadmin.forms",
+            "wagtail.wagtailsearch",
+            "wagtail.wagtailsearch.forms",
+            "wagtail.wagtailsearch.models"
+        ],
+        "name": "wagtail.wagtailsearch.views.editorspicks",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailsearch/views/editorspicks.py"
+    },
+    "wagtail.wagtailsearch.views.frontend": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.wagtailcore",
+            "wagtail.wagtailcore.models",
+            "wagtail.wagtailsearch",
+            "wagtail.wagtailsearch.models"
+        ],
+        "name": "wagtail.wagtailsearch.views.frontend",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailsearch/views/frontend.py"
+    },
+    "wagtail.wagtailsearch.views.queries": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.wagtailadmin",
+            "wagtail.wagtailadmin.forms",
+            "wagtail.wagtailadmin.modal_workflow",
+            "wagtail.wagtailsearch",
+            "wagtail.wagtailsearch.models"
+        ],
+        "name": "wagtail.wagtailsearch.views.queries",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailsearch/views/queries.py"
+    },
+    "wagtail.wagtailsnippets": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.tests.urls",
+            "wagtail.wagtailadmin.templatetags.wagtailadmin_nav",
+            "wagtail.wagtailsnippets.permissions",
+            "wagtail.wagtailsnippets.views.chooser",
+            "wagtail.wagtailsnippets.views.snippets"
+        ],
+        "name": "wagtail.wagtailsnippets",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailsnippets/__init__.py"
+    },
+    "wagtail.wagtailsnippets.edit_handlers": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.wagtailadmin",
+            "wagtail.wagtailadmin.edit_handlers"
+        ],
+        "name": "wagtail.wagtailsnippets.edit_handlers",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailsnippets/edit_handlers.py"
+    },
+    "wagtail.wagtailsnippets.models": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.wagtailsnippets.permissions",
+            "wagtail.wagtailsnippets.views.snippets"
+        ],
+        "name": "wagtail.wagtailsnippets.models",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailsnippets/models.py"
+    },
+    "wagtail.wagtailsnippets.permissions": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.wagtailadmin.templatetags.wagtailadmin_nav",
+            "wagtail.wagtailsnippets.views.snippets"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.wagtailsnippets",
+            "wagtail.wagtailsnippets.models"
+        ],
+        "name": "wagtail.wagtailsnippets.permissions",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailsnippets/permissions.py"
+    },
+    "wagtail.wagtailsnippets.tests": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "wagtail.wagtailsnippets.tests",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailsnippets/tests.py"
+    },
+    "wagtail.wagtailsnippets.urls": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.tests.urls"
+        ],
+        "name": "wagtail.wagtailsnippets.urls",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailsnippets/urls.py"
+    },
+    "wagtail.wagtailsnippets.views": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.wagtailsnippets.views.chooser"
+        ],
+        "name": "wagtail.wagtailsnippets.views",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailsnippets/views/__init__.py"
+    },
+    "wagtail.wagtailsnippets.views.chooser": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.wagtailadmin",
+            "wagtail.wagtailadmin.modal_workflow",
+            "wagtail.wagtailsnippets",
+            "wagtail.wagtailsnippets.views",
+            "wagtail.wagtailsnippets.views.snippets"
+        ],
+        "name": "wagtail.wagtailsnippets.views.chooser",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailsnippets/views/chooser.py"
+    },
+    "wagtail.wagtailsnippets.views.snippets": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.wagtailsnippets.views.chooser"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.wagtailadmin",
+            "wagtail.wagtailadmin.edit_handlers",
+            "wagtail.wagtailsnippets",
+            "wagtail.wagtailsnippets.models",
+            "wagtail.wagtailsnippets.permissions"
+        ],
+        "name": "wagtail.wagtailsnippets.views.snippets",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailsnippets/views/snippets.py"
+    },
+    "wagtail.wagtailusers": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.tests.urls",
+            "wagtail.wagtailusers.views.users"
+        ],
+        "name": "wagtail.wagtailusers",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailusers/__init__.py"
+    },
+    "wagtail.wagtailusers.forms": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.wagtailusers.views.users"
+        ],
+        "name": "wagtail.wagtailusers.forms",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailusers/forms.py"
+    },
+    "wagtail.wagtailusers.tests": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "wagtail.wagtailusers.tests",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailusers/tests.py"
+    },
+    "wagtail.wagtailusers.urls": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "wagtail.tests.urls"
+        ],
+        "name": "wagtail.wagtailusers.urls",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailusers/urls.py"
+    },
+    "wagtail.wagtailusers.views": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "wagtail.wagtailusers.views",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailusers/views/__init__.py"
+    },
+    "wagtail.wagtailusers.views.users": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "wagtail",
+            "wagtail.wagtailadmin",
+            "wagtail.wagtailadmin.forms",
+            "wagtail.wagtailusers",
+            "wagtail.wagtailusers.forms"
+        ],
+        "name": "wagtail.wagtailusers.views.users",
+        "path": "/home/philip/projects/wagtail/wagtail/wagtailusers/views/users.py"
+    }
+}
