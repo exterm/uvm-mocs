@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <graph edgedefault="directed">
+    <node id="nltk" />
+    <node id="nltk.classifier" />
+    <node id="nltk.clusterer" />
+    <node id="nltk.corpus" />
+    <node id="nltk.draw" />
+    <node id="nltk.draw.rdparser" />
+    <node id="nltk.draw.srparser" />
+    <node id="nltk.draw.tree" />
+    <node id="nltk.feature" />
+    <node id="nltk.feature.document" />
+    <node id="nltk.feature.word" />
+    <node id="nltk.hmm" />
+    <node id="nltk.parser" />
+    <node id="nltk.stemmer" />
+    <node id="nltk.tagger" />
+    <node id="nltk.test" />
+    <node id="nltk.test.cfg" />
+    <node id="nltk.test.chktype" />
+    <node id="nltk.test.parser" />
+    <node id="nltk.test.probability" />
+    <node id="nltk.test.rechunkparser" />
+    <node id="nltk.test.set" />
+    <node id="nltk.test.token" />
+    <node id="nltk.test.tokenizer" />
+    <node id="nltk.test.tree" />
+    <node id="nltk.test.util" />
+    <node id="nltk.tokenizer" />
+    <node id="nltk.tokenreader" />
+    <node id="nltk.tokenreader.tokenizerbased" />
+    <edge source="nltk.draw.rdparser" target="nltk" />
+    <edge source="nltk.draw.rdparser" target="nltk.draw" />
+    <edge source="nltk.draw.rdparser" target="nltk.draw.tree" />
+    <edge source="nltk.draw.rdparser" target="nltk.parser" />
+    <edge source="nltk.draw.rdparser" target="nltk.tokenizer" />
+    <edge source="nltk.draw.srparser" target="nltk" />
+    <edge source="nltk.draw.srparser" target="nltk.draw" />
+    <edge source="nltk.draw.srparser" target="nltk.draw.tree" />
+    <edge source="nltk.draw.srparser" target="nltk.parser" />
+    <edge source="nltk.draw.srparser" target="nltk.tokenizer" />
+    <edge source="nltk.draw.tree" target="nltk" />
+    <edge source="nltk.draw.tree" target="nltk.draw" />
+    <edge source="nltk.feature.document" target="nltk" />
+    <edge source="nltk.feature.document" target="nltk.feature" />
+    <edge source="nltk.feature.word" target="nltk" />
+    <edge source="nltk.feature.word" target="nltk.feature" />
+    <edge source="nltk.test.cfg" target="nltk" />
+    <edge source="nltk.test.cfg" target="nltk.test" />
+    <edge source="nltk.test.chktype" target="nltk" />
+    <edge source="nltk.test.chktype" target="nltk.test" />
+    <edge source="nltk.test.parser" target="nltk" />
+    <edge source="nltk.test.parser" target="nltk.parser" />
+    <edge source="nltk.test.parser" target="nltk.test" />
+    <edge source="nltk.test.parser" target="nltk.tokenizer" />
+    <edge source="nltk.test.parser" target="nltk.tokenreader" />
+    <edge source="nltk.test.probability" target="nltk" />
+    <edge source="nltk.test.probability" target="nltk.test" />
+    <edge source="nltk.test.rechunkparser" target="nltk" />
+    <edge source="nltk.test.rechunkparser" target="nltk.test" />
+    <edge source="nltk.test.rechunkparser" target="nltk.tokenreader" />
+    <edge source="nltk.test.set" target="nltk" />
+    <edge source="nltk.test.token" target="nltk" />
+    <edge source="nltk.test.token" target="nltk.test" />
+    <edge source="nltk.test.tokenizer" target="nltk" />
+    <edge source="nltk.test.tokenizer" target="nltk.test" />
+    <edge source="nltk.test.tokenizer" target="nltk.tokenizer" />
+    <edge source="nltk.test.tree" target="nltk" />
+    <edge source="nltk.test.tree" target="nltk.test" />
+    <edge source="nltk.test.tree" target="nltk.tokenizer" />
+    <edge source="nltk.test.tree" target="nltk.tokenreader" />
+    <edge source="nltk.test.util" target="nltk" />
+    <edge source="nltk.test.util" target="nltk.test" />
+    <edge source="nltk.tokenreader.tokenizerbased" target="nltk" />
+    <edge source="nltk.tokenreader.tokenizerbased" target="nltk.tokenizer" />
+    <edge source="nltk.tokenreader.tokenizerbased" target="nltk.tokenreader" />
+  </graph>
+</graphml>

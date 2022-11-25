@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <graph edgedefault="directed">
+    <node id="nltk" />
+    <node id="nltk.classifier" />
+    <node id="nltk.classifier.featureselection" />
+    <node id="nltk.draw" />
+    <node id="nltk.draw.plot" />
+    <node id="nltk.parser" />
+    <node id="nltk.set" />
+    <node id="nltk.test" />
+    <node id="nltk.test.rechunkparser" />
+    <node id="nltk.test.set" />
+    <node id="nltk.test.token" />
+    <node id="nltk.test.tree" />
+    <node id="nltk.tree" />
+    <edge source="nltk.classifier.featureselection" target="nltk" />
+    <edge source="nltk.classifier.featureselection" target="nltk.classifier" />
+    <edge source="nltk.test.set" target="nltk" />
+    <edge source="nltk.test.set" target="nltk.set" />
+    <edge source="nltk.test.tree" target="nltk" />
+    <edge source="nltk.test.tree" target="nltk.tree" />
+    <edge source="nltk.tree" target="nltk" />
+    <edge source="nltk.tree" target="nltk.draw" />
+  </graph>
+</graphml>

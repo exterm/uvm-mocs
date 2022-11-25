@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <graph edgedefault="directed">
+    <node id="nltk" />
+    <node id="nltk.cfg" />
+    <node id="nltk.classifier" />
+    <node id="nltk.classifier.featureselection" />
+    <node id="nltk.draw" />
+    <node id="nltk.draw.plot" />
+    <node id="nltk.draw.rdparser" />
+    <node id="nltk.draw.srparser" />
+    <node id="nltk.draw.tree" />
+    <node id="nltk.parser" />
+    <node id="nltk.speech" />
+    <node id="nltk.speech.html" />
+    <node id="nltk.speech.numbers" />
+    <node id="nltk.speech.rules" />
+    <node id="nltk.speech.token" />
+    <node id="nltk.speech.token_tts" />
+    <node id="nltk.stemmer" />
+    <node id="nltk.stemmer.porter" />
+    <node id="nltk.test" />
+    <node id="nltk.test.cfg" />
+    <node id="nltk.test.imports" />
+    <node id="nltk.test.rechunkparser" />
+    <node id="nltk.test.set" />
+    <node id="nltk.test.token" />
+    <node id="nltk.test.tree" />
+    <node id="nltk.tree" />
+    <edge source="nltk.cfg" target="nltk" />
+    <edge source="nltk.classifier.featureselection" target="nltk" />
+    <edge source="nltk.classifier.featureselection" target="nltk.classifier" />
+    <edge source="nltk.draw.plot" target="nltk" />
+    <edge source="nltk.draw.plot" target="nltk.draw" />
+    <edge source="nltk.draw.rdparser" target="nltk" />
+    <edge source="nltk.draw.rdparser" target="nltk.cfg" />
+    <edge source="nltk.draw.rdparser" target="nltk.draw" />
+    <edge source="nltk.draw.rdparser" target="nltk.draw.tree" />
+    <edge source="nltk.draw.rdparser" target="nltk.parser" />
+    <edge source="nltk.draw.srparser" target="nltk" />
+    <edge source="nltk.draw.srparser" target="nltk.cfg" />
+    <edge source="nltk.draw.srparser" target="nltk.draw" />
+    <edge source="nltk.draw.srparser" target="nltk.draw.tree" />
+    <edge source="nltk.draw.srparser" target="nltk.parser" />
+    <edge source="nltk.draw.tree" target="nltk" />
+    <edge source="nltk.draw.tree" target="nltk.draw" />
+    <edge source="nltk.draw.tree" target="nltk.tree" />
+    <edge source="nltk.speech.rules" target="nltk" />
+    <edge source="nltk.speech.rules" target="nltk.speech" />
+    <edge source="nltk.speech.rules" target="nltk.speech.html" />
+    <edge source="nltk.speech.rules" target="nltk.speech.numbers" />
+    <edge source="nltk.speech.token" target="nltk" />
+    <edge source="nltk.speech.token" target="nltk.speech" />
+    <edge source="nltk.speech.token" target="nltk.speech.rules" />
+    <edge source="nltk.speech.token_tts" target="nltk" />
+    <edge source="nltk.speech.token_tts" target="nltk.speech" />
+    <edge source="nltk.speech.token_tts" target="nltk.speech.rules" />
+    <edge source="nltk.speech.token_tts" target="nltk.speech.token" />
+    <edge source="nltk.stemmer.porter" target="nltk" />
+    <edge source="nltk.stemmer.porter" target="nltk.stemmer" />
+    <edge source="nltk.test.cfg" target="nltk" />
+    <edge source="nltk.test.cfg" target="nltk.cfg" />
+    <edge source="nltk.test.imports" target="nltk" />
+    <edge source="nltk.test.tree" target="nltk" />
+    <edge source="nltk.test.tree" target="nltk.tree" />
+    <edge source="nltk.tree" target="nltk" />
+    <edge source="nltk.tree" target="nltk.draw" />
+    <edge source="nltk.tree" target="nltk.draw.tree" />
+  </graph>
+</graphml>

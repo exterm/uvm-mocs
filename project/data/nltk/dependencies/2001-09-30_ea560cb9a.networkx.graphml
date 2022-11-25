@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <graph edgedefault="directed">
+    <node id="nltk" />
+    <node id="nltk.chunkparser" />
+    <node id="nltk.draw" />
+    <node id="nltk.draw.plot" />
+    <node id="nltk.draw.tree" />
+    <node id="nltk.draw_tree" />
+    <node id="nltk.draw_treetoken" />
+    <node id="nltk.parser" />
+    <node id="nltk.set" />
+    <node id="nltk.srparser_template" />
+    <node id="nltk.test" />
+    <node id="nltk.test.probability" />
+    <node id="nltk.test.set" />
+    <node id="nltk.test.token" />
+    <node id="nltk.test.tree" />
+    <node id="nltk.tree" />
+    <edge source="nltk.draw.tree" target="nltk" />
+    <edge source="nltk.draw.tree" target="nltk.tree" />
+    <edge source="nltk.srparser_template" target="nltk" />
+    <edge source="nltk.srparser_template" target="nltk.parser" />
+    <edge source="nltk.srparser_template" target="nltk.tree" />
+    <edge source="nltk.test" target="nltk" />
+    <edge source="nltk.test" target="nltk.test.set" />
+    <edge source="nltk.test" target="nltk.test.token" />
+    <edge source="nltk.test" target="nltk.test.tree" />
+    <edge source="nltk.test.set" target="nltk" />
+    <edge source="nltk.test.set" target="nltk.set" />
+    <edge source="nltk.test.tree" target="nltk" />
+    <edge source="nltk.test.tree" target="nltk.tree" />
+    <edge source="nltk.tree" target="nltk" />
+    <edge source="nltk.tree" target="nltk.draw" />
+    <edge source="nltk.tree" target="nltk.draw.tree" />
+  </graph>
+</graphml>

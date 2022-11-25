@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <graph edgedefault="directed">
+    <node id="nltk" />
+    <node id="nltk.chat" />
+    <node id="nltk.chunk" />
+    <node id="nltk.chunk.api" />
+    <node id="nltk.classify" />
+    <node id="nltk.classify.api" />
+    <node id="nltk.cluster" />
+    <node id="nltk.cluster.api" />
+    <node id="nltk.compat" />
+    <node id="nltk.corpus" />
+    <node id="nltk.corpus.reader" />
+    <node id="nltk.corpus.reader.api" />
+    <node id="nltk.corpus.reader.chunked" />
+    <node id="nltk.corpus.reader.cmudict" />
+    <node id="nltk.corpus.reader.conll" />
+    <node id="nltk.corpus.reader.gutenberg" />
+    <node id="nltk.corpus.reader.ieer" />
+    <node id="nltk.corpus.reader.indian" />
+    <node id="nltk.corpus.reader.plaintext" />
+    <node id="nltk.corpus.reader.ppattach" />
+    <node id="nltk.corpus.reader.sinica_treebank" />
+    <node id="nltk.corpus.reader.tagged" />
+    <node id="nltk.corpus.reader.treebank" />
+    <node id="nltk.corpus.reader.wordlist" />
+    <node id="nltk.corpus.reader.xmldocs" />
+    <node id="nltk.corpus.reader.ycoe" />
+    <node id="nltk.corpus.util" />
+    <node id="nltk.draw" />
+    <node id="nltk.draw.dispersion" />
+    <node id="nltk.draw.rdparser" />
+    <node id="nltk.draw.srparser" />
+    <node id="nltk.draw.tree" />
+    <node id="nltk.etree" />
+    <node id="nltk.etree.ElementInclude" />
+    <node id="nltk.etree.ElementPath" />
+    <node id="nltk.etree.ElementTree" />
+    <node id="nltk.misc" />
+    <node id="nltk.misc.nemo" />
+    <node id="nltk.model" />
+    <node id="nltk.parse" />
+    <node id="nltk.sem" />
+    <node id="nltk.stem" />
+    <node id="nltk.stem.api" />
+    <node id="nltk.tag" />
+    <node id="nltk.tag.api" />
+    <node id="nltk.tag.util" />
+    <node id="nltk.test" />
+    <node id="nltk.tokenize" />
+    <node id="nltk.tokenize.api" />
+    <node id="nltk.tokenize.simple" />
+    <node id="nltk.wordnet" />
+    <node id="nltk.wordnet.brown_ic" />
+    <node id="nltk.wordnet.cache" />
+    <node id="nltk.wordnet.frequency" />
+    <node id="nltk.wordnet.lexname" />
+    <node id="nltk.yamltags" />
+    <node id="numpy" />
+    <node id="yaml" />
+    <edge source="nltk.chunk.api" target="nltk" />
+    <edge source="nltk.chunk.api" target="nltk.parse" />
+    <edge source="nltk.classify" target="numpy" />
+    <edge source="nltk.cluster.api" target="nltk" />
+    <edge source="nltk.compat" target="nltk" />
+    <edge source="nltk.compat" target="nltk.etree" />
+    <edge source="nltk.compat" target="nltk.etree.ElementTree" />
+    <edge source="nltk.corpus" target="nltk" />
+    <edge source="nltk.corpus" target="nltk.corpus.reader" />
+    <edge source="nltk.corpus" target="nltk.corpus.util" />
+    <edge source="nltk.corpus.reader" target="nltk" />
+    <edge source="nltk.corpus.reader" target="nltk.corpus" />
+    <edge source="nltk.corpus.reader" target="nltk.corpus.reader.cmudict" />
+    <edge source="nltk.corpus.reader" target="nltk.corpus.reader.conll" />
+    <edge source="nltk.corpus.reader" target="nltk.corpus.reader.gutenberg" />
+    <edge source="nltk.corpus.reader" target="nltk.corpus.reader.ieer" />
+    <edge source="nltk.corpus.reader" target="nltk.corpus.reader.indian" />
+    <edge source="nltk.corpus.reader" target="nltk.corpus.reader.plaintext" />
+    <edge source="nltk.corpus.reader" target="nltk.corpus.reader.ppattach" />
+    <edge source="nltk.corpus.reader" target="nltk.corpus.reader.sinica_treebank" />
+    <edge source="nltk.corpus.reader" target="nltk.corpus.reader.tagged" />
+    <edge source="nltk.corpus.reader" target="nltk.corpus.reader.treebank" />
+    <edge source="nltk.corpus.reader" target="nltk.corpus.reader.wordlist" />
+    <edge source="nltk.corpus.reader" target="nltk.corpus.reader.xmldocs" />
+    <edge source="nltk.corpus.reader" target="nltk.corpus.reader.ycoe" />
+    <edge source="nltk.corpus.reader.chunked" target="nltk" />
+    <edge source="nltk.corpus.reader.chunked" target="nltk.chunk" />
+    <edge source="nltk.corpus.reader.chunked" target="nltk.corpus" />
+    <edge source="nltk.corpus.reader.chunked" target="nltk.corpus.reader" />
+    <edge source="nltk.corpus.reader.chunked" target="nltk.corpus.reader.api" />
+    <edge source="nltk.corpus.reader.chunked" target="nltk.tokenize" />
+    <edge source="nltk.corpus.reader.conll" target="nltk" />
+    <edge source="nltk.corpus.reader.conll" target="nltk.chunk" />
+    <edge source="nltk.corpus.reader.ieer" target="nltk" />
+    <edge source="nltk.corpus.reader.ieer" target="nltk.chunk" />
+    <edge source="nltk.corpus.reader.indian" target="nltk" />
+    <edge source="nltk.corpus.reader.indian" target="nltk.corpus" />
+    <edge source="nltk.corpus.reader.indian" target="nltk.corpus.reader" />
+    <edge source="nltk.corpus.reader.indian" target="nltk.corpus.reader.api" />
+    <edge source="nltk.corpus.reader.indian" target="nltk.tag" />
+    <edge source="nltk.corpus.reader.indian" target="nltk.tag.util" />
+    <edge source="nltk.corpus.reader.indian" target="nltk.tokenize" />
+    <edge source="nltk.corpus.reader.plaintext" target="nltk" />
+    <edge source="nltk.corpus.reader.plaintext" target="nltk.corpus" />
+    <edge source="nltk.corpus.reader.plaintext" target="nltk.corpus.reader" />
+    <edge source="nltk.corpus.reader.plaintext" target="nltk.corpus.reader.api" />
+    <edge source="nltk.corpus.reader.plaintext" target="nltk.tokenize" />
+    <edge source="nltk.corpus.reader.ppattach" target="nltk" />
+    <edge source="nltk.corpus.reader.ppattach" target="nltk.tokenize" />
+    <edge source="nltk.corpus.reader.sinica_treebank" target="nltk" />
+    <edge source="nltk.corpus.reader.sinica_treebank" target="nltk.tokenize" />
+    <edge source="nltk.corpus.reader.tagged" target="nltk" />
+    <edge source="nltk.corpus.reader.tagged" target="nltk.tag" />
+    <edge source="nltk.corpus.reader.tagged" target="nltk.tokenize" />
+    <edge source="nltk.corpus.reader.treebank" target="nltk" />
+    <edge source="nltk.corpus.reader.treebank" target="nltk.chunk" />
+    <edge source="nltk.corpus.reader.treebank" target="nltk.corpus" />
+    <edge source="nltk.corpus.reader.treebank" target="nltk.corpus.reader" />
+    <edge source="nltk.corpus.reader.treebank" target="nltk.corpus.reader.api" />
+    <edge source="nltk.corpus.reader.treebank" target="nltk.corpus.reader.chunked" />
+    <edge source="nltk.corpus.reader.treebank" target="nltk.tokenize" />
+    <edge source="nltk.corpus.reader.xmldocs" target="nltk" />
+    <edge source="nltk.corpus.reader.xmldocs" target="nltk.etree" />
+    <edge source="nltk.corpus.reader.xmldocs" target="nltk.etree.ElementTree" />
+    <edge source="nltk.corpus.reader.ycoe" target="nltk" />
+    <edge source="nltk.corpus.reader.ycoe" target="nltk.corpus" />
+    <edge source="nltk.corpus.reader.ycoe" target="nltk.corpus.reader" />
+    <edge source="nltk.corpus.reader.ycoe" target="nltk.corpus.reader.api" />
+    <edge source="nltk.corpus.reader.ycoe" target="nltk.corpus.reader.tagged" />
+    <edge source="nltk.corpus.reader.ycoe" target="nltk.tokenize" />
+    <edge source="nltk.corpus.util" target="nltk" />
+    <edge source="nltk.corpus.util" target="nltk.corpus" />
+    <edge source="nltk.corpus.util" target="nltk.corpus.reader" />
+    <edge source="nltk.corpus.util" target="nltk.corpus.reader.api" />
+    <edge source="nltk.draw.dispersion" target="nltk" />
+    <edge source="nltk.draw.dispersion" target="nltk.corpus" />
+    <edge source="nltk.draw.dispersion" target="nltk.draw" />
+    <edge source="nltk.draw.rdparser" target="nltk" />
+    <edge source="nltk.draw.rdparser" target="nltk.draw" />
+    <edge source="nltk.draw.rdparser" target="nltk.draw.tree" />
+    <edge source="nltk.draw.rdparser" target="nltk.parse" />
+    <edge source="nltk.draw.rdparser" target="nltk.tokenize" />
+    <edge source="nltk.draw.srparser" target="nltk" />
+    <edge source="nltk.draw.srparser" target="nltk.draw" />
+    <edge source="nltk.draw.srparser" target="nltk.draw.tree" />
+    <edge source="nltk.draw.srparser" target="nltk.parse" />
+    <edge source="nltk.draw.srparser" target="nltk.tokenize" />
+    <edge source="nltk.draw.tree" target="nltk" />
+    <edge source="nltk.draw.tree" target="nltk.draw" />
+    <edge source="nltk.tag" target="numpy" />
+    <edge source="nltk.tag.util" target="nltk" />
+    <edge source="nltk.tokenize.simple" target="nltk" />
+    <edge source="nltk.tokenize.simple" target="nltk.tokenize" />
+    <edge source="nltk.tokenize.simple" target="nltk.tokenize.api" />
+    <edge source="nltk.wordnet.brown_ic" target="nltk" />
+    <edge source="nltk.wordnet.brown_ic" target="nltk.corpus" />
+    <edge source="nltk.yamltags" target="yaml" />
+  </graph>
+</graphml>
