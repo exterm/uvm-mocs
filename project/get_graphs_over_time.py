@@ -18,6 +18,14 @@ args.output_path = os.path.abspath(args.output_path)
 pydeps_command = "pydeps --no-output --show-deps --nodot %s > %s"
 
 def get_graph(commit):
+    # unless a folder with the module name exists, descend into "src" directory if that exists
+    if not os.path.isdir(args.module_name):
+        if os.path.isdir("src"):
+            os.chdir("src")
+        # if a folder with the module name still doesn't exist, log and skip
+        if not os.path.isdir(args.module_name):
+            print("No module directory found for commit %s" % commit)
+            return
     output_filename = os.path.join(args.output_path, commit + ".json")
     os.system(pydeps_command % (args.module_name, output_filename))
 
