@@ -13,9 +13,6 @@ def for_each_month(repo_path, func):
     old_path = os.getcwd()
     os.chdir(repo_path)
     try:
-        if os.system("git checkout main") != 0:
-            raise Exception("Could not checkout main branch")
-
         commit_list = os.popen(commit_list_cmd).read().split()
 
         print("Found %d commits" % len(commit_list))
