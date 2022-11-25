@@ -1,0 +1,441 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <graph edgedefault="directed">
+    <node id="wagtail" />
+    <node id="wagtail.tests" />
+    <node id="wagtail.tests.models" />
+    <node id="wagtail.tests.urls" />
+    <node id="wagtail.tests.utils" />
+    <node id="wagtail.wagtailadmin" />
+    <node id="wagtail.wagtailadmin.edit_handlers" />
+    <node id="wagtail.wagtailadmin.forms" />
+    <node id="wagtail.wagtailadmin.hooks" />
+    <node id="wagtail.wagtailadmin.menu" />
+    <node id="wagtail.wagtailadmin.modal_workflow" />
+    <node id="wagtail.wagtailadmin.models" />
+    <node id="wagtail.wagtailadmin.taggable" />
+    <node id="wagtail.wagtailadmin.tasks" />
+    <node id="wagtail.wagtailadmin.templatetags" />
+    <node id="wagtail.wagtailadmin.templatetags.ellipsistrim" />
+    <node id="wagtail.wagtailadmin.templatetags.fieldtype" />
+    <node id="wagtail.wagtailadmin.templatetags.gravatar" />
+    <node id="wagtail.wagtailadmin.templatetags.localize" />
+    <node id="wagtail.wagtailadmin.templatetags.meta_description" />
+    <node id="wagtail.wagtailadmin.templatetags.page_permissions" />
+    <node id="wagtail.wagtailadmin.templatetags.wagtailadmin_nav" />
+    <node id="wagtail.wagtailadmin.templatetags.wagtailuserbar" />
+    <node id="wagtail.wagtailadmin.tests" />
+    <node id="wagtail.wagtailadmin.urls" />
+    <node id="wagtail.wagtailadmin.views" />
+    <node id="wagtail.wagtailadmin.views.account" />
+    <node id="wagtail.wagtailadmin.views.chooser" />
+    <node id="wagtail.wagtailadmin.views.home" />
+    <node id="wagtail.wagtailadmin.views.pages" />
+    <node id="wagtail.wagtailadmin.views.tags" />
+    <node id="wagtail.wagtailcore" />
+    <node id="wagtail.wagtailcore.admin" />
+    <node id="wagtail.wagtailcore.fields" />
+    <node id="wagtail.wagtailcore.management" />
+    <node id="wagtail.wagtailcore.management.commands" />
+    <node id="wagtail.wagtailcore.management.commands.set_url_paths" />
+    <node id="wagtail.wagtailcore.middleware" />
+    <node id="wagtail.wagtailcore.models" />
+    <node id="wagtail.wagtailcore.rich_text" />
+    <node id="wagtail.wagtailcore.templatetags" />
+    <node id="wagtail.wagtailcore.templatetags.pageurl" />
+    <node id="wagtail.wagtailcore.templatetags.rich_text" />
+    <node id="wagtail.wagtailcore.tests" />
+    <node id="wagtail.wagtailcore.urls" />
+    <node id="wagtail.wagtailcore.util" />
+    <node id="wagtail.wagtailcore.views" />
+    <node id="wagtail.wagtailcore.whitelist" />
+    <node id="wagtail.wagtaildocs" />
+    <node id="wagtail.wagtaildocs.admin" />
+    <node id="wagtail.wagtaildocs.admin_urls" />
+    <node id="wagtail.wagtaildocs.edit_handlers" />
+    <node id="wagtail.wagtaildocs.forms" />
+    <node id="wagtail.wagtaildocs.models" />
+    <node id="wagtail.wagtaildocs.tests" />
+    <node id="wagtail.wagtaildocs.urls" />
+    <node id="wagtail.wagtaildocs.views" />
+    <node id="wagtail.wagtaildocs.views.chooser" />
+    <node id="wagtail.wagtaildocs.views.documents" />
+    <node id="wagtail.wagtaildocs.views.serve" />
+    <node id="wagtail.wagtailembeds" />
+    <node id="wagtail.wagtailembeds.embeds" />
+    <node id="wagtail.wagtailembeds.format" />
+    <node id="wagtail.wagtailembeds.forms" />
+    <node id="wagtail.wagtailembeds.models" />
+    <node id="wagtail.wagtailembeds.oembed_providers" />
+    <node id="wagtail.wagtailembeds.templatetags" />
+    <node id="wagtail.wagtailembeds.templatetags.embed_filters" />
+    <node id="wagtail.wagtailembeds.tests" />
+    <node id="wagtail.wagtailembeds.urls" />
+    <node id="wagtail.wagtailembeds.views" />
+    <node id="wagtail.wagtailembeds.views.chooser" />
+    <node id="wagtail.wagtailimages" />
+    <node id="wagtail.wagtailimages.admin" />
+    <node id="wagtail.wagtailimages.edit_handlers" />
+    <node id="wagtail.wagtailimages.formats" />
+    <node id="wagtail.wagtailimages.forms" />
+    <node id="wagtail.wagtailimages.image_ops" />
+    <node id="wagtail.wagtailimages.models" />
+    <node id="wagtail.wagtailimages.templatetags" />
+    <node id="wagtail.wagtailimages.templatetags.image_tags" />
+    <node id="wagtail.wagtailimages.tests" />
+    <node id="wagtail.wagtailimages.urls" />
+    <node id="wagtail.wagtailimages.views" />
+    <node id="wagtail.wagtailimages.views.chooser" />
+    <node id="wagtail.wagtailimages.views.images" />
+    <node id="wagtail.wagtailredirects" />
+    <node id="wagtail.wagtailredirects.forms" />
+    <node id="wagtail.wagtailredirects.middleware" />
+    <node id="wagtail.wagtailredirects.models" />
+    <node id="wagtail.wagtailredirects.tests" />
+    <node id="wagtail.wagtailredirects.urls" />
+    <node id="wagtail.wagtailredirects.views" />
+    <node id="wagtail.wagtailsearch" />
+    <node id="wagtail.wagtailsearch.backends" />
+    <node id="wagtail.wagtailsearch.backends.base" />
+    <node id="wagtail.wagtailsearch.backends.db" />
+    <node id="wagtail.wagtailsearch.backends.elasticsearch" />
+    <node id="wagtail.wagtailsearch.forms" />
+    <node id="wagtail.wagtailsearch.indexed" />
+    <node id="wagtail.wagtailsearch.management" />
+    <node id="wagtail.wagtailsearch.management.commands" />
+    <node id="wagtail.wagtailsearch.management.commands.search_garbage_collect" />
+    <node id="wagtail.wagtailsearch.management.commands.update_index" />
+    <node id="wagtail.wagtailsearch.models" />
+    <node id="wagtail.wagtailsearch.signal_handlers" />
+    <node id="wagtail.wagtailsearch.tests" />
+    <node id="wagtail.wagtailsearch.tests.test_backends" />
+    <node id="wagtail.wagtailsearch.tests.test_editorspicks" />
+    <node id="wagtail.wagtailsearch.tests.test_frontend" />
+    <node id="wagtail.wagtailsearch.tests.test_queries" />
+    <node id="wagtail.wagtailsearch.urls" />
+    <node id="wagtail.wagtailsearch.urls.admin" />
+    <node id="wagtail.wagtailsearch.urls.frontend" />
+    <node id="wagtail.wagtailsearch.views" />
+    <node id="wagtail.wagtailsearch.views.editorspicks" />
+    <node id="wagtail.wagtailsearch.views.frontend" />
+    <node id="wagtail.wagtailsearch.views.queries" />
+    <node id="wagtail.wagtailsnippets" />
+    <node id="wagtail.wagtailsnippets.edit_handlers" />
+    <node id="wagtail.wagtailsnippets.models" />
+    <node id="wagtail.wagtailsnippets.permissions" />
+    <node id="wagtail.wagtailsnippets.tests" />
+    <node id="wagtail.wagtailsnippets.urls" />
+    <node id="wagtail.wagtailsnippets.views" />
+    <node id="wagtail.wagtailsnippets.views.chooser" />
+    <node id="wagtail.wagtailsnippets.views.snippets" />
+    <node id="wagtail.wagtailusers" />
+    <node id="wagtail.wagtailusers.forms" />
+    <node id="wagtail.wagtailusers.tests" />
+    <node id="wagtail.wagtailusers.urls" />
+    <node id="wagtail.wagtailusers.views" />
+    <node id="wagtail.wagtailusers.views.users" />
+    <edge source="wagtail.tests.models" target="wagtail" />
+    <edge source="wagtail.tests.models" target="wagtail.wagtailadmin" />
+    <edge source="wagtail.tests.models" target="wagtail.wagtailadmin.edit_handlers" />
+    <edge source="wagtail.tests.models" target="wagtail.wagtailcore" />
+    <edge source="wagtail.tests.models" target="wagtail.wagtailcore.fields" />
+    <edge source="wagtail.tests.models" target="wagtail.wagtailcore.models" />
+    <edge source="wagtail.tests.models" target="wagtail.wagtaildocs" />
+    <edge source="wagtail.tests.models" target="wagtail.wagtaildocs.edit_handlers" />
+    <edge source="wagtail.tests.models" target="wagtail.wagtailimages" />
+    <edge source="wagtail.tests.models" target="wagtail.wagtailimages.edit_handlers" />
+    <edge source="wagtail.tests.urls" target="wagtail" />
+    <edge source="wagtail.tests.urls" target="wagtail.wagtailadmin" />
+    <edge source="wagtail.tests.urls" target="wagtail.wagtailadmin.urls" />
+    <edge source="wagtail.tests.urls" target="wagtail.wagtailcore" />
+    <edge source="wagtail.tests.urls" target="wagtail.wagtailcore.urls" />
+    <edge source="wagtail.tests.urls" target="wagtail.wagtaildocs" />
+    <edge source="wagtail.tests.urls" target="wagtail.wagtaildocs.admin_urls" />
+    <edge source="wagtail.tests.urls" target="wagtail.wagtaildocs.urls" />
+    <edge source="wagtail.tests.urls" target="wagtail.wagtailembeds" />
+    <edge source="wagtail.tests.urls" target="wagtail.wagtailembeds.urls" />
+    <edge source="wagtail.tests.urls" target="wagtail.wagtailimages" />
+    <edge source="wagtail.tests.urls" target="wagtail.wagtailimages.urls" />
+    <edge source="wagtail.tests.urls" target="wagtail.wagtailredirects" />
+    <edge source="wagtail.tests.urls" target="wagtail.wagtailredirects.urls" />
+    <edge source="wagtail.tests.urls" target="wagtail.wagtailsearch" />
+    <edge source="wagtail.tests.urls" target="wagtail.wagtailsearch.urls" />
+    <edge source="wagtail.tests.urls" target="wagtail.wagtailsearch.urls.admin" />
+    <edge source="wagtail.tests.urls" target="wagtail.wagtailsearch.urls.frontend" />
+    <edge source="wagtail.tests.urls" target="wagtail.wagtailsnippets" />
+    <edge source="wagtail.tests.urls" target="wagtail.wagtailsnippets.urls" />
+    <edge source="wagtail.tests.urls" target="wagtail.wagtailusers" />
+    <edge source="wagtail.tests.urls" target="wagtail.wagtailusers.urls" />
+    <edge source="wagtail.wagtailadmin.edit_handlers" target="wagtail" />
+    <edge source="wagtail.wagtailadmin.edit_handlers" target="wagtail.wagtailcore" />
+    <edge source="wagtail.wagtailadmin.edit_handlers" target="wagtail.wagtailcore.fields" />
+    <edge source="wagtail.wagtailadmin.edit_handlers" target="wagtail.wagtailcore.models" />
+    <edge source="wagtail.wagtailadmin.edit_handlers" target="wagtail.wagtailcore.util" />
+    <edge source="wagtail.wagtailadmin.taggable" target="wagtail" />
+    <edge source="wagtail.wagtailadmin.taggable" target="wagtail.wagtailsearch" />
+    <edge source="wagtail.wagtailadmin.tasks" target="wagtail" />
+    <edge source="wagtail.wagtailadmin.tasks" target="wagtail.wagtailcore" />
+    <edge source="wagtail.wagtailadmin.tasks" target="wagtail.wagtailcore.models" />
+    <edge source="wagtail.wagtailadmin.templatetags.fieldtype" target="wagtail" />
+    <edge source="wagtail.wagtailadmin.templatetags.fieldtype" target="wagtail.wagtailcore" />
+    <edge source="wagtail.wagtailadmin.templatetags.fieldtype" target="wagtail.wagtailcore.util" />
+    <edge source="wagtail.wagtailadmin.templatetags.page_permissions" target="wagtail" />
+    <edge source="wagtail.wagtailadmin.templatetags.page_permissions" target="wagtail.wagtailcore" />
+    <edge source="wagtail.wagtailadmin.templatetags.page_permissions" target="wagtail.wagtailcore.models" />
+    <edge source="wagtail.wagtailadmin.templatetags.wagtailadmin_nav" target="wagtail" />
+    <edge source="wagtail.wagtailadmin.templatetags.wagtailadmin_nav" target="wagtail.wagtailadmin" />
+    <edge source="wagtail.wagtailadmin.templatetags.wagtailadmin_nav" target="wagtail.wagtailadmin.hooks" />
+    <edge source="wagtail.wagtailadmin.templatetags.wagtailadmin_nav" target="wagtail.wagtailadmin.menu" />
+    <edge source="wagtail.wagtailadmin.templatetags.wagtailadmin_nav" target="wagtail.wagtailcore" />
+    <edge source="wagtail.wagtailadmin.templatetags.wagtailadmin_nav" target="wagtail.wagtailcore.models" />
+    <edge source="wagtail.wagtailadmin.templatetags.wagtailadmin_nav" target="wagtail.wagtailsnippets" />
+    <edge source="wagtail.wagtailadmin.templatetags.wagtailadmin_nav" target="wagtail.wagtailsnippets.permissions" />
+    <edge source="wagtail.wagtailadmin.tests" target="wagtail" />
+    <edge source="wagtail.wagtailadmin.tests" target="wagtail.tests" />
+    <edge source="wagtail.wagtailadmin.tests" target="wagtail.tests.models" />
+    <edge source="wagtail.wagtailadmin.tests" target="wagtail.tests.utils" />
+    <edge source="wagtail.wagtailadmin.tests" target="wagtail.wagtailcore" />
+    <edge source="wagtail.wagtailadmin.tests" target="wagtail.wagtailcore.models" />
+    <edge source="wagtail.wagtailadmin.urls" target="wagtail" />
+    <edge source="wagtail.wagtailadmin.urls" target="wagtail.wagtailadmin" />
+    <edge source="wagtail.wagtailadmin.urls" target="wagtail.wagtailadmin.forms" />
+    <edge source="wagtail.wagtailadmin.views.chooser" target="wagtail" />
+    <edge source="wagtail.wagtailadmin.views.chooser" target="wagtail.wagtailadmin" />
+    <edge source="wagtail.wagtailadmin.views.chooser" target="wagtail.wagtailadmin.forms" />
+    <edge source="wagtail.wagtailadmin.views.chooser" target="wagtail.wagtailadmin.modal_workflow" />
+    <edge source="wagtail.wagtailadmin.views.chooser" target="wagtail.wagtailcore" />
+    <edge source="wagtail.wagtailadmin.views.chooser" target="wagtail.wagtailcore.models" />
+    <edge source="wagtail.wagtailadmin.views.home" target="wagtail" />
+    <edge source="wagtail.wagtailadmin.views.home" target="wagtail.wagtailadmin" />
+    <edge source="wagtail.wagtailadmin.views.home" target="wagtail.wagtailadmin.hooks" />
+    <edge source="wagtail.wagtailadmin.views.home" target="wagtail.wagtailcore" />
+    <edge source="wagtail.wagtailadmin.views.home" target="wagtail.wagtailcore.models" />
+    <edge source="wagtail.wagtailadmin.views.home" target="wagtail.wagtaildocs" />
+    <edge source="wagtail.wagtailadmin.views.home" target="wagtail.wagtaildocs.models" />
+    <edge source="wagtail.wagtailadmin.views.home" target="wagtail.wagtailimages" />
+    <edge source="wagtail.wagtailadmin.views.home" target="wagtail.wagtailimages.models" />
+    <edge source="wagtail.wagtailadmin.views.pages" target="wagtail" />
+    <edge source="wagtail.wagtailadmin.views.pages" target="wagtail.wagtailadmin" />
+    <edge source="wagtail.wagtailadmin.views.pages" target="wagtail.wagtailadmin.edit_handlers" />
+    <edge source="wagtail.wagtailadmin.views.pages" target="wagtail.wagtailadmin.forms" />
+    <edge source="wagtail.wagtailadmin.views.pages" target="wagtail.wagtailadmin.hooks" />
+    <edge source="wagtail.wagtailadmin.views.pages" target="wagtail.wagtailadmin.tasks" />
+    <edge source="wagtail.wagtailadmin.views.pages" target="wagtail.wagtailcore" />
+    <edge source="wagtail.wagtailadmin.views.pages" target="wagtail.wagtailcore.models" />
+    <edge source="wagtail.wagtailcore.admin" target="wagtail" />
+    <edge source="wagtail.wagtailcore.admin" target="wagtail.wagtailcore" />
+    <edge source="wagtail.wagtailcore.admin" target="wagtail.wagtailcore.models" />
+    <edge source="wagtail.wagtailcore.fields" target="wagtail" />
+    <edge source="wagtail.wagtailcore.fields" target="wagtail.wagtailadmin" />
+    <edge source="wagtail.wagtailcore.fields" target="wagtail.wagtailadmin.edit_handlers" />
+    <edge source="wagtail.wagtailcore.fields" target="wagtail.wagtailcore" />
+    <edge source="wagtail.wagtailcore.fields" target="wagtail.wagtailcore.rich_text" />
+    <edge source="wagtail.wagtailcore.management.commands.set_url_paths" target="wagtail" />
+    <edge source="wagtail.wagtailcore.management.commands.set_url_paths" target="wagtail.wagtailcore" />
+    <edge source="wagtail.wagtailcore.management.commands.set_url_paths" target="wagtail.wagtailcore.models" />
+    <edge source="wagtail.wagtailcore.middleware" target="wagtail" />
+    <edge source="wagtail.wagtailcore.middleware" target="wagtail.wagtailcore" />
+    <edge source="wagtail.wagtailcore.middleware" target="wagtail.wagtailcore.models" />
+    <edge source="wagtail.wagtailcore.models" target="wagtail" />
+    <edge source="wagtail.wagtailcore.models" target="wagtail.wagtailcore" />
+    <edge source="wagtail.wagtailcore.models" target="wagtail.wagtailcore.util" />
+    <edge source="wagtail.wagtailcore.models" target="wagtail.wagtailsearch" />
+    <edge source="wagtail.wagtailcore.rich_text" target="wagtail" />
+    <edge source="wagtail.wagtailcore.rich_text" target="wagtail.wagtailcore" />
+    <edge source="wagtail.wagtailcore.rich_text" target="wagtail.wagtailcore.models" />
+    <edge source="wagtail.wagtailcore.rich_text" target="wagtail.wagtailcore.whitelist" />
+    <edge source="wagtail.wagtailcore.rich_text" target="wagtail.wagtaildocs" />
+    <edge source="wagtail.wagtailcore.rich_text" target="wagtail.wagtaildocs.models" />
+    <edge source="wagtail.wagtailcore.rich_text" target="wagtail.wagtailembeds" />
+    <edge source="wagtail.wagtailcore.rich_text" target="wagtail.wagtailembeds.format" />
+    <edge source="wagtail.wagtailcore.rich_text" target="wagtail.wagtailimages" />
+    <edge source="wagtail.wagtailcore.rich_text" target="wagtail.wagtailimages.formats" />
+    <edge source="wagtail.wagtailcore.rich_text" target="wagtail.wagtailimages.models" />
+    <edge source="wagtail.wagtailcore.templatetags.rich_text" target="wagtail" />
+    <edge source="wagtail.wagtailcore.templatetags.rich_text" target="wagtail.wagtailcore" />
+    <edge source="wagtail.wagtailcore.templatetags.rich_text" target="wagtail.wagtailcore.rich_text" />
+    <edge source="wagtail.wagtaildocs.admin" target="wagtail" />
+    <edge source="wagtail.wagtaildocs.admin" target="wagtail.wagtaildocs" />
+    <edge source="wagtail.wagtaildocs.admin" target="wagtail.wagtaildocs.models" />
+    <edge source="wagtail.wagtaildocs.edit_handlers" target="wagtail" />
+    <edge source="wagtail.wagtaildocs.edit_handlers" target="wagtail.wagtailadmin" />
+    <edge source="wagtail.wagtaildocs.edit_handlers" target="wagtail.wagtailadmin.edit_handlers" />
+    <edge source="wagtail.wagtaildocs.forms" target="wagtail" />
+    <edge source="wagtail.wagtaildocs.forms" target="wagtail.wagtaildocs" />
+    <edge source="wagtail.wagtaildocs.forms" target="wagtail.wagtaildocs.models" />
+    <edge source="wagtail.wagtaildocs.models" target="wagtail" />
+    <edge source="wagtail.wagtaildocs.models" target="wagtail.wagtailadmin" />
+    <edge source="wagtail.wagtaildocs.models" target="wagtail.wagtailadmin.taggable" />
+    <edge source="wagtail.wagtaildocs.tests" target="wagtail" />
+    <edge source="wagtail.wagtaildocs.tests" target="wagtail.tests" />
+    <edge source="wagtail.wagtaildocs.tests" target="wagtail.tests.utils" />
+    <edge source="wagtail.wagtaildocs.tests" target="wagtail.wagtaildocs" />
+    <edge source="wagtail.wagtaildocs.tests" target="wagtail.wagtaildocs.models" />
+    <edge source="wagtail.wagtaildocs.views.chooser" target="wagtail" />
+    <edge source="wagtail.wagtaildocs.views.chooser" target="wagtail.wagtailadmin" />
+    <edge source="wagtail.wagtaildocs.views.chooser" target="wagtail.wagtailadmin.forms" />
+    <edge source="wagtail.wagtaildocs.views.chooser" target="wagtail.wagtailadmin.modal_workflow" />
+    <edge source="wagtail.wagtaildocs.views.chooser" target="wagtail.wagtaildocs" />
+    <edge source="wagtail.wagtaildocs.views.chooser" target="wagtail.wagtaildocs.forms" />
+    <edge source="wagtail.wagtaildocs.views.chooser" target="wagtail.wagtaildocs.models" />
+    <edge source="wagtail.wagtaildocs.views.documents" target="wagtail" />
+    <edge source="wagtail.wagtaildocs.views.documents" target="wagtail.wagtailadmin" />
+    <edge source="wagtail.wagtaildocs.views.documents" target="wagtail.wagtailadmin.forms" />
+    <edge source="wagtail.wagtaildocs.views.documents" target="wagtail.wagtaildocs" />
+    <edge source="wagtail.wagtaildocs.views.documents" target="wagtail.wagtaildocs.forms" />
+    <edge source="wagtail.wagtaildocs.views.documents" target="wagtail.wagtaildocs.models" />
+    <edge source="wagtail.wagtaildocs.views.serve" target="wagtail" />
+    <edge source="wagtail.wagtaildocs.views.serve" target="wagtail.wagtaildocs" />
+    <edge source="wagtail.wagtaildocs.views.serve" target="wagtail.wagtaildocs.models" />
+    <edge source="wagtail.wagtailembeds" target="wagtail.wagtailembeds.embeds" />
+    <edge source="wagtail.wagtailembeds" target="wagtail.wagtailembeds.models" />
+    <edge source="wagtail.wagtailembeds.embeds" target="wagtail" />
+    <edge source="wagtail.wagtailembeds.embeds" target="wagtail.wagtailembeds" />
+    <edge source="wagtail.wagtailembeds.embeds" target="wagtail.wagtailembeds.models" />
+    <edge source="wagtail.wagtailembeds.embeds" target="wagtail.wagtailembeds.oembed_providers" />
+    <edge source="wagtail.wagtailembeds.format" target="wagtail" />
+    <edge source="wagtail.wagtailembeds.format" target="wagtail.wagtailembeds" />
+    <edge source="wagtail.wagtailembeds.templatetags.embed_filters" target="wagtail" />
+    <edge source="wagtail.wagtailembeds.templatetags.embed_filters" target="wagtail.wagtailembeds" />
+    <edge source="wagtail.wagtailembeds.tests" target="wagtail" />
+    <edge source="wagtail.wagtailembeds.tests" target="wagtail.tests" />
+    <edge source="wagtail.wagtailembeds.tests" target="wagtail.tests.utils" />
+    <edge source="wagtail.wagtailembeds.tests" target="wagtail.wagtailembeds" />
+    <edge source="wagtail.wagtailembeds.views.chooser" target="wagtail" />
+    <edge source="wagtail.wagtailembeds.views.chooser" target="wagtail.wagtailadmin" />
+    <edge source="wagtail.wagtailembeds.views.chooser" target="wagtail.wagtailadmin.modal_workflow" />
+    <edge source="wagtail.wagtailembeds.views.chooser" target="wagtail.wagtailembeds" />
+    <edge source="wagtail.wagtailembeds.views.chooser" target="wagtail.wagtailembeds.embeds" />
+    <edge source="wagtail.wagtailembeds.views.chooser" target="wagtail.wagtailembeds.format" />
+    <edge source="wagtail.wagtailembeds.views.chooser" target="wagtail.wagtailembeds.forms" />
+    <edge source="wagtail.wagtailimages.admin" target="wagtail" />
+    <edge source="wagtail.wagtailimages.admin" target="wagtail.wagtailimages" />
+    <edge source="wagtail.wagtailimages.admin" target="wagtail.wagtailimages.models" />
+    <edge source="wagtail.wagtailimages.edit_handlers" target="wagtail" />
+    <edge source="wagtail.wagtailimages.edit_handlers" target="wagtail.wagtailadmin" />
+    <edge source="wagtail.wagtailimages.edit_handlers" target="wagtail.wagtailadmin.edit_handlers" />
+    <edge source="wagtail.wagtailimages.forms" target="wagtail" />
+    <edge source="wagtail.wagtailimages.forms" target="wagtail.wagtailimages" />
+    <edge source="wagtail.wagtailimages.forms" target="wagtail.wagtailimages.formats" />
+    <edge source="wagtail.wagtailimages.forms" target="wagtail.wagtailimages.models" />
+    <edge source="wagtail.wagtailimages.models" target="wagtail" />
+    <edge source="wagtail.wagtailimages.models" target="wagtail.wagtailadmin" />
+    <edge source="wagtail.wagtailimages.models" target="wagtail.wagtailadmin.taggable" />
+    <edge source="wagtail.wagtailimages.models" target="wagtail.wagtailimages" />
+    <edge source="wagtail.wagtailimages.models" target="wagtail.wagtailimages.image_ops" />
+    <edge source="wagtail.wagtailimages.templatetags.image_tags" target="wagtail" />
+    <edge source="wagtail.wagtailimages.templatetags.image_tags" target="wagtail.wagtailimages" />
+    <edge source="wagtail.wagtailimages.templatetags.image_tags" target="wagtail.wagtailimages.models" />
+    <edge source="wagtail.wagtailimages.tests" target="wagtail" />
+    <edge source="wagtail.wagtailimages.tests" target="wagtail.tests" />
+    <edge source="wagtail.wagtailimages.tests" target="wagtail.tests.utils" />
+    <edge source="wagtail.wagtailimages.tests" target="wagtail.wagtailimages" />
+    <edge source="wagtail.wagtailimages.tests" target="wagtail.wagtailimages.models" />
+    <edge source="wagtail.wagtailimages.tests" target="wagtail.wagtailimages.templatetags" />
+    <edge source="wagtail.wagtailimages.tests" target="wagtail.wagtailimages.templatetags.image_tags" />
+    <edge source="wagtail.wagtailimages.views.chooser" target="wagtail" />
+    <edge source="wagtail.wagtailimages.views.chooser" target="wagtail.wagtailadmin" />
+    <edge source="wagtail.wagtailimages.views.chooser" target="wagtail.wagtailadmin.forms" />
+    <edge source="wagtail.wagtailimages.views.chooser" target="wagtail.wagtailadmin.modal_workflow" />
+    <edge source="wagtail.wagtailimages.views.chooser" target="wagtail.wagtailimages" />
+    <edge source="wagtail.wagtailimages.views.chooser" target="wagtail.wagtailimages.formats" />
+    <edge source="wagtail.wagtailimages.views.chooser" target="wagtail.wagtailimages.forms" />
+    <edge source="wagtail.wagtailimages.views.chooser" target="wagtail.wagtailimages.models" />
+    <edge source="wagtail.wagtailimages.views.images" target="wagtail" />
+    <edge source="wagtail.wagtailimages.views.images" target="wagtail.wagtailadmin" />
+    <edge source="wagtail.wagtailimages.views.images" target="wagtail.wagtailadmin.forms" />
+    <edge source="wagtail.wagtailimages.views.images" target="wagtail.wagtailimages" />
+    <edge source="wagtail.wagtailimages.views.images" target="wagtail.wagtailimages.forms" />
+    <edge source="wagtail.wagtailimages.views.images" target="wagtail.wagtailimages.models" />
+    <edge source="wagtail.wagtailredirects.models" target="wagtail" />
+    <edge source="wagtail.wagtailredirects.models" target="wagtail.wagtailadmin" />
+    <edge source="wagtail.wagtailredirects.models" target="wagtail.wagtailadmin.edit_handlers" />
+    <edge source="wagtail.wagtailredirects.tests" target="wagtail" />
+    <edge source="wagtail.wagtailredirects.tests" target="wagtail.wagtailcore" />
+    <edge source="wagtail.wagtailredirects.tests" target="wagtail.wagtailcore.models" />
+    <edge source="wagtail.wagtailredirects.tests" target="wagtail.wagtailredirects" />
+    <edge source="wagtail.wagtailredirects.tests" target="wagtail.wagtailredirects.models" />
+    <edge source="wagtail.wagtailredirects.views" target="wagtail" />
+    <edge source="wagtail.wagtailredirects.views" target="wagtail.wagtailadmin" />
+    <edge source="wagtail.wagtailredirects.views" target="wagtail.wagtailadmin.edit_handlers" />
+    <edge source="wagtail.wagtailredirects.views" target="wagtail.wagtailadmin.forms" />
+    <edge source="wagtail.wagtailsearch.backends.base" target="wagtail" />
+    <edge source="wagtail.wagtailsearch.backends.base" target="wagtail.wagtailsearch" />
+    <edge source="wagtail.wagtailsearch.backends.base" target="wagtail.wagtailsearch.indexed" />
+    <edge source="wagtail.wagtailsearch.backends.db" target="wagtail" />
+    <edge source="wagtail.wagtailsearch.backends.db" target="wagtail.wagtailsearch" />
+    <edge source="wagtail.wagtailsearch.backends.db" target="wagtail.wagtailsearch.backends" />
+    <edge source="wagtail.wagtailsearch.backends.db" target="wagtail.wagtailsearch.backends.base" />
+    <edge source="wagtail.wagtailsearch.backends.db" target="wagtail.wagtailsearch.indexed" />
+    <edge source="wagtail.wagtailsearch.backends.elasticsearch" target="wagtail" />
+    <edge source="wagtail.wagtailsearch.backends.elasticsearch" target="wagtail.wagtailsearch" />
+    <edge source="wagtail.wagtailsearch.backends.elasticsearch" target="wagtail.wagtailsearch.backends" />
+    <edge source="wagtail.wagtailsearch.backends.elasticsearch" target="wagtail.wagtailsearch.backends.base" />
+    <edge source="wagtail.wagtailsearch.backends.elasticsearch" target="wagtail.wagtailsearch.indexed" />
+    <edge source="wagtail.wagtailsearch.management.commands.search_garbage_collect" target="wagtail" />
+    <edge source="wagtail.wagtailsearch.management.commands.search_garbage_collect" target="wagtail.wagtailsearch" />
+    <edge source="wagtail.wagtailsearch.management.commands.search_garbage_collect" target="wagtail.wagtailsearch.models" />
+    <edge source="wagtail.wagtailsearch.management.commands.update_index" target="wagtail" />
+    <edge source="wagtail.wagtailsearch.management.commands.update_index" target="wagtail.wagtailsearch" />
+    <edge source="wagtail.wagtailsearch.signal_handlers" target="wagtail" />
+    <edge source="wagtail.wagtailsearch.signal_handlers" target="wagtail.wagtailsearch" />
+    <edge source="wagtail.wagtailsearch.signal_handlers" target="wagtail.wagtailsearch.backends" />
+    <edge source="wagtail.wagtailsearch.signal_handlers" target="wagtail.wagtailsearch.indexed" />
+    <edge source="wagtail.wagtailsearch.tests.test_backends" target="wagtail" />
+    <edge source="wagtail.wagtailsearch.tests.test_backends" target="wagtail.wagtailsearch" />
+    <edge source="wagtail.wagtailsearch.tests.test_backends" target="wagtail.wagtailsearch.backends" />
+    <edge source="wagtail.wagtailsearch.tests.test_backends" target="wagtail.wagtailsearch.backends.db" />
+    <edge source="wagtail.wagtailsearch.tests.test_backends" target="wagtail.wagtailsearch.backends.elasticsearch" />
+    <edge source="wagtail.wagtailsearch.tests.test_backends" target="wagtail.wagtailsearch.models" />
+    <edge source="wagtail.wagtailsearch.tests.test_editorspicks" target="wagtail" />
+    <edge source="wagtail.wagtailsearch.tests.test_editorspicks" target="wagtail.tests" />
+    <edge source="wagtail.wagtailsearch.tests.test_editorspicks" target="wagtail.tests.utils" />
+    <edge source="wagtail.wagtailsearch.tests.test_editorspicks" target="wagtail.wagtailsearch" />
+    <edge source="wagtail.wagtailsearch.tests.test_editorspicks" target="wagtail.wagtailsearch.models" />
+    <edge source="wagtail.wagtailsearch.tests.test_queries" target="wagtail" />
+    <edge source="wagtail.wagtailsearch.tests.test_queries" target="wagtail.tests" />
+    <edge source="wagtail.wagtailsearch.tests.test_queries" target="wagtail.tests.utils" />
+    <edge source="wagtail.wagtailsearch.tests.test_queries" target="wagtail.wagtailsearch" />
+    <edge source="wagtail.wagtailsearch.tests.test_queries" target="wagtail.wagtailsearch.models" />
+    <edge source="wagtail.wagtailsearch.views.editorspicks" target="wagtail" />
+    <edge source="wagtail.wagtailsearch.views.editorspicks" target="wagtail.wagtailadmin" />
+    <edge source="wagtail.wagtailsearch.views.editorspicks" target="wagtail.wagtailadmin.forms" />
+    <edge source="wagtail.wagtailsearch.views.editorspicks" target="wagtail.wagtailsearch" />
+    <edge source="wagtail.wagtailsearch.views.editorspicks" target="wagtail.wagtailsearch.forms" />
+    <edge source="wagtail.wagtailsearch.views.editorspicks" target="wagtail.wagtailsearch.models" />
+    <edge source="wagtail.wagtailsearch.views.frontend" target="wagtail" />
+    <edge source="wagtail.wagtailsearch.views.frontend" target="wagtail.wagtailcore" />
+    <edge source="wagtail.wagtailsearch.views.frontend" target="wagtail.wagtailcore.models" />
+    <edge source="wagtail.wagtailsearch.views.frontend" target="wagtail.wagtailsearch" />
+    <edge source="wagtail.wagtailsearch.views.frontend" target="wagtail.wagtailsearch.models" />
+    <edge source="wagtail.wagtailsearch.views.queries" target="wagtail" />
+    <edge source="wagtail.wagtailsearch.views.queries" target="wagtail.wagtailadmin" />
+    <edge source="wagtail.wagtailsearch.views.queries" target="wagtail.wagtailadmin.forms" />
+    <edge source="wagtail.wagtailsearch.views.queries" target="wagtail.wagtailadmin.modal_workflow" />
+    <edge source="wagtail.wagtailsearch.views.queries" target="wagtail.wagtailsearch" />
+    <edge source="wagtail.wagtailsearch.views.queries" target="wagtail.wagtailsearch.models" />
+    <edge source="wagtail.wagtailsnippets.edit_handlers" target="wagtail" />
+    <edge source="wagtail.wagtailsnippets.edit_handlers" target="wagtail.wagtailadmin" />
+    <edge source="wagtail.wagtailsnippets.edit_handlers" target="wagtail.wagtailadmin.edit_handlers" />
+    <edge source="wagtail.wagtailsnippets.permissions" target="wagtail" />
+    <edge source="wagtail.wagtailsnippets.permissions" target="wagtail.wagtailsnippets" />
+    <edge source="wagtail.wagtailsnippets.permissions" target="wagtail.wagtailsnippets.models" />
+    <edge source="wagtail.wagtailsnippets.views.chooser" target="wagtail" />
+    <edge source="wagtail.wagtailsnippets.views.chooser" target="wagtail.wagtailadmin" />
+    <edge source="wagtail.wagtailsnippets.views.chooser" target="wagtail.wagtailadmin.modal_workflow" />
+    <edge source="wagtail.wagtailsnippets.views.chooser" target="wagtail.wagtailsnippets" />
+    <edge source="wagtail.wagtailsnippets.views.chooser" target="wagtail.wagtailsnippets.views" />
+    <edge source="wagtail.wagtailsnippets.views.chooser" target="wagtail.wagtailsnippets.views.snippets" />
+    <edge source="wagtail.wagtailsnippets.views.snippets" target="wagtail" />
+    <edge source="wagtail.wagtailsnippets.views.snippets" target="wagtail.wagtailadmin" />
+    <edge source="wagtail.wagtailsnippets.views.snippets" target="wagtail.wagtailadmin.edit_handlers" />
+    <edge source="wagtail.wagtailsnippets.views.snippets" target="wagtail.wagtailsnippets" />
+    <edge source="wagtail.wagtailsnippets.views.snippets" target="wagtail.wagtailsnippets.models" />
+    <edge source="wagtail.wagtailsnippets.views.snippets" target="wagtail.wagtailsnippets.permissions" />
+    <edge source="wagtail.wagtailusers.views.users" target="wagtail" />
+    <edge source="wagtail.wagtailusers.views.users" target="wagtail.wagtailadmin" />
+    <edge source="wagtail.wagtailusers.views.users" target="wagtail.wagtailadmin.forms" />
+    <edge source="wagtail.wagtailusers.views.users" target="wagtail.wagtailusers" />
+    <edge source="wagtail.wagtailusers.views.users" target="wagtail.wagtailusers.forms" />
+  </graph>
+</graphml>
