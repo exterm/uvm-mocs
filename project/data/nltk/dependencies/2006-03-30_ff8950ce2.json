@@ -1,0 +1,434 @@
+{
+    "__main__": {
+        "bacon": 0,
+        "imports": [
+            "nltk",
+            "nltk.classifier",
+            "nltk.clusterer",
+            "nltk.corpus",
+            "nltk.draw",
+            "nltk.draw.rdparser",
+            "nltk.draw.srparser",
+            "nltk.draw.tree",
+            "nltk.feature",
+            "nltk.feature.document",
+            "nltk.feature.word",
+            "nltk.hmm",
+            "nltk.lite",
+            "nltk.parser",
+            "nltk.stemmer",
+            "nltk.tagger",
+            "nltk.tagger.affix",
+            "nltk.test",
+            "nltk.test.cfg",
+            "nltk.test.chktype",
+            "nltk.test.parser",
+            "nltk.test.probability",
+            "nltk.test.rechunkparser",
+            "nltk.test.set",
+            "nltk.test.token",
+            "nltk.test.tokenizer",
+            "nltk.test.tree",
+            "nltk.test.util",
+            "nltk.tokenizer",
+            "nltk.tokenreader",
+            "nltk.tokenreader.tokenizerbased"
+        ],
+        "name": "__main__",
+        "path": null
+    },
+    "nltk": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "nltk.draw.rdparser",
+            "nltk.draw.srparser",
+            "nltk.draw.tree",
+            "nltk.feature.document",
+            "nltk.feature.word",
+            "nltk.tagger.affix",
+            "nltk.test.cfg",
+            "nltk.test.chktype",
+            "nltk.test.parser",
+            "nltk.test.probability",
+            "nltk.test.rechunkparser",
+            "nltk.test.set",
+            "nltk.test.token",
+            "nltk.test.tokenizer",
+            "nltk.test.tree",
+            "nltk.test.util",
+            "nltk.tokenreader.tokenizerbased"
+        ],
+        "name": "nltk",
+        "path": "/home/philip/projects/nltk/src/nltk/__init__.py"
+    },
+    "nltk.classifier": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "nltk.classifier",
+        "path": "/home/philip/projects/nltk/src/nltk/classifier/__init__.py"
+    },
+    "nltk.clusterer": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "nltk.clusterer",
+        "path": "/home/philip/projects/nltk/src/nltk/clusterer"
+    },
+    "nltk.corpus": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "nltk.corpus",
+        "path": "/home/philip/projects/nltk/src/nltk/corpus"
+    },
+    "nltk.draw": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "nltk.draw.rdparser",
+            "nltk.draw.srparser",
+            "nltk.draw.tree"
+        ],
+        "name": "nltk.draw",
+        "path": "/home/philip/projects/nltk/src/nltk/draw"
+    },
+    "nltk.draw.rdparser": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "nltk",
+            "nltk.draw",
+            "nltk.draw.tree",
+            "nltk.parser",
+            "nltk.tokenizer"
+        ],
+        "name": "nltk.draw.rdparser",
+        "path": "/home/philip/projects/nltk/src/nltk/draw/rdparser.py"
+    },
+    "nltk.draw.srparser": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "nltk",
+            "nltk.draw",
+            "nltk.draw.tree",
+            "nltk.parser",
+            "nltk.tokenizer"
+        ],
+        "name": "nltk.draw.srparser",
+        "path": "/home/philip/projects/nltk/src/nltk/draw/srparser.py"
+    },
+    "nltk.draw.tree": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "nltk.draw.rdparser",
+            "nltk.draw.srparser"
+        ],
+        "imports": [
+            "nltk",
+            "nltk.draw"
+        ],
+        "name": "nltk.draw.tree",
+        "path": "/home/philip/projects/nltk/src/nltk/draw/tree.py"
+    },
+    "nltk.feature": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "nltk.feature.document",
+            "nltk.feature.word"
+        ],
+        "name": "nltk.feature",
+        "path": "/home/philip/projects/nltk/src/nltk/feature"
+    },
+    "nltk.feature.document": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "nltk",
+            "nltk.feature"
+        ],
+        "name": "nltk.feature.document",
+        "path": "/home/philip/projects/nltk/src/nltk/feature/document.py"
+    },
+    "nltk.feature.word": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "nltk",
+            "nltk.feature"
+        ],
+        "name": "nltk.feature.word",
+        "path": "/home/philip/projects/nltk/src/nltk/feature/word.py"
+    },
+    "nltk.hmm": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "nltk.hmm",
+        "path": "/home/philip/projects/nltk/src/nltk/hmm"
+    },
+    "nltk.lite": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "nltk.lite",
+        "path": "/home/philip/projects/nltk/src/nltk/lite/__init__.py"
+    },
+    "nltk.parser": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "nltk.draw.rdparser",
+            "nltk.draw.srparser",
+            "nltk.test.parser"
+        ],
+        "name": "nltk.parser",
+        "path": "/home/philip/projects/nltk/src/nltk/parser"
+    },
+    "nltk.stemmer": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "nltk.stemmer",
+        "path": "/home/philip/projects/nltk/src/nltk/stemmer"
+    },
+    "nltk.tagger": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "nltk.tagger.affix"
+        ],
+        "name": "nltk.tagger",
+        "path": "/home/philip/projects/nltk/src/nltk/tagger"
+    },
+    "nltk.tagger.affix": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "nltk",
+            "nltk.tagger"
+        ],
+        "name": "nltk.tagger.affix",
+        "path": "/home/philip/projects/nltk/src/nltk/tagger/affix.py"
+    },
+    "nltk.test": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "nltk.test.cfg",
+            "nltk.test.chktype",
+            "nltk.test.parser",
+            "nltk.test.probability",
+            "nltk.test.rechunkparser",
+            "nltk.test.token",
+            "nltk.test.tokenizer",
+            "nltk.test.tree",
+            "nltk.test.util"
+        ],
+        "name": "nltk.test",
+        "path": "/home/philip/projects/nltk/src/nltk/test"
+    },
+    "nltk.test.cfg": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "nltk.test.cfg"
+        ],
+        "imports": [
+            "nltk",
+            "nltk.test",
+            "nltk.test.cfg"
+        ],
+        "name": "nltk.test.cfg",
+        "path": "/home/philip/projects/nltk/src/nltk/test/cfg.py"
+    },
+    "nltk.test.chktype": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "nltk.test.chktype"
+        ],
+        "imports": [
+            "nltk",
+            "nltk.test",
+            "nltk.test.chktype"
+        ],
+        "name": "nltk.test.chktype",
+        "path": "/home/philip/projects/nltk/src/nltk/test/chktype.py"
+    },
+    "nltk.test.parser": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "nltk.test.parser"
+        ],
+        "imports": [
+            "nltk",
+            "nltk.parser",
+            "nltk.test",
+            "nltk.test.parser",
+            "nltk.tokenizer",
+            "nltk.tokenreader"
+        ],
+        "name": "nltk.test.parser",
+        "path": "/home/philip/projects/nltk/src/nltk/test/parser.py"
+    },
+    "nltk.test.probability": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "nltk.test.probability"
+        ],
+        "imports": [
+            "nltk",
+            "nltk.test",
+            "nltk.test.probability"
+        ],
+        "name": "nltk.test.probability",
+        "path": "/home/philip/projects/nltk/src/nltk/test/probability.py"
+    },
+    "nltk.test.rechunkparser": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "nltk.test.rechunkparser"
+        ],
+        "imports": [
+            "nltk",
+            "nltk.test",
+            "nltk.test.rechunkparser",
+            "nltk.tokenreader"
+        ],
+        "name": "nltk.test.rechunkparser",
+        "path": "/home/philip/projects/nltk/src/nltk/test/rechunkparser.py"
+    },
+    "nltk.test.set": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "nltk"
+        ],
+        "name": "nltk.test.set",
+        "path": "/home/philip/projects/nltk/src/nltk/test/set.py"
+    },
+    "nltk.test.token": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "nltk.test.token"
+        ],
+        "imports": [
+            "nltk",
+            "nltk.test",
+            "nltk.test.token"
+        ],
+        "name": "nltk.test.token",
+        "path": "/home/philip/projects/nltk/src/nltk/test/token.py"
+    },
+    "nltk.test.tokenizer": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "nltk.test.tokenizer"
+        ],
+        "imports": [
+            "nltk",
+            "nltk.test",
+            "nltk.test.tokenizer",
+            "nltk.tokenizer"
+        ],
+        "name": "nltk.test.tokenizer",
+        "path": "/home/philip/projects/nltk/src/nltk/test/tokenizer.py"
+    },
+    "nltk.test.tree": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "nltk.test.tree"
+        ],
+        "imports": [
+            "nltk",
+            "nltk.test",
+            "nltk.test.tree",
+            "nltk.tokenizer",
+            "nltk.tokenreader"
+        ],
+        "name": "nltk.test.tree",
+        "path": "/home/philip/projects/nltk/src/nltk/test/tree.py"
+    },
+    "nltk.test.util": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "nltk.test.util"
+        ],
+        "imports": [
+            "nltk",
+            "nltk.test",
+            "nltk.test.util"
+        ],
+        "name": "nltk.test.util",
+        "path": "/home/philip/projects/nltk/src/nltk/test/util.py"
+    },
+    "nltk.tokenizer": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "nltk.draw.rdparser",
+            "nltk.draw.srparser",
+            "nltk.test.parser",
+            "nltk.test.tokenizer",
+            "nltk.test.tree",
+            "nltk.tokenreader.tokenizerbased"
+        ],
+        "name": "nltk.tokenizer",
+        "path": "/home/philip/projects/nltk/src/nltk/tokenizer"
+    },
+    "nltk.tokenreader": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "nltk.test.parser",
+            "nltk.test.rechunkparser",
+            "nltk.test.tree",
+            "nltk.tokenreader.tokenizerbased"
+        ],
+        "name": "nltk.tokenreader",
+        "path": "/home/philip/projects/nltk/src/nltk/tokenreader"
+    },
+    "nltk.tokenreader.tokenizerbased": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "nltk",
+            "nltk.tokenizer",
+            "nltk.tokenreader"
+        ],
+        "name": "nltk.tokenreader.tokenizerbased",
+        "path": "/home/philip/projects/nltk/src/nltk/tokenreader/tokenizerbased.py"
+    }
+}

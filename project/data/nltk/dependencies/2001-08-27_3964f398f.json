@@ -1,0 +1,165 @@
+{
+    "__main__": {
+        "bacon": 0,
+        "imports": [
+            "nltk",
+            "nltk.draw",
+            "nltk.draw.plot",
+            "nltk.draw_tree",
+            "nltk.draw_treetoken",
+            "nltk.parser",
+            "nltk.probability",
+            "nltk.set",
+            "nltk.test",
+            "nltk.test.probability",
+            "nltk.test.set",
+            "nltk.test.token",
+            "nltk.test.tree",
+            "nltk.tree"
+        ],
+        "name": "__main__",
+        "path": null
+    },
+    "nltk": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "nltk.test",
+            "nltk.test.probability",
+            "nltk.test.set",
+            "nltk.test.tree"
+        ],
+        "name": "nltk",
+        "path": "/home/philip/projects/nltk/src/nltk/__init__.py"
+    },
+    "nltk.draw": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "nltk.draw",
+        "path": "/home/philip/projects/nltk/src/nltk/draw/__init__.py"
+    },
+    "nltk.draw.plot": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "nltk.draw.plot",
+        "path": "/home/philip/projects/nltk/src/nltk/draw/plot.py"
+    },
+    "nltk.draw_tree": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "nltk.draw_tree",
+        "path": "/home/philip/projects/nltk/src/nltk/draw_tree.py"
+    },
+    "nltk.draw_treetoken": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "nltk.draw_treetoken",
+        "path": "/home/philip/projects/nltk/src/nltk/draw_treetoken.py"
+    },
+    "nltk.parser": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "nltk.parser",
+        "path": "/home/philip/projects/nltk/src/nltk/parser.py"
+    },
+    "nltk.probability": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "nltk.probability",
+        "path": "/home/philip/projects/nltk/src/nltk/probability.py"
+    },
+    "nltk.set": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "nltk.test.probability",
+            "nltk.test.set"
+        ],
+        "name": "nltk.set",
+        "path": "/home/philip/projects/nltk/src/nltk/set.py"
+    },
+    "nltk.test": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "nltk.test"
+        ],
+        "imports": [
+            "nltk",
+            "nltk.test",
+            "nltk.test.set",
+            "nltk.test.token",
+            "nltk.test.tree"
+        ],
+        "name": "nltk.test",
+        "path": "/home/philip/projects/nltk/src/nltk/test/__init__.py"
+    },
+    "nltk.test.probability": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "nltk",
+            "nltk.set"
+        ],
+        "name": "nltk.test.probability",
+        "path": "/home/philip/projects/nltk/src/nltk/test/probability.py"
+    },
+    "nltk.test.set": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "nltk.test"
+        ],
+        "imports": [
+            "nltk",
+            "nltk.set"
+        ],
+        "name": "nltk.test.set",
+        "path": "/home/philip/projects/nltk/src/nltk/test/set.py"
+    },
+    "nltk.test.token": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "nltk.test"
+        ],
+        "name": "nltk.test.token",
+        "path": "/home/philip/projects/nltk/src/nltk/test/token.py"
+    },
+    "nltk.test.tree": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "nltk.test"
+        ],
+        "imports": [
+            "nltk",
+            "nltk.tree"
+        ],
+        "name": "nltk.test.tree",
+        "path": "/home/philip/projects/nltk/src/nltk/test/tree.py"
+    },
+    "nltk.tree": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "nltk.test.tree"
+        ],
+        "name": "nltk.tree",
+        "path": "/home/philip/projects/nltk/src/nltk/tree.py"
+    }
+}
