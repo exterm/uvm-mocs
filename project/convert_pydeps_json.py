@@ -2,7 +2,11 @@
 #
 # The data can be generated with `pydeps --no-output --show-deps --nodot wagtail > dependencies.json`
 
+# Run this script on a collection of pydeps json files with
+#  find data/wagtail/dependencies/ -name "*.json" -exec poetry run python convert_pydeps_json.py '{}' \;
+
 import sys
+import argparse
 
 import json
 import networkx as nx
@@ -10,28 +14,21 @@ import matplotlib.pyplot as plt
 
 from lib import convert_pydeps_json
 
-def main():
-    if len(sys.argv) != 2:
-        print("Usage: python convert_pydeps_json.py pydeps.json")
-        sys.exit(1)
+args = argparse.ArgumentParser()
+args.add_argument("input_file", help="input file")
 
-    input_file = sys.argv[1]
-    with open(input_file) as f:
-        g = convert_pydeps_json.convert(f.read())
+args = args.parse_args()
 
-    # remove file extension from input file name
-    output_prefix = input_file.rsplit('.', 1)[0]
+with open(args.input_file) as f:
+    g = convert_pydeps_json.convert(f.read())
 
-    # export to graphml for use in Gephi
-    nx.write_graphml(g, f"{output_prefix}.networkx.graphml")
+# remove file extension from input file name
+output_prefix = args.input_file.rsplit('.', 1)[0]
 
-    # for d3.js, export to json
-    json_data = json.dumps(nx.node_link_data(g))
-    with open(f"{output_prefix}.networkx.json", "w") as f:
-        f.write(json_data)
+# export to graphml for use in Gephi
+nx.write_graphml(g, f"{output_prefix}.networkx.graphml")
 
-if __name__ == "__main__":
-    main()
-
-
-
+# for d3.js, export to json
+json_data = json.dumps(nx.node_link_data(g))
+with open(f"{output_prefix}.networkx.json", "w") as f:
+    f.write(json_data)
