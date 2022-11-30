@@ -1,41 +1,7 @@
 {
-    "__main__": {
-        "bacon": 0,
-        "imports": [
-            "nltk",
-            "nltk.cfg",
-            "nltk.classifier",
-            "nltk.classifier.featureselection",
-            "nltk.draw",
-            "nltk.draw.plot",
-            "nltk.draw.rdparser",
-            "nltk.draw.srparser",
-            "nltk.draw.tree",
-            "nltk.parser",
-            "nltk.speech",
-            "nltk.speech.html",
-            "nltk.speech.numbers",
-            "nltk.speech.rules",
-            "nltk.speech.token",
-            "nltk.speech.token_tts",
-            "nltk.stemmer",
-            "nltk.stemmer.porter",
-            "nltk.test",
-            "nltk.test.cfg",
-            "nltk.test.imports",
-            "nltk.test.rechunkparser",
-            "nltk.test.set",
-            "nltk.test.token",
-            "nltk.test.tree",
-            "nltk.tree"
-        ],
-        "name": "__main__",
-        "path": null
-    },
     "nltk": {
         "bacon": 1,
         "imported_by": [
-            "__main__",
             "nltk.cfg",
             "nltk.classifier.featureselection",
             "nltk.draw.plot",
@@ -57,7 +23,6 @@
     "nltk.cfg": {
         "bacon": 1,
         "imported_by": [
-            "__main__",
             "nltk.draw.rdparser",
             "nltk.draw.srparser",
             "nltk.test.cfg"
@@ -71,7 +36,6 @@
     "nltk.classifier": {
         "bacon": 1,
         "imported_by": [
-            "__main__",
             "nltk.classifier.featureselection"
         ],
         "name": "nltk.classifier",
@@ -79,9 +43,6 @@
     },
     "nltk.classifier.featureselection": {
         "bacon": 1,
-        "imported_by": [
-            "__main__"
-        ],
         "imports": [
             "nltk",
             "nltk.classifier"
@@ -92,7 +53,6 @@
     "nltk.draw": {
         "bacon": 1,
         "imported_by": [
-            "__main__",
             "nltk.draw.plot",
             "nltk.draw.rdparser",
             "nltk.draw.srparser",
@@ -104,9 +64,6 @@
     },
     "nltk.draw.plot": {
         "bacon": 1,
-        "imported_by": [
-            "__main__"
-        ],
         "imports": [
             "nltk",
             "nltk.draw"
@@ -116,9 +73,6 @@
     },
     "nltk.draw.rdparser": {
         "bacon": 1,
-        "imported_by": [
-            "__main__"
-        ],
         "imports": [
             "nltk",
             "nltk.cfg",
@@ -131,9 +85,6 @@
     },
     "nltk.draw.srparser": {
         "bacon": 1,
-        "imported_by": [
-            "__main__"
-        ],
         "imports": [
             "nltk",
             "nltk.cfg",
@@ -147,7 +98,6 @@
     "nltk.draw.tree": {
         "bacon": 1,
         "imported_by": [
-            "__main__",
             "nltk.draw.rdparser",
             "nltk.draw.srparser",
             "nltk.tree"
@@ -163,7 +113,6 @@
     "nltk.parser": {
         "bacon": 1,
         "imported_by": [
-            "__main__",
             "nltk.draw.rdparser",
             "nltk.draw.srparser"
         ],
@@ -173,7 +122,6 @@
     "nltk.speech": {
         "bacon": 1,
         "imported_by": [
-            "__main__",
             "nltk.speech.rules",
             "nltk.speech.token",
             "nltk.speech.token_tts"
@@ -184,7 +132,6 @@
     "nltk.speech.html": {
         "bacon": 1,
         "imported_by": [
-            "__main__",
             "nltk.speech.rules"
         ],
         "name": "nltk.speech.html",
@@ -193,7 +140,6 @@
     "nltk.speech.numbers": {
         "bacon": 1,
         "imported_by": [
-            "__main__",
             "nltk.speech.rules"
         ],
         "name": "nltk.speech.numbers",
@@ -202,7 +148,6 @@
     "nltk.speech.rules": {
         "bacon": 1,
         "imported_by": [
-            "__main__",
             "nltk.speech.token",
             "nltk.speech.token_tts"
         ],
@@ -218,7 +163,6 @@
     "nltk.speech.token": {
         "bacon": 1,
         "imported_by": [
-            "__main__",
             "nltk.speech.token_tts"
         ],
         "imports": [
@@ -231,9 +175,6 @@
     },
     "nltk.speech.token_tts": {
         "bacon": 1,
-        "imported_by": [
-            "__main__"
-        ],
         "imports": [
             "nltk",
             "nltk.speech",
@@ -246,7 +187,6 @@
     "nltk.stemmer": {
         "bacon": 1,
         "imported_by": [
-            "__main__",
             "nltk.stemmer.porter"
         ],
         "name": "nltk.stemmer",
@@ -254,9 +194,6 @@
     },
     "nltk.stemmer.porter": {
         "bacon": 1,
-        "imported_by": [
-            "__main__"
-        ],
         "imports": [
             "nltk",
             "nltk.stemmer"
@@ -266,17 +203,11 @@
     },
     "nltk.test": {
         "bacon": 1,
-        "imported_by": [
-            "__main__"
-        ],
         "name": "nltk.test",
         "path": "/home/philip/projects/nltk/src/nltk/test"
     },
     "nltk.test.cfg": {
         "bacon": 1,
-        "imported_by": [
-            "__main__"
-        ],
         "imports": [
             "nltk",
             "nltk.cfg"
@@ -286,9 +217,6 @@
     },
     "nltk.test.imports": {
         "bacon": 1,
-        "imported_by": [
-            "__main__"
-        ],
         "imports": [
             "nltk"
         ],
@@ -297,33 +225,21 @@
     },
     "nltk.test.rechunkparser": {
         "bacon": 1,
-        "imported_by": [
-            "__main__"
-        ],
         "name": "nltk.test.rechunkparser",
         "path": "/home/philip/projects/nltk/src/nltk/test/rechunkparser.py"
     },
     "nltk.test.set": {
         "bacon": 1,
-        "imported_by": [
-            "__main__"
-        ],
         "name": "nltk.test.set",
         "path": "/home/philip/projects/nltk/src/nltk/test/set.py"
     },
     "nltk.test.token": {
         "bacon": 1,
-        "imported_by": [
-            "__main__"
-        ],
         "name": "nltk.test.token",
         "path": "/home/philip/projects/nltk/src/nltk/test/token.py"
     },
     "nltk.test.tree": {
         "bacon": 1,
-        "imported_by": [
-            "__main__"
-        ],
         "imports": [
             "nltk",
             "nltk.tree"
@@ -334,7 +250,6 @@
     "nltk.tree": {
         "bacon": 1,
         "imported_by": [
-            "__main__",
             "nltk.draw.tree",
             "nltk.test.tree"
         ],

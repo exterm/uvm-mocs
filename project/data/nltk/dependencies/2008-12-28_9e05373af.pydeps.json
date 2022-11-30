@@ -1,89 +1,7 @@
 {
-    "__main__": {
-        "bacon": 0,
-        "imports": [
-            "nltk",
-            "nltk.chat",
-            "nltk.chunk",
-            "nltk.chunk.api",
-            "nltk.classify",
-            "nltk.classify.api",
-            "nltk.classify.mallet",
-            "nltk.cluster",
-            "nltk.cluster.api",
-            "nltk.compat",
-            "nltk.containers",
-            "nltk.corpus",
-            "nltk.corpus.reader",
-            "nltk.corpus.reader.api",
-            "nltk.corpus.reader.bnc",
-            "nltk.corpus.reader.chunked",
-            "nltk.corpus.reader.cmudict",
-            "nltk.corpus.reader.conll",
-            "nltk.corpus.reader.dependency",
-            "nltk.corpus.reader.ieer",
-            "nltk.corpus.reader.indian",
-            "nltk.corpus.reader.nps_chat",
-            "nltk.corpus.reader.plaintext",
-            "nltk.corpus.reader.ppattach",
-            "nltk.corpus.reader.propbank",
-            "nltk.corpus.reader.rte",
-            "nltk.corpus.reader.sinica_treebank",
-            "nltk.corpus.reader.string_category",
-            "nltk.corpus.reader.switchboard",
-            "nltk.corpus.reader.tagged",
-            "nltk.corpus.reader.verbnet",
-            "nltk.corpus.reader.wordlist",
-            "nltk.corpus.reader.ycoe",
-            "nltk.decorators",
-            "nltk.draw",
-            "nltk.draw.dispersion",
-            "nltk.draw.nemo",
-            "nltk.draw.rdparser",
-            "nltk.draw.srparser",
-            "nltk.draw.table",
-            "nltk.draw.tree",
-            "nltk.draw.wordfreq",
-            "nltk.draw.wordnet_browser",
-            "nltk.draw.wordnet_browser.wxbrowse",
-            "nltk.etree",
-            "nltk.etree.ElementInclude",
-            "nltk.etree.ElementPath",
-            "nltk.etree.ElementTree",
-            "nltk.inference",
-            "nltk.misc",
-            "nltk.misc.sort",
-            "nltk.model",
-            "nltk.model.api",
-            "nltk.parse",
-            "nltk.sem",
-            "nltk.sem.drt_resolve_anaphora",
-            "nltk.stem",
-            "nltk.stem.api",
-            "nltk.tag",
-            "nltk.tag.simplify",
-            "nltk.tag.util",
-            "nltk.test",
-            "nltk.tokenize",
-            "nltk.tokenize.api",
-            "nltk.tokenize.simple",
-            "nltk.wordnet",
-            "nltk.wordnet.brown_ic",
-            "nltk.wordnet.browser",
-            "nltk.wordnet.browser.util",
-            "nltk.wordnet.browser.wxbrowse",
-            "nltk.wordnet.cache",
-            "nltk.wordnet.frequency",
-            "nltk.wordnet.lexname",
-            "nltk.yamltags"
-        ],
-        "name": "__main__",
-        "path": null
-    },
     "nltk": {
         "bacon": 1,
         "imported_by": [
-            "__main__",
             "nltk.chunk.api",
             "nltk.cluster.api",
             "nltk.compat",
@@ -123,16 +41,12 @@
     },
     "nltk.chat": {
         "bacon": 1,
-        "imported_by": [
-            "__main__"
-        ],
         "name": "nltk.chat",
         "path": "/home/philip/projects/nltk/nltk/chat"
     },
     "nltk.chunk": {
         "bacon": 1,
         "imported_by": [
-            "__main__",
             "nltk.corpus.reader.chunked",
             "nltk.corpus.reader.conll",
             "nltk.corpus.reader.ieer"
@@ -142,9 +56,6 @@
     },
     "nltk.chunk.api": {
         "bacon": 1,
-        "imported_by": [
-            "__main__"
-        ],
         "imports": [
             "nltk",
             "nltk.parse"
@@ -154,44 +65,26 @@
     },
     "nltk.classify": {
         "bacon": 1,
-        "imported_by": [
-            "__main__"
-        ],
-        "imports": [
-            "numpy"
-        ],
         "name": "nltk.classify",
         "path": "/home/philip/projects/nltk/nltk/classify/__init__.py"
     },
     "nltk.classify.api": {
         "bacon": 1,
-        "imported_by": [
-            "__main__"
-        ],
         "name": "nltk.classify.api",
         "path": "/home/philip/projects/nltk/nltk/classify/api.py"
     },
     "nltk.classify.mallet": {
         "bacon": 1,
-        "imported_by": [
-            "__main__"
-        ],
         "name": "nltk.classify.mallet",
         "path": "/home/philip/projects/nltk/nltk/classify/mallet.py"
     },
     "nltk.cluster": {
         "bacon": 1,
-        "imported_by": [
-            "__main__"
-        ],
         "name": "nltk.cluster",
         "path": "/home/philip/projects/nltk/nltk/cluster/__init__.py"
     },
     "nltk.cluster.api": {
         "bacon": 1,
-        "imported_by": [
-            "__main__"
-        ],
         "imports": [
             "nltk"
         ],
@@ -201,7 +94,6 @@
     "nltk.compat": {
         "bacon": 1,
         "imported_by": [
-            "__main__",
             "nltk.corpus.reader.nps_chat",
             "nltk.corpus.reader.verbnet"
         ],
@@ -215,16 +107,12 @@
     },
     "nltk.containers": {
         "bacon": 1,
-        "imported_by": [
-            "__main__"
-        ],
         "name": "nltk.containers",
         "path": "/home/philip/projects/nltk/nltk/containers.py"
     },
     "nltk.corpus": {
         "bacon": 1,
         "imported_by": [
-            "__main__",
             "nltk.corpus.reader",
             "nltk.corpus.reader.bnc",
             "nltk.corpus.reader.chunked",
@@ -256,7 +144,6 @@
     "nltk.corpus.reader": {
         "bacon": 1,
         "imported_by": [
-            "__main__",
             "nltk.corpus.reader",
             "nltk.corpus.reader.bnc",
             "nltk.corpus.reader.chunked",
@@ -304,7 +191,6 @@
     "nltk.corpus.reader.api": {
         "bacon": 1,
         "imported_by": [
-            "__main__",
             "nltk.corpus.reader",
             "nltk.corpus.reader.bnc",
             "nltk.corpus.reader.chunked",
@@ -330,7 +216,6 @@
     "nltk.corpus.reader.bnc": {
         "bacon": 1,
         "imported_by": [
-            "__main__",
             "nltk.corpus.reader"
         ],
         "imports": [
@@ -347,7 +232,6 @@
     "nltk.corpus.reader.chunked": {
         "bacon": 1,
         "imported_by": [
-            "__main__",
             "nltk.corpus.reader"
         ],
         "imports": [
@@ -364,7 +248,6 @@
     "nltk.corpus.reader.cmudict": {
         "bacon": 1,
         "imported_by": [
-            "__main__",
             "nltk.corpus.reader"
         ],
         "imports": [
@@ -379,7 +262,6 @@
     "nltk.corpus.reader.conll": {
         "bacon": 1,
         "imported_by": [
-            "__main__",
             "nltk.corpus.reader"
         ],
         "imports": [
@@ -395,7 +277,6 @@
     "nltk.corpus.reader.dependency": {
         "bacon": 1,
         "imported_by": [
-            "__main__",
             "nltk.corpus.reader"
         ],
         "imports": [
@@ -408,7 +289,6 @@
     "nltk.corpus.reader.ieer": {
         "bacon": 1,
         "imported_by": [
-            "__main__",
             "nltk.corpus.reader"
         ],
         "imports": [
@@ -424,7 +304,6 @@
     "nltk.corpus.reader.indian": {
         "bacon": 1,
         "imported_by": [
-            "__main__",
             "nltk.corpus.reader"
         ],
         "imports": [
@@ -442,7 +321,6 @@
     "nltk.corpus.reader.nps_chat": {
         "bacon": 1,
         "imported_by": [
-            "__main__",
             "nltk.corpus.reader"
         ],
         "imports": [
@@ -458,7 +336,6 @@
     "nltk.corpus.reader.plaintext": {
         "bacon": 1,
         "imported_by": [
-            "__main__",
             "nltk.corpus.reader"
         ],
         "imports": [
@@ -474,7 +351,6 @@
     "nltk.corpus.reader.ppattach": {
         "bacon": 1,
         "imported_by": [
-            "__main__",
             "nltk.corpus.reader"
         ],
         "imports": [
@@ -487,7 +363,6 @@
     "nltk.corpus.reader.propbank": {
         "bacon": 1,
         "imported_by": [
-            "__main__",
             "nltk.corpus.reader"
         ],
         "imports": [
@@ -504,7 +379,6 @@
     "nltk.corpus.reader.rte": {
         "bacon": 1,
         "imported_by": [
-            "__main__",
             "nltk.corpus.reader"
         ],
         "imports": [
@@ -519,7 +393,6 @@
     "nltk.corpus.reader.sinica_treebank": {
         "bacon": 1,
         "imported_by": [
-            "__main__",
             "nltk.corpus.reader"
         ],
         "imports": [
@@ -532,7 +405,6 @@
     "nltk.corpus.reader.string_category": {
         "bacon": 1,
         "imported_by": [
-            "__main__",
             "nltk.corpus.reader"
         ],
         "name": "nltk.corpus.reader.string_category",
@@ -541,7 +413,6 @@
     "nltk.corpus.reader.switchboard": {
         "bacon": 1,
         "imported_by": [
-            "__main__",
             "nltk.corpus.reader"
         ],
         "imports": [
@@ -557,7 +428,6 @@
     "nltk.corpus.reader.tagged": {
         "bacon": 1,
         "imported_by": [
-            "__main__",
             "nltk.corpus.reader",
             "nltk.corpus.reader.ycoe"
         ],
@@ -572,7 +442,6 @@
     "nltk.corpus.reader.verbnet": {
         "bacon": 1,
         "imported_by": [
-            "__main__",
             "nltk.corpus.reader"
         ],
         "imports": [
@@ -588,7 +457,6 @@
     "nltk.corpus.reader.wordlist": {
         "bacon": 1,
         "imported_by": [
-            "__main__",
             "nltk.corpus.reader"
         ],
         "imports": [
@@ -604,7 +472,6 @@
     "nltk.corpus.reader.ycoe": {
         "bacon": 1,
         "imported_by": [
-            "__main__",
             "nltk.corpus.reader"
         ],
         "imports": [
@@ -620,16 +487,12 @@
     },
     "nltk.decorators": {
         "bacon": 1,
-        "imported_by": [
-            "__main__"
-        ],
         "name": "nltk.decorators",
         "path": "/home/philip/projects/nltk/nltk/decorators.py"
     },
     "nltk.draw": {
         "bacon": 1,
         "imported_by": [
-            "__main__",
             "nltk.draw.tree"
         ],
         "name": "nltk.draw",
@@ -637,9 +500,6 @@
     },
     "nltk.draw.dispersion": {
         "bacon": 1,
-        "imported_by": [
-            "__main__"
-        ],
         "imports": [
             "nltk",
             "nltk.corpus"
@@ -649,17 +509,11 @@
     },
     "nltk.draw.nemo": {
         "bacon": 1,
-        "imported_by": [
-            "__main__"
-        ],
         "name": "nltk.draw.nemo",
         "path": "/home/philip/projects/nltk/nltk/draw/nemo.py"
     },
     "nltk.draw.rdparser": {
         "bacon": 1,
-        "imported_by": [
-            "__main__"
-        ],
         "imports": [
             "nltk",
             "nltk.parse",
@@ -670,9 +524,6 @@
     },
     "nltk.draw.srparser": {
         "bacon": 1,
-        "imported_by": [
-            "__main__"
-        ],
         "imports": [
             "nltk",
             "nltk.parse",
@@ -683,9 +534,6 @@
     },
     "nltk.draw.table": {
         "bacon": 1,
-        "imported_by": [
-            "__main__"
-        ],
         "imports": [
             "nltk",
             "nltk.corpus",
@@ -696,9 +544,6 @@
     },
     "nltk.draw.tree": {
         "bacon": 1,
-        "imported_by": [
-            "__main__"
-        ],
         "imports": [
             "nltk",
             "nltk.draw"
@@ -708,9 +553,6 @@
     },
     "nltk.draw.wordfreq": {
         "bacon": 1,
-        "imported_by": [
-            "__main__"
-        ],
         "imports": [
             "nltk",
             "nltk.corpus"
@@ -720,24 +562,17 @@
     },
     "nltk.draw.wordnet_browser": {
         "bacon": 1,
-        "imported_by": [
-            "__main__"
-        ],
         "name": "nltk.draw.wordnet_browser",
         "path": "/home/philip/projects/nltk/nltk/draw/wordnet_browser/__init__.py"
     },
     "nltk.draw.wordnet_browser.wxbrowse": {
         "bacon": 1,
-        "imported_by": [
-            "__main__"
-        ],
         "name": "nltk.draw.wordnet_browser.wxbrowse",
         "path": "/home/philip/projects/nltk/nltk/draw/wordnet_browser/wxbrowse.py"
     },
     "nltk.etree": {
         "bacon": 1,
         "imported_by": [
-            "__main__",
             "nltk.compat",
             "nltk.corpus.reader.bnc",
             "nltk.corpus.reader.propbank"
@@ -747,24 +582,17 @@
     },
     "nltk.etree.ElementInclude": {
         "bacon": 1,
-        "imported_by": [
-            "__main__"
-        ],
         "name": "nltk.etree.ElementInclude",
         "path": "/home/philip/projects/nltk/nltk/etree/ElementInclude.py"
     },
     "nltk.etree.ElementPath": {
         "bacon": 1,
-        "imported_by": [
-            "__main__"
-        ],
         "name": "nltk.etree.ElementPath",
         "path": "/home/philip/projects/nltk/nltk/etree/ElementPath.py"
     },
     "nltk.etree.ElementTree": {
         "bacon": 1,
         "imported_by": [
-            "__main__",
             "nltk.compat",
             "nltk.corpus.reader.bnc",
             "nltk.corpus.reader.propbank"
@@ -774,48 +602,32 @@
     },
     "nltk.inference": {
         "bacon": 1,
-        "imported_by": [
-            "__main__"
-        ],
         "name": "nltk.inference",
         "path": "/home/philip/projects/nltk/nltk/inference/__init__.py"
     },
     "nltk.misc": {
         "bacon": 1,
-        "imported_by": [
-            "__main__"
-        ],
         "name": "nltk.misc",
         "path": "/home/philip/projects/nltk/nltk/misc/__init__.py"
     },
     "nltk.misc.sort": {
         "bacon": 1,
-        "imported_by": [
-            "__main__"
-        ],
         "name": "nltk.misc.sort",
         "path": "/home/philip/projects/nltk/nltk/misc/sort.py"
     },
     "nltk.model": {
         "bacon": 1,
-        "imported_by": [
-            "__main__"
-        ],
         "name": "nltk.model",
         "path": "/home/philip/projects/nltk/nltk/model/__init__.py"
     },
     "nltk.model.api": {
         "bacon": 1,
-        "imported_by": [
-            "__main__"
-        ],
         "name": "nltk.model.api",
         "path": "/home/philip/projects/nltk/nltk/model/api.py"
     },
     "nltk.parse": {
         "bacon": 1,
         "imported_by": [
-            "__main__",
             "nltk.chunk.api",
             "nltk.draw.rdparser",
             "nltk.draw.srparser"
@@ -825,63 +637,43 @@
     },
     "nltk.sem": {
         "bacon": 1,
-        "imported_by": [
-            "__main__"
-        ],
         "name": "nltk.sem",
         "path": "/home/philip/projects/nltk/nltk/sem"
     },
     "nltk.sem.drt_resolve_anaphora": {
         "bacon": 1,
-        "imported_by": [
-            "__main__"
-        ],
         "name": "nltk.sem.drt_resolve_anaphora",
         "path": "/home/philip/projects/nltk/nltk/sem/drt_resolve_anaphora.py"
     },
     "nltk.stem": {
         "bacon": 1,
-        "imported_by": [
-            "__main__"
-        ],
         "name": "nltk.stem",
         "path": "/home/philip/projects/nltk/nltk/stem/__init__.py"
     },
     "nltk.stem.api": {
         "bacon": 1,
-        "imported_by": [
-            "__main__"
-        ],
         "name": "nltk.stem.api",
         "path": "/home/philip/projects/nltk/nltk/stem/api.py"
     },
     "nltk.tag": {
         "bacon": 1,
         "imported_by": [
-            "__main__",
             "nltk.corpus",
             "nltk.corpus.reader.indian",
             "nltk.corpus.reader.switchboard",
             "nltk.corpus.reader.tagged"
-        ],
-        "imports": [
-            "numpy"
         ],
         "name": "nltk.tag",
         "path": "/home/philip/projects/nltk/nltk/tag/__init__.py"
     },
     "nltk.tag.simplify": {
         "bacon": 1,
-        "imported_by": [
-            "__main__"
-        ],
         "name": "nltk.tag.simplify",
         "path": "/home/philip/projects/nltk/nltk/tag/simplify.py"
     },
     "nltk.tag.util": {
         "bacon": 1,
         "imported_by": [
-            "__main__",
             "nltk.corpus.reader.indian"
         ],
         "imports": [
@@ -892,16 +684,12 @@
     },
     "nltk.test": {
         "bacon": 1,
-        "imported_by": [
-            "__main__"
-        ],
         "name": "nltk.test",
         "path": "/home/philip/projects/nltk/nltk/test/__init__.py"
     },
     "nltk.tokenize": {
         "bacon": 1,
         "imported_by": [
-            "__main__",
             "nltk.corpus",
             "nltk.corpus.reader.chunked",
             "nltk.corpus.reader.dependency",
@@ -920,24 +708,17 @@
     },
     "nltk.tokenize.api": {
         "bacon": 1,
-        "imported_by": [
-            "__main__"
-        ],
         "name": "nltk.tokenize.api",
         "path": "/home/philip/projects/nltk/nltk/tokenize/api.py"
     },
     "nltk.tokenize.simple": {
         "bacon": 1,
-        "imported_by": [
-            "__main__"
-        ],
         "name": "nltk.tokenize.simple",
         "path": "/home/philip/projects/nltk/nltk/tokenize/simple.py"
     },
     "nltk.wordnet": {
         "bacon": 1,
         "imported_by": [
-            "__main__",
             "nltk.draw.table",
             "nltk.wordnet.browser.util"
         ],
@@ -946,9 +727,6 @@
     },
     "nltk.wordnet.brown_ic": {
         "bacon": 1,
-        "imported_by": [
-            "__main__"
-        ],
         "imports": [
             "nltk",
             "nltk.corpus"
@@ -958,17 +736,11 @@
     },
     "nltk.wordnet.browser": {
         "bacon": 1,
-        "imported_by": [
-            "__main__"
-        ],
         "name": "nltk.wordnet.browser",
         "path": "/home/philip/projects/nltk/nltk/wordnet/browser/__init__.py"
     },
     "nltk.wordnet.browser.util": {
         "bacon": 1,
-        "imported_by": [
-            "__main__"
-        ],
         "imports": [
             "nltk",
             "nltk.wordnet"
@@ -978,66 +750,27 @@
     },
     "nltk.wordnet.browser.wxbrowse": {
         "bacon": 1,
-        "imported_by": [
-            "__main__"
-        ],
         "name": "nltk.wordnet.browser.wxbrowse",
         "path": "/home/philip/projects/nltk/nltk/wordnet/browser/wxbrowse.py"
     },
     "nltk.wordnet.cache": {
         "bacon": 1,
-        "imported_by": [
-            "__main__"
-        ],
         "name": "nltk.wordnet.cache",
         "path": "/home/philip/projects/nltk/nltk/wordnet/cache.py"
     },
     "nltk.wordnet.frequency": {
         "bacon": 1,
-        "imported_by": [
-            "__main__"
-        ],
         "name": "nltk.wordnet.frequency",
         "path": "/home/philip/projects/nltk/nltk/wordnet/frequency.py"
     },
     "nltk.wordnet.lexname": {
         "bacon": 1,
-        "imported_by": [
-            "__main__"
-        ],
         "name": "nltk.wordnet.lexname",
         "path": "/home/philip/projects/nltk/nltk/wordnet/lexname.py"
     },
     "nltk.yamltags": {
         "bacon": 1,
-        "imported_by": [
-            "__main__"
-        ],
-        "imports": [
-            "yaml"
-        ],
         "name": "nltk.yamltags",
         "path": "/home/philip/projects/nltk/nltk/yamltags.py"
-    },
-    "numpy": {
-        "bacon": 2,
-        "imported_by": [
-            "nltk.classify",
-            "nltk.tag",
-            "numpy"
-        ],
-        "imports": [
-            "numpy"
-        ],
-        "name": "numpy",
-        "path": "/home/philip/.asdf/installs/python/3.11.0/lib/python3.11/site-packages/numpy/__init__.py"
-    },
-    "yaml": {
-        "bacon": 2,
-        "imported_by": [
-            "nltk.yamltags"
-        ],
-        "name": "yaml",
-        "path": "/home/philip/projects/nltk/yaml/__init__.py"
     }
 }

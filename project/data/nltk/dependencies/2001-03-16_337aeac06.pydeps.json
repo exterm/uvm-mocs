@@ -1,35 +1,16 @@
 {
-    "__main__": {
-        "bacon": 0,
-        "imports": [
-            "nltk",
-            "nltk.probability",
-            "nltk.token"
-        ],
-        "name": "__main__",
-        "path": null
-    },
     "nltk": {
         "bacon": 1,
-        "imported_by": [
-            "__main__"
-        ],
         "name": "nltk",
         "path": "/home/philip/projects/nltk/src/nltk/__init__.py"
     },
     "nltk.probability": {
         "bacon": 1,
-        "imported_by": [
-            "__main__"
-        ],
         "name": "nltk.probability",
         "path": "/home/philip/projects/nltk/src/nltk/probability.py"
     },
     "nltk.token": {
         "bacon": 1,
-        "imported_by": [
-            "__main__"
-        ],
         "name": "nltk.token",
         "path": "/home/philip/projects/nltk/src/nltk/token.py"
     }
