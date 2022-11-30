@@ -57,11 +57,8 @@
     <node id="nltk.wordnet.frequency" />
     <node id="nltk.wordnet.lexname" />
     <node id="nltk.yamltags" />
-    <node id="numpy" />
-    <node id="yaml" />
     <edge source="nltk.chunk.api" target="nltk" />
     <edge source="nltk.chunk.api" target="nltk.parse" />
-    <edge source="nltk.classify" target="numpy" />
     <edge source="nltk.cluster.api" target="nltk" />
     <edge source="nltk.compat" target="nltk" />
     <edge source="nltk.compat" target="nltk.etree" />
@@ -148,13 +145,11 @@
     <edge source="nltk.draw.srparser" target="nltk.tokenize" />
     <edge source="nltk.draw.tree" target="nltk" />
     <edge source="nltk.draw.tree" target="nltk.draw" />
-    <edge source="nltk.tag" target="numpy" />
     <edge source="nltk.tag.util" target="nltk" />
     <edge source="nltk.tokenize.simple" target="nltk" />
     <edge source="nltk.tokenize.simple" target="nltk.tokenize" />
     <edge source="nltk.tokenize.simple" target="nltk.tokenize.api" />
     <edge source="nltk.wordnet.brown_ic" target="nltk" />
     <edge source="nltk.wordnet.brown_ic" target="nltk.corpus" />
-    <edge source="nltk.yamltags" target="yaml" />
   </graph>
 </graphml>

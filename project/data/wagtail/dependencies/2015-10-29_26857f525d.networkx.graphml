@@ -1,11 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
   <graph edgedefault="directed">
-    <node id="pytz" />
-    <node id="setuptools" />
-    <node id="setuptools.command" />
-    <node id="setuptools.command.bdist_egg" />
-    <node id="setuptools.command.sdist" />
     <node id="wagtail.bin" />
     <node id="wagtail.bin.wagtail" />
     <node id="wagtail.contrib" />
@@ -358,7 +353,6 @@
     <node id="wagtail.wagtailusers.views.groups" />
     <node id="wagtail.wagtailusers.views.users" />
     <node id="wagtail.wagtailusers.wagtail_hooks" />
-    <edge source="setuptools.command.bdist_egg" target="setuptools" />
     <edge source="wagtail.contrib.settings.context_processors" target="wagtail.contrib.settings.registry" />
     <edge source="wagtail.contrib.settings.forms" target="wagtail.wagtailcore" />
     <edge source="wagtail.contrib.settings.forms" target="wagtail.wagtailcore.models" />
@@ -653,10 +647,6 @@
     <edge source="wagtail.tests.urls" target="wagtail.wagtailimages.urls" />
     <edge source="wagtail.tests.urls" target="wagtail.wagtailsearch" />
     <edge source="wagtail.tests.urls" target="wagtail.wagtailsearch.urls" />
-    <edge source="wagtail.utils.setup" target="setuptools" />
-    <edge source="wagtail.utils.setup" target="setuptools.command" />
-    <edge source="wagtail.utils.setup" target="setuptools.command.bdist_egg" />
-    <edge source="wagtail.utils.setup" target="setuptools.command.sdist" />
     <edge source="wagtail.wagtailadmin.blocks" target="wagtail.wagtailcore" />
     <edge source="wagtail.wagtailadmin.blocks" target="wagtail.wagtailcore.blocks" />
     <edge source="wagtail.wagtailadmin.edit_handlers" target="wagtail.utils" />
@@ -928,7 +918,6 @@
     <edge source="wagtail.wagtailcore.tests.test_management_commands" target="wagtail.wagtailcore" />
     <edge source="wagtail.wagtailcore.tests.test_management_commands" target="wagtail.wagtailcore.models" />
     <edge source="wagtail.wagtailcore.tests.test_management_commands" target="wagtail.wagtailcore.signals" />
-    <edge source="wagtail.wagtailcore.tests.test_page_model" target="pytz" />
     <edge source="wagtail.wagtailcore.tests.test_page_model" target="wagtail.tests" />
     <edge source="wagtail.wagtailcore.tests.test_page_model" target="wagtail.tests.testapp" />
     <edge source="wagtail.wagtailcore.tests.test_page_model" target="wagtail.tests.testapp.models" />

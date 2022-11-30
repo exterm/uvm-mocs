@@ -90,9 +90,6 @@
     <node id="nltk.tokenize.simple" />
     <node id="nltk.tokenize.treebank" />
     <node id="nltk.yamltags" />
-    <node id="numpy" />
-    <node id="scipy" />
-    <node id="scipy.sparse" />
     <edge source="nltk.align" target="nltk" />
     <edge source="nltk.align" target="nltk.metrics" />
     <edge source="nltk.app.rdparser_app" target="nltk" />
@@ -118,15 +115,11 @@
     <edge source="nltk.classify" target="nltk.classify.api" />
     <edge source="nltk.classify" target="nltk.classify.mallet" />
     <edge source="nltk.classify" target="nltk.classify.positivenaivebayes" />
-    <edge source="nltk.classify" target="numpy" />
     <edge source="nltk.classify.positivenaivebayes" target="nltk" />
     <edge source="nltk.classify.positivenaivebayes" target="nltk.classify" />
     <edge source="nltk.classify.scikitlearn" target="nltk" />
     <edge source="nltk.classify.scikitlearn" target="nltk.classify" />
     <edge source="nltk.classify.scikitlearn" target="nltk.classify.api" />
-    <edge source="nltk.classify.scikitlearn" target="numpy" />
-    <edge source="nltk.classify.scikitlearn" target="scipy" />
-    <edge source="nltk.classify.scikitlearn" target="scipy.sparse" />
     <edge source="nltk.cluster" target="nltk" />
     <edge source="nltk.corpus" target="nltk" />
     <edge source="nltk.corpus" target="nltk.tag" />
@@ -223,7 +216,6 @@
     <edge source="nltk.tag" target="nltk.tag.simplify" />
     <edge source="nltk.tag" target="nltk.tag.stanford" />
     <edge source="nltk.tag" target="nltk.tag.util" />
-    <edge source="nltk.tag" target="numpy" />
     <edge source="nltk.tag.api" target="nltk" />
     <edge source="nltk.tag.api" target="nltk.metrics" />
     <edge source="nltk.tag.api" target="nltk.tag" />
@@ -241,7 +233,6 @@
     <edge source="nltk.tokenize" target="nltk.tokenize.sexpr" />
     <edge source="nltk.tokenize" target="nltk.tokenize.simple" />
     <edge source="nltk.tokenize" target="nltk.tokenize.treebank" />
-    <edge source="nltk.tokenize" target="numpy" />
     <edge source="nltk.tokenize.api" target="nltk" />
     <edge source="nltk.tokenize.api" target="nltk.tokenize" />
     <edge source="nltk.tokenize.sexpr" target="nltk" />
@@ -253,7 +244,5 @@
     <edge source="nltk.tokenize.treebank" target="nltk" />
     <edge source="nltk.tokenize.treebank" target="nltk.tokenize" />
     <edge source="nltk.tokenize.treebank" target="nltk.tokenize.api" />
-    <edge source="scipy" target="numpy" />
-    <edge source="scipy.sparse" target="scipy" />
   </graph>
 </graphml>

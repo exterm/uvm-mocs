@@ -239,11 +239,6 @@
     <node id="nltk.tree" />
     <node id="nltk.treetransforms" />
     <node id="nltk.util" />
-    <node id="numpy" />
-    <node id="numpy.testing" />
-    <node id="scipy" />
-    <node id="scipy.stats" />
-    <node id="scipy.stats.stats" />
     <edge source="nltk" target="nltk.align" />
     <edge source="nltk" target="nltk.ccg" />
     <edge source="nltk" target="nltk.chunk" />
@@ -278,7 +273,6 @@
     <edge source="nltk" target="nltk.tree" />
     <edge source="nltk" target="nltk.treetransforms" />
     <edge source="nltk" target="nltk.util" />
-    <edge source="nltk" target="numpy" />
     <edge source="nltk.align" target="nltk" />
     <edge source="nltk.align" target="nltk.compat" />
     <edge source="nltk.align" target="nltk.metrics" />
@@ -461,11 +455,9 @@
     <edge source="nltk.classify.maxent" target="nltk.data" />
     <edge source="nltk.classify.maxent" target="nltk.probability" />
     <edge source="nltk.classify.maxent" target="nltk.util" />
-    <edge source="nltk.classify.maxent" target="numpy" />
     <edge source="nltk.classify.megam" target="nltk" />
     <edge source="nltk.classify.megam" target="nltk.compat" />
     <edge source="nltk.classify.megam" target="nltk.internals" />
-    <edge source="nltk.classify.megam" target="numpy" />
     <edge source="nltk.classify.naivebayes" target="nltk" />
     <edge source="nltk.classify.naivebayes" target="nltk.classify" />
     <edge source="nltk.classify.naivebayes" target="nltk.classify.api" />
@@ -492,7 +484,6 @@
     <edge source="nltk.classify.tadm" target="nltk.classify.util" />
     <edge source="nltk.classify.tadm" target="nltk.compat" />
     <edge source="nltk.classify.tadm" target="nltk.internals" />
-    <edge source="nltk.classify.tadm" target="numpy" />
     <edge source="nltk.classify.util" target="nltk" />
     <edge source="nltk.classify.util" target="nltk.classify" />
     <edge source="nltk.classify.util" target="nltk.corpus" />
@@ -515,22 +506,18 @@
     <edge source="nltk.cluster.em" target="nltk.cluster" />
     <edge source="nltk.cluster.em" target="nltk.cluster.util" />
     <edge source="nltk.cluster.em" target="nltk.compat" />
-    <edge source="nltk.cluster.em" target="numpy" />
     <edge source="nltk.cluster.gaac" target="nltk" />
     <edge source="nltk.cluster.gaac" target="nltk.cluster" />
     <edge source="nltk.cluster.gaac" target="nltk.cluster.util" />
     <edge source="nltk.cluster.gaac" target="nltk.compat" />
-    <edge source="nltk.cluster.gaac" target="numpy" />
     <edge source="nltk.cluster.kmeans" target="nltk" />
     <edge source="nltk.cluster.kmeans" target="nltk.cluster" />
     <edge source="nltk.cluster.kmeans" target="nltk.cluster.util" />
     <edge source="nltk.cluster.kmeans" target="nltk.compat" />
-    <edge source="nltk.cluster.kmeans" target="numpy" />
     <edge source="nltk.cluster.util" target="nltk" />
     <edge source="nltk.cluster.util" target="nltk.cluster" />
     <edge source="nltk.cluster.util" target="nltk.cluster.api" />
     <edge source="nltk.cluster.util" target="nltk.compat" />
-    <edge source="nltk.cluster.util" target="numpy" />
     <edge source="nltk.collocations" target="nltk" />
     <edge source="nltk.collocations" target="nltk.compat" />
     <edge source="nltk.collocations" target="nltk.corpus" />
@@ -989,20 +976,14 @@
     <edge source="nltk.metrics.agreement" target="nltk.metrics" />
     <edge source="nltk.metrics.agreement" target="nltk.metrics.distance" />
     <edge source="nltk.metrics.agreement" target="nltk.probability" />
-    <edge source="nltk.metrics.association" target="scipy" />
-    <edge source="nltk.metrics.association" target="scipy.stats" />
     <edge source="nltk.metrics.confusionmatrix" target="nltk" />
     <edge source="nltk.metrics.confusionmatrix" target="nltk.compat" />
     <edge source="nltk.metrics.confusionmatrix" target="nltk.probability" />
     <edge source="nltk.metrics.scores" target="nltk" />
     <edge source="nltk.metrics.scores" target="nltk.compat" />
     <edge source="nltk.metrics.scores" target="nltk.util" />
-    <edge source="nltk.metrics.scores" target="scipy" />
-    <edge source="nltk.metrics.scores" target="scipy.stats" />
-    <edge source="nltk.metrics.scores" target="scipy.stats.stats" />
     <edge source="nltk.metrics.segmentation" target="nltk" />
     <edge source="nltk.metrics.segmentation" target="nltk.compat" />
-    <edge source="nltk.metrics.segmentation" target="numpy" />
     <edge source="nltk.misc" target="nltk" />
     <edge source="nltk.misc" target="nltk.misc.babelfish" />
     <edge source="nltk.misc" target="nltk.misc.chomsky" />
@@ -1293,7 +1274,6 @@
     <edge source="nltk.tag.hmm" target="nltk.tag" />
     <edge source="nltk.tag.hmm" target="nltk.tag.api" />
     <edge source="nltk.tag.hmm" target="nltk.util" />
-    <edge source="nltk.tag.hmm" target="numpy" />
     <edge source="nltk.tag.hunpos" target="nltk" />
     <edge source="nltk.tag.hunpos" target="nltk.compat" />
     <edge source="nltk.tag.hunpos" target="nltk.internals" />
@@ -1344,7 +1324,6 @@
     <edge source="nltk.test.align_fixt" target="nltk.corpus" />
     <edge source="nltk.test.childes_fixt" target="nltk" />
     <edge source="nltk.test.childes_fixt" target="nltk.data" />
-    <edge source="nltk.test.classify_fixt" target="numpy" />
     <edge source="nltk.test.compat_fixt" target="nltk" />
     <edge source="nltk.test.compat_fixt" target="nltk.compat" />
     <edge source="nltk.test.corpus_fixt" target="nltk" />
@@ -1364,8 +1343,6 @@
     <edge source="nltk.test.portuguese_en_fixt" target="nltk" />
     <edge source="nltk.test.portuguese_en_fixt" target="nltk.compat" />
     <edge source="nltk.test.portuguese_en_fixt" target="nltk.corpus" />
-    <edge source="nltk.test.probability_fixt" target="numpy" />
-    <edge source="nltk.test.segmentation_fixt" target="numpy" />
     <edge source="nltk.test.semantics_fixt" target="nltk" />
     <edge source="nltk.test.semantics_fixt" target="nltk.sem" />
     <edge source="nltk.test.semantics_fixt" target="nltk.sem.logic" />
@@ -1391,8 +1368,6 @@
     <edge source="nltk.test.unit.test_hmm" target="nltk" />
     <edge source="nltk.test.unit.test_hmm" target="nltk.tag" />
     <edge source="nltk.test.unit.test_hmm" target="nltk.tag.hmm" />
-    <edge source="nltk.test.unit.test_hmm" target="numpy" />
-    <edge source="nltk.test.unit.test_hmm" target="numpy.testing" />
     <edge source="nltk.test.unit.test_naivebayes" target="nltk" />
     <edge source="nltk.test.unit.test_naivebayes" target="nltk.classify" />
     <edge source="nltk.test.unit.test_naivebayes" target="nltk.classify.naivebayes" />
@@ -1405,7 +1380,6 @@
     <edge source="nltk.test.unit.test_tag" target="nltk" />
     <edge source="nltk.test.unit.test_tag" target="nltk.tag" />
     <edge source="nltk.test.unit.test_tag" target="nltk.tokenize" />
-    <edge source="nltk.test.unit.test_tag" target="numpy" />
     <edge source="nltk.test.unit.utils" target="nltk" />
     <edge source="nltk.test.unit.utils" target="nltk.util" />
     <edge source="nltk.test.wordnet_fixt" target="nltk" />
@@ -1457,7 +1431,6 @@
     <edge source="nltk.tokenize.texttiling" target="nltk.corpus" />
     <edge source="nltk.tokenize.texttiling" target="nltk.tokenize" />
     <edge source="nltk.tokenize.texttiling" target="nltk.tokenize.api" />
-    <edge source="nltk.tokenize.texttiling" target="numpy" />
     <edge source="nltk.tokenize.treebank" target="nltk" />
     <edge source="nltk.tokenize.treebank" target="nltk.tokenize" />
     <edge source="nltk.tokenize.treebank" target="nltk.tokenize.api" />
@@ -1482,12 +1455,5 @@
     <edge source="nltk.util" target="nltk" />
     <edge source="nltk.util" target="nltk.compat" />
     <edge source="nltk.util" target="nltk.internals" />
-    <edge source="numpy" target="numpy.testing" />
-    <edge source="numpy.testing" target="numpy" />
-    <edge source="scipy" target="numpy" />
-    <edge source="scipy.stats" target="scipy" />
-    <edge source="scipy.stats" target="scipy.stats.stats" />
-    <edge source="scipy.stats.stats" target="scipy" />
-    <edge source="scipy.stats.stats" target="scipy.stats" />
   </graph>
 </graphml>

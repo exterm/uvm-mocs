@@ -1,12 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
   <graph edgedefault="directed">
-    <node id="pytz" />
-    <node id="requests" />
-    <node id="setuptools" />
-    <node id="setuptools.command" />
-    <node id="setuptools.command.bdist_egg" />
-    <node id="setuptools.command.sdist" />
     <node id="wagtail" />
     <node id="wagtail.actions" />
     <node id="wagtail.actions.convert_alias" />
@@ -844,7 +838,6 @@
     <node id="wagtail.whitelist" />
     <node id="wagtail.widget_adapters" />
     <node id="wagtail.workflows" />
-    <edge source="setuptools.command.bdist_egg" target="setuptools" />
     <edge source="wagtail" target="wagtail.utils" />
     <edge source="wagtail" target="wagtail.utils.deprecation" />
     <edge source="wagtail" target="wagtail.utils.version" />
@@ -1060,7 +1053,6 @@
     <edge source="wagtail.admin.forms.workflows" target="wagtail.models" />
     <edge source="wagtail.admin.jinja2tags" target="wagtail.admin.templatetags" />
     <edge source="wagtail.admin.jinja2tags" target="wagtail.admin.templatetags.wagtailuserbar" />
-    <edge source="wagtail.admin.localization" target="pytz" />
     <edge source="wagtail.admin.mail" target="wagtail" />
     <edge source="wagtail.admin.mail" target="wagtail.admin.auth" />
     <edge source="wagtail.admin.mail" target="wagtail.coreutils" />
@@ -1401,7 +1393,6 @@
     <edge source="wagtail.admin.tests.pages.test_workflow_history" target="wagtail.models" />
     <edge source="wagtail.admin.tests.pages.test_workflow_history" target="wagtail.test" />
     <edge source="wagtail.admin.tests.pages.test_workflow_history" target="wagtail.test.utils" />
-    <edge source="wagtail.admin.tests.test_account_management" target="pytz" />
     <edge source="wagtail.admin.tests.test_account_management" target="wagtail" />
     <edge source="wagtail.admin.tests.test_account_management" target="wagtail.admin.localization" />
     <edge source="wagtail.admin.tests.test_account_management" target="wagtail.admin.views" />
@@ -1458,7 +1449,6 @@
     <edge source="wagtail.admin.tests.test_dbwhitelister" target="wagtail.admin.rich_text" />
     <edge source="wagtail.admin.tests.test_dbwhitelister" target="wagtail.admin.rich_text.converters" />
     <edge source="wagtail.admin.tests.test_dbwhitelister" target="wagtail.admin.rich_text.converters.editor_html" />
-    <edge source="wagtail.admin.tests.test_edit_handlers" target="pytz" />
     <edge source="wagtail.admin.tests.test_edit_handlers" target="wagtail" />
     <edge source="wagtail.admin.tests.test_edit_handlers" target="wagtail.admin.forms" />
     <edge source="wagtail.admin.tests.test_edit_handlers" target="wagtail.admin.panels" />
@@ -2291,14 +2281,12 @@
     <edge source="wagtail.contrib.frontend_cache.apps" target="wagtail.contrib" />
     <edge source="wagtail.contrib.frontend_cache.apps" target="wagtail.contrib.frontend_cache" />
     <edge source="wagtail.contrib.frontend_cache.apps" target="wagtail.contrib.frontend_cache.signal_handlers" />
-    <edge source="wagtail.contrib.frontend_cache.backends" target="requests" />
     <edge source="wagtail.contrib.frontend_cache.backends" target="wagtail" />
     <edge source="wagtail.contrib.frontend_cache.signal_handlers" target="wagtail" />
     <edge source="wagtail.contrib.frontend_cache.signal_handlers" target="wagtail.contrib" />
     <edge source="wagtail.contrib.frontend_cache.signal_handlers" target="wagtail.contrib.frontend_cache" />
     <edge source="wagtail.contrib.frontend_cache.signal_handlers" target="wagtail.contrib.frontend_cache.utils" />
     <edge source="wagtail.contrib.frontend_cache.signal_handlers" target="wagtail.signals" />
-    <edge source="wagtail.contrib.frontend_cache.tests" target="requests" />
     <edge source="wagtail.contrib.frontend_cache.tests" target="wagtail" />
     <edge source="wagtail.contrib.frontend_cache.tests" target="wagtail.contrib" />
     <edge source="wagtail.contrib.frontend_cache.tests" target="wagtail.contrib.frontend_cache" />
@@ -2799,7 +2787,6 @@
     <edge source="wagtail.contrib.sitemaps" target="wagtail.contrib.sitemaps.sitemap_generator" />
     <edge source="wagtail.contrib.sitemaps.sitemap_generator" target="wagtail" />
     <edge source="wagtail.contrib.sitemaps.sitemap_generator" target="wagtail.models" />
-    <edge source="wagtail.contrib.sitemaps.tests" target="pytz" />
     <edge source="wagtail.contrib.sitemaps.tests" target="wagtail" />
     <edge source="wagtail.contrib.sitemaps.tests" target="wagtail.contrib.sitemaps.sitemap_generator" />
     <edge source="wagtail.contrib.sitemaps.tests" target="wagtail.models" />
@@ -4461,7 +4448,6 @@
     <edge source="wagtail.tests.test_management_commands" target="wagtail.test.testapp" />
     <edge source="wagtail.tests.test_management_commands" target="wagtail.test.testapp.models" />
     <edge source="wagtail.tests.test_management_commands" target="wagtail.test.utils" />
-    <edge source="wagtail.tests.test_page_model" target="pytz" />
     <edge source="wagtail.tests.test_page_model" target="wagtail" />
     <edge source="wagtail.tests.test_page_model" target="wagtail.actions" />
     <edge source="wagtail.tests.test_page_model" target="wagtail.actions.copy_for_translation" />
@@ -4565,7 +4551,6 @@
     <edge source="wagtail.tests.test_views" target="wagtail.test.utils" />
     <edge source="wagtail.tests.test_whitelist" target="wagtail" />
     <edge source="wagtail.tests.test_whitelist" target="wagtail.whitelist" />
-    <edge source="wagtail.tests.test_workflow" target="pytz" />
     <edge source="wagtail.tests.test_workflow" target="wagtail" />
     <edge source="wagtail.tests.test_workflow" target="wagtail.models" />
     <edge source="wagtail.tests.test_workflow" target="wagtail.test" />
@@ -4717,10 +4702,6 @@
     <edge source="wagtail.utils.registry" target="wagtail.coreutils" />
     <edge source="wagtail.utils.sendfile" target="wagtail" />
     <edge source="wagtail.utils.sendfile" target="wagtail.coreutils" />
-    <edge source="wagtail.utils.setup" target="setuptools" />
-    <edge source="wagtail.utils.setup" target="setuptools.command" />
-    <edge source="wagtail.utils.setup" target="setuptools.command.bdist_egg" />
-    <edge source="wagtail.utils.setup" target="setuptools.command.sdist" />
     <edge source="wagtail.utils.setup" target="wagtail" />
     <edge source="wagtail.utils.version" target="wagtail" />
     <edge source="wagtail.views" target="wagtail" />

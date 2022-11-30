@@ -343,14 +343,6 @@
     <node id="nltk.twitter.util" />
     <node id="nltk.util" />
     <node id="nltk.wsd" />
-    <node id="numpy" />
-    <node id="numpy.testing" />
-    <node id="pyparsing" />
-    <node id="requests" />
-    <node id="scipy" />
-    <node id="scipy.sparse" />
-    <node id="scipy.stats" />
-    <node id="scipy.stats.stats" />
     <edge source="nltk" target="nltk.ccg" />
     <edge source="nltk" target="nltk.chunk" />
     <edge source="nltk" target="nltk.classify" />
@@ -381,7 +373,6 @@
     <edge source="nltk" target="nltk.treetransforms" />
     <edge source="nltk" target="nltk.util" />
     <edge source="nltk" target="nltk.wsd" />
-    <edge source="nltk" target="numpy" />
     <edge source="nltk.app" target="nltk" />
     <edge source="nltk.app" target="nltk.app.chartparser_app" />
     <edge source="nltk.app" target="nltk.app.chunkparser_app" />
@@ -552,10 +543,8 @@
     <edge source="nltk.classify.maxent" target="nltk.data" />
     <edge source="nltk.classify.maxent" target="nltk.probability" />
     <edge source="nltk.classify.maxent" target="nltk.util" />
-    <edge source="nltk.classify.maxent" target="numpy" />
     <edge source="nltk.classify.megam" target="nltk" />
     <edge source="nltk.classify.megam" target="nltk.internals" />
-    <edge source="nltk.classify.megam" target="numpy" />
     <edge source="nltk.classify.naivebayes" target="nltk" />
     <edge source="nltk.classify.naivebayes" target="nltk.classify" />
     <edge source="nltk.classify.naivebayes" target="nltk.classify.api" />
@@ -585,7 +574,6 @@
     <edge source="nltk.classify.tadm" target="nltk.classify.maxent" />
     <edge source="nltk.classify.tadm" target="nltk.classify.util" />
     <edge source="nltk.classify.tadm" target="nltk.internals" />
-    <edge source="nltk.classify.tadm" target="numpy" />
     <edge source="nltk.classify.textcat" target="nltk" />
     <edge source="nltk.classify.textcat" target="nltk.corpus" />
     <edge source="nltk.classify.textcat" target="nltk.util" />
@@ -611,19 +599,15 @@
     <edge source="nltk.cluster.em" target="nltk" />
     <edge source="nltk.cluster.em" target="nltk.cluster" />
     <edge source="nltk.cluster.em" target="nltk.cluster.util" />
-    <edge source="nltk.cluster.em" target="numpy" />
     <edge source="nltk.cluster.gaac" target="nltk" />
     <edge source="nltk.cluster.gaac" target="nltk.cluster" />
     <edge source="nltk.cluster.gaac" target="nltk.cluster.util" />
-    <edge source="nltk.cluster.gaac" target="numpy" />
     <edge source="nltk.cluster.kmeans" target="nltk" />
     <edge source="nltk.cluster.kmeans" target="nltk.cluster" />
     <edge source="nltk.cluster.kmeans" target="nltk.cluster.util" />
-    <edge source="nltk.cluster.kmeans" target="numpy" />
     <edge source="nltk.cluster.util" target="nltk" />
     <edge source="nltk.cluster.util" target="nltk.cluster" />
     <edge source="nltk.cluster.util" target="nltk.cluster.api" />
-    <edge source="nltk.cluster.util" target="numpy" />
     <edge source="nltk.collections" target="nltk" />
     <edge source="nltk.collections" target="nltk.internals" />
     <edge source="nltk.collocations" target="nltk" />
@@ -1123,17 +1107,10 @@
     <edge source="nltk.metrics.agreement" target="nltk.metrics" />
     <edge source="nltk.metrics.agreement" target="nltk.metrics.distance" />
     <edge source="nltk.metrics.agreement" target="nltk.probability" />
-    <edge source="nltk.metrics.aline" target="numpy" />
-    <edge source="nltk.metrics.association" target="scipy" />
-    <edge source="nltk.metrics.association" target="scipy.stats" />
     <edge source="nltk.metrics.confusionmatrix" target="nltk" />
     <edge source="nltk.metrics.confusionmatrix" target="nltk.probability" />
     <edge source="nltk.metrics.scores" target="nltk" />
     <edge source="nltk.metrics.scores" target="nltk.util" />
-    <edge source="nltk.metrics.scores" target="scipy" />
-    <edge source="nltk.metrics.scores" target="scipy.stats" />
-    <edge source="nltk.metrics.scores" target="scipy.stats.stats" />
-    <edge source="nltk.metrics.segmentation" target="numpy" />
     <edge source="nltk.misc" target="nltk" />
     <edge source="nltk.misc" target="nltk.misc.babelfish" />
     <edge source="nltk.misc" target="nltk.misc.chomsky" />
@@ -1183,7 +1160,6 @@
     <edge source="nltk.parse.corenlp" target="nltk.tokenize" />
     <edge source="nltk.parse.corenlp" target="nltk.tokenize.api" />
     <edge source="nltk.parse.corenlp" target="nltk.tree" />
-    <edge source="nltk.parse.corenlp" target="requests" />
     <edge source="nltk.parse.dependencygraph" target="nltk" />
     <edge source="nltk.parse.dependencygraph" target="nltk.tree" />
     <edge source="nltk.parse.earleychart" target="nltk" />
@@ -1246,9 +1222,6 @@
     <edge source="nltk.parse.stanford" target="nltk.tree" />
     <edge source="nltk.parse.transitionparser" target="nltk" />
     <edge source="nltk.parse.transitionparser" target="nltk.parse" />
-    <edge source="nltk.parse.transitionparser" target="numpy" />
-    <edge source="nltk.parse.transitionparser" target="scipy" />
-    <edge source="nltk.parse.transitionparser" target="scipy.sparse" />
     <edge source="nltk.parse.util" target="nltk" />
     <edge source="nltk.parse.util" target="nltk.data" />
     <edge source="nltk.parse.util" target="nltk.grammar" />
@@ -1453,7 +1426,6 @@
     <edge source="nltk.tag.hmm" target="nltk.tag" />
     <edge source="nltk.tag.hmm" target="nltk.tag.api" />
     <edge source="nltk.tag.hmm" target="nltk.util" />
-    <edge source="nltk.tag.hmm" target="numpy" />
     <edge source="nltk.tag.hunpos" target="nltk" />
     <edge source="nltk.tag.hunpos" target="nltk.internals" />
     <edge source="nltk.tag.hunpos" target="nltk.tag" />
@@ -1465,7 +1437,6 @@
     <edge source="nltk.tag.perceptron" target="nltk.jsontags" />
     <edge source="nltk.tag.perceptron" target="nltk.tag" />
     <edge source="nltk.tag.perceptron" target="nltk.tag.api" />
-    <edge source="nltk.tag.perceptron" target="numpy" />
     <edge source="nltk.tag.senna" target="nltk" />
     <edge source="nltk.tag.senna" target="nltk.classify" />
     <edge source="nltk.tag.sequential" target="nltk" />
@@ -1570,8 +1541,6 @@
     <edge source="nltk.test.unit.test_hmm" target="nltk" />
     <edge source="nltk.test.unit.test_hmm" target="nltk.tag" />
     <edge source="nltk.test.unit.test_hmm" target="nltk.tag.hmm" />
-    <edge source="nltk.test.unit.test_hmm" target="numpy" />
-    <edge source="nltk.test.unit.test_hmm" target="numpy.testing" />
     <edge source="nltk.test.unit.test_json2csv_corpus" target="nltk" />
     <edge source="nltk.test.unit.test_json2csv_corpus" target="nltk.corpus" />
     <edge source="nltk.test.unit.test_json2csv_corpus" target="nltk.twitter" />
@@ -1668,7 +1637,6 @@
     <edge source="nltk.text" target="nltk.util" />
     <edge source="nltk.tgrep" target="nltk" />
     <edge source="nltk.tgrep" target="nltk.tree" />
-    <edge source="nltk.tgrep" target="pyparsing" />
     <edge source="nltk.tokenize" target="nltk" />
     <edge source="nltk.tokenize" target="nltk.data" />
     <edge source="nltk.tokenize" target="nltk.tokenize.casual" />
@@ -1739,7 +1707,6 @@
     <edge source="nltk.tokenize.texttiling" target="nltk.corpus" />
     <edge source="nltk.tokenize.texttiling" target="nltk.tokenize" />
     <edge source="nltk.tokenize.texttiling" target="nltk.tokenize.api" />
-    <edge source="nltk.tokenize.texttiling" target="numpy" />
     <edge source="nltk.tokenize.toktok" target="nltk" />
     <edge source="nltk.tokenize.toktok" target="nltk.tokenize" />
     <edge source="nltk.tokenize.toktok" target="nltk.tokenize.api" />
@@ -1775,8 +1742,6 @@
     <edge source="nltk.translate.bleu_score" target="nltk.util" />
     <edge source="nltk.translate.chrf_score" target="nltk" />
     <edge source="nltk.translate.chrf_score" target="nltk.util" />
-    <edge source="nltk.translate.gale_church" target="scipy" />
-    <edge source="nltk.translate.gale_church" target="scipy.stats" />
     <edge source="nltk.translate.gleu_score" target="nltk" />
     <edge source="nltk.translate.gleu_score" target="nltk.util" />
     <edge source="nltk.translate.ibm1" target="nltk" />
@@ -1833,19 +1798,10 @@
     <edge source="nltk.twitter.twitterclient" target="nltk.twitter" />
     <edge source="nltk.twitter.twitterclient" target="nltk.twitter.api" />
     <edge source="nltk.twitter.twitterclient" target="nltk.twitter.util" />
-    <edge source="nltk.twitter.twitterclient" target="requests" />
     <edge source="nltk.util" target="nltk" />
     <edge source="nltk.util" target="nltk.collections" />
     <edge source="nltk.util" target="nltk.internals" />
     <edge source="nltk.wsd" target="nltk" />
     <edge source="nltk.wsd" target="nltk.corpus" />
-    <edge source="numpy" target="numpy.testing" />
-    <edge source="numpy.testing" target="numpy" />
-    <edge source="scipy" target="numpy" />
-    <edge source="scipy.sparse" target="scipy" />
-    <edge source="scipy.stats" target="scipy" />
-    <edge source="scipy.stats" target="scipy.stats.stats" />
-    <edge source="scipy.stats.stats" target="scipy" />
-    <edge source="scipy.stats.stats" target="scipy.stats" />
   </graph>
 </graphml>

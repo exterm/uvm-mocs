@@ -23,7 +23,7 @@ with open(args.input_file) as f:
     g = convert_pydeps_json.convert(f.read())
 
 # remove file extension from input file name
-output_prefix = args.input_file.rsplit('.', 1)[0]
+output_prefix = args.input_file.rsplit('.', 2)[0]
 
 # export to graphml for use in Gephi
 nx.write_graphml(g, f"{output_prefix}.networkx.graphml")

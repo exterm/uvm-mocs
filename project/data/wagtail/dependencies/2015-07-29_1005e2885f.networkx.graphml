@@ -1,13 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
   <graph edgedefault="directed">
-    <node id="pytz" />
-    <node id="requests" />
-    <node id="requests.adapters" />
-    <node id="setuptools" />
-    <node id="setuptools.command" />
-    <node id="setuptools.command.bdist_egg" />
-    <node id="six" />
     <node id="wagtail" />
     <node id="wagtail.bin" />
     <node id="wagtail.bin.wagtail" />
@@ -329,7 +322,6 @@
     <node id="wagtail.wagtailusers.views.groups" />
     <node id="wagtail.wagtailusers.views.users" />
     <node id="wagtail.wagtailusers.wagtail_hooks" />
-    <edge source="setuptools.command.bdist_egg" target="setuptools" />
     <edge source="wagtail.bin.wagtail" target="wagtail" />
     <edge source="wagtail.contrib.wagtailapi.api" target="wagtail" />
     <edge source="wagtail.contrib.wagtailapi.api" target="wagtail.contrib.wagtailapi.endpoints" />
@@ -398,8 +390,6 @@
     <edge source="wagtail.contrib.wagtailfrontendcache.apps" target="wagtail.contrib" />
     <edge source="wagtail.contrib.wagtailfrontendcache.apps" target="wagtail.contrib.wagtailfrontendcache" />
     <edge source="wagtail.contrib.wagtailfrontendcache.apps" target="wagtail.contrib.wagtailfrontendcache.signal_handlers" />
-    <edge source="wagtail.contrib.wagtailfrontendcache.backends" target="requests" />
-    <edge source="wagtail.contrib.wagtailfrontendcache.backends" target="requests.adapters" />
     <edge source="wagtail.contrib.wagtailfrontendcache.signal_handlers" target="wagtail" />
     <edge source="wagtail.contrib.wagtailfrontendcache.signal_handlers" target="wagtail.contrib" />
     <edge source="wagtail.contrib.wagtailfrontendcache.signal_handlers" target="wagtail.contrib.wagtailfrontendcache" />
@@ -590,9 +580,6 @@
     <edge source="wagtail.tests.urls" target="wagtail.wagtailimages.urls" />
     <edge source="wagtail.tests.urls" target="wagtail.wagtailsearch" />
     <edge source="wagtail.tests.urls" target="wagtail.wagtailsearch.urls" />
-    <edge source="wagtail.utils.setup" target="setuptools" />
-    <edge source="wagtail.utils.setup" target="setuptools.command" />
-    <edge source="wagtail.utils.setup" target="setuptools.command.bdist_egg" />
     <edge source="wagtail.wagtailadmin.blocks" target="wagtail" />
     <edge source="wagtail.wagtailadmin.blocks" target="wagtail.wagtailcore" />
     <edge source="wagtail.wagtailadmin.blocks" target="wagtail.wagtailcore.blocks" />
@@ -885,7 +872,6 @@
     <edge source="wagtail.wagtailcore.tests.test_management_commands" target="wagtail.wagtailcore" />
     <edge source="wagtail.wagtailcore.tests.test_management_commands" target="wagtail.wagtailcore.models" />
     <edge source="wagtail.wagtailcore.tests.test_management_commands" target="wagtail.wagtailcore.signals" />
-    <edge source="wagtail.wagtailcore.tests.test_page_model" target="pytz" />
     <edge source="wagtail.wagtailcore.tests.test_page_model" target="wagtail" />
     <edge source="wagtail.wagtailcore.tests.test_page_model" target="wagtail.tests" />
     <edge source="wagtail.wagtailcore.tests.test_page_model" target="wagtail.tests.testapp" />
@@ -1308,7 +1294,6 @@
     <edge source="wagtail.wagtailsearch.apps" target="wagtail" />
     <edge source="wagtail.wagtailsearch.apps" target="wagtail.wagtailsearch" />
     <edge source="wagtail.wagtailsearch.apps" target="wagtail.wagtailsearch.signal_handlers" />
-    <edge source="wagtail.wagtailsearch.backends" target="six" />
     <edge source="wagtail.wagtailsearch.backends.base" target="wagtail" />
     <edge source="wagtail.wagtailsearch.backends.base" target="wagtail.wagtailsearch" />
     <edge source="wagtail.wagtailsearch.backends.base" target="wagtail.wagtailsearch.index" />

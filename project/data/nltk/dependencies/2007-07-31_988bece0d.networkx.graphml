@@ -56,8 +56,6 @@
     <node id="nltk.wordnet.cache" />
     <node id="nltk.wordnet.lexname" />
     <node id="nltk.yamltags" />
-    <node id="numpy" />
-    <node id="yaml" />
     <edge source="nltk.book" target="nltk" />
     <edge source="nltk.book" target="nltk.chunk" />
     <edge source="nltk.book" target="nltk.corpus" />
@@ -67,7 +65,6 @@
     <edge source="nltk.book" target="nltk.tag" />
     <edge source="nltk.book" target="nltk.tokenize" />
     <edge source="nltk.book" target="nltk.wordnet" />
-    <edge source="nltk.classify" target="numpy" />
     <edge source="nltk.cluster.api" target="nltk" />
     <edge source="nltk.compat" target="nltk" />
     <edge source="nltk.compat" target="nltk.etree" />
@@ -158,8 +155,6 @@
     <edge source="nltk.draw.srparser" target="nltk.tokenize" />
     <edge source="nltk.draw.tree" target="nltk" />
     <edge source="nltk.draw.tree" target="nltk.draw" />
-    <edge source="nltk.tag" target="numpy" />
-    <edge source="nltk.tag.api" target="yaml" />
     <edge source="nltk.tag.util" target="nltk" />
     <edge source="nltk.tag.util" target="nltk.tokenize" />
     <edge source="nltk.tokenize" target="nltk" />
@@ -168,6 +163,5 @@
     <edge source="nltk.tokenize.simple" target="nltk.tokenize.api" />
     <edge source="nltk.wordnet.brown_ic" target="nltk" />
     <edge source="nltk.wordnet.brown_ic" target="nltk.corpus" />
-    <edge source="nltk.yamltags" target="yaml" />
   </graph>
 </graphml>

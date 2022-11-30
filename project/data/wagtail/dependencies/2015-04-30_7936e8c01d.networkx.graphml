@@ -1,10 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
   <graph edgedefault="directed">
-    <node id="pytz" />
-    <node id="requests" />
-    <node id="requests.adapters" />
-    <node id="six" />
     <node id="wagtail" />
     <node id="wagtail.bin" />
     <node id="wagtail.bin.wagtail" />
@@ -375,8 +371,6 @@
     <edge source="wagtail.contrib.wagtailfrontendcache.apps" target="wagtail.contrib" />
     <edge source="wagtail.contrib.wagtailfrontendcache.apps" target="wagtail.contrib.wagtailfrontendcache" />
     <edge source="wagtail.contrib.wagtailfrontendcache.apps" target="wagtail.contrib.wagtailfrontendcache.signal_handlers" />
-    <edge source="wagtail.contrib.wagtailfrontendcache.backends" target="requests" />
-    <edge source="wagtail.contrib.wagtailfrontendcache.backends" target="requests.adapters" />
     <edge source="wagtail.contrib.wagtailfrontendcache.signal_handlers" target="wagtail" />
     <edge source="wagtail.contrib.wagtailfrontendcache.signal_handlers" target="wagtail.contrib" />
     <edge source="wagtail.contrib.wagtailfrontendcache.signal_handlers" target="wagtail.contrib.wagtailfrontendcache" />
@@ -398,7 +392,6 @@
     <edge source="wagtail.contrib.wagtailmedusa.renderers" target="wagtail.wagtailcore.models" />
     <edge source="wagtail.contrib.wagtailmedusa.renderers" target="wagtail.wagtaildocs" />
     <edge source="wagtail.contrib.wagtailmedusa.renderers" target="wagtail.wagtaildocs.models" />
-    <edge source="wagtail.contrib.wagtailroutablepage.models" target="six" />
     <edge source="wagtail.contrib.wagtailroutablepage.models" target="wagtail" />
     <edge source="wagtail.contrib.wagtailroutablepage.models" target="wagtail.utils" />
     <edge source="wagtail.contrib.wagtailroutablepage.models" target="wagtail.utils.deprecation" />
@@ -523,7 +516,6 @@
     <edge source="wagtail.wagtailadmin.blocks" target="wagtail" />
     <edge source="wagtail.wagtailadmin.blocks" target="wagtail.wagtailcore" />
     <edge source="wagtail.wagtailadmin.blocks" target="wagtail.wagtailcore.blocks" />
-    <edge source="wagtail.wagtailadmin.edit_handlers" target="six" />
     <edge source="wagtail.wagtailadmin.edit_handlers" target="wagtail" />
     <edge source="wagtail.wagtailadmin.edit_handlers" target="wagtail.utils" />
     <edge source="wagtail.wagtailadmin.edit_handlers" target="wagtail.utils.compat" />
@@ -538,7 +530,6 @@
     <edge source="wagtail.wagtailadmin.forms" target="wagtail.wagtailadmin.widgets" />
     <edge source="wagtail.wagtailadmin.forms" target="wagtail.wagtailcore" />
     <edge source="wagtail.wagtailadmin.forms" target="wagtail.wagtailcore.models" />
-    <edge source="wagtail.wagtailadmin.menu" target="six" />
     <edge source="wagtail.wagtailadmin.menu" target="wagtail" />
     <edge source="wagtail.wagtailadmin.menu" target="wagtail.utils" />
     <edge source="wagtail.wagtailadmin.menu" target="wagtail.utils.compat" />
@@ -557,7 +548,6 @@
     <edge source="wagtail.wagtailadmin.taggable" target="wagtail.wagtailsearch" />
     <edge source="wagtail.wagtailadmin.taggable" target="wagtail.wagtailsearch.backends" />
     <edge source="wagtail.wagtailadmin.taggable" target="wagtail.wagtailsearch.index" />
-    <edge source="wagtail.wagtailadmin.templatetags.gravatar" target="six" />
     <edge source="wagtail.wagtailadmin.templatetags.wagtailadmin_tags" target="wagtail" />
     <edge source="wagtail.wagtailadmin.templatetags.wagtailadmin_tags" target="wagtail.wagtailadmin" />
     <edge source="wagtail.wagtailadmin.templatetags.wagtailadmin_tags" target="wagtail.wagtailadmin.menu" />
@@ -719,7 +709,6 @@
     <edge source="wagtail.wagtailcore.blocks" target="wagtail.wagtailcore.blocks.list_block" />
     <edge source="wagtail.wagtailcore.blocks" target="wagtail.wagtailcore.blocks.stream_block" />
     <edge source="wagtail.wagtailcore.blocks" target="wagtail.wagtailcore.blocks.struct_block" />
-    <edge source="wagtail.wagtailcore.blocks.base" target="six" />
     <edge source="wagtail.wagtailcore.blocks.field_block" target="wagtail" />
     <edge source="wagtail.wagtailcore.blocks.field_block" target="wagtail.wagtailadmin" />
     <edge source="wagtail.wagtailcore.blocks.field_block" target="wagtail.wagtailadmin.widgets" />
@@ -733,13 +722,11 @@
     <edge source="wagtail.wagtailcore.blocks.list_block" target="wagtail.wagtailcore.blocks.base" />
     <edge source="wagtail.wagtailcore.blocks.list_block" target="wagtail.wagtailcore.blocks.utils" />
     <edge source="wagtail.wagtailcore.blocks.list_block" target="wagtail.wagtailcore.utils" />
-    <edge source="wagtail.wagtailcore.blocks.stream_block" target="six" />
     <edge source="wagtail.wagtailcore.blocks.stream_block" target="wagtail" />
     <edge source="wagtail.wagtailcore.blocks.stream_block" target="wagtail.wagtailcore" />
     <edge source="wagtail.wagtailcore.blocks.stream_block" target="wagtail.wagtailcore.blocks.base" />
     <edge source="wagtail.wagtailcore.blocks.stream_block" target="wagtail.wagtailcore.blocks.utils" />
     <edge source="wagtail.wagtailcore.blocks.stream_block" target="wagtail.wagtailcore.utils" />
-    <edge source="wagtail.wagtailcore.blocks.struct_block" target="six" />
     <edge source="wagtail.wagtailcore.blocks.struct_block" target="wagtail.wagtailcore.blocks.base" />
     <edge source="wagtail.wagtailcore.blocks.struct_block" target="wagtail.wagtailcore.blocks.utils" />
     <edge source="wagtail.wagtailcore.fields" target="wagtail" />
@@ -771,7 +758,6 @@
     <edge source="wagtail.wagtailcore.middleware" target="wagtail" />
     <edge source="wagtail.wagtailcore.middleware" target="wagtail.wagtailcore" />
     <edge source="wagtail.wagtailcore.middleware" target="wagtail.wagtailcore.models" />
-    <edge source="wagtail.wagtailcore.models" target="six" />
     <edge source="wagtail.wagtailcore.models" target="wagtail" />
     <edge source="wagtail.wagtailcore.models" target="wagtail.wagtailcore" />
     <edge source="wagtail.wagtailcore.models" target="wagtail.wagtailcore.query" />
@@ -802,7 +788,6 @@
     <edge source="wagtail.wagtailcore.tests.test_dbwhitelister" target="wagtail.wagtailcore" />
     <edge source="wagtail.wagtailcore.tests.test_dbwhitelister" target="wagtail.wagtailcore.rich_text" />
     <edge source="wagtail.wagtailcore.tests.test_dbwhitelister" target="wagtail.wagtailcore.whitelist" />
-    <edge source="wagtail.wagtailcore.tests.test_management_commands" target="six" />
     <edge source="wagtail.wagtailcore.tests.test_management_commands" target="wagtail" />
     <edge source="wagtail.wagtailcore.tests.test_management_commands" target="wagtail.tests" />
     <edge source="wagtail.wagtailcore.tests.test_management_commands" target="wagtail.tests.testapp" />
@@ -810,7 +795,6 @@
     <edge source="wagtail.wagtailcore.tests.test_management_commands" target="wagtail.wagtailcore" />
     <edge source="wagtail.wagtailcore.tests.test_management_commands" target="wagtail.wagtailcore.models" />
     <edge source="wagtail.wagtailcore.tests.test_management_commands" target="wagtail.wagtailcore.signals" />
-    <edge source="wagtail.wagtailcore.tests.test_page_model" target="pytz" />
     <edge source="wagtail.wagtailcore.tests.test_page_model" target="wagtail" />
     <edge source="wagtail.wagtailcore.tests.test_page_model" target="wagtail.tests" />
     <edge source="wagtail.wagtailcore.tests.test_page_model" target="wagtail.tests.testapp" />
@@ -855,7 +839,6 @@
     <edge source="wagtail.wagtailcore.urls" target="wagtail" />
     <edge source="wagtail.wagtailcore.urls" target="wagtail.wagtailcore" />
     <edge source="wagtail.wagtailcore.urls" target="wagtail.wagtailcore.views" />
-    <edge source="wagtail.wagtailcore.utils" target="six" />
     <edge source="wagtail.wagtailcore.views" target="wagtail" />
     <edge source="wagtail.wagtailcore.views" target="wagtail.wagtailcore" />
     <edge source="wagtail.wagtailcore.views" target="wagtail.wagtailcore.forms" />
@@ -895,7 +878,6 @@
     <edge source="wagtail.wagtaildocs.rich_text" target="wagtail" />
     <edge source="wagtail.wagtaildocs.rich_text" target="wagtail.wagtaildocs" />
     <edge source="wagtail.wagtaildocs.rich_text" target="wagtail.wagtaildocs.models" />
-    <edge source="wagtail.wagtaildocs.tests" target="six" />
     <edge source="wagtail.wagtaildocs.tests" target="wagtail" />
     <edge source="wagtail.wagtaildocs.tests" target="wagtail.tests" />
     <edge source="wagtail.wagtaildocs.tests" target="wagtail.tests.testapp" />
@@ -953,7 +935,6 @@
     <edge source="wagtail.wagtailembeds.blocks" target="wagtail.wagtailcore.blocks" />
     <edge source="wagtail.wagtailembeds.blocks" target="wagtail.wagtailembeds" />
     <edge source="wagtail.wagtailembeds.blocks" target="wagtail.wagtailembeds.format" />
-    <edge source="wagtail.wagtailembeds.embeds" target="six" />
     <edge source="wagtail.wagtailembeds.embeds" target="wagtail" />
     <edge source="wagtail.wagtailembeds.embeds" target="wagtail.wagtailembeds" />
     <edge source="wagtail.wagtailembeds.embeds" target="wagtail.wagtailembeds.models" />
@@ -994,7 +975,6 @@
     <edge source="wagtail.wagtailembeds.wagtail_hooks" target="wagtail.wagtailembeds" />
     <edge source="wagtail.wagtailembeds.wagtail_hooks" target="wagtail.wagtailembeds.rich_text" />
     <edge source="wagtail.wagtailembeds.wagtail_hooks" target="wagtail.wagtailembeds.urls" />
-    <edge source="wagtail.wagtailforms.models" target="six" />
     <edge source="wagtail.wagtailforms.models" target="wagtail" />
     <edge source="wagtail.wagtailforms.models" target="wagtail.wagtailadmin" />
     <edge source="wagtail.wagtailforms.models" target="wagtail.wagtailadmin.edit_handlers" />
@@ -1061,7 +1041,6 @@
     <edge source="wagtail.wagtailimages.image_operations" target="wagtail" />
     <edge source="wagtail.wagtailimages.image_operations" target="wagtail.wagtailimages" />
     <edge source="wagtail.wagtailimages.image_operations" target="wagtail.wagtailimages.exceptions" />
-    <edge source="wagtail.wagtailimages.models" target="six" />
     <edge source="wagtail.wagtailimages.models" target="wagtail" />
     <edge source="wagtail.wagtailimages.models" target="wagtail.utils" />
     <edge source="wagtail.wagtailimages.models" target="wagtail.utils.deprecation" />
@@ -1124,7 +1103,6 @@
     <edge source="wagtail.wagtailimages.tests.tests" target="wagtail.wagtailimages.rect" />
     <edge source="wagtail.wagtailimages.tests.tests" target="wagtail.wagtailimages.tests.utils" />
     <edge source="wagtail.wagtailimages.tests.tests" target="wagtail.wagtailimages.utils" />
-    <edge source="wagtail.wagtailimages.tests.utils" target="six" />
     <edge source="wagtail.wagtailimages.tests.utils" target="wagtail" />
     <edge source="wagtail.wagtailimages.tests.utils" target="wagtail.wagtailimages" />
     <edge source="wagtail.wagtailimages.tests.utils" target="wagtail.wagtailimages.models" />
@@ -1218,7 +1196,6 @@
     <edge source="wagtail.wagtailsearch.apps" target="wagtail" />
     <edge source="wagtail.wagtailsearch.apps" target="wagtail.wagtailsearch" />
     <edge source="wagtail.wagtailsearch.apps" target="wagtail.wagtailsearch.signal_handlers" />
-    <edge source="wagtail.wagtailsearch.backends.base" target="six" />
     <edge source="wagtail.wagtailsearch.backends.base" target="wagtail" />
     <edge source="wagtail.wagtailsearch.backends.base" target="wagtail.wagtailsearch" />
     <edge source="wagtail.wagtailsearch.backends.base" target="wagtail.wagtailsearch.index" />
@@ -1250,7 +1227,6 @@
     <edge source="wagtail.wagtailsearch.signal_handlers" target="wagtail.wagtailsearch" />
     <edge source="wagtail.wagtailsearch.signal_handlers" target="wagtail.wagtailsearch.backends" />
     <edge source="wagtail.wagtailsearch.signal_handlers" target="wagtail.wagtailsearch.index" />
-    <edge source="wagtail.wagtailsearch.tests.test_backends" target="six" />
     <edge source="wagtail.wagtailsearch.tests.test_backends" target="wagtail" />
     <edge source="wagtail.wagtailsearch.tests.test_backends" target="wagtail.tests" />
     <edge source="wagtail.wagtailsearch.tests.test_backends" target="wagtail.tests.search" />
@@ -1288,7 +1264,6 @@
     <edge source="wagtail.wagtailsearch.tests.test_indexed_class" target="wagtail.tests.search.models" />
     <edge source="wagtail.wagtailsearch.tests.test_indexed_class" target="wagtail.wagtailsearch" />
     <edge source="wagtail.wagtailsearch.tests.test_indexed_class" target="wagtail.wagtailsearch.index" />
-    <edge source="wagtail.wagtailsearch.tests.test_queries" target="six" />
     <edge source="wagtail.wagtailsearch.tests.test_queries" target="wagtail" />
     <edge source="wagtail.wagtailsearch.tests.test_queries" target="wagtail.tests" />
     <edge source="wagtail.wagtailsearch.tests.test_queries" target="wagtail.tests.utils" />
@@ -1347,7 +1322,6 @@
     <edge source="wagtail.wagtailsites.forms" target="wagtail.wagtailadmin.widgets" />
     <edge source="wagtail.wagtailsites.forms" target="wagtail.wagtailcore" />
     <edge source="wagtail.wagtailsites.forms" target="wagtail.wagtailcore.models" />
-    <edge source="wagtail.wagtailsites.tests" target="six" />
     <edge source="wagtail.wagtailsites.tests" target="wagtail" />
     <edge source="wagtail.wagtailsites.tests" target="wagtail.tests" />
     <edge source="wagtail.wagtailsites.tests" target="wagtail.tests.utils" />
@@ -1403,7 +1377,6 @@
     <edge source="wagtail.wagtailsnippets.urls" target="wagtail.wagtailsnippets.views" />
     <edge source="wagtail.wagtailsnippets.urls" target="wagtail.wagtailsnippets.views.chooser" />
     <edge source="wagtail.wagtailsnippets.urls" target="wagtail.wagtailsnippets.views.snippets" />
-    <edge source="wagtail.wagtailsnippets.views.chooser" target="six" />
     <edge source="wagtail.wagtailsnippets.views.chooser" target="wagtail" />
     <edge source="wagtail.wagtailsnippets.views.chooser" target="wagtail.wagtailadmin" />
     <edge source="wagtail.wagtailsnippets.views.chooser" target="wagtail.wagtailadmin.modal_workflow" />
@@ -1437,7 +1410,6 @@
     <edge source="wagtail.wagtailusers.forms" target="wagtail.wagtailcore.models" />
     <edge source="wagtail.wagtailusers.forms" target="wagtail.wagtailusers" />
     <edge source="wagtail.wagtailusers.forms" target="wagtail.wagtailusers.models" />
-    <edge source="wagtail.wagtailusers.tests" target="six" />
     <edge source="wagtail.wagtailusers.tests" target="wagtail" />
     <edge source="wagtail.wagtailusers.tests" target="wagtail.tests" />
     <edge source="wagtail.wagtailusers.tests" target="wagtail.tests.utils" />

@@ -310,15 +310,6 @@
     <node id="nltk.twitter.util" />
     <node id="nltk.util" />
     <node id="nltk.wsd" />
-    <node id="numpy" />
-    <node id="numpy.testing" />
-    <node id="pyparsing" />
-    <node id="requests" />
-    <node id="scipy" />
-    <node id="scipy.sparse" />
-    <node id="scipy.stats" />
-    <node id="scipy.stats.stats" />
-    <node id="six" />
     <edge source="nltk" target="nltk.ccg" />
     <edge source="nltk" target="nltk.chunk" />
     <edge source="nltk" target="nltk.classify" />
@@ -349,7 +340,6 @@
     <edge source="nltk" target="nltk.treetransforms" />
     <edge source="nltk" target="nltk.util" />
     <edge source="nltk" target="nltk.wsd" />
-    <edge source="nltk" target="numpy" />
     <edge source="nltk.app" target="nltk" />
     <edge source="nltk.app" target="nltk.app.chartparser_app" />
     <edge source="nltk.app" target="nltk.app.chunkparser_app" />
@@ -408,7 +398,6 @@
     <edge source="nltk.app.wordnet_app" target="nltk.corpus" />
     <edge source="nltk.app.wordnet_app" target="nltk.corpus.reader" />
     <edge source="nltk.app.wordnet_app" target="nltk.corpus.reader.wordnet" />
-    <edge source="nltk.app.wordnet_app" target="six" />
     <edge source="nltk.book" target="nltk" />
     <edge source="nltk.book" target="nltk.corpus" />
     <edge source="nltk.book" target="nltk.probability" />
@@ -431,7 +420,6 @@
     <edge source="nltk.ccg.chart" target="nltk.sem" />
     <edge source="nltk.ccg.chart" target="nltk.sem.logic" />
     <edge source="nltk.ccg.chart" target="nltk.tree" />
-    <edge source="nltk.ccg.chart" target="six" />
     <edge source="nltk.ccg.combinator" target="nltk" />
     <edge source="nltk.ccg.combinator" target="nltk.ccg" />
     <edge source="nltk.ccg.combinator" target="nltk.ccg.api" />
@@ -493,7 +481,6 @@
     <edge source="nltk.chunk.regexp" target="nltk.compat" />
     <edge source="nltk.chunk.regexp" target="nltk.corpus" />
     <edge source="nltk.chunk.regexp" target="nltk.tree" />
-    <edge source="nltk.chunk.regexp" target="six" />
     <edge source="nltk.chunk.util" target="nltk" />
     <edge source="nltk.chunk.util" target="nltk.compat" />
     <edge source="nltk.chunk.util" target="nltk.metrics" />
@@ -532,13 +519,9 @@
     <edge source="nltk.classify.maxent" target="nltk.data" />
     <edge source="nltk.classify.maxent" target="nltk.probability" />
     <edge source="nltk.classify.maxent" target="nltk.util" />
-    <edge source="nltk.classify.maxent" target="numpy" />
-    <edge source="nltk.classify.maxent" target="six" />
     <edge source="nltk.classify.megam" target="nltk" />
     <edge source="nltk.classify.megam" target="nltk.compat" />
     <edge source="nltk.classify.megam" target="nltk.internals" />
-    <edge source="nltk.classify.megam" target="numpy" />
-    <edge source="nltk.classify.megam" target="six" />
     <edge source="nltk.classify.naivebayes" target="nltk" />
     <edge source="nltk.classify.naivebayes" target="nltk.classify" />
     <edge source="nltk.classify.naivebayes" target="nltk.classify.api" />
@@ -563,14 +546,11 @@
     <edge source="nltk.classify.senna" target="nltk.compat" />
     <edge source="nltk.classify.senna" target="nltk.tag" />
     <edge source="nltk.classify.senna" target="nltk.tag.api" />
-    <edge source="nltk.classify.senna" target="six" />
     <edge source="nltk.classify.tadm" target="nltk" />
     <edge source="nltk.classify.tadm" target="nltk.classify" />
     <edge source="nltk.classify.tadm" target="nltk.classify.maxent" />
     <edge source="nltk.classify.tadm" target="nltk.classify.util" />
     <edge source="nltk.classify.tadm" target="nltk.internals" />
-    <edge source="nltk.classify.tadm" target="numpy" />
-    <edge source="nltk.classify.tadm" target="six" />
     <edge source="nltk.classify.textcat" target="nltk" />
     <edge source="nltk.classify.textcat" target="nltk.compat" />
     <edge source="nltk.classify.textcat" target="nltk.corpus" />
@@ -585,7 +565,6 @@
     <edge source="nltk.classify.weka" target="nltk.classify.util" />
     <edge source="nltk.classify.weka" target="nltk.internals" />
     <edge source="nltk.classify.weka" target="nltk.probability" />
-    <edge source="nltk.classify.weka" target="six" />
     <edge source="nltk.cluster" target="nltk" />
     <edge source="nltk.cluster" target="nltk.cluster.em" />
     <edge source="nltk.cluster" target="nltk.cluster.gaac" />
@@ -597,34 +576,27 @@
     <edge source="nltk.cluster.em" target="nltk.cluster" />
     <edge source="nltk.cluster.em" target="nltk.cluster.util" />
     <edge source="nltk.cluster.em" target="nltk.compat" />
-    <edge source="nltk.cluster.em" target="numpy" />
     <edge source="nltk.cluster.gaac" target="nltk" />
     <edge source="nltk.cluster.gaac" target="nltk.cluster" />
     <edge source="nltk.cluster.gaac" target="nltk.cluster.util" />
     <edge source="nltk.cluster.gaac" target="nltk.compat" />
-    <edge source="nltk.cluster.gaac" target="numpy" />
     <edge source="nltk.cluster.kmeans" target="nltk" />
     <edge source="nltk.cluster.kmeans" target="nltk.cluster" />
     <edge source="nltk.cluster.kmeans" target="nltk.cluster.util" />
     <edge source="nltk.cluster.kmeans" target="nltk.compat" />
-    <edge source="nltk.cluster.kmeans" target="numpy" />
     <edge source="nltk.cluster.util" target="nltk" />
     <edge source="nltk.cluster.util" target="nltk.cluster" />
     <edge source="nltk.cluster.util" target="nltk.cluster.api" />
     <edge source="nltk.cluster.util" target="nltk.compat" />
-    <edge source="nltk.cluster.util" target="numpy" />
     <edge source="nltk.collections" target="nltk" />
     <edge source="nltk.collections" target="nltk.compat" />
     <edge source="nltk.collections" target="nltk.internals" />
-    <edge source="nltk.collections" target="six" />
     <edge source="nltk.collocations" target="nltk" />
     <edge source="nltk.collocations" target="nltk.corpus" />
     <edge source="nltk.collocations" target="nltk.metrics" />
     <edge source="nltk.collocations" target="nltk.metrics.spearman" />
     <edge source="nltk.collocations" target="nltk.probability" />
     <edge source="nltk.collocations" target="nltk.util" />
-    <edge source="nltk.collocations" target="six" />
-    <edge source="nltk.compat" target="six" />
     <edge source="nltk.corpus" target="nltk" />
     <edge source="nltk.corpus" target="nltk.corpus.reader" />
     <edge source="nltk.corpus" target="nltk.corpus.util" />
@@ -691,14 +663,12 @@
     <edge source="nltk.corpus.reader.aligned" target="nltk.corpus.reader.util" />
     <edge source="nltk.corpus.reader.aligned" target="nltk.tokenize" />
     <edge source="nltk.corpus.reader.aligned" target="nltk.translate" />
-    <edge source="nltk.corpus.reader.aligned" target="six" />
     <edge source="nltk.corpus.reader.api" target="nltk" />
     <edge source="nltk.corpus.reader.api" target="nltk.compat" />
     <edge source="nltk.corpus.reader.api" target="nltk.corpus" />
     <edge source="nltk.corpus.reader.api" target="nltk.corpus.reader" />
     <edge source="nltk.corpus.reader.api" target="nltk.corpus.reader.util" />
     <edge source="nltk.corpus.reader.api" target="nltk.data" />
-    <edge source="nltk.corpus.reader.api" target="six" />
     <edge source="nltk.corpus.reader.bnc" target="nltk" />
     <edge source="nltk.corpus.reader.bnc" target="nltk.corpus" />
     <edge source="nltk.corpus.reader.bnc" target="nltk.corpus.reader" />
@@ -716,14 +686,12 @@
     <edge source="nltk.corpus.reader.categorized_sents" target="nltk.corpus.reader" />
     <edge source="nltk.corpus.reader.categorized_sents" target="nltk.corpus.reader.api" />
     <edge source="nltk.corpus.reader.categorized_sents" target="nltk.tokenize" />
-    <edge source="nltk.corpus.reader.categorized_sents" target="six" />
     <edge source="nltk.corpus.reader.chasen" target="nltk" />
     <edge source="nltk.corpus.reader.chasen" target="nltk.corpus" />
     <edge source="nltk.corpus.reader.chasen" target="nltk.corpus.reader" />
     <edge source="nltk.corpus.reader.chasen" target="nltk.corpus.reader.api" />
     <edge source="nltk.corpus.reader.chasen" target="nltk.corpus.reader.util" />
     <edge source="nltk.corpus.reader.chasen" target="nltk.corpus.util" />
-    <edge source="nltk.corpus.reader.chasen" target="six" />
     <edge source="nltk.corpus.reader.childes" target="nltk" />
     <edge source="nltk.corpus.reader.childes" target="nltk.corpus" />
     <edge source="nltk.corpus.reader.childes" target="nltk.corpus.reader" />
@@ -731,7 +699,6 @@
     <edge source="nltk.corpus.reader.childes" target="nltk.corpus.reader.xmldocs" />
     <edge source="nltk.corpus.reader.childes" target="nltk.data" />
     <edge source="nltk.corpus.reader.childes" target="nltk.util" />
-    <edge source="nltk.corpus.reader.childes" target="six" />
     <edge source="nltk.corpus.reader.chunked" target="nltk" />
     <edge source="nltk.corpus.reader.chunked" target="nltk.chunk" />
     <edge source="nltk.corpus.reader.chunked" target="nltk.corpus" />
@@ -741,7 +708,6 @@
     <edge source="nltk.corpus.reader.chunked" target="nltk.corpus.reader.util" />
     <edge source="nltk.corpus.reader.chunked" target="nltk.tokenize" />
     <edge source="nltk.corpus.reader.chunked" target="nltk.tree" />
-    <edge source="nltk.corpus.reader.chunked" target="six" />
     <edge source="nltk.corpus.reader.cmudict" target="nltk" />
     <edge source="nltk.corpus.reader.cmudict" target="nltk.compat" />
     <edge source="nltk.corpus.reader.cmudict" target="nltk.corpus" />
@@ -749,13 +715,11 @@
     <edge source="nltk.corpus.reader.cmudict" target="nltk.corpus.reader.api" />
     <edge source="nltk.corpus.reader.cmudict" target="nltk.corpus.reader.util" />
     <edge source="nltk.corpus.reader.cmudict" target="nltk.util" />
-    <edge source="nltk.corpus.reader.cmudict" target="six" />
     <edge source="nltk.corpus.reader.comparative_sents" target="nltk" />
     <edge source="nltk.corpus.reader.comparative_sents" target="nltk.corpus" />
     <edge source="nltk.corpus.reader.comparative_sents" target="nltk.corpus.reader" />
     <edge source="nltk.corpus.reader.comparative_sents" target="nltk.corpus.reader.api" />
     <edge source="nltk.corpus.reader.comparative_sents" target="nltk.tokenize" />
-    <edge source="nltk.corpus.reader.comparative_sents" target="six" />
     <edge source="nltk.corpus.reader.conll" target="nltk" />
     <edge source="nltk.corpus.reader.conll" target="nltk.compat" />
     <edge source="nltk.corpus.reader.conll" target="nltk.corpus" />
@@ -765,7 +729,6 @@
     <edge source="nltk.corpus.reader.conll" target="nltk.tag" />
     <edge source="nltk.corpus.reader.conll" target="nltk.tree" />
     <edge source="nltk.corpus.reader.conll" target="nltk.util" />
-    <edge source="nltk.corpus.reader.conll" target="six" />
     <edge source="nltk.corpus.reader.crubadan" target="nltk" />
     <edge source="nltk.corpus.reader.crubadan" target="nltk.compat" />
     <edge source="nltk.corpus.reader.crubadan" target="nltk.corpus" />
@@ -785,26 +748,22 @@
     <edge source="nltk.corpus.reader.framenet" target="nltk.corpus.reader" />
     <edge source="nltk.corpus.reader.framenet" target="nltk.internals" />
     <edge source="nltk.corpus.reader.framenet" target="nltk.util" />
-    <edge source="nltk.corpus.reader.framenet" target="six" />
     <edge source="nltk.corpus.reader.ieer" target="nltk" />
     <edge source="nltk.corpus.reader.ieer" target="nltk.compat" />
     <edge source="nltk.corpus.reader.ieer" target="nltk.corpus" />
     <edge source="nltk.corpus.reader.ieer" target="nltk.corpus.reader" />
     <edge source="nltk.corpus.reader.ieer" target="nltk.corpus.reader.api" />
-    <edge source="nltk.corpus.reader.ieer" target="six" />
     <edge source="nltk.corpus.reader.indian" target="nltk" />
     <edge source="nltk.corpus.reader.indian" target="nltk.corpus" />
     <edge source="nltk.corpus.reader.indian" target="nltk.corpus.reader" />
     <edge source="nltk.corpus.reader.indian" target="nltk.corpus.reader.api" />
     <edge source="nltk.corpus.reader.indian" target="nltk.corpus.reader.util" />
     <edge source="nltk.corpus.reader.indian" target="nltk.tag" />
-    <edge source="nltk.corpus.reader.indian" target="six" />
     <edge source="nltk.corpus.reader.ipipan" target="nltk" />
     <edge source="nltk.corpus.reader.ipipan" target="nltk.corpus" />
     <edge source="nltk.corpus.reader.ipipan" target="nltk.corpus.reader" />
     <edge source="nltk.corpus.reader.ipipan" target="nltk.corpus.reader.api" />
     <edge source="nltk.corpus.reader.ipipan" target="nltk.corpus.reader.util" />
-    <edge source="nltk.corpus.reader.ipipan" target="six" />
     <edge source="nltk.corpus.reader.knbc" target="nltk" />
     <edge source="nltk.corpus.reader.knbc" target="nltk.corpus" />
     <edge source="nltk.corpus.reader.knbc" target="nltk.corpus.reader" />
@@ -812,7 +771,6 @@
     <edge source="nltk.corpus.reader.knbc" target="nltk.corpus.reader.util" />
     <edge source="nltk.corpus.reader.knbc" target="nltk.corpus.util" />
     <edge source="nltk.corpus.reader.knbc" target="nltk.parse" />
-    <edge source="nltk.corpus.reader.knbc" target="six" />
     <edge source="nltk.corpus.reader.lin" target="nltk" />
     <edge source="nltk.corpus.reader.lin" target="nltk.corpus" />
     <edge source="nltk.corpus.reader.lin" target="nltk.corpus.reader" />
@@ -820,13 +778,11 @@
     <edge source="nltk.corpus.reader.mte" target="nltk.corpus" />
     <edge source="nltk.corpus.reader.mte" target="nltk.corpus.reader" />
     <edge source="nltk.corpus.reader.mte" target="nltk.corpus.reader.xmldocs" />
-    <edge source="nltk.corpus.reader.mte" target="six" />
     <edge source="nltk.corpus.reader.nkjp" target="nltk" />
     <edge source="nltk.corpus.reader.nkjp" target="nltk.corpus" />
     <edge source="nltk.corpus.reader.nkjp" target="nltk.corpus.reader" />
     <edge source="nltk.corpus.reader.nkjp" target="nltk.corpus.reader.util" />
     <edge source="nltk.corpus.reader.nkjp" target="nltk.corpus.reader.xmldocs" />
-    <edge source="nltk.corpus.reader.nkjp" target="six" />
     <edge source="nltk.corpus.reader.nombank" target="nltk" />
     <edge source="nltk.corpus.reader.nombank" target="nltk.compat" />
     <edge source="nltk.corpus.reader.nombank" target="nltk.corpus" />
@@ -835,7 +791,6 @@
     <edge source="nltk.corpus.reader.nombank" target="nltk.corpus.reader.util" />
     <edge source="nltk.corpus.reader.nombank" target="nltk.internals" />
     <edge source="nltk.corpus.reader.nombank" target="nltk.tree" />
-    <edge source="nltk.corpus.reader.nombank" target="six" />
     <edge source="nltk.corpus.reader.nps_chat" target="nltk" />
     <edge source="nltk.corpus.reader.nps_chat" target="nltk.corpus" />
     <edge source="nltk.corpus.reader.nps_chat" target="nltk.corpus.reader" />
@@ -849,7 +804,6 @@
     <edge source="nltk.corpus.reader.opinion_lexicon" target="nltk.corpus" />
     <edge source="nltk.corpus.reader.opinion_lexicon" target="nltk.corpus.reader" />
     <edge source="nltk.corpus.reader.opinion_lexicon" target="nltk.corpus.reader.api" />
-    <edge source="nltk.corpus.reader.opinion_lexicon" target="six" />
     <edge source="nltk.corpus.reader.panlex_lite" target="nltk" />
     <edge source="nltk.corpus.reader.panlex_lite" target="nltk.corpus" />
     <edge source="nltk.corpus.reader.panlex_lite" target="nltk.corpus.reader" />
@@ -859,7 +813,6 @@
     <edge source="nltk.corpus.reader.pl196x" target="nltk.corpus.reader" />
     <edge source="nltk.corpus.reader.pl196x" target="nltk.corpus.reader.api" />
     <edge source="nltk.corpus.reader.pl196x" target="nltk.corpus.reader.xmldocs" />
-    <edge source="nltk.corpus.reader.pl196x" target="six" />
     <edge source="nltk.corpus.reader.plaintext" target="nltk" />
     <edge source="nltk.corpus.reader.plaintext" target="nltk.corpus" />
     <edge source="nltk.corpus.reader.plaintext" target="nltk.corpus.reader" />
@@ -867,14 +820,12 @@
     <edge source="nltk.corpus.reader.plaintext" target="nltk.corpus.reader.util" />
     <edge source="nltk.corpus.reader.plaintext" target="nltk.data" />
     <edge source="nltk.corpus.reader.plaintext" target="nltk.tokenize" />
-    <edge source="nltk.corpus.reader.plaintext" target="six" />
     <edge source="nltk.corpus.reader.ppattach" target="nltk" />
     <edge source="nltk.corpus.reader.ppattach" target="nltk.compat" />
     <edge source="nltk.corpus.reader.ppattach" target="nltk.corpus" />
     <edge source="nltk.corpus.reader.ppattach" target="nltk.corpus.reader" />
     <edge source="nltk.corpus.reader.ppattach" target="nltk.corpus.reader.api" />
     <edge source="nltk.corpus.reader.ppattach" target="nltk.corpus.reader.util" />
-    <edge source="nltk.corpus.reader.ppattach" target="six" />
     <edge source="nltk.corpus.reader.propbank" target="nltk" />
     <edge source="nltk.corpus.reader.propbank" target="nltk.corpus" />
     <edge source="nltk.corpus.reader.propbank" target="nltk.corpus.reader" />
@@ -882,19 +833,16 @@
     <edge source="nltk.corpus.reader.propbank" target="nltk.corpus.reader.util" />
     <edge source="nltk.corpus.reader.propbank" target="nltk.internals" />
     <edge source="nltk.corpus.reader.propbank" target="nltk.tree" />
-    <edge source="nltk.corpus.reader.propbank" target="six" />
     <edge source="nltk.corpus.reader.pros_cons" target="nltk" />
     <edge source="nltk.corpus.reader.pros_cons" target="nltk.corpus" />
     <edge source="nltk.corpus.reader.pros_cons" target="nltk.corpus.reader" />
     <edge source="nltk.corpus.reader.pros_cons" target="nltk.corpus.reader.api" />
     <edge source="nltk.corpus.reader.pros_cons" target="nltk.tokenize" />
-    <edge source="nltk.corpus.reader.pros_cons" target="six" />
     <edge source="nltk.corpus.reader.reviews" target="nltk" />
     <edge source="nltk.corpus.reader.reviews" target="nltk.corpus" />
     <edge source="nltk.corpus.reader.reviews" target="nltk.corpus.reader" />
     <edge source="nltk.corpus.reader.reviews" target="nltk.corpus.reader.api" />
     <edge source="nltk.corpus.reader.reviews" target="nltk.tokenize" />
-    <edge source="nltk.corpus.reader.reviews" target="six" />
     <edge source="nltk.corpus.reader.rte" target="nltk" />
     <edge source="nltk.corpus.reader.rte" target="nltk.compat" />
     <edge source="nltk.corpus.reader.rte" target="nltk.corpus" />
@@ -902,7 +850,6 @@
     <edge source="nltk.corpus.reader.rte" target="nltk.corpus.reader.api" />
     <edge source="nltk.corpus.reader.rte" target="nltk.corpus.reader.util" />
     <edge source="nltk.corpus.reader.rte" target="nltk.corpus.reader.xmldocs" />
-    <edge source="nltk.corpus.reader.rte" target="six" />
     <edge source="nltk.corpus.reader.semcor" target="nltk" />
     <edge source="nltk.corpus.reader.semcor" target="nltk.corpus" />
     <edge source="nltk.corpus.reader.semcor" target="nltk.corpus.reader" />
@@ -916,7 +863,6 @@
     <edge source="nltk.corpus.reader.senseval" target="nltk.corpus.reader.api" />
     <edge source="nltk.corpus.reader.senseval" target="nltk.corpus.reader.util" />
     <edge source="nltk.corpus.reader.senseval" target="nltk.tokenize" />
-    <edge source="nltk.corpus.reader.senseval" target="six" />
     <edge source="nltk.corpus.reader.sentiwordnet" target="nltk" />
     <edge source="nltk.corpus.reader.sentiwordnet" target="nltk.compat" />
     <edge source="nltk.corpus.reader.sentiwordnet" target="nltk.corpus" />
@@ -934,7 +880,6 @@
     <edge source="nltk.corpus.reader.string_category" target="nltk.corpus.reader" />
     <edge source="nltk.corpus.reader.string_category" target="nltk.corpus.reader.api" />
     <edge source="nltk.corpus.reader.string_category" target="nltk.corpus.reader.util" />
-    <edge source="nltk.corpus.reader.string_category" target="six" />
     <edge source="nltk.corpus.reader.switchboard" target="nltk" />
     <edge source="nltk.corpus.reader.switchboard" target="nltk.compat" />
     <edge source="nltk.corpus.reader.switchboard" target="nltk.corpus" />
@@ -950,7 +895,6 @@
     <edge source="nltk.corpus.reader.tagged" target="nltk.corpus.reader.util" />
     <edge source="nltk.corpus.reader.tagged" target="nltk.tag" />
     <edge source="nltk.corpus.reader.tagged" target="nltk.tokenize" />
-    <edge source="nltk.corpus.reader.tagged" target="six" />
     <edge source="nltk.corpus.reader.timit" target="nltk" />
     <edge source="nltk.corpus.reader.timit" target="nltk.compat" />
     <edge source="nltk.corpus.reader.timit" target="nltk.corpus" />
@@ -959,21 +903,18 @@
     <edge source="nltk.corpus.reader.timit" target="nltk.corpus.reader.util" />
     <edge source="nltk.corpus.reader.timit" target="nltk.internals" />
     <edge source="nltk.corpus.reader.timit" target="nltk.tree" />
-    <edge source="nltk.corpus.reader.timit" target="six" />
     <edge source="nltk.corpus.reader.toolbox" target="nltk" />
     <edge source="nltk.corpus.reader.toolbox" target="nltk.corpus" />
     <edge source="nltk.corpus.reader.toolbox" target="nltk.corpus.reader" />
     <edge source="nltk.corpus.reader.toolbox" target="nltk.corpus.reader.api" />
     <edge source="nltk.corpus.reader.toolbox" target="nltk.corpus.reader.util" />
     <edge source="nltk.corpus.reader.toolbox" target="nltk.toolbox" />
-    <edge source="nltk.corpus.reader.toolbox" target="six" />
     <edge source="nltk.corpus.reader.twitter" target="nltk" />
     <edge source="nltk.corpus.reader.twitter" target="nltk.corpus" />
     <edge source="nltk.corpus.reader.twitter" target="nltk.corpus.reader" />
     <edge source="nltk.corpus.reader.twitter" target="nltk.corpus.reader.api" />
     <edge source="nltk.corpus.reader.twitter" target="nltk.corpus.reader.util" />
     <edge source="nltk.corpus.reader.twitter" target="nltk.tokenize" />
-    <edge source="nltk.corpus.reader.twitter" target="six" />
     <edge source="nltk.corpus.reader.udhr" target="nltk" />
     <edge source="nltk.corpus.reader.udhr" target="nltk.corpus" />
     <edge source="nltk.corpus.reader.udhr" target="nltk.corpus.reader" />
@@ -984,19 +925,16 @@
     <edge source="nltk.corpus.reader.util" target="nltk.internals" />
     <edge source="nltk.corpus.reader.util" target="nltk.tokenize" />
     <edge source="nltk.corpus.reader.util" target="nltk.util" />
-    <edge source="nltk.corpus.reader.util" target="six" />
     <edge source="nltk.corpus.reader.verbnet" target="nltk" />
     <edge source="nltk.corpus.reader.verbnet" target="nltk.corpus" />
     <edge source="nltk.corpus.reader.verbnet" target="nltk.corpus.reader" />
     <edge source="nltk.corpus.reader.verbnet" target="nltk.corpus.reader.xmldocs" />
-    <edge source="nltk.corpus.reader.verbnet" target="six" />
     <edge source="nltk.corpus.reader.wordlist" target="nltk" />
     <edge source="nltk.corpus.reader.wordlist" target="nltk.corpus" />
     <edge source="nltk.corpus.reader.wordlist" target="nltk.corpus.reader" />
     <edge source="nltk.corpus.reader.wordlist" target="nltk.corpus.reader.api" />
     <edge source="nltk.corpus.reader.wordlist" target="nltk.corpus.reader.util" />
     <edge source="nltk.corpus.reader.wordlist" target="nltk.tokenize" />
-    <edge source="nltk.corpus.reader.wordlist" target="six" />
     <edge source="nltk.corpus.reader.wordnet" target="nltk" />
     <edge source="nltk.corpus.reader.wordnet" target="nltk.compat" />
     <edge source="nltk.corpus.reader.wordnet" target="nltk.corpus" />
@@ -1004,7 +942,6 @@
     <edge source="nltk.corpus.reader.wordnet" target="nltk.internals" />
     <edge source="nltk.corpus.reader.wordnet" target="nltk.probability" />
     <edge source="nltk.corpus.reader.wordnet" target="nltk.util" />
-    <edge source="nltk.corpus.reader.wordnet" target="six" />
     <edge source="nltk.corpus.reader.xmldocs" target="nltk" />
     <edge source="nltk.corpus.reader.xmldocs" target="nltk.corpus" />
     <edge source="nltk.corpus.reader.xmldocs" target="nltk.corpus.reader" />
@@ -1013,7 +950,6 @@
     <edge source="nltk.corpus.reader.xmldocs" target="nltk.data" />
     <edge source="nltk.corpus.reader.xmldocs" target="nltk.internals" />
     <edge source="nltk.corpus.reader.xmldocs" target="nltk.tokenize" />
-    <edge source="nltk.corpus.reader.xmldocs" target="six" />
     <edge source="nltk.corpus.reader.ycoe" target="nltk" />
     <edge source="nltk.corpus.reader.ycoe" target="nltk.corpus" />
     <edge source="nltk.corpus.reader.ycoe" target="nltk.corpus.reader" />
@@ -1022,7 +958,6 @@
     <edge source="nltk.corpus.reader.ycoe" target="nltk.corpus.reader.tagged" />
     <edge source="nltk.corpus.reader.ycoe" target="nltk.corpus.reader.util" />
     <edge source="nltk.corpus.reader.ycoe" target="nltk.tokenize" />
-    <edge source="nltk.corpus.reader.ycoe" target="six" />
     <edge source="nltk.corpus.util" target="nltk" />
     <edge source="nltk.corpus.util" target="nltk.compat" />
     <edge source="nltk.corpus.util" target="nltk.corpus" />
@@ -1031,7 +966,6 @@
     <edge source="nltk.data" target="nltk" />
     <edge source="nltk.data" target="nltk.compat" />
     <edge source="nltk.data" target="nltk.jsontags" />
-    <edge source="nltk.data" target="six" />
     <edge source="nltk.downloader" target="nltk" />
     <edge source="nltk.downloader" target="nltk.compat" />
     <edge source="nltk.downloader" target="nltk.corpus" />
@@ -1040,7 +974,6 @@
     <edge source="nltk.downloader" target="nltk.draw" />
     <edge source="nltk.downloader" target="nltk.draw.table" />
     <edge source="nltk.downloader" target="nltk.draw.util" />
-    <edge source="nltk.downloader" target="six" />
     <edge source="nltk.draw" target="nltk" />
     <edge source="nltk.draw" target="nltk.draw.cfg" />
     <edge source="nltk.draw" target="nltk.draw.dispersion" />
@@ -1052,7 +985,6 @@
     <edge source="nltk.draw.cfg" target="nltk.draw.util" />
     <edge source="nltk.draw.cfg" target="nltk.grammar" />
     <edge source="nltk.draw.cfg" target="nltk.tree" />
-    <edge source="nltk.draw.cfg" target="six" />
     <edge source="nltk.draw.dispersion" target="nltk" />
     <edge source="nltk.draw.dispersion" target="nltk.compat" />
     <edge source="nltk.draw.dispersion" target="nltk.corpus" />
@@ -1065,13 +997,11 @@
     <edge source="nltk.draw.tree" target="nltk.util" />
     <edge source="nltk.draw.util" target="nltk" />
     <edge source="nltk.draw.util" target="nltk.util" />
-    <edge source="nltk.draw.util" target="six" />
     <edge source="nltk.featstruct" target="nltk" />
     <edge source="nltk.featstruct" target="nltk.compat" />
     <edge source="nltk.featstruct" target="nltk.internals" />
     <edge source="nltk.featstruct" target="nltk.sem" />
     <edge source="nltk.featstruct" target="nltk.sem.logic" />
-    <edge source="nltk.featstruct" target="six" />
     <edge source="nltk.grammar" target="nltk" />
     <edge source="nltk.grammar" target="nltk.compat" />
     <edge source="nltk.grammar" target="nltk.corpus" />
@@ -1083,7 +1013,6 @@
     <edge source="nltk.grammar" target="nltk.probability" />
     <edge source="nltk.grammar" target="nltk.treetransforms" />
     <edge source="nltk.grammar" target="nltk.util" />
-    <edge source="nltk.grammar" target="six" />
     <edge source="nltk.help" target="nltk" />
     <edge source="nltk.help" target="nltk.data" />
     <edge source="nltk.inference" target="nltk" />
@@ -1138,7 +1067,6 @@
     <edge source="nltk.inference.tableau" target="nltk.sem.logic" />
     <edge source="nltk.internals" target="nltk" />
     <edge source="nltk.internals" target="nltk.compat" />
-    <edge source="nltk.internals" target="six" />
     <edge source="nltk.metrics" target="nltk" />
     <edge source="nltk.metrics" target="nltk.metrics.agreement" />
     <edge source="nltk.metrics" target="nltk.metrics.aline" />
@@ -1155,19 +1083,11 @@
     <edge source="nltk.metrics.agreement" target="nltk.metrics" />
     <edge source="nltk.metrics.agreement" target="nltk.metrics.distance" />
     <edge source="nltk.metrics.agreement" target="nltk.probability" />
-    <edge source="nltk.metrics.agreement" target="six" />
-    <edge source="nltk.metrics.aline" target="numpy" />
-    <edge source="nltk.metrics.association" target="scipy" />
-    <edge source="nltk.metrics.association" target="scipy.stats" />
     <edge source="nltk.metrics.confusionmatrix" target="nltk" />
     <edge source="nltk.metrics.confusionmatrix" target="nltk.compat" />
     <edge source="nltk.metrics.confusionmatrix" target="nltk.probability" />
     <edge source="nltk.metrics.scores" target="nltk" />
     <edge source="nltk.metrics.scores" target="nltk.util" />
-    <edge source="nltk.metrics.scores" target="scipy" />
-    <edge source="nltk.metrics.scores" target="scipy.stats" />
-    <edge source="nltk.metrics.scores" target="scipy.stats.stats" />
-    <edge source="nltk.metrics.segmentation" target="numpy" />
     <edge source="nltk.misc" target="nltk" />
     <edge source="nltk.misc" target="nltk.misc.babelfish" />
     <edge source="nltk.misc" target="nltk.misc.chomsky" />
@@ -1210,7 +1130,6 @@
     <edge source="nltk.parse.dependencygraph" target="nltk" />
     <edge source="nltk.parse.dependencygraph" target="nltk.compat" />
     <edge source="nltk.parse.dependencygraph" target="nltk.tree" />
-    <edge source="nltk.parse.dependencygraph" target="six" />
     <edge source="nltk.parse.earleychart" target="nltk" />
     <edge source="nltk.parse.earleychart" target="nltk.parse" />
     <edge source="nltk.parse.earleychart" target="nltk.parse.chart" />
@@ -1235,7 +1154,6 @@
     <edge source="nltk.parse.malt" target="nltk.parse.dependencygraph" />
     <edge source="nltk.parse.malt" target="nltk.parse.util" />
     <edge source="nltk.parse.malt" target="nltk.tag" />
-    <edge source="nltk.parse.malt" target="six" />
     <edge source="nltk.parse.nonprojectivedependencyparser" target="nltk" />
     <edge source="nltk.parse.nonprojectivedependencyparser" target="nltk.classify" />
     <edge source="nltk.parse.nonprojectivedependencyparser" target="nltk.grammar" />
@@ -1275,12 +1193,8 @@
     <edge source="nltk.parse.stanford" target="nltk.parse.api" />
     <edge source="nltk.parse.stanford" target="nltk.parse.dependencygraph" />
     <edge source="nltk.parse.stanford" target="nltk.tree" />
-    <edge source="nltk.parse.stanford" target="six" />
     <edge source="nltk.parse.transitionparser" target="nltk" />
     <edge source="nltk.parse.transitionparser" target="nltk.parse" />
-    <edge source="nltk.parse.transitionparser" target="numpy" />
-    <edge source="nltk.parse.transitionparser" target="scipy" />
-    <edge source="nltk.parse.transitionparser" target="scipy.sparse" />
     <edge source="nltk.parse.util" target="nltk" />
     <edge source="nltk.parse.util" target="nltk.data" />
     <edge source="nltk.parse.util" target="nltk.grammar" />
@@ -1301,7 +1215,6 @@
     <edge source="nltk.probability" target="nltk.compat" />
     <edge source="nltk.probability" target="nltk.corpus" />
     <edge source="nltk.probability" target="nltk.internals" />
-    <edge source="nltk.probability" target="six" />
     <edge source="nltk.sem" target="nltk" />
     <edge source="nltk.sem" target="nltk.sem.boxer" />
     <edge source="nltk.sem" target="nltk.sem.drt" />
@@ -1321,7 +1234,6 @@
     <edge source="nltk.sem.chat80" target="nltk.compat" />
     <edge source="nltk.sem.chat80" target="nltk.data" />
     <edge source="nltk.sem.chat80" target="nltk.sem" />
-    <edge source="nltk.sem.chat80" target="six" />
     <edge source="nltk.sem.cooper_storage" target="nltk" />
     <edge source="nltk.sem.cooper_storage" target="nltk.parse" />
     <edge source="nltk.sem.cooper_storage" target="nltk.parse.featurechart" />
@@ -1332,7 +1244,6 @@
     <edge source="nltk.sem.drt" target="nltk.sem" />
     <edge source="nltk.sem.drt" target="nltk.sem.logic" />
     <edge source="nltk.sem.drt" target="nltk.util" />
-    <edge source="nltk.sem.drt" target="six" />
     <edge source="nltk.sem.drt_glue_demo" target="nltk" />
     <edge source="nltk.sem.drt_glue_demo" target="nltk.draw" />
     <edge source="nltk.sem.drt_glue_demo" target="nltk.draw.util" />
@@ -1348,7 +1259,6 @@
     <edge source="nltk.sem.evaluate" target="nltk.decorators" />
     <edge source="nltk.sem.evaluate" target="nltk.sem" />
     <edge source="nltk.sem.evaluate" target="nltk.sem.logic" />
-    <edge source="nltk.sem.evaluate" target="six" />
     <edge source="nltk.sem.glue" target="nltk" />
     <edge source="nltk.sem.glue" target="nltk.compat" />
     <edge source="nltk.sem.glue" target="nltk.corpus" />
@@ -1359,14 +1269,12 @@
     <edge source="nltk.sem.glue" target="nltk.sem.linearlogic" />
     <edge source="nltk.sem.glue" target="nltk.sem.logic" />
     <edge source="nltk.sem.glue" target="nltk.tag" />
-    <edge source="nltk.sem.glue" target="six" />
     <edge source="nltk.sem.hole" target="nltk" />
     <edge source="nltk.sem.hole" target="nltk.compat" />
     <edge source="nltk.sem.hole" target="nltk.parse" />
     <edge source="nltk.sem.hole" target="nltk.sem" />
     <edge source="nltk.sem.hole" target="nltk.sem.logic" />
     <edge source="nltk.sem.hole" target="nltk.sem.skolemize" />
-    <edge source="nltk.sem.hole" target="six" />
     <edge source="nltk.sem.lfg" target="nltk" />
     <edge source="nltk.sem.lfg" target="nltk.compat" />
     <edge source="nltk.sem.lfg" target="nltk.internals" />
@@ -1377,13 +1285,11 @@
     <edge source="nltk.sem.linearlogic" target="nltk.internals" />
     <edge source="nltk.sem.linearlogic" target="nltk.sem" />
     <edge source="nltk.sem.linearlogic" target="nltk.sem.logic" />
-    <edge source="nltk.sem.linearlogic" target="six" />
     <edge source="nltk.sem.logic" target="nltk" />
     <edge source="nltk.sem.logic" target="nltk.compat" />
     <edge source="nltk.sem.logic" target="nltk.inference" />
     <edge source="nltk.sem.logic" target="nltk.internals" />
     <edge source="nltk.sem.logic" target="nltk.util" />
-    <edge source="nltk.sem.logic" target="six" />
     <edge source="nltk.sem.relextract" target="nltk" />
     <edge source="nltk.sem.relextract" target="nltk.corpus" />
     <edge source="nltk.sem.relextract" target="nltk.sem" />
@@ -1501,12 +1407,10 @@
     <edge source="nltk.tag.hmm" target="nltk.tag" />
     <edge source="nltk.tag.hmm" target="nltk.tag.api" />
     <edge source="nltk.tag.hmm" target="nltk.util" />
-    <edge source="nltk.tag.hmm" target="numpy" />
     <edge source="nltk.tag.hunpos" target="nltk" />
     <edge source="nltk.tag.hunpos" target="nltk.internals" />
     <edge source="nltk.tag.hunpos" target="nltk.tag" />
     <edge source="nltk.tag.hunpos" target="nltk.tag.api" />
-    <edge source="nltk.tag.hunpos" target="six" />
     <edge source="nltk.tag.mapping" target="nltk" />
     <edge source="nltk.tag.mapping" target="nltk.data" />
     <edge source="nltk.tag.perceptron" target="nltk" />
@@ -1528,7 +1432,6 @@
     <edge source="nltk.tag.stanford" target="nltk.internals" />
     <edge source="nltk.tag.stanford" target="nltk.tag" />
     <edge source="nltk.tag.stanford" target="nltk.tag.api" />
-    <edge source="nltk.tag.stanford" target="six" />
     <edge source="nltk.tag.tnt" target="nltk" />
     <edge source="nltk.tag.tnt" target="nltk.corpus" />
     <edge source="nltk.tag.tnt" target="nltk.probability" />
@@ -1553,7 +1456,6 @@
     <edge source="nltk.tbl.template" target="nltk.tbl.rule" />
     <edge source="nltk.test.childes_fixt" target="nltk" />
     <edge source="nltk.test.childes_fixt" target="nltk.data" />
-    <edge source="nltk.test.classify_fixt" target="numpy" />
     <edge source="nltk.test.compat_fixt" target="nltk" />
     <edge source="nltk.test.compat_fixt" target="nltk.compat" />
     <edge source="nltk.test.corpus_fixt" target="nltk" />
@@ -1573,8 +1475,6 @@
     <edge source="nltk.test.portuguese_en_fixt" target="nltk" />
     <edge source="nltk.test.portuguese_en_fixt" target="nltk.compat" />
     <edge source="nltk.test.portuguese_en_fixt" target="nltk.corpus" />
-    <edge source="nltk.test.probability_fixt" target="numpy" />
-    <edge source="nltk.test.segmentation_fixt" target="numpy" />
     <edge source="nltk.test.semantics_fixt" target="nltk" />
     <edge source="nltk.test.semantics_fixt" target="nltk.sem" />
     <edge source="nltk.test.semantics_fixt" target="nltk.sem.logic" />
@@ -1606,8 +1506,6 @@
     <edge source="nltk.test.unit.test_hmm" target="nltk" />
     <edge source="nltk.test.unit.test_hmm" target="nltk.tag" />
     <edge source="nltk.test.unit.test_hmm" target="nltk.tag.hmm" />
-    <edge source="nltk.test.unit.test_hmm" target="numpy" />
-    <edge source="nltk.test.unit.test_hmm" target="numpy.testing" />
     <edge source="nltk.test.unit.test_json2csv_corpus" target="nltk" />
     <edge source="nltk.test.unit.test_json2csv_corpus" target="nltk.compat" />
     <edge source="nltk.test.unit.test_json2csv_corpus" target="nltk.corpus" />
@@ -1630,11 +1528,9 @@
     <edge source="nltk.test.unit.test_tag" target="nltk" />
     <edge source="nltk.test.unit.test_tag" target="nltk.tag" />
     <edge source="nltk.test.unit.test_tag" target="nltk.tokenize" />
-    <edge source="nltk.test.unit.test_tag" target="numpy" />
     <edge source="nltk.test.unit.test_tgrep" target="nltk" />
     <edge source="nltk.test.unit.test_tgrep" target="nltk.tgrep" />
     <edge source="nltk.test.unit.test_tgrep" target="nltk.tree" />
-    <edge source="nltk.test.unit.test_tgrep" target="six" />
     <edge source="nltk.test.unit.test_tokenize" target="nltk" />
     <edge source="nltk.test.unit.test_tokenize" target="nltk.tokenize" />
     <edge source="nltk.test.unit.test_twitter_auth" target="nltk" />
@@ -1676,11 +1572,8 @@
     <edge source="nltk.text" target="nltk.metrics" />
     <edge source="nltk.text" target="nltk.probability" />
     <edge source="nltk.text" target="nltk.util" />
-    <edge source="nltk.text" target="six" />
     <edge source="nltk.tgrep" target="nltk" />
     <edge source="nltk.tgrep" target="nltk.tree" />
-    <edge source="nltk.tgrep" target="pyparsing" />
-    <edge source="nltk.tgrep" target="six" />
     <edge source="nltk.tokenize" target="nltk" />
     <edge source="nltk.tokenize" target="nltk.data" />
     <edge source="nltk.tokenize" target="nltk.tokenize.casual" />
@@ -1700,14 +1593,11 @@
     <edge source="nltk.tokenize.api" target="nltk.internals" />
     <edge source="nltk.tokenize.api" target="nltk.tokenize" />
     <edge source="nltk.tokenize.api" target="nltk.tokenize.util" />
-    <edge source="nltk.tokenize.api" target="six" />
-    <edge source="nltk.tokenize.casual" target="six" />
     <edge source="nltk.tokenize.moses" target="nltk" />
     <edge source="nltk.tokenize.moses" target="nltk.corpus" />
     <edge source="nltk.tokenize.moses" target="nltk.tokenize" />
     <edge source="nltk.tokenize.moses" target="nltk.tokenize.api" />
     <edge source="nltk.tokenize.moses" target="nltk.tokenize.util" />
-    <edge source="nltk.tokenize.moses" target="six" />
     <edge source="nltk.tokenize.mwe" target="nltk" />
     <edge source="nltk.tokenize.mwe" target="nltk.tokenize" />
     <edge source="nltk.tokenize.mwe" target="nltk.tokenize.api" />
@@ -1717,7 +1607,6 @@
     <edge source="nltk.tokenize.punkt" target="nltk.probability" />
     <edge source="nltk.tokenize.punkt" target="nltk.tokenize" />
     <edge source="nltk.tokenize.punkt" target="nltk.tokenize.api" />
-    <edge source="nltk.tokenize.punkt" target="six" />
     <edge source="nltk.tokenize.regexp" target="nltk" />
     <edge source="nltk.tokenize.regexp" target="nltk.compat" />
     <edge source="nltk.tokenize.regexp" target="nltk.tokenize" />
@@ -1728,7 +1617,6 @@
     <edge source="nltk.tokenize.repp" target="nltk.internals" />
     <edge source="nltk.tokenize.repp" target="nltk.tokenize" />
     <edge source="nltk.tokenize.repp" target="nltk.tokenize.api" />
-    <edge source="nltk.tokenize.repp" target="six" />
     <edge source="nltk.tokenize.sexpr" target="nltk" />
     <edge source="nltk.tokenize.sexpr" target="nltk.tokenize" />
     <edge source="nltk.tokenize.sexpr" target="nltk.tokenize.api" />
@@ -1740,21 +1628,17 @@
     <edge source="nltk.tokenize.stanford" target="nltk.internals" />
     <edge source="nltk.tokenize.stanford" target="nltk.tokenize" />
     <edge source="nltk.tokenize.stanford" target="nltk.tokenize.api" />
-    <edge source="nltk.tokenize.stanford" target="six" />
     <edge source="nltk.tokenize.stanford_segmenter" target="nltk" />
     <edge source="nltk.tokenize.stanford_segmenter" target="nltk.internals" />
     <edge source="nltk.tokenize.stanford_segmenter" target="nltk.tokenize" />
     <edge source="nltk.tokenize.stanford_segmenter" target="nltk.tokenize.api" />
-    <edge source="nltk.tokenize.stanford_segmenter" target="six" />
     <edge source="nltk.tokenize.texttiling" target="nltk" />
     <edge source="nltk.tokenize.texttiling" target="nltk.corpus" />
     <edge source="nltk.tokenize.texttiling" target="nltk.tokenize" />
     <edge source="nltk.tokenize.texttiling" target="nltk.tokenize.api" />
-    <edge source="nltk.tokenize.texttiling" target="numpy" />
     <edge source="nltk.tokenize.toktok" target="nltk" />
     <edge source="nltk.tokenize.toktok" target="nltk.tokenize" />
     <edge source="nltk.tokenize.toktok" target="nltk.tokenize.api" />
-    <edge source="nltk.tokenize.toktok" target="six" />
     <edge source="nltk.tokenize.treebank" target="nltk" />
     <edge source="nltk.tokenize.treebank" target="nltk.tokenize" />
     <edge source="nltk.tokenize.treebank" target="nltk.tokenize.api" />
@@ -1763,7 +1647,6 @@
     <edge source="nltk.toolbox" target="nltk.compat" />
     <edge source="nltk.toolbox" target="nltk.data" />
     <edge source="nltk.toolbox" target="nltk.tree" />
-    <edge source="nltk.toolbox" target="six" />
     <edge source="nltk.translate" target="nltk" />
     <edge source="nltk.translate" target="nltk.translate.api" />
     <edge source="nltk.translate" target="nltk.translate.bleu_score" />
@@ -1783,8 +1666,6 @@
     <edge source="nltk.translate.bleu_score" target="nltk.util" />
     <edge source="nltk.translate.chrf_score" target="nltk" />
     <edge source="nltk.translate.chrf_score" target="nltk.util" />
-    <edge source="nltk.translate.gale_church" target="scipy" />
-    <edge source="nltk.translate.gale_church" target="scipy.stats" />
     <edge source="nltk.translate.gleu_score" target="nltk" />
     <edge source="nltk.translate.gleu_score" target="nltk.util" />
     <edge source="nltk.translate.ibm1" target="nltk" />
@@ -1815,7 +1696,6 @@
     <edge source="nltk.tree" target="nltk.treeprettyprinter" />
     <edge source="nltk.tree" target="nltk.treetransforms" />
     <edge source="nltk.tree" target="nltk.util" />
-    <edge source="nltk.tree" target="six" />
     <edge source="nltk.treeprettyprinter" target="nltk" />
     <edge source="nltk.treeprettyprinter" target="nltk.compat" />
     <edge source="nltk.treeprettyprinter" target="nltk.corpus" />
@@ -1842,21 +1722,11 @@
     <edge source="nltk.twitter.twitterclient" target="nltk.twitter" />
     <edge source="nltk.twitter.twitterclient" target="nltk.twitter.api" />
     <edge source="nltk.twitter.twitterclient" target="nltk.twitter.util" />
-    <edge source="nltk.twitter.twitterclient" target="requests" />
     <edge source="nltk.util" target="nltk" />
     <edge source="nltk.util" target="nltk.collections" />
     <edge source="nltk.util" target="nltk.compat" />
     <edge source="nltk.util" target="nltk.internals" />
-    <edge source="nltk.util" target="six" />
     <edge source="nltk.wsd" target="nltk" />
     <edge source="nltk.wsd" target="nltk.corpus" />
-    <edge source="numpy" target="numpy.testing" />
-    <edge source="numpy.testing" target="numpy" />
-    <edge source="scipy" target="numpy" />
-    <edge source="scipy.sparse" target="scipy" />
-    <edge source="scipy.stats" target="scipy" />
-    <edge source="scipy.stats" target="scipy.stats.stats" />
-    <edge source="scipy.stats.stats" target="scipy" />
-    <edge source="scipy.stats.stats" target="scipy.stats" />
   </graph>
 </graphml>
