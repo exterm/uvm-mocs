@@ -29,3 +29,33 @@ def for_each_month(repo_path, func):
     finally:
         os.chdir(old_path)
 
+def for_each_revision_between(first, last, repo_path, func):
+    old_path = os.getcwd()
+    os.chdir(repo_path)
+
+    try:
+        output = os.popen("git rev-list --ancestry-path %s..%s" % (first, last)).read()
+        revisions = output.split() + [first]
+
+        revisions.reverse()
+
+        # file name format: YYYY-MM-DD_Number_SHA
+        for i, sha in enumerate(revisions):
+            date = os.popen(f"git show -s --format=%as {sha}").read().strip()
+
+            # abort if date empty
+            if not date:
+                print("Could not get date for revision %s" % sha)
+                return
+
+            if os.system("git checkout -d %s" % sha) != 0:
+                raise Exception("Could not checkout revision %s" % sha)
+
+            os.system("git clean -fdx")
+
+            # number string from I that is at least 3 digits long
+            number = str(i).zfill(3)
+
+            func(f"{number}_{date}_{sha[:9]}")
+    finally:
+        os.chdir(old_path)
