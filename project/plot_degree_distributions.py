@@ -53,12 +53,12 @@ plt.draw()
 # emphasize the number of nodes with the same in-degree/out-degree combination
 # by using a log scale for the color
 plt.figure()
-plt.scatter(out_degrees, in_degrees, s=2, c='k', alpha=0.3)
+plt.scatter(out_degrees, in_degrees, s=5, c='k', alpha=0.1)
 plt.title('in-degree distribution over out-degree distribution')
 plt.xlabel('out-degree')
 plt.ylabel('in-degree')
-plt.xscale('log')
-plt.yscale('log')
+# plt.xscale('log')
+# plt.yscale('log')
 plt.draw()
 
 plt.show()
