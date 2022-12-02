@@ -1,0 +1,3000 @@
+{
+    "sklearn": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.cluster.hierarchical",
+            "sklearn.cluster.setup",
+            "sklearn.cluster.tests.test_affinity_propagation",
+            "sklearn.cluster.tests.test_dbscan",
+            "sklearn.cluster.tests.test_hierarchical",
+            "sklearn.cluster.tests.test_k_means",
+            "sklearn.cluster.tests.test_mean_shift",
+            "sklearn.cluster.tests.test_spectral",
+            "sklearn.covariance.outlier_detection",
+            "sklearn.covariance.tests.test_graph_lasso",
+            "sklearn.datasets.mlcomp",
+            "sklearn.datasets.svmlight_format",
+            "sklearn.datasets.tests.test_20news",
+            "sklearn.datasets.tests.test_base",
+            "sklearn.datasets.tests.test_lfw",
+            "sklearn.datasets.tests.test_mldata",
+            "sklearn.datasets.tests.test_samples_generator",
+            "sklearn.datasets.tests.test_svmlight_format",
+            "sklearn.decomposition.tests.test_dict_learning",
+            "sklearn.decomposition.tests.test_fastica",
+            "sklearn.decomposition.tests.test_kernel_pca",
+            "sklearn.decomposition.tests.test_nmf",
+            "sklearn.decomposition.tests.test_pca",
+            "sklearn.decomposition.tests.test_sparse_pca",
+            "sklearn.ensemble.tests.test_base",
+            "sklearn.ensemble.tests.test_forest",
+            "sklearn.ensemble.tests.test_gradient_boosting",
+            "sklearn.externals.joblib.test.test_my_exceptions",
+            "sklearn.feature_extraction",
+            "sklearn.feature_extraction.tests.test_dict_vectorizer",
+            "sklearn.feature_extraction.tests.test_text",
+            "sklearn.feature_selection.tests.test_chi2",
+            "sklearn.feature_selection.tests.test_feature_select",
+            "sklearn.feature_selection.tests.test_rfe",
+            "sklearn.feature_selection.tests.test_selector_mixin",
+            "sklearn.gaussian_process",
+            "sklearn.gaussian_process.tests.test_gaussian_process",
+            "sklearn.hmm",
+            "sklearn.linear_model",
+            "sklearn.linear_model.setup",
+            "sklearn.linear_model.tests.test_bayes",
+            "sklearn.linear_model.tests.test_coordinate_descent",
+            "sklearn.linear_model.tests.test_least_angle",
+            "sklearn.linear_model.tests.test_logistic",
+            "sklearn.linear_model.tests.test_omp",
+            "sklearn.linear_model.tests.test_perceptron",
+            "sklearn.linear_model.tests.test_randomized_l1",
+            "sklearn.linear_model.tests.test_ridge",
+            "sklearn.linear_model.tests.test_sgd",
+            "sklearn.linear_model.tests.test_sparse_coordinate_descent",
+            "sklearn.metrics",
+            "sklearn.metrics.cluster.tests.test_supervised",
+            "sklearn.metrics.cluster.tests.test_unsupervised",
+            "sklearn.metrics.tests.test_metrics",
+            "sklearn.metrics.tests.test_pairwise",
+            "sklearn.mixture.gmm",
+            "sklearn.mixture.tests.test_dpgmm",
+            "sklearn.mixture.tests.test_gmm",
+            "sklearn.neighbors.tests.test_ball_tree",
+            "sklearn.neighbors.tests.test_nearest_centroid",
+            "sklearn.neighbors.tests.test_neighbors",
+            "sklearn.semi_supervised.tests.test_label_propagation",
+            "sklearn.svm",
+            "sklearn.svm.sparse",
+            "sklearn.svm.sparse.classes",
+            "sklearn.svm.tests.test_bounds",
+            "sklearn.svm.tests.test_sparse",
+            "sklearn.svm.tests.test_svm",
+            "sklearn.tests.test_base",
+            "sklearn.tests.test_check_build",
+            "sklearn.tests.test_cross_validation",
+            "sklearn.tests.test_grid_search",
+            "sklearn.tests.test_init",
+            "sklearn.tests.test_kernel_approximation",
+            "sklearn.tests.test_lda",
+            "sklearn.tests.test_multiclass",
+            "sklearn.tests.test_naive_bayes",
+            "sklearn.tests.test_pipeline",
+            "sklearn.tests.test_pls",
+            "sklearn.tests.test_preprocessing",
+            "sklearn.tests.test_qda",
+            "sklearn.tree.tests.test_tree",
+            "sklearn.tree.tree",
+            "sklearn.utils.extmath",
+            "sklearn.utils.setup",
+            "sklearn.utils.testing",
+            "sklearn.utils.tests.test_bench",
+            "sklearn.utils.tests.test_logsumexp",
+            "sklearn.utils.tests.test_shortest_path",
+            "sklearn.utils.tests.test_sparsefuncs",
+            "sklearn.utils.tests.test_svd",
+            "sklearn.utils.tests.test_testing",
+            "sklearn.utils.tests.test_utils",
+            "sklearn.utils.tests.test_validation",
+            "sklearn.utils.tests.test_weighted_mode"
+        ],
+        "name": "sklearn",
+        "path": "/home/philip/projects/scikit-learn/sklearn"
+    },
+    "sklearn.__check_build": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.tests.test_check_build"
+        ],
+        "name": "sklearn.__check_build",
+        "path": "/home/philip/projects/scikit-learn/sklearn/__check_build/__init__.py"
+    },
+    "sklearn.__check_build.setup": {
+        "bacon": 1,
+        "name": "sklearn.__check_build.setup",
+        "path": "/home/philip/projects/scikit-learn/sklearn/__check_build/setup.py"
+    },
+    "sklearn._build_utils": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.cluster.setup",
+            "sklearn.linear_model.setup",
+            "sklearn.utils.setup"
+        ],
+        "name": "sklearn._build_utils",
+        "path": "/home/philip/projects/scikit-learn/sklearn/_build_utils.py"
+    },
+    "sklearn.base": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.cluster._feature_agglomeration",
+            "sklearn.cluster.dbscan_",
+            "sklearn.cluster.hierarchical",
+            "sklearn.cluster.mean_shift_",
+            "sklearn.cluster.spectral",
+            "sklearn.covariance.empirical_covariance_",
+            "sklearn.covariance.outlier_detection",
+            "sklearn.cross_validation",
+            "sklearn.decomposition.kernel_pca",
+            "sklearn.decomposition.nmf",
+            "sklearn.decomposition.pca",
+            "sklearn.feature_extraction.dict_vectorizer",
+            "sklearn.feature_extraction.image",
+            "sklearn.feature_selection.rfe",
+            "sklearn.feature_selection.selector_mixin",
+            "sklearn.feature_selection.univariate_selection",
+            "sklearn.hmm",
+            "sklearn.kernel_approximation",
+            "sklearn.linear_model.base",
+            "sklearn.linear_model.logistic",
+            "sklearn.linear_model.ridge",
+            "sklearn.linear_model.stochastic_gradient",
+            "sklearn.mixture.gmm",
+            "sklearn.multiclass",
+            "sklearn.naive_bayes",
+            "sklearn.neighbors.base",
+            "sklearn.neighbors.classification",
+            "sklearn.neighbors.nearest_centroid",
+            "sklearn.neighbors.regression",
+            "sklearn.pipeline",
+            "sklearn.pls",
+            "sklearn.preprocessing",
+            "sklearn.qda",
+            "sklearn.svm.classes",
+            "sklearn.svm.tests.test_sparse",
+            "sklearn.svm.tests.test_svm",
+            "sklearn.tests.test_base",
+            "sklearn.tests.test_cross_validation",
+            "sklearn.tests.test_grid_search",
+            "sklearn.tests.test_pipeline",
+            "sklearn.utils.testing"
+        ],
+        "imports": [
+            "sklearn.metrics",
+            "sklearn.utils"
+        ],
+        "name": "sklearn.base",
+        "path": "/home/philip/projects/scikit-learn/sklearn/base.py"
+    },
+    "sklearn.cluster": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.cluster.hierarchical",
+            "sklearn.cluster.tests.test_affinity_propagation",
+            "sklearn.cluster.tests.test_dbscan",
+            "sklearn.cluster.tests.test_hierarchical",
+            "sklearn.cluster.tests.test_k_means",
+            "sklearn.cluster.tests.test_mean_shift",
+            "sklearn.cluster.tests.test_spectral",
+            "sklearn.hmm",
+            "sklearn.mixture.gmm"
+        ],
+        "imports": [
+            "sklearn.cluster.dbscan_",
+            "sklearn.cluster.hierarchical",
+            "sklearn.cluster.mean_shift_",
+            "sklearn.cluster.spectral"
+        ],
+        "name": "sklearn.cluster",
+        "path": "/home/philip/projects/scikit-learn/sklearn/cluster/__init__.py"
+    },
+    "sklearn.cluster._feature_agglomeration": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.cluster.hierarchical"
+        ],
+        "imports": [
+            "sklearn.base",
+            "sklearn.utils"
+        ],
+        "name": "sklearn.cluster._feature_agglomeration",
+        "path": "/home/philip/projects/scikit-learn/sklearn/cluster/_feature_agglomeration.py"
+    },
+    "sklearn.cluster.dbscan_": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.cluster",
+            "sklearn.cluster.tests.test_dbscan"
+        ],
+        "imports": [
+            "sklearn.base",
+            "sklearn.metrics",
+            "sklearn.utils"
+        ],
+        "name": "sklearn.cluster.dbscan_",
+        "path": "/home/philip/projects/scikit-learn/sklearn/cluster/dbscan_.py"
+    },
+    "sklearn.cluster.hierarchical": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.cluster",
+            "sklearn.cluster.tests.test_hierarchical"
+        ],
+        "imports": [
+            "sklearn",
+            "sklearn.base",
+            "sklearn.cluster",
+            "sklearn.cluster._feature_agglomeration",
+            "sklearn.externals",
+            "sklearn.externals.joblib",
+            "sklearn.metrics",
+            "sklearn.utils",
+            "sklearn.utils._csgraph"
+        ],
+        "name": "sklearn.cluster.hierarchical",
+        "path": "/home/philip/projects/scikit-learn/sklearn/cluster/hierarchical.py"
+    },
+    "sklearn.cluster.mean_shift_": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.cluster"
+        ],
+        "imports": [
+            "sklearn.base",
+            "sklearn.neighbors",
+            "sklearn.utils",
+            "sklearn.utils.extmath"
+        ],
+        "name": "sklearn.cluster.mean_shift_",
+        "path": "/home/philip/projects/scikit-learn/sklearn/cluster/mean_shift_.py"
+    },
+    "sklearn.cluster.setup": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn._build_utils"
+        ],
+        "name": "sklearn.cluster.setup",
+        "path": "/home/philip/projects/scikit-learn/sklearn/cluster/setup.py"
+    },
+    "sklearn.cluster.spectral": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.cluster",
+            "sklearn.cluster.tests.test_spectral"
+        ],
+        "imports": [
+            "sklearn.base",
+            "sklearn.metrics",
+            "sklearn.metrics.pairwise",
+            "sklearn.neighbors",
+            "sklearn.utils",
+            "sklearn.utils.arpack",
+            "sklearn.utils.graph"
+        ],
+        "name": "sklearn.cluster.spectral",
+        "path": "/home/philip/projects/scikit-learn/sklearn/cluster/spectral.py"
+    },
+    "sklearn.cluster.tests": {
+        "bacon": 1,
+        "name": "sklearn.cluster.tests",
+        "path": "/home/philip/projects/scikit-learn/sklearn/cluster/tests/__init__.py"
+    },
+    "sklearn.cluster.tests.common": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.cluster.tests.test_dbscan"
+        ],
+        "name": "sklearn.cluster.tests.common",
+        "path": "/home/philip/projects/scikit-learn/sklearn/cluster/tests/common.py"
+    },
+    "sklearn.cluster.tests.test_affinity_propagation": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.cluster",
+            "sklearn.datasets",
+            "sklearn.datasets.samples_generator",
+            "sklearn.metrics"
+        ],
+        "name": "sklearn.cluster.tests.test_affinity_propagation",
+        "path": "/home/philip/projects/scikit-learn/sklearn/cluster/tests/test_affinity_propagation.py"
+    },
+    "sklearn.cluster.tests.test_dbscan": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.cluster",
+            "sklearn.cluster.dbscan_",
+            "sklearn.cluster.tests.common"
+        ],
+        "name": "sklearn.cluster.tests.test_dbscan",
+        "path": "/home/philip/projects/scikit-learn/sklearn/cluster/tests/test_dbscan.py"
+    },
+    "sklearn.cluster.tests.test_hierarchical": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.cluster",
+            "sklearn.cluster.hierarchical",
+            "sklearn.feature_extraction",
+            "sklearn.feature_extraction.image",
+            "sklearn.neighbors"
+        ],
+        "name": "sklearn.cluster.tests.test_hierarchical",
+        "path": "/home/philip/projects/scikit-learn/sklearn/cluster/tests/test_hierarchical.py"
+    },
+    "sklearn.cluster.tests.test_k_means": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.cluster",
+            "sklearn.datasets",
+            "sklearn.datasets.samples_generator",
+            "sklearn.metrics",
+            "sklearn.metrics.cluster",
+            "sklearn.utils",
+            "sklearn.utils.fixes",
+            "sklearn.utils.testing"
+        ],
+        "name": "sklearn.cluster.tests.test_k_means",
+        "path": "/home/philip/projects/scikit-learn/sklearn/cluster/tests/test_k_means.py"
+    },
+    "sklearn.cluster.tests.test_mean_shift": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.cluster",
+            "sklearn.datasets",
+            "sklearn.datasets.samples_generator"
+        ],
+        "name": "sklearn.cluster.tests.test_mean_shift",
+        "path": "/home/philip/projects/scikit-learn/sklearn/cluster/tests/test_mean_shift.py"
+    },
+    "sklearn.cluster.tests.test_spectral": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.cluster",
+            "sklearn.cluster.spectral",
+            "sklearn.datasets",
+            "sklearn.datasets.samples_generator",
+            "sklearn.metrics",
+            "sklearn.utils",
+            "sklearn.utils.testing"
+        ],
+        "name": "sklearn.cluster.tests.test_spectral",
+        "path": "/home/philip/projects/scikit-learn/sklearn/cluster/tests/test_spectral.py"
+    },
+    "sklearn.covariance": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.covariance.outlier_detection",
+            "sklearn.covariance.tests.test_graph_lasso"
+        ],
+        "imports": [
+            "sklearn.covariance.empirical_covariance_",
+            "sklearn.covariance.outlier_detection",
+            "sklearn.covariance.shrunk_covariance_"
+        ],
+        "name": "sklearn.covariance",
+        "path": "/home/philip/projects/scikit-learn/sklearn/covariance/__init__.py"
+    },
+    "sklearn.covariance.empirical_covariance_": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.covariance",
+            "sklearn.covariance.shrunk_covariance_"
+        ],
+        "imports": [
+            "sklearn.base",
+            "sklearn.utils",
+            "sklearn.utils.extmath"
+        ],
+        "name": "sklearn.covariance.empirical_covariance_",
+        "path": "/home/philip/projects/scikit-learn/sklearn/covariance/empirical_covariance_.py"
+    },
+    "sklearn.covariance.outlier_detection": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.covariance"
+        ],
+        "imports": [
+            "sklearn",
+            "sklearn.base",
+            "sklearn.covariance",
+            "sklearn.utils"
+        ],
+        "name": "sklearn.covariance.outlier_detection",
+        "path": "/home/philip/projects/scikit-learn/sklearn/covariance/outlier_detection.py"
+    },
+    "sklearn.covariance.shrunk_covariance_": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.covariance"
+        ],
+        "imports": [
+            "sklearn.covariance.empirical_covariance_",
+            "sklearn.utils"
+        ],
+        "name": "sklearn.covariance.shrunk_covariance_",
+        "path": "/home/philip/projects/scikit-learn/sklearn/covariance/shrunk_covariance_.py"
+    },
+    "sklearn.covariance.tests": {
+        "bacon": 1,
+        "name": "sklearn.covariance.tests",
+        "path": "/home/philip/projects/scikit-learn/sklearn/covariance/tests/__init__.py"
+    },
+    "sklearn.covariance.tests.test_graph_lasso": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.covariance",
+            "sklearn.datasets",
+            "sklearn.datasets.samples_generator",
+            "sklearn.utils"
+        ],
+        "name": "sklearn.covariance.tests.test_graph_lasso",
+        "path": "/home/philip/projects/scikit-learn/sklearn/covariance/tests/test_graph_lasso.py"
+    },
+    "sklearn.cross_validation": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.feature_selection.rfe",
+            "sklearn.linear_model.tests.test_ridge",
+            "sklearn.tests.test_cross_validation",
+            "sklearn.tests.test_grid_search"
+        ],
+        "imports": [
+            "sklearn.base",
+            "sklearn.externals",
+            "sklearn.externals.joblib",
+            "sklearn.utils",
+            "sklearn.utils.fixes"
+        ],
+        "name": "sklearn.cross_validation",
+        "path": "/home/philip/projects/scikit-learn/sklearn/cross_validation.py"
+    },
+    "sklearn.datasets": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.cluster.tests.test_affinity_propagation",
+            "sklearn.cluster.tests.test_k_means",
+            "sklearn.cluster.tests.test_mean_shift",
+            "sklearn.cluster.tests.test_spectral",
+            "sklearn.covariance.tests.test_graph_lasso",
+            "sklearn.datasets.mlcomp",
+            "sklearn.datasets.tests.test_20news",
+            "sklearn.datasets.tests.test_base",
+            "sklearn.datasets.tests.test_lfw",
+            "sklearn.datasets.tests.test_mldata",
+            "sklearn.datasets.tests.test_samples_generator",
+            "sklearn.datasets.tests.test_svmlight_format",
+            "sklearn.decomposition.tests.test_kernel_pca",
+            "sklearn.decomposition.tests.test_pca",
+            "sklearn.ensemble.tests.test_forest",
+            "sklearn.ensemble.tests.test_gradient_boosting",
+            "sklearn.feature_selection.tests.test_feature_select",
+            "sklearn.feature_selection.tests.test_rfe",
+            "sklearn.feature_selection.tests.test_selector_mixin",
+            "sklearn.linear_model.tests.test_base",
+            "sklearn.linear_model.tests.test_bayes",
+            "sklearn.linear_model.tests.test_least_angle",
+            "sklearn.linear_model.tests.test_logistic",
+            "sklearn.linear_model.tests.test_omp",
+            "sklearn.linear_model.tests.test_perceptron",
+            "sklearn.linear_model.tests.test_randomized_l1",
+            "sklearn.linear_model.tests.test_ridge",
+            "sklearn.linear_model.tests.test_sgd",
+            "sklearn.metrics.cluster.tests.test_unsupervised",
+            "sklearn.metrics.tests.test_metrics",
+            "sklearn.mixture.tests.test_gmm",
+            "sklearn.neighbors.tests.test_nearest_centroid",
+            "sklearn.neighbors.tests.test_neighbors",
+            "sklearn.svm.tests.test_sparse",
+            "sklearn.svm.tests.test_svm",
+            "sklearn.tests.test_cross_validation",
+            "sklearn.tests.test_grid_search",
+            "sklearn.tests.test_multiclass",
+            "sklearn.tests.test_pipeline",
+            "sklearn.tests.test_pls",
+            "sklearn.tests.test_preprocessing",
+            "sklearn.tree.tests.test_tree",
+            "sklearn.utils.tests.test_sparsefuncs",
+            "sklearn.utils.tests.test_svd"
+        ],
+        "imports": [
+            "sklearn.datasets.base",
+            "sklearn.datasets.lfw",
+            "sklearn.datasets.mlcomp",
+            "sklearn.datasets.mldata",
+            "sklearn.datasets.samples_generator",
+            "sklearn.datasets.svmlight_format",
+            "sklearn.utils"
+        ],
+        "name": "sklearn.datasets",
+        "path": "/home/philip/projects/scikit-learn/sklearn/datasets/__init__.py"
+    },
+    "sklearn.datasets.base": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.datasets",
+            "sklearn.datasets.lfw",
+            "sklearn.datasets.mlcomp",
+            "sklearn.datasets.mldata"
+        ],
+        "imports": [
+            "sklearn.utils"
+        ],
+        "name": "sklearn.datasets.base",
+        "path": "/home/philip/projects/scikit-learn/sklearn/datasets/base.py"
+    },
+    "sklearn.datasets.lfw": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.datasets"
+        ],
+        "imports": [
+            "sklearn.datasets.base",
+            "sklearn.externals",
+            "sklearn.externals.joblib"
+        ],
+        "name": "sklearn.datasets.lfw",
+        "path": "/home/philip/projects/scikit-learn/sklearn/datasets/lfw.py"
+    },
+    "sklearn.datasets.mlcomp": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.datasets"
+        ],
+        "imports": [
+            "sklearn",
+            "sklearn.datasets",
+            "sklearn.datasets.base"
+        ],
+        "name": "sklearn.datasets.mlcomp",
+        "path": "/home/philip/projects/scikit-learn/sklearn/datasets/mlcomp.py"
+    },
+    "sklearn.datasets.mldata": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.datasets"
+        ],
+        "imports": [
+            "sklearn.datasets.base"
+        ],
+        "name": "sklearn.datasets.mldata",
+        "path": "/home/philip/projects/scikit-learn/sklearn/datasets/mldata.py"
+    },
+    "sklearn.datasets.samples_generator": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.cluster.tests.test_affinity_propagation",
+            "sklearn.cluster.tests.test_k_means",
+            "sklearn.cluster.tests.test_mean_shift",
+            "sklearn.cluster.tests.test_spectral",
+            "sklearn.covariance.tests.test_graph_lasso",
+            "sklearn.datasets",
+            "sklearn.feature_selection.tests.test_feature_select",
+            "sklearn.linear_model.tests.test_base",
+            "sklearn.mixture.tests.test_gmm",
+            "sklearn.svm.tests.test_sparse",
+            "sklearn.svm.tests.test_svm",
+            "sklearn.tests.test_grid_search",
+            "sklearn.utils.tests.test_svd"
+        ],
+        "imports": [
+            "sklearn.utils",
+            "sklearn.utils.fixes"
+        ],
+        "name": "sklearn.datasets.samples_generator",
+        "path": "/home/philip/projects/scikit-learn/sklearn/datasets/samples_generator.py"
+    },
+    "sklearn.datasets.setup": {
+        "bacon": 1,
+        "name": "sklearn.datasets.setup",
+        "path": "/home/philip/projects/scikit-learn/sklearn/datasets/setup.py"
+    },
+    "sklearn.datasets.svmlight_format": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.datasets"
+        ],
+        "imports": [
+            "sklearn",
+            "sklearn.utils"
+        ],
+        "name": "sklearn.datasets.svmlight_format",
+        "path": "/home/philip/projects/scikit-learn/sklearn/datasets/svmlight_format.py"
+    },
+    "sklearn.datasets.tests": {
+        "bacon": 1,
+        "name": "sklearn.datasets.tests",
+        "path": "/home/philip/projects/scikit-learn/sklearn/datasets/tests/__init__.py"
+    },
+    "sklearn.datasets.tests.test_20news": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.datasets"
+        ],
+        "name": "sklearn.datasets.tests.test_20news",
+        "path": "/home/philip/projects/scikit-learn/sklearn/datasets/tests/test_20news.py"
+    },
+    "sklearn.datasets.tests.test_base": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.datasets"
+        ],
+        "name": "sklearn.datasets.tests.test_base",
+        "path": "/home/philip/projects/scikit-learn/sklearn/datasets/tests/test_base.py"
+    },
+    "sklearn.datasets.tests.test_lfw": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.datasets"
+        ],
+        "name": "sklearn.datasets.tests.test_lfw",
+        "path": "/home/philip/projects/scikit-learn/sklearn/datasets/tests/test_lfw.py"
+    },
+    "sklearn.datasets.tests.test_mldata": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.datasets",
+            "sklearn.utils",
+            "sklearn.utils.testing"
+        ],
+        "name": "sklearn.datasets.tests.test_mldata",
+        "path": "/home/philip/projects/scikit-learn/sklearn/datasets/tests/test_mldata.py"
+    },
+    "sklearn.datasets.tests.test_samples_generator": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.datasets",
+            "sklearn.utils",
+            "sklearn.utils.testing"
+        ],
+        "name": "sklearn.datasets.tests.test_samples_generator",
+        "path": "/home/philip/projects/scikit-learn/sklearn/datasets/tests/test_samples_generator.py"
+    },
+    "sklearn.datasets.tests.test_svmlight_format": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.datasets",
+            "sklearn.utils",
+            "sklearn.utils.testing"
+        ],
+        "name": "sklearn.datasets.tests.test_svmlight_format",
+        "path": "/home/philip/projects/scikit-learn/sklearn/datasets/tests/test_svmlight_format.py"
+    },
+    "sklearn.decomposition": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.decomposition.tests.test_dict_learning",
+            "sklearn.decomposition.tests.test_fastica",
+            "sklearn.decomposition.tests.test_kernel_pca",
+            "sklearn.decomposition.tests.test_nmf",
+            "sklearn.decomposition.tests.test_pca",
+            "sklearn.decomposition.tests.test_sparse_pca",
+            "sklearn.manifold.isomap",
+            "sklearn.tests.test_pipeline"
+        ],
+        "imports": [
+            "sklearn.decomposition.fastica_",
+            "sklearn.decomposition.kernel_pca",
+            "sklearn.decomposition.nmf",
+            "sklearn.decomposition.pca",
+            "sklearn.decomposition.sparse_pca"
+        ],
+        "name": "sklearn.decomposition",
+        "path": "/home/philip/projects/scikit-learn/sklearn/decomposition/__init__.py"
+    },
+    "sklearn.decomposition.fastica_": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.decomposition",
+            "sklearn.decomposition.tests.test_fastica"
+        ],
+        "imports": [
+            "sklearn.utils"
+        ],
+        "name": "sklearn.decomposition.fastica_",
+        "path": "/home/philip/projects/scikit-learn/sklearn/decomposition/fastica_.py"
+    },
+    "sklearn.decomposition.kernel_pca": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.decomposition"
+        ],
+        "imports": [
+            "sklearn.base",
+            "sklearn.metrics",
+            "sklearn.metrics.pairwise",
+            "sklearn.preprocessing",
+            "sklearn.utils",
+            "sklearn.utils.arpack"
+        ],
+        "name": "sklearn.decomposition.kernel_pca",
+        "path": "/home/philip/projects/scikit-learn/sklearn/decomposition/kernel_pca.py"
+    },
+    "sklearn.decomposition.nmf": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.decomposition",
+            "sklearn.decomposition.tests.test_nmf"
+        ],
+        "imports": [
+            "sklearn.base",
+            "sklearn.utils",
+            "sklearn.utils.extmath"
+        ],
+        "name": "sklearn.decomposition.nmf",
+        "path": "/home/philip/projects/scikit-learn/sklearn/decomposition/nmf.py"
+    },
+    "sklearn.decomposition.pca": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.decomposition",
+            "sklearn.decomposition.tests.test_pca",
+            "sklearn.tests.test_pipeline"
+        ],
+        "imports": [
+            "sklearn.base",
+            "sklearn.utils",
+            "sklearn.utils.extmath"
+        ],
+        "name": "sklearn.decomposition.pca",
+        "path": "/home/philip/projects/scikit-learn/sklearn/decomposition/pca.py"
+    },
+    "sklearn.decomposition.sparse_pca": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.decomposition"
+        ],
+        "imports": [
+            "sklearn.linear_model",
+            "sklearn.utils"
+        ],
+        "name": "sklearn.decomposition.sparse_pca",
+        "path": "/home/philip/projects/scikit-learn/sklearn/decomposition/sparse_pca.py"
+    },
+    "sklearn.decomposition.tests": {
+        "bacon": 1,
+        "name": "sklearn.decomposition.tests",
+        "path": "/home/philip/projects/scikit-learn/sklearn/decomposition/tests/__init__.py"
+    },
+    "sklearn.decomposition.tests.test_dict_learning": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.decomposition",
+            "sklearn.utils",
+            "sklearn.utils.testing"
+        ],
+        "name": "sklearn.decomposition.tests.test_dict_learning",
+        "path": "/home/philip/projects/scikit-learn/sklearn/decomposition/tests/test_dict_learning.py"
+    },
+    "sklearn.decomposition.tests.test_fastica": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.decomposition",
+            "sklearn.decomposition.fastica_",
+            "sklearn.utils",
+            "sklearn.utils.testing"
+        ],
+        "name": "sklearn.decomposition.tests.test_fastica",
+        "path": "/home/philip/projects/scikit-learn/sklearn/decomposition/tests/test_fastica.py"
+    },
+    "sklearn.decomposition.tests.test_kernel_pca": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.datasets",
+            "sklearn.decomposition",
+            "sklearn.linear_model",
+            "sklearn.metrics",
+            "sklearn.metrics.pairwise",
+            "sklearn.pipeline",
+            "sklearn.utils",
+            "sklearn.utils.testing"
+        ],
+        "name": "sklearn.decomposition.tests.test_kernel_pca",
+        "path": "/home/philip/projects/scikit-learn/sklearn/decomposition/tests/test_kernel_pca.py"
+    },
+    "sklearn.decomposition.tests.test_nmf": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.decomposition",
+            "sklearn.decomposition.nmf",
+            "sklearn.utils",
+            "sklearn.utils.testing"
+        ],
+        "name": "sklearn.decomposition.tests.test_nmf",
+        "path": "/home/philip/projects/scikit-learn/sklearn/decomposition/tests/test_nmf.py"
+    },
+    "sklearn.decomposition.tests.test_pca": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.datasets",
+            "sklearn.decomposition",
+            "sklearn.decomposition.pca",
+            "sklearn.utils",
+            "sklearn.utils.testing"
+        ],
+        "name": "sklearn.decomposition.tests.test_pca",
+        "path": "/home/philip/projects/scikit-learn/sklearn/decomposition/tests/test_pca.py"
+    },
+    "sklearn.decomposition.tests.test_sparse_pca": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.decomposition",
+            "sklearn.externals",
+            "sklearn.externals.joblib",
+            "sklearn.utils"
+        ],
+        "name": "sklearn.decomposition.tests.test_sparse_pca",
+        "path": "/home/philip/projects/scikit-learn/sklearn/decomposition/tests/test_sparse_pca.py"
+    },
+    "sklearn.ensemble": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.ensemble.tests.test_base",
+            "sklearn.ensemble.tests.test_forest",
+            "sklearn.ensemble.tests.test_gradient_boosting"
+        ],
+        "imports": [
+            "sklearn.ensemble.forest",
+            "sklearn.ensemble.gradient_boosting"
+        ],
+        "name": "sklearn.ensemble",
+        "path": "/home/philip/projects/scikit-learn/sklearn/ensemble/__init__.py"
+    },
+    "sklearn.ensemble.base": {
+        "bacon": 1,
+        "name": "sklearn.ensemble.base",
+        "path": "/home/philip/projects/scikit-learn/sklearn/ensemble/base.py"
+    },
+    "sklearn.ensemble.forest": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.ensemble"
+        ],
+        "imports": [
+            "sklearn.externals",
+            "sklearn.externals.joblib",
+            "sklearn.feature_selection",
+            "sklearn.feature_selection.selector_mixin",
+            "sklearn.metrics",
+            "sklearn.tree",
+            "sklearn.utils"
+        ],
+        "name": "sklearn.ensemble.forest",
+        "path": "/home/philip/projects/scikit-learn/sklearn/ensemble/forest.py"
+    },
+    "sklearn.ensemble.gradient_boosting": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.ensemble"
+        ],
+        "imports": [
+            "sklearn.utils"
+        ],
+        "name": "sklearn.ensemble.gradient_boosting",
+        "path": "/home/philip/projects/scikit-learn/sklearn/ensemble/gradient_boosting.py"
+    },
+    "sklearn.ensemble.setup": {
+        "bacon": 1,
+        "name": "sklearn.ensemble.setup",
+        "path": "/home/philip/projects/scikit-learn/sklearn/ensemble/setup.py"
+    },
+    "sklearn.ensemble.tests": {
+        "bacon": 1,
+        "name": "sklearn.ensemble.tests",
+        "path": "/home/philip/projects/scikit-learn/sklearn/ensemble/tests/__init__.py"
+    },
+    "sklearn.ensemble.tests.test_base": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.ensemble",
+            "sklearn.tree"
+        ],
+        "name": "sklearn.ensemble.tests.test_base",
+        "path": "/home/philip/projects/scikit-learn/sklearn/ensemble/tests/test_base.py"
+    },
+    "sklearn.ensemble.tests.test_forest": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.datasets",
+            "sklearn.ensemble",
+            "sklearn.utils",
+            "sklearn.utils.testing"
+        ],
+        "name": "sklearn.ensemble.tests.test_forest",
+        "path": "/home/philip/projects/scikit-learn/sklearn/ensemble/tests/test_forest.py"
+    },
+    "sklearn.ensemble.tests.test_gradient_boosting": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.datasets",
+            "sklearn.ensemble",
+            "sklearn.metrics",
+            "sklearn.utils"
+        ],
+        "name": "sklearn.ensemble.tests.test_gradient_boosting",
+        "path": "/home/philip/projects/scikit-learn/sklearn/ensemble/tests/test_gradient_boosting.py"
+    },
+    "sklearn.externals": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.cluster.hierarchical",
+            "sklearn.cross_validation",
+            "sklearn.datasets.lfw",
+            "sklearn.decomposition.tests.test_sparse_pca",
+            "sklearn.ensemble.forest",
+            "sklearn.externals.joblib.test.test_my_exceptions",
+            "sklearn.linear_model.base",
+            "sklearn.linear_model.randomized_l1",
+            "sklearn.linear_model.stochastic_gradient",
+            "sklearn.metrics.pairwise"
+        ],
+        "name": "sklearn.externals",
+        "path": "/home/philip/projects/scikit-learn/sklearn/externals/__init__.py"
+    },
+    "sklearn.externals.joblib": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.cluster.hierarchical",
+            "sklearn.cross_validation",
+            "sklearn.datasets.lfw",
+            "sklearn.decomposition.tests.test_sparse_pca",
+            "sklearn.ensemble.forest",
+            "sklearn.externals.joblib.test.test_my_exceptions",
+            "sklearn.linear_model.base",
+            "sklearn.linear_model.randomized_l1",
+            "sklearn.linear_model.stochastic_gradient",
+            "sklearn.metrics.pairwise"
+        ],
+        "imports": [
+            "sklearn.externals.joblib.hashing",
+            "sklearn.externals.joblib.logger"
+        ],
+        "name": "sklearn.externals.joblib",
+        "path": "/home/philip/projects/scikit-learn/sklearn/externals/joblib/__init__.py"
+    },
+    "sklearn.externals.joblib.func_inspect": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.externals.joblib.test.test_func_inspect"
+        ],
+        "name": "sklearn.externals.joblib.func_inspect",
+        "path": "/home/philip/projects/scikit-learn/sklearn/externals/joblib/func_inspect.py"
+    },
+    "sklearn.externals.joblib.hashing": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.externals.joblib"
+        ],
+        "name": "sklearn.externals.joblib.hashing",
+        "path": "/home/philip/projects/scikit-learn/sklearn/externals/joblib/hashing.py"
+    },
+    "sklearn.externals.joblib.logger": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.externals.joblib",
+            "sklearn.externals.joblib.test.test_logger"
+        ],
+        "name": "sklearn.externals.joblib.logger",
+        "path": "/home/philip/projects/scikit-learn/sklearn/externals/joblib/logger.py"
+    },
+    "sklearn.externals.joblib.my_exceptions": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.externals.joblib.test.test_my_exceptions"
+        ],
+        "name": "sklearn.externals.joblib.my_exceptions",
+        "path": "/home/philip/projects/scikit-learn/sklearn/externals/joblib/my_exceptions.py"
+    },
+    "sklearn.externals.joblib.test": {
+        "bacon": 1,
+        "name": "sklearn.externals.joblib.test",
+        "path": "/home/philip/projects/scikit-learn/sklearn/externals/joblib/test/__init__.py"
+    },
+    "sklearn.externals.joblib.test.common": {
+        "bacon": 1,
+        "name": "sklearn.externals.joblib.test.common",
+        "path": "/home/philip/projects/scikit-learn/sklearn/externals/joblib/test/common.py"
+    },
+    "sklearn.externals.joblib.test.test_disk": {
+        "bacon": 1,
+        "name": "sklearn.externals.joblib.test.test_disk",
+        "path": "/home/philip/projects/scikit-learn/sklearn/externals/joblib/test/test_disk.py"
+    },
+    "sklearn.externals.joblib.test.test_format_stack": {
+        "bacon": 1,
+        "name": "sklearn.externals.joblib.test.test_format_stack",
+        "path": "/home/philip/projects/scikit-learn/sklearn/externals/joblib/test/test_format_stack.py"
+    },
+    "sklearn.externals.joblib.test.test_func_inspect": {
+        "bacon": 1,
+        "imports": [
+            "sklearn.externals.joblib.func_inspect"
+        ],
+        "name": "sklearn.externals.joblib.test.test_func_inspect",
+        "path": "/home/philip/projects/scikit-learn/sklearn/externals/joblib/test/test_func_inspect.py"
+    },
+    "sklearn.externals.joblib.test.test_logger": {
+        "bacon": 1,
+        "imports": [
+            "sklearn.externals.joblib.logger"
+        ],
+        "name": "sklearn.externals.joblib.test.test_logger",
+        "path": "/home/philip/projects/scikit-learn/sklearn/externals/joblib/test/test_logger.py"
+    },
+    "sklearn.externals.joblib.test.test_my_exceptions": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.externals",
+            "sklearn.externals.joblib",
+            "sklearn.externals.joblib.my_exceptions"
+        ],
+        "name": "sklearn.externals.joblib.test.test_my_exceptions",
+        "path": "/home/philip/projects/scikit-learn/sklearn/externals/joblib/test/test_my_exceptions.py"
+    },
+    "sklearn.externals.joblib.testing": {
+        "bacon": 1,
+        "name": "sklearn.externals.joblib.testing",
+        "path": "/home/philip/projects/scikit-learn/sklearn/externals/joblib/testing.py"
+    },
+    "sklearn.externals.setup": {
+        "bacon": 1,
+        "name": "sklearn.externals.setup",
+        "path": "/home/philip/projects/scikit-learn/sklearn/externals/setup.py"
+    },
+    "sklearn.externals.test_externals_setup": {
+        "bacon": 1,
+        "name": "sklearn.externals.test_externals_setup",
+        "path": "/home/philip/projects/scikit-learn/sklearn/externals/test_externals_setup.py"
+    },
+    "sklearn.feature_extraction": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.cluster.tests.test_hierarchical",
+            "sklearn.feature_extraction",
+            "sklearn.feature_extraction.tests.test_dict_vectorizer"
+        ],
+        "imports": [
+            "sklearn",
+            "sklearn.feature_extraction",
+            "sklearn.feature_extraction.dict_vectorizer",
+            "sklearn.feature_extraction.image"
+        ],
+        "name": "sklearn.feature_extraction",
+        "path": "/home/philip/projects/scikit-learn/sklearn/feature_extraction/__init__.py"
+    },
+    "sklearn.feature_extraction.dict_vectorizer": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.feature_extraction"
+        ],
+        "imports": [
+            "sklearn.base",
+            "sklearn.utils"
+        ],
+        "name": "sklearn.feature_extraction.dict_vectorizer",
+        "path": "/home/philip/projects/scikit-learn/sklearn/feature_extraction/dict_vectorizer.py"
+    },
+    "sklearn.feature_extraction.image": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.cluster.tests.test_hierarchical",
+            "sklearn.feature_extraction",
+            "sklearn.feature_extraction.tests.test_image"
+        ],
+        "imports": [
+            "sklearn.base",
+            "sklearn.utils",
+            "sklearn.utils.fixes"
+        ],
+        "name": "sklearn.feature_extraction.image",
+        "path": "/home/philip/projects/scikit-learn/sklearn/feature_extraction/image.py"
+    },
+    "sklearn.feature_extraction.stop_words": {
+        "bacon": 1,
+        "name": "sklearn.feature_extraction.stop_words",
+        "path": "/home/philip/projects/scikit-learn/sklearn/feature_extraction/stop_words.py"
+    },
+    "sklearn.feature_extraction.tests": {
+        "bacon": 1,
+        "name": "sklearn.feature_extraction.tests",
+        "path": "/home/philip/projects/scikit-learn/sklearn/feature_extraction/tests/__init__.py"
+    },
+    "sklearn.feature_extraction.tests.test_dict_vectorizer": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.feature_extraction",
+            "sklearn.feature_selection"
+        ],
+        "name": "sklearn.feature_extraction.tests.test_dict_vectorizer",
+        "path": "/home/philip/projects/scikit-learn/sklearn/feature_extraction/tests/test_dict_vectorizer.py"
+    },
+    "sklearn.feature_extraction.tests.test_image": {
+        "bacon": 1,
+        "imports": [
+            "sklearn.feature_extraction.image",
+            "sklearn.utils",
+            "sklearn.utils.graph"
+        ],
+        "name": "sklearn.feature_extraction.tests.test_image",
+        "path": "/home/philip/projects/scikit-learn/sklearn/feature_extraction/tests/test_image.py"
+    },
+    "sklearn.feature_extraction.tests.test_text": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.pipeline",
+            "sklearn.svm",
+            "sklearn.utils",
+            "sklearn.utils.testing"
+        ],
+        "name": "sklearn.feature_extraction.tests.test_text",
+        "path": "/home/philip/projects/scikit-learn/sklearn/feature_extraction/tests/test_text.py"
+    },
+    "sklearn.feature_selection": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.ensemble.forest",
+            "sklearn.feature_extraction.tests.test_dict_vectorizer",
+            "sklearn.feature_selection.tests.test_chi2",
+            "sklearn.feature_selection.tests.test_feature_select",
+            "sklearn.feature_selection.tests.test_rfe",
+            "sklearn.linear_model.logistic",
+            "sklearn.linear_model.stochastic_gradient",
+            "sklearn.linear_model.tests.test_randomized_l1",
+            "sklearn.svm.classes",
+            "sklearn.tests.test_base",
+            "sklearn.tests.test_pipeline",
+            "sklearn.tree.tree"
+        ],
+        "imports": [
+            "sklearn.feature_selection.rfe",
+            "sklearn.feature_selection.univariate_selection"
+        ],
+        "name": "sklearn.feature_selection",
+        "path": "/home/philip/projects/scikit-learn/sklearn/feature_selection/__init__.py"
+    },
+    "sklearn.feature_selection.rfe": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.feature_selection",
+            "sklearn.feature_selection.tests.test_rfe"
+        ],
+        "imports": [
+            "sklearn.base",
+            "sklearn.cross_validation",
+            "sklearn.utils"
+        ],
+        "name": "sklearn.feature_selection.rfe",
+        "path": "/home/philip/projects/scikit-learn/sklearn/feature_selection/rfe.py"
+    },
+    "sklearn.feature_selection.selector_mixin": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.ensemble.forest",
+            "sklearn.linear_model.logistic",
+            "sklearn.linear_model.stochastic_gradient",
+            "sklearn.svm.classes",
+            "sklearn.tree.tree"
+        ],
+        "imports": [
+            "sklearn.base",
+            "sklearn.utils"
+        ],
+        "name": "sklearn.feature_selection.selector_mixin",
+        "path": "/home/philip/projects/scikit-learn/sklearn/feature_selection/selector_mixin.py"
+    },
+    "sklearn.feature_selection.tests": {
+        "bacon": 1,
+        "name": "sklearn.feature_selection.tests",
+        "path": "/home/philip/projects/scikit-learn/sklearn/feature_selection/tests/__init__.py"
+    },
+    "sklearn.feature_selection.tests.test_chi2": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.feature_selection"
+        ],
+        "name": "sklearn.feature_selection.tests.test_chi2",
+        "path": "/home/philip/projects/scikit-learn/sklearn/feature_selection/tests/test_chi2.py"
+    },
+    "sklearn.feature_selection.tests.test_feature_select": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.datasets",
+            "sklearn.datasets.samples_generator",
+            "sklearn.feature_selection"
+        ],
+        "name": "sklearn.feature_selection.tests.test_feature_select",
+        "path": "/home/philip/projects/scikit-learn/sklearn/feature_selection/tests/test_feature_select.py"
+    },
+    "sklearn.feature_selection.tests.test_rfe": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.datasets",
+            "sklearn.feature_selection",
+            "sklearn.feature_selection.rfe",
+            "sklearn.metrics",
+            "sklearn.svm",
+            "sklearn.utils"
+        ],
+        "name": "sklearn.feature_selection.tests.test_rfe",
+        "path": "/home/philip/projects/scikit-learn/sklearn/feature_selection/tests/test_rfe.py"
+    },
+    "sklearn.feature_selection.tests.test_selector_mixin": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.datasets",
+            "sklearn.linear_model",
+            "sklearn.svm",
+            "sklearn.utils",
+            "sklearn.utils.testing"
+        ],
+        "name": "sklearn.feature_selection.tests.test_selector_mixin",
+        "path": "/home/philip/projects/scikit-learn/sklearn/feature_selection/tests/test_selector_mixin.py"
+    },
+    "sklearn.feature_selection.univariate_selection": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.feature_selection"
+        ],
+        "imports": [
+            "sklearn.base",
+            "sklearn.preprocessing",
+            "sklearn.utils",
+            "sklearn.utils.extmath"
+        ],
+        "name": "sklearn.feature_selection.univariate_selection",
+        "path": "/home/philip/projects/scikit-learn/sklearn/feature_selection/univariate_selection.py"
+    },
+    "sklearn.gaussian_process": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.gaussian_process",
+            "sklearn.gaussian_process.tests.test_gaussian_process"
+        ],
+        "imports": [
+            "sklearn",
+            "sklearn.gaussian_process",
+            "sklearn.gaussian_process.correlation_models",
+            "sklearn.gaussian_process.regression_models"
+        ],
+        "name": "sklearn.gaussian_process",
+        "path": "/home/philip/projects/scikit-learn/sklearn/gaussian_process/__init__.py"
+    },
+    "sklearn.gaussian_process.correlation_models": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.gaussian_process",
+            "sklearn.gaussian_process.tests.test_gaussian_process"
+        ],
+        "name": "sklearn.gaussian_process.correlation_models",
+        "path": "/home/philip/projects/scikit-learn/sklearn/gaussian_process/correlation_models.py"
+    },
+    "sklearn.gaussian_process.regression_models": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.gaussian_process",
+            "sklearn.gaussian_process.tests.test_gaussian_process"
+        ],
+        "name": "sklearn.gaussian_process.regression_models",
+        "path": "/home/philip/projects/scikit-learn/sklearn/gaussian_process/regression_models.py"
+    },
+    "sklearn.gaussian_process.tests": {
+        "bacon": 1,
+        "name": "sklearn.gaussian_process.tests",
+        "path": "/home/philip/projects/scikit-learn/sklearn/gaussian_process/tests/__init__.py"
+    },
+    "sklearn.gaussian_process.tests.test_gaussian_process": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.gaussian_process",
+            "sklearn.gaussian_process.correlation_models",
+            "sklearn.gaussian_process.regression_models"
+        ],
+        "name": "sklearn.gaussian_process.tests.test_gaussian_process",
+        "path": "/home/philip/projects/scikit-learn/sklearn/gaussian_process/tests/test_gaussian_process.py"
+    },
+    "sklearn.hmm": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.base",
+            "sklearn.cluster",
+            "sklearn.mixture",
+            "sklearn.utils",
+            "sklearn.utils.extmath"
+        ],
+        "name": "sklearn.hmm",
+        "path": "/home/philip/projects/scikit-learn/sklearn/hmm.py"
+    },
+    "sklearn.kernel_approximation": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.tests.test_kernel_approximation"
+        ],
+        "imports": [
+            "sklearn.base",
+            "sklearn.utils",
+            "sklearn.utils.extmath"
+        ],
+        "name": "sklearn.kernel_approximation",
+        "path": "/home/philip/projects/scikit-learn/sklearn/kernel_approximation.py"
+    },
+    "sklearn.linear_model": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.decomposition.sparse_pca",
+            "sklearn.decomposition.tests.test_kernel_pca",
+            "sklearn.feature_selection.tests.test_selector_mixin",
+            "sklearn.linear_model",
+            "sklearn.linear_model.tests.test_coordinate_descent",
+            "sklearn.linear_model.tests.test_least_angle",
+            "sklearn.linear_model.tests.test_logistic",
+            "sklearn.linear_model.tests.test_omp",
+            "sklearn.linear_model.tests.test_perceptron",
+            "sklearn.linear_model.tests.test_randomized_l1",
+            "sklearn.linear_model.tests.test_ridge",
+            "sklearn.linear_model.tests.test_sgd",
+            "sklearn.svm.tests.test_bounds",
+            "sklearn.svm.tests.test_sparse",
+            "sklearn.svm.tests.test_svm",
+            "sklearn.tests.test_cross_validation",
+            "sklearn.tests.test_multiclass",
+            "sklearn.tests.test_pipeline",
+            "sklearn.tests.test_preprocessing"
+        ],
+        "imports": [
+            "sklearn",
+            "sklearn.linear_model",
+            "sklearn.linear_model.base",
+            "sklearn.linear_model.logistic",
+            "sklearn.linear_model.omp",
+            "sklearn.linear_model.perceptron",
+            "sklearn.linear_model.randomized_l1",
+            "sklearn.linear_model.ridge",
+            "sklearn.linear_model.sparse",
+            "sklearn.linear_model.stochastic_gradient"
+        ],
+        "name": "sklearn.linear_model",
+        "path": "/home/philip/projects/scikit-learn/sklearn/linear_model/__init__.py"
+    },
+    "sklearn.linear_model.base": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.linear_model",
+            "sklearn.linear_model.ridge",
+            "sklearn.linear_model.tests.test_ridge"
+        ],
+        "imports": [
+            "sklearn.base",
+            "sklearn.externals",
+            "sklearn.externals.joblib",
+            "sklearn.utils",
+            "sklearn.utils.extmath",
+            "sklearn.utils.fixes"
+        ],
+        "name": "sklearn.linear_model.base",
+        "path": "/home/philip/projects/scikit-learn/sklearn/linear_model/base.py"
+    },
+    "sklearn.linear_model.logistic": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.linear_model",
+            "sklearn.linear_model.randomized_l1",
+            "sklearn.linear_model.sparse.logistic",
+            "sklearn.linear_model.tests.test_logistic",
+            "sklearn.svm.tests.test_bounds"
+        ],
+        "imports": [
+            "sklearn.base",
+            "sklearn.feature_selection",
+            "sklearn.feature_selection.selector_mixin",
+            "sklearn.svm"
+        ],
+        "name": "sklearn.linear_model.logistic",
+        "path": "/home/philip/projects/scikit-learn/sklearn/linear_model/logistic.py"
+    },
+    "sklearn.linear_model.omp": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.linear_model"
+        ],
+        "imports": [
+            "sklearn.utils"
+        ],
+        "name": "sklearn.linear_model.omp",
+        "path": "/home/philip/projects/scikit-learn/sklearn/linear_model/omp.py"
+    },
+    "sklearn.linear_model.perceptron": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.linear_model"
+        ],
+        "imports": [
+            "sklearn.linear_model.stochastic_gradient"
+        ],
+        "name": "sklearn.linear_model.perceptron",
+        "path": "/home/philip/projects/scikit-learn/sklearn/linear_model/perceptron.py"
+    },
+    "sklearn.linear_model.randomized_l1": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.linear_model",
+            "sklearn.linear_model.tests.test_randomized_l1"
+        ],
+        "imports": [
+            "sklearn.externals",
+            "sklearn.externals.joblib",
+            "sklearn.linear_model.logistic",
+            "sklearn.utils"
+        ],
+        "name": "sklearn.linear_model.randomized_l1",
+        "path": "/home/philip/projects/scikit-learn/sklearn/linear_model/randomized_l1.py"
+    },
+    "sklearn.linear_model.ridge": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.linear_model",
+            "sklearn.linear_model.tests.test_ridge"
+        ],
+        "imports": [
+            "sklearn.base",
+            "sklearn.linear_model.base",
+            "sklearn.preprocessing",
+            "sklearn.utils",
+            "sklearn.utils.extmath"
+        ],
+        "name": "sklearn.linear_model.ridge",
+        "path": "/home/philip/projects/scikit-learn/sklearn/linear_model/ridge.py"
+    },
+    "sklearn.linear_model.setup": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn._build_utils"
+        ],
+        "name": "sklearn.linear_model.setup",
+        "path": "/home/philip/projects/scikit-learn/sklearn/linear_model/setup.py"
+    },
+    "sklearn.linear_model.sparse": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.linear_model"
+        ],
+        "imports": [
+            "sklearn.linear_model.sparse.logistic",
+            "sklearn.linear_model.sparse.stochastic_gradient"
+        ],
+        "name": "sklearn.linear_model.sparse",
+        "path": "/home/philip/projects/scikit-learn/sklearn/linear_model/sparse/__init__.py"
+    },
+    "sklearn.linear_model.sparse.coordinate_descent": {
+        "bacon": 1,
+        "imports": [
+            "sklearn.utils"
+        ],
+        "name": "sklearn.linear_model.sparse.coordinate_descent",
+        "path": "/home/philip/projects/scikit-learn/sklearn/linear_model/sparse/coordinate_descent.py"
+    },
+    "sklearn.linear_model.sparse.logistic": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.linear_model.sparse"
+        ],
+        "imports": [
+            "sklearn.linear_model.logistic",
+            "sklearn.utils"
+        ],
+        "name": "sklearn.linear_model.sparse.logistic",
+        "path": "/home/philip/projects/scikit-learn/sklearn/linear_model/sparse/logistic.py"
+    },
+    "sklearn.linear_model.sparse.stochastic_gradient": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.linear_model.sparse"
+        ],
+        "imports": [
+            "sklearn.linear_model.stochastic_gradient",
+            "sklearn.utils"
+        ],
+        "name": "sklearn.linear_model.sparse.stochastic_gradient",
+        "path": "/home/philip/projects/scikit-learn/sklearn/linear_model/sparse/stochastic_gradient.py"
+    },
+    "sklearn.linear_model.stochastic_gradient": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.linear_model",
+            "sklearn.linear_model.perceptron",
+            "sklearn.linear_model.sparse.stochastic_gradient",
+            "sklearn.tests.test_preprocessing"
+        ],
+        "imports": [
+            "sklearn.base",
+            "sklearn.externals",
+            "sklearn.externals.joblib",
+            "sklearn.feature_selection",
+            "sklearn.feature_selection.selector_mixin",
+            "sklearn.utils",
+            "sklearn.utils.extmath"
+        ],
+        "name": "sklearn.linear_model.stochastic_gradient",
+        "path": "/home/philip/projects/scikit-learn/sklearn/linear_model/stochastic_gradient.py"
+    },
+    "sklearn.linear_model.tests": {
+        "bacon": 1,
+        "name": "sklearn.linear_model.tests",
+        "path": "/home/philip/projects/scikit-learn/sklearn/linear_model/tests/__init__.py"
+    },
+    "sklearn.linear_model.tests.test_base": {
+        "bacon": 1,
+        "imports": [
+            "sklearn.datasets",
+            "sklearn.datasets.samples_generator",
+            "sklearn.utils"
+        ],
+        "name": "sklearn.linear_model.tests.test_base",
+        "path": "/home/philip/projects/scikit-learn/sklearn/linear_model/tests/test_base.py"
+    },
+    "sklearn.linear_model.tests.test_bayes": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.datasets"
+        ],
+        "name": "sklearn.linear_model.tests.test_bayes",
+        "path": "/home/philip/projects/scikit-learn/sklearn/linear_model/tests/test_bayes.py"
+    },
+    "sklearn.linear_model.tests.test_coordinate_descent": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.linear_model",
+            "sklearn.utils",
+            "sklearn.utils.testing"
+        ],
+        "name": "sklearn.linear_model.tests.test_coordinate_descent",
+        "path": "/home/philip/projects/scikit-learn/sklearn/linear_model/tests/test_coordinate_descent.py"
+    },
+    "sklearn.linear_model.tests.test_least_angle": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.datasets",
+            "sklearn.linear_model",
+            "sklearn.utils",
+            "sklearn.utils.testing"
+        ],
+        "name": "sklearn.linear_model.tests.test_least_angle",
+        "path": "/home/philip/projects/scikit-learn/sklearn/linear_model/tests/test_least_angle.py"
+    },
+    "sklearn.linear_model.tests.test_logistic": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.datasets",
+            "sklearn.linear_model",
+            "sklearn.linear_model.logistic",
+            "sklearn.utils",
+            "sklearn.utils.testing"
+        ],
+        "name": "sklearn.linear_model.tests.test_logistic",
+        "path": "/home/philip/projects/scikit-learn/sklearn/linear_model/tests/test_logistic.py"
+    },
+    "sklearn.linear_model.tests.test_omp": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.datasets",
+            "sklearn.linear_model",
+            "sklearn.utils",
+            "sklearn.utils.fixes",
+            "sklearn.utils.testing"
+        ],
+        "name": "sklearn.linear_model.tests.test_omp",
+        "path": "/home/philip/projects/scikit-learn/sklearn/linear_model/tests/test_omp.py"
+    },
+    "sklearn.linear_model.tests.test_perceptron": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.datasets",
+            "sklearn.linear_model",
+            "sklearn.utils"
+        ],
+        "name": "sklearn.linear_model.tests.test_perceptron",
+        "path": "/home/philip/projects/scikit-learn/sklearn/linear_model/tests/test_perceptron.py"
+    },
+    "sklearn.linear_model.tests.test_randomized_l1": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.datasets",
+            "sklearn.feature_selection",
+            "sklearn.linear_model",
+            "sklearn.linear_model.randomized_l1",
+            "sklearn.preprocessing"
+        ],
+        "name": "sklearn.linear_model.tests.test_randomized_l1",
+        "path": "/home/philip/projects/scikit-learn/sklearn/linear_model/tests/test_randomized_l1.py"
+    },
+    "sklearn.linear_model.tests.test_ridge": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.cross_validation",
+            "sklearn.datasets",
+            "sklearn.linear_model",
+            "sklearn.linear_model.base",
+            "sklearn.linear_model.ridge",
+            "sklearn.metrics",
+            "sklearn.utils",
+            "sklearn.utils.testing"
+        ],
+        "name": "sklearn.linear_model.tests.test_ridge",
+        "path": "/home/philip/projects/scikit-learn/sklearn/linear_model/tests/test_ridge.py"
+    },
+    "sklearn.linear_model.tests.test_sgd": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.datasets",
+            "sklearn.linear_model",
+            "sklearn.metrics",
+            "sklearn.preprocessing",
+            "sklearn.utils",
+            "sklearn.utils.testing"
+        ],
+        "name": "sklearn.linear_model.tests.test_sgd",
+        "path": "/home/philip/projects/scikit-learn/sklearn/linear_model/tests/test_sgd.py"
+    },
+    "sklearn.linear_model.tests.test_sparse_coordinate_descent": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.utils",
+            "sklearn.utils.testing"
+        ],
+        "name": "sklearn.linear_model.tests.test_sparse_coordinate_descent",
+        "path": "/home/philip/projects/scikit-learn/sklearn/linear_model/tests/test_sparse_coordinate_descent.py"
+    },
+    "sklearn.manifold": {
+        "bacon": 1,
+        "imports": [
+            "sklearn.manifold.isomap",
+            "sklearn.manifold.locally_linear"
+        ],
+        "name": "sklearn.manifold",
+        "path": "/home/philip/projects/scikit-learn/sklearn/manifold/__init__.py"
+    },
+    "sklearn.manifold.isomap": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.manifold"
+        ],
+        "imports": [
+            "sklearn.decomposition",
+            "sklearn.neighbors",
+            "sklearn.preprocessing",
+            "sklearn.utils",
+            "sklearn.utils.graph"
+        ],
+        "name": "sklearn.manifold.isomap",
+        "path": "/home/philip/projects/scikit-learn/sklearn/manifold/isomap.py"
+    },
+    "sklearn.manifold.locally_linear": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.manifold"
+        ],
+        "imports": [
+            "sklearn.neighbors",
+            "sklearn.utils",
+            "sklearn.utils.arpack"
+        ],
+        "name": "sklearn.manifold.locally_linear",
+        "path": "/home/philip/projects/scikit-learn/sklearn/manifold/locally_linear.py"
+    },
+    "sklearn.metrics": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.base",
+            "sklearn.cluster.dbscan_",
+            "sklearn.cluster.hierarchical",
+            "sklearn.cluster.spectral",
+            "sklearn.cluster.tests.test_affinity_propagation",
+            "sklearn.cluster.tests.test_k_means",
+            "sklearn.cluster.tests.test_spectral",
+            "sklearn.decomposition.kernel_pca",
+            "sklearn.decomposition.tests.test_kernel_pca",
+            "sklearn.ensemble.forest",
+            "sklearn.ensemble.tests.test_gradient_boosting",
+            "sklearn.feature_selection.tests.test_rfe",
+            "sklearn.linear_model.tests.test_ridge",
+            "sklearn.linear_model.tests.test_sgd",
+            "sklearn.metrics",
+            "sklearn.metrics.cluster.tests.test_supervised",
+            "sklearn.metrics.cluster.tests.test_unsupervised",
+            "sklearn.metrics.tests.test_pairwise",
+            "sklearn.multiclass",
+            "sklearn.neighbors.base",
+            "sklearn.neighbors.nearest_centroid",
+            "sklearn.neighbors.tests.test_nearest_centroid",
+            "sklearn.semi_supervised.label_propagation",
+            "sklearn.svm.tests.test_svm",
+            "sklearn.tests.test_cross_validation",
+            "sklearn.tests.test_grid_search",
+            "sklearn.tests.test_kernel_approximation"
+        ],
+        "imports": [
+            "sklearn",
+            "sklearn.metrics",
+            "sklearn.metrics.cluster",
+            "sklearn.metrics.metrics",
+            "sklearn.metrics.pairwise"
+        ],
+        "name": "sklearn.metrics",
+        "path": "/home/philip/projects/scikit-learn/sklearn/metrics/__init__.py"
+    },
+    "sklearn.metrics.cluster": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.cluster.tests.test_k_means",
+            "sklearn.metrics",
+            "sklearn.metrics.cluster.tests.test_supervised"
+        ],
+        "imports": [
+            "sklearn.metrics.cluster.supervised",
+            "sklearn.metrics.cluster.unsupervised"
+        ],
+        "name": "sklearn.metrics.cluster",
+        "path": "/home/philip/projects/scikit-learn/sklearn/metrics/cluster/__init__.py"
+    },
+    "sklearn.metrics.cluster.supervised": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.metrics.cluster"
+        ],
+        "imports": [
+            "sklearn.utils",
+            "sklearn.utils.fixes"
+        ],
+        "name": "sklearn.metrics.cluster.supervised",
+        "path": "/home/philip/projects/scikit-learn/sklearn/metrics/cluster/supervised.py"
+    },
+    "sklearn.metrics.cluster.tests": {
+        "bacon": 1,
+        "name": "sklearn.metrics.cluster.tests",
+        "path": "/home/philip/projects/scikit-learn/sklearn/metrics/cluster/tests/__init__.py"
+    },
+    "sklearn.metrics.cluster.tests.test_supervised": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.metrics",
+            "sklearn.metrics.cluster"
+        ],
+        "name": "sklearn.metrics.cluster.tests.test_supervised",
+        "path": "/home/philip/projects/scikit-learn/sklearn/metrics/cluster/tests/test_supervised.py"
+    },
+    "sklearn.metrics.cluster.tests.test_unsupervised": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.datasets",
+            "sklearn.metrics",
+            "sklearn.metrics.cluster.unsupervised"
+        ],
+        "name": "sklearn.metrics.cluster.tests.test_unsupervised",
+        "path": "/home/philip/projects/scikit-learn/sklearn/metrics/cluster/tests/test_unsupervised.py"
+    },
+    "sklearn.metrics.cluster.unsupervised": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.metrics.cluster",
+            "sklearn.metrics.cluster.tests.test_unsupervised"
+        ],
+        "imports": [
+            "sklearn.metrics.pairwise",
+            "sklearn.utils"
+        ],
+        "name": "sklearn.metrics.cluster.unsupervised",
+        "path": "/home/philip/projects/scikit-learn/sklearn/metrics/cluster/unsupervised.py"
+    },
+    "sklearn.metrics.metrics": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.metrics",
+            "sklearn.metrics.tests.test_metrics"
+        ],
+        "imports": [
+            "sklearn.utils"
+        ],
+        "name": "sklearn.metrics.metrics",
+        "path": "/home/philip/projects/scikit-learn/sklearn/metrics/metrics.py"
+    },
+    "sklearn.metrics.pairwise": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.cluster.spectral",
+            "sklearn.decomposition.kernel_pca",
+            "sklearn.decomposition.tests.test_kernel_pca",
+            "sklearn.metrics",
+            "sklearn.metrics.cluster.unsupervised",
+            "sklearn.metrics.tests.test_pairwise",
+            "sklearn.multiclass",
+            "sklearn.neighbors.nearest_centroid",
+            "sklearn.neighbors.tests.test_nearest_centroid",
+            "sklearn.semi_supervised.label_propagation",
+            "sklearn.tests.test_kernel_approximation"
+        ],
+        "imports": [
+            "sklearn.externals",
+            "sklearn.externals.joblib",
+            "sklearn.utils",
+            "sklearn.utils.extmath"
+        ],
+        "name": "sklearn.metrics.pairwise",
+        "path": "/home/philip/projects/scikit-learn/sklearn/metrics/pairwise.py"
+    },
+    "sklearn.metrics.tests": {
+        "bacon": 1,
+        "name": "sklearn.metrics.tests",
+        "path": "/home/philip/projects/scikit-learn/sklearn/metrics/tests/__init__.py"
+    },
+    "sklearn.metrics.tests.test_metrics": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.datasets",
+            "sklearn.metrics.metrics",
+            "sklearn.svm"
+        ],
+        "name": "sklearn.metrics.tests.test_metrics",
+        "path": "/home/philip/projects/scikit-learn/sklearn/metrics/tests/test_metrics.py"
+    },
+    "sklearn.metrics.tests.test_pairwise": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.metrics",
+            "sklearn.metrics.pairwise"
+        ],
+        "name": "sklearn.metrics.tests.test_pairwise",
+        "path": "/home/philip/projects/scikit-learn/sklearn/metrics/tests/test_pairwise.py"
+    },
+    "sklearn.mixture": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.hmm",
+            "sklearn.mixture.tests.test_dpgmm",
+            "sklearn.mixture.tests.test_gmm"
+        ],
+        "imports": [
+            "sklearn.mixture.gmm"
+        ],
+        "name": "sklearn.mixture",
+        "path": "/home/philip/projects/scikit-learn/sklearn/mixture/__init__.py"
+    },
+    "sklearn.mixture.gmm": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.mixture"
+        ],
+        "imports": [
+            "sklearn",
+            "sklearn.base",
+            "sklearn.cluster",
+            "sklearn.utils",
+            "sklearn.utils.extmath"
+        ],
+        "name": "sklearn.mixture.gmm",
+        "path": "/home/philip/projects/scikit-learn/sklearn/mixture/gmm.py"
+    },
+    "sklearn.mixture.tests": {
+        "bacon": 1,
+        "name": "sklearn.mixture.tests",
+        "path": "/home/philip/projects/scikit-learn/sklearn/mixture/tests/__init__.py"
+    },
+    "sklearn.mixture.tests.test_dpgmm": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.mixture",
+            "sklearn.mixture.tests.test_gmm"
+        ],
+        "name": "sklearn.mixture.tests.test_dpgmm",
+        "path": "/home/philip/projects/scikit-learn/sklearn/mixture/tests/test_dpgmm.py"
+    },
+    "sklearn.mixture.tests.test_gmm": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.mixture.tests.test_dpgmm"
+        ],
+        "imports": [
+            "sklearn",
+            "sklearn.datasets",
+            "sklearn.datasets.samples_generator",
+            "sklearn.mixture"
+        ],
+        "name": "sklearn.mixture.tests.test_gmm",
+        "path": "/home/philip/projects/scikit-learn/sklearn/mixture/tests/test_gmm.py"
+    },
+    "sklearn.multiclass": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.tests.test_multiclass"
+        ],
+        "imports": [
+            "sklearn.base",
+            "sklearn.metrics",
+            "sklearn.metrics.pairwise",
+            "sklearn.preprocessing",
+            "sklearn.utils"
+        ],
+        "name": "sklearn.multiclass",
+        "path": "/home/philip/projects/scikit-learn/sklearn/multiclass.py"
+    },
+    "sklearn.naive_bayes": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.tests.test_multiclass",
+            "sklearn.tests.test_naive_bayes"
+        ],
+        "imports": [
+            "sklearn.base",
+            "sklearn.preprocessing",
+            "sklearn.utils",
+            "sklearn.utils.extmath"
+        ],
+        "name": "sklearn.naive_bayes",
+        "path": "/home/philip/projects/scikit-learn/sklearn/naive_bayes.py"
+    },
+    "sklearn.neighbors": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.cluster.mean_shift_",
+            "sklearn.cluster.spectral",
+            "sklearn.cluster.tests.test_hierarchical",
+            "sklearn.manifold.isomap",
+            "sklearn.manifold.locally_linear",
+            "sklearn.neighbors.tests.test_ball_tree",
+            "sklearn.neighbors.tests.test_nearest_centroid",
+            "sklearn.neighbors.tests.test_neighbors",
+            "sklearn.semi_supervised.label_propagation"
+        ],
+        "imports": [
+            "sklearn.neighbors.classification",
+            "sklearn.neighbors.graph",
+            "sklearn.neighbors.nearest_centroid",
+            "sklearn.neighbors.regression",
+            "sklearn.neighbors.unsupervised"
+        ],
+        "name": "sklearn.neighbors",
+        "path": "/home/philip/projects/scikit-learn/sklearn/neighbors/__init__.py"
+    },
+    "sklearn.neighbors.base": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.neighbors.classification",
+            "sklearn.neighbors.graph",
+            "sklearn.neighbors.regression",
+            "sklearn.neighbors.unsupervised"
+        ],
+        "imports": [
+            "sklearn.base",
+            "sklearn.metrics",
+            "sklearn.utils"
+        ],
+        "name": "sklearn.neighbors.base",
+        "path": "/home/philip/projects/scikit-learn/sklearn/neighbors/base.py"
+    },
+    "sklearn.neighbors.classification": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.neighbors"
+        ],
+        "imports": [
+            "sklearn.base",
+            "sklearn.neighbors.base",
+            "sklearn.utils",
+            "sklearn.utils.extmath"
+        ],
+        "name": "sklearn.neighbors.classification",
+        "path": "/home/philip/projects/scikit-learn/sklearn/neighbors/classification.py"
+    },
+    "sklearn.neighbors.graph": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.neighbors"
+        ],
+        "imports": [
+            "sklearn.neighbors.base",
+            "sklearn.neighbors.unsupervised"
+        ],
+        "name": "sklearn.neighbors.graph",
+        "path": "/home/philip/projects/scikit-learn/sklearn/neighbors/graph.py"
+    },
+    "sklearn.neighbors.nearest_centroid": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.neighbors"
+        ],
+        "imports": [
+            "sklearn.base",
+            "sklearn.metrics",
+            "sklearn.metrics.pairwise",
+            "sklearn.utils",
+            "sklearn.utils.validation"
+        ],
+        "name": "sklearn.neighbors.nearest_centroid",
+        "path": "/home/philip/projects/scikit-learn/sklearn/neighbors/nearest_centroid.py"
+    },
+    "sklearn.neighbors.regression": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.neighbors"
+        ],
+        "imports": [
+            "sklearn.base",
+            "sklearn.neighbors.base",
+            "sklearn.utils"
+        ],
+        "name": "sklearn.neighbors.regression",
+        "path": "/home/philip/projects/scikit-learn/sklearn/neighbors/regression.py"
+    },
+    "sklearn.neighbors.setup": {
+        "bacon": 1,
+        "name": "sklearn.neighbors.setup",
+        "path": "/home/philip/projects/scikit-learn/sklearn/neighbors/setup.py"
+    },
+    "sklearn.neighbors.tests": {
+        "bacon": 1,
+        "name": "sklearn.neighbors.tests",
+        "path": "/home/philip/projects/scikit-learn/sklearn/neighbors/tests/__init__.py"
+    },
+    "sklearn.neighbors.tests.test_ball_tree": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.neighbors"
+        ],
+        "name": "sklearn.neighbors.tests.test_ball_tree",
+        "path": "/home/philip/projects/scikit-learn/sklearn/neighbors/tests/test_ball_tree.py"
+    },
+    "sklearn.neighbors.tests.test_nearest_centroid": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.datasets",
+            "sklearn.metrics",
+            "sklearn.metrics.pairwise",
+            "sklearn.neighbors"
+        ],
+        "name": "sklearn.neighbors.tests.test_nearest_centroid",
+        "path": "/home/philip/projects/scikit-learn/sklearn/neighbors/tests/test_nearest_centroid.py"
+    },
+    "sklearn.neighbors.tests.test_neighbors": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.datasets",
+            "sklearn.neighbors"
+        ],
+        "name": "sklearn.neighbors.tests.test_neighbors",
+        "path": "/home/philip/projects/scikit-learn/sklearn/neighbors/tests/test_neighbors.py"
+    },
+    "sklearn.neighbors.unsupervised": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.neighbors",
+            "sklearn.neighbors.graph",
+            "sklearn.semi_supervised.label_propagation"
+        ],
+        "imports": [
+            "sklearn.neighbors.base"
+        ],
+        "name": "sklearn.neighbors.unsupervised",
+        "path": "/home/philip/projects/scikit-learn/sklearn/neighbors/unsupervised.py"
+    },
+    "sklearn.pipeline": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.decomposition.tests.test_kernel_pca",
+            "sklearn.feature_extraction.tests.test_text",
+            "sklearn.tests.test_base",
+            "sklearn.tests.test_pipeline"
+        ],
+        "imports": [
+            "sklearn.base"
+        ],
+        "name": "sklearn.pipeline",
+        "path": "/home/philip/projects/scikit-learn/sklearn/pipeline.py"
+    },
+    "sklearn.pls": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.tests.test_pls"
+        ],
+        "imports": [
+            "sklearn.base",
+            "sklearn.utils"
+        ],
+        "name": "sklearn.pls",
+        "path": "/home/philip/projects/scikit-learn/sklearn/pls.py"
+    },
+    "sklearn.preprocessing": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.decomposition.kernel_pca",
+            "sklearn.feature_selection.univariate_selection",
+            "sklearn.linear_model.ridge",
+            "sklearn.linear_model.tests.test_randomized_l1",
+            "sklearn.linear_model.tests.test_sgd",
+            "sklearn.manifold.isomap",
+            "sklearn.multiclass",
+            "sklearn.naive_bayes",
+            "sklearn.tests.test_pipeline",
+            "sklearn.tests.test_preprocessing"
+        ],
+        "imports": [
+            "sklearn.base",
+            "sklearn.utils",
+            "sklearn.utils.fixes"
+        ],
+        "name": "sklearn.preprocessing",
+        "path": "/home/philip/projects/scikit-learn/sklearn/preprocessing.py"
+    },
+    "sklearn.qda": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.tests.test_qda"
+        ],
+        "imports": [
+            "sklearn.base",
+            "sklearn.utils",
+            "sklearn.utils.fixes"
+        ],
+        "name": "sklearn.qda",
+        "path": "/home/philip/projects/scikit-learn/sklearn/qda.py"
+    },
+    "sklearn.semi_supervised": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.semi_supervised.tests.test_label_propagation"
+        ],
+        "imports": [
+            "sklearn.semi_supervised.label_propagation"
+        ],
+        "name": "sklearn.semi_supervised",
+        "path": "/home/philip/projects/scikit-learn/sklearn/semi_supervised/__init__.py"
+    },
+    "sklearn.semi_supervised.label_propagation": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.semi_supervised",
+            "sklearn.semi_supervised.tests.test_label_propagation"
+        ],
+        "imports": [
+            "sklearn.metrics",
+            "sklearn.metrics.pairwise",
+            "sklearn.neighbors",
+            "sklearn.neighbors.unsupervised",
+            "sklearn.utils",
+            "sklearn.utils.extmath",
+            "sklearn.utils.graph"
+        ],
+        "name": "sklearn.semi_supervised.label_propagation",
+        "path": "/home/philip/projects/scikit-learn/sklearn/semi_supervised/label_propagation.py"
+    },
+    "sklearn.semi_supervised.tests": {
+        "bacon": 1,
+        "name": "sklearn.semi_supervised.tests",
+        "path": "/home/philip/projects/scikit-learn/sklearn/semi_supervised/tests/__init__.py"
+    },
+    "sklearn.semi_supervised.tests.test_label_propagation": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.semi_supervised",
+            "sklearn.semi_supervised.label_propagation"
+        ],
+        "name": "sklearn.semi_supervised.tests.test_label_propagation",
+        "path": "/home/philip/projects/scikit-learn/sklearn/semi_supervised/tests/test_label_propagation.py"
+    },
+    "sklearn.setup": {
+        "bacon": 1,
+        "name": "sklearn.setup",
+        "path": "/home/philip/projects/scikit-learn/sklearn/setup.py"
+    },
+    "sklearn.svm": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.feature_extraction.tests.test_text",
+            "sklearn.feature_selection.tests.test_rfe",
+            "sklearn.feature_selection.tests.test_selector_mixin",
+            "sklearn.linear_model.logistic",
+            "sklearn.metrics.tests.test_metrics",
+            "sklearn.svm",
+            "sklearn.svm.sparse",
+            "sklearn.svm.sparse.classes",
+            "sklearn.svm.tests.test_bounds",
+            "sklearn.svm.tests.test_sparse",
+            "sklearn.svm.tests.test_svm",
+            "sklearn.tests.test_base",
+            "sklearn.tests.test_cross_validation",
+            "sklearn.tests.test_grid_search",
+            "sklearn.tests.test_multiclass",
+            "sklearn.tests.test_pipeline"
+        ],
+        "imports": [
+            "sklearn",
+            "sklearn.svm",
+            "sklearn.svm.bounds",
+            "sklearn.svm.classes",
+            "sklearn.svm.sparse"
+        ],
+        "name": "sklearn.svm",
+        "path": "/home/philip/projects/scikit-learn/sklearn/svm/__init__.py"
+    },
+    "sklearn.svm.bounds": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.svm",
+            "sklearn.svm.tests.test_bounds"
+        ],
+        "name": "sklearn.svm.bounds",
+        "path": "/home/philip/projects/scikit-learn/sklearn/svm/bounds.py"
+    },
+    "sklearn.svm.classes": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.svm"
+        ],
+        "imports": [
+            "sklearn.base",
+            "sklearn.feature_selection",
+            "sklearn.feature_selection.selector_mixin"
+        ],
+        "name": "sklearn.svm.classes",
+        "path": "/home/philip/projects/scikit-learn/sklearn/svm/classes.py"
+    },
+    "sklearn.svm.setup": {
+        "bacon": 1,
+        "name": "sklearn.svm.setup",
+        "path": "/home/philip/projects/scikit-learn/sklearn/svm/setup.py"
+    },
+    "sklearn.svm.sparse": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.svm",
+            "sklearn.tests.test_cross_validation"
+        ],
+        "imports": [
+            "sklearn",
+            "sklearn.svm",
+            "sklearn.svm.sparse.classes"
+        ],
+        "name": "sklearn.svm.sparse",
+        "path": "/home/philip/projects/scikit-learn/sklearn/svm/sparse/__init__.py"
+    },
+    "sklearn.svm.sparse.base": {
+        "bacon": 1,
+        "name": "sklearn.svm.sparse.base",
+        "path": "/home/philip/projects/scikit-learn/sklearn/svm/sparse/base.py"
+    },
+    "sklearn.svm.sparse.classes": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.svm.sparse"
+        ],
+        "imports": [
+            "sklearn",
+            "sklearn.svm",
+            "sklearn.utils"
+        ],
+        "name": "sklearn.svm.sparse.classes",
+        "path": "/home/philip/projects/scikit-learn/sklearn/svm/sparse/classes.py"
+    },
+    "sklearn.svm.tests": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.svm.tests.test_sparse"
+        ],
+        "name": "sklearn.svm.tests",
+        "path": "/home/philip/projects/scikit-learn/sklearn/svm/tests/__init__.py"
+    },
+    "sklearn.svm.tests.test_bounds": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.linear_model",
+            "sklearn.linear_model.logistic",
+            "sklearn.svm",
+            "sklearn.svm.bounds"
+        ],
+        "name": "sklearn.svm.tests.test_bounds",
+        "path": "/home/philip/projects/scikit-learn/sklearn/svm/tests/test_bounds.py"
+    },
+    "sklearn.svm.tests.test_sparse": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.base",
+            "sklearn.datasets",
+            "sklearn.datasets.samples_generator",
+            "sklearn.linear_model",
+            "sklearn.svm",
+            "sklearn.svm.tests",
+            "sklearn.svm.tests.test_svm"
+        ],
+        "name": "sklearn.svm.tests.test_sparse",
+        "path": "/home/philip/projects/scikit-learn/sklearn/svm/tests/test_sparse.py"
+    },
+    "sklearn.svm.tests.test_svm": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.svm.tests.test_sparse"
+        ],
+        "imports": [
+            "sklearn",
+            "sklearn.base",
+            "sklearn.datasets",
+            "sklearn.datasets.samples_generator",
+            "sklearn.linear_model",
+            "sklearn.metrics",
+            "sklearn.svm",
+            "sklearn.utils",
+            "sklearn.utils.testing"
+        ],
+        "name": "sklearn.svm.tests.test_svm",
+        "path": "/home/philip/projects/scikit-learn/sklearn/svm/tests/test_svm.py"
+    },
+    "sklearn.test_setup": {
+        "bacon": 1,
+        "name": "sklearn.test_setup",
+        "path": "/home/philip/projects/scikit-learn/sklearn/test_setup.py"
+    },
+    "sklearn.tests": {
+        "bacon": 1,
+        "name": "sklearn.tests",
+        "path": "/home/philip/projects/scikit-learn/sklearn/tests/__init__.py"
+    },
+    "sklearn.tests.test_base": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.base",
+            "sklearn.feature_selection",
+            "sklearn.pipeline",
+            "sklearn.svm"
+        ],
+        "name": "sklearn.tests.test_base",
+        "path": "/home/philip/projects/scikit-learn/sklearn/tests/test_base.py"
+    },
+    "sklearn.tests.test_check_build": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.__check_build"
+        ],
+        "name": "sklearn.tests.test_check_build",
+        "path": "/home/philip/projects/scikit-learn/sklearn/tests/test_check_build.py"
+    },
+    "sklearn.tests.test_cross_validation": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.base",
+            "sklearn.cross_validation",
+            "sklearn.datasets",
+            "sklearn.linear_model",
+            "sklearn.metrics",
+            "sklearn.svm",
+            "sklearn.svm.sparse",
+            "sklearn.utils",
+            "sklearn.utils.fixes",
+            "sklearn.utils.testing"
+        ],
+        "name": "sklearn.tests.test_cross_validation",
+        "path": "/home/philip/projects/scikit-learn/sklearn/tests/test_cross_validation.py"
+    },
+    "sklearn.tests.test_grid_search": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.base",
+            "sklearn.cross_validation",
+            "sklearn.datasets",
+            "sklearn.datasets.samples_generator",
+            "sklearn.metrics",
+            "sklearn.svm"
+        ],
+        "name": "sklearn.tests.test_grid_search",
+        "path": "/home/philip/projects/scikit-learn/sklearn/tests/test_grid_search.py"
+    },
+    "sklearn.tests.test_init": {
+        "bacon": 1,
+        "imports": [
+            "sklearn"
+        ],
+        "name": "sklearn.tests.test_init",
+        "path": "/home/philip/projects/scikit-learn/sklearn/tests/test_init.py"
+    },
+    "sklearn.tests.test_kernel_approximation": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.kernel_approximation",
+            "sklearn.metrics",
+            "sklearn.metrics.pairwise"
+        ],
+        "name": "sklearn.tests.test_kernel_approximation",
+        "path": "/home/philip/projects/scikit-learn/sklearn/tests/test_kernel_approximation.py"
+    },
+    "sklearn.tests.test_lda": {
+        "bacon": 1,
+        "imports": [
+            "sklearn"
+        ],
+        "name": "sklearn.tests.test_lda",
+        "path": "/home/philip/projects/scikit-learn/sklearn/tests/test_lda.py"
+    },
+    "sklearn.tests.test_multiclass": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.datasets",
+            "sklearn.linear_model",
+            "sklearn.multiclass",
+            "sklearn.naive_bayes",
+            "sklearn.svm",
+            "sklearn.tree",
+            "sklearn.utils",
+            "sklearn.utils.testing"
+        ],
+        "name": "sklearn.tests.test_multiclass",
+        "path": "/home/philip/projects/scikit-learn/sklearn/tests/test_multiclass.py"
+    },
+    "sklearn.tests.test_naive_bayes": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.naive_bayes"
+        ],
+        "name": "sklearn.tests.test_naive_bayes",
+        "path": "/home/philip/projects/scikit-learn/sklearn/tests/test_naive_bayes.py"
+    },
+    "sklearn.tests.test_pipeline": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.base",
+            "sklearn.datasets",
+            "sklearn.decomposition",
+            "sklearn.decomposition.pca",
+            "sklearn.feature_selection",
+            "sklearn.linear_model",
+            "sklearn.pipeline",
+            "sklearn.preprocessing",
+            "sklearn.svm"
+        ],
+        "name": "sklearn.tests.test_pipeline",
+        "path": "/home/philip/projects/scikit-learn/sklearn/tests/test_pipeline.py"
+    },
+    "sklearn.tests.test_pls": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.datasets",
+            "sklearn.pls"
+        ],
+        "name": "sklearn.tests.test_pls",
+        "path": "/home/philip/projects/scikit-learn/sklearn/tests/test_pls.py"
+    },
+    "sklearn.tests.test_preprocessing": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.datasets",
+            "sklearn.linear_model",
+            "sklearn.linear_model.stochastic_gradient",
+            "sklearn.preprocessing",
+            "sklearn.utils"
+        ],
+        "name": "sklearn.tests.test_preprocessing",
+        "path": "/home/philip/projects/scikit-learn/sklearn/tests/test_preprocessing.py"
+    },
+    "sklearn.tests.test_qda": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.qda"
+        ],
+        "name": "sklearn.tests.test_qda",
+        "path": "/home/philip/projects/scikit-learn/sklearn/tests/test_qda.py"
+    },
+    "sklearn.tree": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.ensemble.forest",
+            "sklearn.ensemble.tests.test_base",
+            "sklearn.tests.test_multiclass",
+            "sklearn.tree.tests.test_tree",
+            "sklearn.tree.tree"
+        ],
+        "imports": [
+            "sklearn.tree.tree"
+        ],
+        "name": "sklearn.tree",
+        "path": "/home/philip/projects/scikit-learn/sklearn/tree/__init__.py"
+    },
+    "sklearn.tree.setup": {
+        "bacon": 1,
+        "name": "sklearn.tree.setup",
+        "path": "/home/philip/projects/scikit-learn/sklearn/tree/setup.py"
+    },
+    "sklearn.tree.tests": {
+        "bacon": 1,
+        "name": "sklearn.tree.tests",
+        "path": "/home/philip/projects/scikit-learn/sklearn/tree/tests/__init__.py"
+    },
+    "sklearn.tree.tests.test_tree": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.datasets",
+            "sklearn.tree"
+        ],
+        "name": "sklearn.tree.tests.test_tree",
+        "path": "/home/philip/projects/scikit-learn/sklearn/tree/tests/test_tree.py"
+    },
+    "sklearn.tree.tree": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.tree"
+        ],
+        "imports": [
+            "sklearn",
+            "sklearn.feature_selection",
+            "sklearn.feature_selection.selector_mixin",
+            "sklearn.tree",
+            "sklearn.utils"
+        ],
+        "name": "sklearn.tree.tree",
+        "path": "/home/philip/projects/scikit-learn/sklearn/tree/tree.py"
+    },
+    "sklearn.utils": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.base",
+            "sklearn.cluster._feature_agglomeration",
+            "sklearn.cluster.dbscan_",
+            "sklearn.cluster.hierarchical",
+            "sklearn.cluster.mean_shift_",
+            "sklearn.cluster.spectral",
+            "sklearn.cluster.tests.test_k_means",
+            "sklearn.cluster.tests.test_spectral",
+            "sklearn.covariance.empirical_covariance_",
+            "sklearn.covariance.outlier_detection",
+            "sklearn.covariance.shrunk_covariance_",
+            "sklearn.covariance.tests.test_graph_lasso",
+            "sklearn.cross_validation",
+            "sklearn.datasets",
+            "sklearn.datasets.base",
+            "sklearn.datasets.samples_generator",
+            "sklearn.datasets.svmlight_format",
+            "sklearn.datasets.tests.test_mldata",
+            "sklearn.datasets.tests.test_samples_generator",
+            "sklearn.datasets.tests.test_svmlight_format",
+            "sklearn.decomposition.fastica_",
+            "sklearn.decomposition.kernel_pca",
+            "sklearn.decomposition.nmf",
+            "sklearn.decomposition.pca",
+            "sklearn.decomposition.sparse_pca",
+            "sklearn.decomposition.tests.test_dict_learning",
+            "sklearn.decomposition.tests.test_fastica",
+            "sklearn.decomposition.tests.test_kernel_pca",
+            "sklearn.decomposition.tests.test_nmf",
+            "sklearn.decomposition.tests.test_pca",
+            "sklearn.decomposition.tests.test_sparse_pca",
+            "sklearn.ensemble.forest",
+            "sklearn.ensemble.gradient_boosting",
+            "sklearn.ensemble.tests.test_forest",
+            "sklearn.ensemble.tests.test_gradient_boosting",
+            "sklearn.feature_extraction.dict_vectorizer",
+            "sklearn.feature_extraction.image",
+            "sklearn.feature_extraction.tests.test_image",
+            "sklearn.feature_extraction.tests.test_text",
+            "sklearn.feature_selection.rfe",
+            "sklearn.feature_selection.selector_mixin",
+            "sklearn.feature_selection.tests.test_rfe",
+            "sklearn.feature_selection.tests.test_selector_mixin",
+            "sklearn.feature_selection.univariate_selection",
+            "sklearn.hmm",
+            "sklearn.kernel_approximation",
+            "sklearn.linear_model.base",
+            "sklearn.linear_model.omp",
+            "sklearn.linear_model.randomized_l1",
+            "sklearn.linear_model.ridge",
+            "sklearn.linear_model.sparse.coordinate_descent",
+            "sklearn.linear_model.sparse.logistic",
+            "sklearn.linear_model.sparse.stochastic_gradient",
+            "sklearn.linear_model.stochastic_gradient",
+            "sklearn.linear_model.tests.test_base",
+            "sklearn.linear_model.tests.test_coordinate_descent",
+            "sklearn.linear_model.tests.test_least_angle",
+            "sklearn.linear_model.tests.test_logistic",
+            "sklearn.linear_model.tests.test_omp",
+            "sklearn.linear_model.tests.test_perceptron",
+            "sklearn.linear_model.tests.test_ridge",
+            "sklearn.linear_model.tests.test_sgd",
+            "sklearn.linear_model.tests.test_sparse_coordinate_descent",
+            "sklearn.manifold.isomap",
+            "sklearn.manifold.locally_linear",
+            "sklearn.metrics.cluster.supervised",
+            "sklearn.metrics.cluster.unsupervised",
+            "sklearn.metrics.metrics",
+            "sklearn.metrics.pairwise",
+            "sklearn.mixture.gmm",
+            "sklearn.multiclass",
+            "sklearn.naive_bayes",
+            "sklearn.neighbors.base",
+            "sklearn.neighbors.classification",
+            "sklearn.neighbors.nearest_centroid",
+            "sklearn.neighbors.regression",
+            "sklearn.pls",
+            "sklearn.preprocessing",
+            "sklearn.qda",
+            "sklearn.semi_supervised.label_propagation",
+            "sklearn.svm.sparse.classes",
+            "sklearn.svm.tests.test_svm",
+            "sklearn.tests.test_cross_validation",
+            "sklearn.tests.test_multiclass",
+            "sklearn.tests.test_preprocessing",
+            "sklearn.tree.tree",
+            "sklearn.utils.extmath",
+            "sklearn.utils.fixes",
+            "sklearn.utils.tests.test_bench",
+            "sklearn.utils.tests.test_logsumexp",
+            "sklearn.utils.tests.test_shortest_path",
+            "sklearn.utils.tests.test_svd",
+            "sklearn.utils.tests.test_testing",
+            "sklearn.utils.tests.test_utils",
+            "sklearn.utils.tests.test_validation",
+            "sklearn.utils.tests.test_weighted_mode"
+        ],
+        "imports": [
+            "sklearn.utils.validation"
+        ],
+        "name": "sklearn.utils",
+        "path": "/home/philip/projects/scikit-learn/sklearn/utils/__init__.py"
+    },
+    "sklearn.utils._csgraph": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.cluster.hierarchical",
+            "sklearn.utils.graph"
+        ],
+        "imports": [
+            "sklearn.utils.sparsetools"
+        ],
+        "name": "sklearn.utils._csgraph",
+        "path": "/home/philip/projects/scikit-learn/sklearn/utils/_csgraph.py"
+    },
+    "sklearn.utils.arpack": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.cluster.spectral",
+            "sklearn.decomposition.kernel_pca",
+            "sklearn.manifold.locally_linear"
+        ],
+        "name": "sklearn.utils.arpack",
+        "path": "/home/philip/projects/scikit-learn/sklearn/utils/arpack.py"
+    },
+    "sklearn.utils.bench": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.utils.tests.test_bench"
+        ],
+        "name": "sklearn.utils.bench",
+        "path": "/home/philip/projects/scikit-learn/sklearn/utils/bench.py"
+    },
+    "sklearn.utils.extmath": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.cluster.mean_shift_",
+            "sklearn.covariance.empirical_covariance_",
+            "sklearn.decomposition.nmf",
+            "sklearn.decomposition.pca",
+            "sklearn.feature_selection.univariate_selection",
+            "sklearn.hmm",
+            "sklearn.kernel_approximation",
+            "sklearn.linear_model.base",
+            "sklearn.linear_model.ridge",
+            "sklearn.linear_model.stochastic_gradient",
+            "sklearn.metrics.pairwise",
+            "sklearn.mixture.gmm",
+            "sklearn.naive_bayes",
+            "sklearn.neighbors.classification",
+            "sklearn.semi_supervised.label_propagation",
+            "sklearn.utils.fixes",
+            "sklearn.utils.tests.test_logsumexp",
+            "sklearn.utils.tests.test_svd",
+            "sklearn.utils.tests.test_weighted_mode"
+        ],
+        "imports": [
+            "sklearn",
+            "sklearn.utils",
+            "sklearn.utils.fixes"
+        ],
+        "name": "sklearn.utils.extmath",
+        "path": "/home/philip/projects/scikit-learn/sklearn/utils/extmath.py"
+    },
+    "sklearn.utils.fixes": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.cluster.tests.test_k_means",
+            "sklearn.cross_validation",
+            "sklearn.datasets.samples_generator",
+            "sklearn.feature_extraction.image",
+            "sklearn.linear_model.base",
+            "sklearn.linear_model.tests.test_omp",
+            "sklearn.metrics.cluster.supervised",
+            "sklearn.preprocessing",
+            "sklearn.qda",
+            "sklearn.tests.test_cross_validation",
+            "sklearn.utils.extmath",
+            "sklearn.utils.testing",
+            "sklearn.utils.tests.test_fixes"
+        ],
+        "imports": [
+            "sklearn.utils",
+            "sklearn.utils.extmath"
+        ],
+        "name": "sklearn.utils.fixes",
+        "path": "/home/philip/projects/scikit-learn/sklearn/utils/fixes.py"
+    },
+    "sklearn.utils.graph": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.cluster.spectral",
+            "sklearn.feature_extraction.tests.test_image",
+            "sklearn.manifold.isomap",
+            "sklearn.semi_supervised.label_propagation",
+            "sklearn.utils.tests.test_graph",
+            "sklearn.utils.tests.test_shortest_path"
+        ],
+        "imports": [
+            "sklearn.utils._csgraph"
+        ],
+        "name": "sklearn.utils.graph",
+        "path": "/home/philip/projects/scikit-learn/sklearn/utils/graph.py"
+    },
+    "sklearn.utils.setup": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn._build_utils"
+        ],
+        "name": "sklearn.utils.setup",
+        "path": "/home/philip/projects/scikit-learn/sklearn/utils/setup.py"
+    },
+    "sklearn.utils.sparsetools": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.utils._csgraph"
+        ],
+        "imports": [
+            "sklearn.utils.sparsetools.csgraph"
+        ],
+        "name": "sklearn.utils.sparsetools",
+        "path": "/home/philip/projects/scikit-learn/sklearn/utils/sparsetools/__init__.py"
+    },
+    "sklearn.utils.sparsetools.csgraph": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.utils.sparsetools"
+        ],
+        "name": "sklearn.utils.sparsetools.csgraph",
+        "path": "/home/philip/projects/scikit-learn/sklearn/utils/sparsetools/csgraph.py"
+    },
+    "sklearn.utils.sparsetools.setup": {
+        "bacon": 1,
+        "name": "sklearn.utils.sparsetools.setup",
+        "path": "/home/philip/projects/scikit-learn/sklearn/utils/sparsetools/setup.py"
+    },
+    "sklearn.utils.testing": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.cluster.tests.test_k_means",
+            "sklearn.cluster.tests.test_spectral",
+            "sklearn.datasets.tests.test_mldata",
+            "sklearn.datasets.tests.test_samples_generator",
+            "sklearn.datasets.tests.test_svmlight_format",
+            "sklearn.decomposition.tests.test_dict_learning",
+            "sklearn.decomposition.tests.test_fastica",
+            "sklearn.decomposition.tests.test_kernel_pca",
+            "sklearn.decomposition.tests.test_nmf",
+            "sklearn.decomposition.tests.test_pca",
+            "sklearn.ensemble.tests.test_forest",
+            "sklearn.feature_extraction.tests.test_text",
+            "sklearn.feature_selection.tests.test_selector_mixin",
+            "sklearn.linear_model.tests.test_coordinate_descent",
+            "sklearn.linear_model.tests.test_least_angle",
+            "sklearn.linear_model.tests.test_logistic",
+            "sklearn.linear_model.tests.test_omp",
+            "sklearn.linear_model.tests.test_ridge",
+            "sklearn.linear_model.tests.test_sgd",
+            "sklearn.linear_model.tests.test_sparse_coordinate_descent",
+            "sklearn.svm.tests.test_svm",
+            "sklearn.tests.test_cross_validation",
+            "sklearn.tests.test_multiclass",
+            "sklearn.utils.tests.test_svd",
+            "sklearn.utils.tests.test_testing"
+        ],
+        "imports": [
+            "sklearn",
+            "sklearn.base",
+            "sklearn.utils.fixes"
+        ],
+        "name": "sklearn.utils.testing",
+        "path": "/home/philip/projects/scikit-learn/sklearn/utils/testing.py"
+    },
+    "sklearn.utils.tests": {
+        "bacon": 1,
+        "name": "sklearn.utils.tests",
+        "path": "/home/philip/projects/scikit-learn/sklearn/utils/tests/__init__.py"
+    },
+    "sklearn.utils.tests.test_bench": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.utils",
+            "sklearn.utils.bench"
+        ],
+        "name": "sklearn.utils.tests.test_bench",
+        "path": "/home/philip/projects/scikit-learn/sklearn/utils/tests/test_bench.py"
+    },
+    "sklearn.utils.tests.test_fixes": {
+        "bacon": 1,
+        "imports": [
+            "sklearn.utils.fixes"
+        ],
+        "name": "sklearn.utils.tests.test_fixes",
+        "path": "/home/philip/projects/scikit-learn/sklearn/utils/tests/test_fixes.py"
+    },
+    "sklearn.utils.tests.test_graph": {
+        "bacon": 1,
+        "imports": [
+            "sklearn.utils.graph"
+        ],
+        "name": "sklearn.utils.tests.test_graph",
+        "path": "/home/philip/projects/scikit-learn/sklearn/utils/tests/test_graph.py"
+    },
+    "sklearn.utils.tests.test_logsumexp": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.utils",
+            "sklearn.utils.extmath"
+        ],
+        "name": "sklearn.utils.tests.test_logsumexp",
+        "path": "/home/philip/projects/scikit-learn/sklearn/utils/tests/test_logsumexp.py"
+    },
+    "sklearn.utils.tests.test_shortest_path": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.utils",
+            "sklearn.utils.graph"
+        ],
+        "name": "sklearn.utils.tests.test_shortest_path",
+        "path": "/home/philip/projects/scikit-learn/sklearn/utils/tests/test_shortest_path.py"
+    },
+    "sklearn.utils.tests.test_sparsefuncs": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.datasets"
+        ],
+        "name": "sklearn.utils.tests.test_sparsefuncs",
+        "path": "/home/philip/projects/scikit-learn/sklearn/utils/tests/test_sparsefuncs.py"
+    },
+    "sklearn.utils.tests.test_svd": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.datasets",
+            "sklearn.datasets.samples_generator",
+            "sklearn.utils",
+            "sklearn.utils.extmath",
+            "sklearn.utils.testing"
+        ],
+        "name": "sklearn.utils.tests.test_svd",
+        "path": "/home/philip/projects/scikit-learn/sklearn/utils/tests/test_svd.py"
+    },
+    "sklearn.utils.tests.test_testing": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.utils",
+            "sklearn.utils.testing"
+        ],
+        "name": "sklearn.utils.tests.test_testing",
+        "path": "/home/philip/projects/scikit-learn/sklearn/utils/tests/test_testing.py"
+    },
+    "sklearn.utils.tests.test_utils": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.utils"
+        ],
+        "name": "sklearn.utils.tests.test_utils",
+        "path": "/home/philip/projects/scikit-learn/sklearn/utils/tests/test_utils.py"
+    },
+    "sklearn.utils.tests.test_validation": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.utils"
+        ],
+        "name": "sklearn.utils.tests.test_validation",
+        "path": "/home/philip/projects/scikit-learn/sklearn/utils/tests/test_validation.py"
+    },
+    "sklearn.utils.tests.test_weighted_mode": {
+        "bacon": 1,
+        "imports": [
+            "sklearn",
+            "sklearn.utils",
+            "sklearn.utils.extmath"
+        ],
+        "name": "sklearn.utils.tests.test_weighted_mode",
+        "path": "/home/philip/projects/scikit-learn/sklearn/utils/tests/test_weighted_mode.py"
+    },
+    "sklearn.utils.validation": {
+        "bacon": 1,
+        "imported_by": [
+            "sklearn.neighbors.nearest_centroid",
+            "sklearn.utils"
+        ],
+        "name": "sklearn.utils.validation",
+        "path": "/home/philip/projects/scikit-learn/sklearn/utils/validation.py"
+    }
+}

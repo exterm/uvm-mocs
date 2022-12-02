@@ -29,5 +29,5 @@ def get_graph(commit):
     output_filename = os.path.join(args.output_path, commit + ".pydeps.json")
     os.system(pydeps_command % (args.module_name, args.module_name, output_filename))
 
-# git_revision_filter.for_each_month(args.repo_path, get_graph)
-git_revision_filter.for_each_revision_between("13c85777c", "1b5a0b76f", args.repo_path, get_graph)
+git_revision_filter.for_each_month(args.repo_path, get_graph)
+# git_revision_filter.for_each_revision_between("13c85777c", "1b5a0b76f", args.repo_path, get_graph)

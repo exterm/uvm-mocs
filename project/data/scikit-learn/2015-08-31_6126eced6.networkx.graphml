@@ -1,0 +1,2179 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <graph edgedefault="directed">
+    <node id="sklearn" />
+    <node id="sklearn.__check_build" />
+    <node id="sklearn.__check_build.setup" />
+    <node id="sklearn._build_utils" />
+    <node id="sklearn.base" />
+    <node id="sklearn.calibration" />
+    <node id="sklearn.cluster" />
+    <node id="sklearn.cluster._feature_agglomeration" />
+    <node id="sklearn.cluster.affinity_propagation_" />
+    <node id="sklearn.cluster.bicluster" />
+    <node id="sklearn.cluster.birch" />
+    <node id="sklearn.cluster.dbscan_" />
+    <node id="sklearn.cluster.hierarchical" />
+    <node id="sklearn.cluster.k_means_" />
+    <node id="sklearn.cluster.mean_shift_" />
+    <node id="sklearn.cluster.setup" />
+    <node id="sklearn.cluster.spectral" />
+    <node id="sklearn.cluster.tests" />
+    <node id="sklearn.cluster.tests.common" />
+    <node id="sklearn.cluster.tests.test_affinity_propagation" />
+    <node id="sklearn.cluster.tests.test_bicluster" />
+    <node id="sklearn.cluster.tests.test_birch" />
+    <node id="sklearn.cluster.tests.test_dbscan" />
+    <node id="sklearn.cluster.tests.test_hierarchical" />
+    <node id="sklearn.cluster.tests.test_k_means" />
+    <node id="sklearn.cluster.tests.test_mean_shift" />
+    <node id="sklearn.cluster.tests.test_spectral" />
+    <node id="sklearn.covariance" />
+    <node id="sklearn.covariance.empirical_covariance_" />
+    <node id="sklearn.covariance.graph_lasso_" />
+    <node id="sklearn.covariance.outlier_detection" />
+    <node id="sklearn.covariance.robust_covariance" />
+    <node id="sklearn.covariance.shrunk_covariance_" />
+    <node id="sklearn.covariance.tests" />
+    <node id="sklearn.covariance.tests.test_covariance" />
+    <node id="sklearn.covariance.tests.test_graph_lasso" />
+    <node id="sklearn.covariance.tests.test_robust_covariance" />
+    <node id="sklearn.cross_decomposition" />
+    <node id="sklearn.cross_decomposition.cca_" />
+    <node id="sklearn.cross_decomposition.pls_" />
+    <node id="sklearn.cross_validation" />
+    <node id="sklearn.datasets" />
+    <node id="sklearn.datasets.base" />
+    <node id="sklearn.datasets.california_housing" />
+    <node id="sklearn.datasets.covtype" />
+    <node id="sklearn.datasets.lfw" />
+    <node id="sklearn.datasets.mlcomp" />
+    <node id="sklearn.datasets.mldata" />
+    <node id="sklearn.datasets.olivetti_faces" />
+    <node id="sklearn.datasets.rcv1" />
+    <node id="sklearn.datasets.samples_generator" />
+    <node id="sklearn.datasets.setup" />
+    <node id="sklearn.datasets.species_distributions" />
+    <node id="sklearn.datasets.svmlight_format" />
+    <node id="sklearn.datasets.tests" />
+    <node id="sklearn.datasets.tests.test_20news" />
+    <node id="sklearn.datasets.tests.test_base" />
+    <node id="sklearn.datasets.tests.test_covtype" />
+    <node id="sklearn.datasets.tests.test_lfw" />
+    <node id="sklearn.datasets.tests.test_mldata" />
+    <node id="sklearn.datasets.tests.test_rcv1" />
+    <node id="sklearn.datasets.tests.test_samples_generator" />
+    <node id="sklearn.datasets.tests.test_svmlight_format" />
+    <node id="sklearn.datasets.twenty_newsgroups" />
+    <node id="sklearn.decomposition" />
+    <node id="sklearn.decomposition.base" />
+    <node id="sklearn.decomposition.dict_learning" />
+    <node id="sklearn.decomposition.factor_analysis" />
+    <node id="sklearn.decomposition.fastica_" />
+    <node id="sklearn.decomposition.incremental_pca" />
+    <node id="sklearn.decomposition.kernel_pca" />
+    <node id="sklearn.decomposition.nmf" />
+    <node id="sklearn.decomposition.online_lda" />
+    <node id="sklearn.decomposition.pca" />
+    <node id="sklearn.decomposition.setup" />
+    <node id="sklearn.decomposition.sparse_pca" />
+    <node id="sklearn.decomposition.tests" />
+    <node id="sklearn.decomposition.tests.test_dict_learning" />
+    <node id="sklearn.decomposition.tests.test_factor_analysis" />
+    <node id="sklearn.decomposition.tests.test_fastica" />
+    <node id="sklearn.decomposition.tests.test_incremental_pca" />
+    <node id="sklearn.decomposition.tests.test_kernel_pca" />
+    <node id="sklearn.decomposition.tests.test_nmf" />
+    <node id="sklearn.decomposition.tests.test_online_lda" />
+    <node id="sklearn.decomposition.tests.test_pca" />
+    <node id="sklearn.decomposition.tests.test_sparse_pca" />
+    <node id="sklearn.decomposition.tests.test_truncated_svd" />
+    <node id="sklearn.decomposition.truncated_svd" />
+    <node id="sklearn.dummy" />
+    <node id="sklearn.ensemble" />
+    <node id="sklearn.ensemble.bagging" />
+    <node id="sklearn.ensemble.base" />
+    <node id="sklearn.ensemble.forest" />
+    <node id="sklearn.ensemble.gradient_boosting" />
+    <node id="sklearn.ensemble.partial_dependence" />
+    <node id="sklearn.ensemble.setup" />
+    <node id="sklearn.ensemble.tests" />
+    <node id="sklearn.ensemble.tests.test_bagging" />
+    <node id="sklearn.ensemble.tests.test_base" />
+    <node id="sklearn.ensemble.tests.test_forest" />
+    <node id="sklearn.ensemble.tests.test_gradient_boosting" />
+    <node id="sklearn.ensemble.tests.test_gradient_boosting_loss_functions" />
+    <node id="sklearn.ensemble.tests.test_partial_dependence" />
+    <node id="sklearn.ensemble.tests.test_voting_classifier" />
+    <node id="sklearn.ensemble.tests.test_weight_boosting" />
+    <node id="sklearn.ensemble.voting_classifier" />
+    <node id="sklearn.ensemble.weight_boosting" />
+    <node id="sklearn.externals" />
+    <node id="sklearn.externals.joblib" />
+    <node id="sklearn.externals.joblib._compat" />
+    <node id="sklearn.externals.joblib._memory_helpers" />
+    <node id="sklearn.externals.joblib._multiprocessing_helpers" />
+    <node id="sklearn.externals.joblib.disk" />
+    <node id="sklearn.externals.joblib.format_stack" />
+    <node id="sklearn.externals.joblib.func_inspect" />
+    <node id="sklearn.externals.joblib.hashing" />
+    <node id="sklearn.externals.joblib.logger" />
+    <node id="sklearn.externals.joblib.memory" />
+    <node id="sklearn.externals.joblib.my_exceptions" />
+    <node id="sklearn.externals.joblib.numpy_pickle" />
+    <node id="sklearn.externals.joblib.parallel" />
+    <node id="sklearn.externals.joblib.pool" />
+    <node id="sklearn.externals.joblib.testing" />
+    <node id="sklearn.externals.setup" />
+    <node id="sklearn.externals.six" />
+    <node id="sklearn.externals.test_externals_setup" />
+    <node id="sklearn.feature_extraction" />
+    <node id="sklearn.feature_extraction.dict_vectorizer" />
+    <node id="sklearn.feature_extraction.hashing" />
+    <node id="sklearn.feature_extraction.image" />
+    <node id="sklearn.feature_extraction.setup" />
+    <node id="sklearn.feature_extraction.stop_words" />
+    <node id="sklearn.feature_extraction.tests" />
+    <node id="sklearn.feature_extraction.tests.test_dict_vectorizer" />
+    <node id="sklearn.feature_extraction.tests.test_feature_hasher" />
+    <node id="sklearn.feature_extraction.tests.test_image" />
+    <node id="sklearn.feature_extraction.tests.test_text" />
+    <node id="sklearn.feature_extraction.text" />
+    <node id="sklearn.feature_selection" />
+    <node id="sklearn.feature_selection.base" />
+    <node id="sklearn.feature_selection.from_model" />
+    <node id="sklearn.feature_selection.rfe" />
+    <node id="sklearn.feature_selection.tests" />
+    <node id="sklearn.feature_selection.tests.test_base" />
+    <node id="sklearn.feature_selection.tests.test_chi2" />
+    <node id="sklearn.feature_selection.tests.test_feature_select" />
+    <node id="sklearn.feature_selection.tests.test_from_model" />
+    <node id="sklearn.feature_selection.tests.test_rfe" />
+    <node id="sklearn.feature_selection.tests.test_variance_threshold" />
+    <node id="sklearn.feature_selection.univariate_selection" />
+    <node id="sklearn.feature_selection.variance_threshold" />
+    <node id="sklearn.gaussian_process" />
+    <node id="sklearn.gaussian_process.correlation_models" />
+    <node id="sklearn.gaussian_process.gaussian_process" />
+    <node id="sklearn.gaussian_process.regression_models" />
+    <node id="sklearn.gaussian_process.tests" />
+    <node id="sklearn.gaussian_process.tests.test_gaussian_process" />
+    <node id="sklearn.grid_search" />
+    <node id="sklearn.isotonic" />
+    <node id="sklearn.kernel_approximation" />
+    <node id="sklearn.kernel_ridge" />
+    <node id="sklearn.lda" />
+    <node id="sklearn.learning_curve" />
+    <node id="sklearn.linear_model" />
+    <node id="sklearn.linear_model.base" />
+    <node id="sklearn.linear_model.bayes" />
+    <node id="sklearn.linear_model.coordinate_descent" />
+    <node id="sklearn.linear_model.least_angle" />
+    <node id="sklearn.linear_model.logistic" />
+    <node id="sklearn.linear_model.omp" />
+    <node id="sklearn.linear_model.passive_aggressive" />
+    <node id="sklearn.linear_model.perceptron" />
+    <node id="sklearn.linear_model.randomized_l1" />
+    <node id="sklearn.linear_model.ransac" />
+    <node id="sklearn.linear_model.ridge" />
+    <node id="sklearn.linear_model.setup" />
+    <node id="sklearn.linear_model.stochastic_gradient" />
+    <node id="sklearn.linear_model.tests" />
+    <node id="sklearn.linear_model.tests.test_base" />
+    <node id="sklearn.linear_model.tests.test_bayes" />
+    <node id="sklearn.linear_model.tests.test_coordinate_descent" />
+    <node id="sklearn.linear_model.tests.test_least_angle" />
+    <node id="sklearn.linear_model.tests.test_logistic" />
+    <node id="sklearn.linear_model.tests.test_omp" />
+    <node id="sklearn.linear_model.tests.test_passive_aggressive" />
+    <node id="sklearn.linear_model.tests.test_perceptron" />
+    <node id="sklearn.linear_model.tests.test_randomized_l1" />
+    <node id="sklearn.linear_model.tests.test_ransac" />
+    <node id="sklearn.linear_model.tests.test_ridge" />
+    <node id="sklearn.linear_model.tests.test_sgd" />
+    <node id="sklearn.linear_model.tests.test_sparse_coordinate_descent" />
+    <node id="sklearn.linear_model.tests.test_theil_sen" />
+    <node id="sklearn.linear_model.theil_sen" />
+    <node id="sklearn.manifold" />
+    <node id="sklearn.manifold.isomap" />
+    <node id="sklearn.manifold.locally_linear" />
+    <node id="sklearn.manifold.mds" />
+    <node id="sklearn.manifold.setup" />
+    <node id="sklearn.manifold.spectral_embedding_" />
+    <node id="sklearn.manifold.t_sne" />
+    <node id="sklearn.metrics" />
+    <node id="sklearn.metrics.base" />
+    <node id="sklearn.metrics.classification" />
+    <node id="sklearn.metrics.cluster" />
+    <node id="sklearn.metrics.cluster.bicluster" />
+    <node id="sklearn.metrics.cluster.setup" />
+    <node id="sklearn.metrics.cluster.supervised" />
+    <node id="sklearn.metrics.cluster.tests" />
+    <node id="sklearn.metrics.cluster.tests.test_bicluster" />
+    <node id="sklearn.metrics.cluster.tests.test_supervised" />
+    <node id="sklearn.metrics.cluster.tests.test_unsupervised" />
+    <node id="sklearn.metrics.cluster.unsupervised" />
+    <node id="sklearn.metrics.metrics" />
+    <node id="sklearn.metrics.pairwise" />
+    <node id="sklearn.metrics.ranking" />
+    <node id="sklearn.metrics.regression" />
+    <node id="sklearn.metrics.scorer" />
+    <node id="sklearn.metrics.setup" />
+    <node id="sklearn.metrics.tests" />
+    <node id="sklearn.metrics.tests.test_classification" />
+    <node id="sklearn.metrics.tests.test_common" />
+    <node id="sklearn.metrics.tests.test_pairwise" />
+    <node id="sklearn.metrics.tests.test_ranking" />
+    <node id="sklearn.metrics.tests.test_regression" />
+    <node id="sklearn.metrics.tests.test_score_objects" />
+    <node id="sklearn.mixture" />
+    <node id="sklearn.mixture.dpgmm" />
+    <node id="sklearn.mixture.gmm" />
+    <node id="sklearn.mixture.tests" />
+    <node id="sklearn.mixture.tests.test_dpgmm" />
+    <node id="sklearn.mixture.tests.test_gmm" />
+    <node id="sklearn.multiclass" />
+    <node id="sklearn.naive_bayes" />
+    <node id="sklearn.neighbors" />
+    <node id="sklearn.neighbors.approximate" />
+    <node id="sklearn.neighbors.base" />
+    <node id="sklearn.neighbors.classification" />
+    <node id="sklearn.neighbors.graph" />
+    <node id="sklearn.neighbors.kde" />
+    <node id="sklearn.neighbors.nearest_centroid" />
+    <node id="sklearn.neighbors.regression" />
+    <node id="sklearn.neighbors.setup" />
+    <node id="sklearn.neighbors.tests" />
+    <node id="sklearn.neighbors.tests.test_approximate" />
+    <node id="sklearn.neighbors.tests.test_ball_tree" />
+    <node id="sklearn.neighbors.tests.test_dist_metrics" />
+    <node id="sklearn.neighbors.tests.test_kd_tree" />
+    <node id="sklearn.neighbors.tests.test_kde" />
+    <node id="sklearn.neighbors.tests.test_nearest_centroid" />
+    <node id="sklearn.neighbors.tests.test_neighbors" />
+    <node id="sklearn.neighbors.unsupervised" />
+    <node id="sklearn.neural_network" />
+    <node id="sklearn.neural_network.rbm" />
+    <node id="sklearn.pipeline" />
+    <node id="sklearn.preprocessing" />
+    <node id="sklearn.preprocessing._function_transformer" />
+    <node id="sklearn.preprocessing._weights" />
+    <node id="sklearn.preprocessing.data" />
+    <node id="sklearn.preprocessing.imputation" />
+    <node id="sklearn.preprocessing.label" />
+    <node id="sklearn.preprocessing.tests" />
+    <node id="sklearn.preprocessing.tests.test_data" />
+    <node id="sklearn.preprocessing.tests.test_function_transformer" />
+    <node id="sklearn.preprocessing.tests.test_imputation" />
+    <node id="sklearn.preprocessing.tests.test_label" />
+    <node id="sklearn.preprocessing.tests.test_weights" />
+    <node id="sklearn.qda" />
+    <node id="sklearn.random_projection" />
+    <node id="sklearn.semi_supervised" />
+    <node id="sklearn.semi_supervised.label_propagation" />
+    <node id="sklearn.semi_supervised.tests" />
+    <node id="sklearn.semi_supervised.tests.test_label_propagation" />
+    <node id="sklearn.setup" />
+    <node id="sklearn.svm" />
+    <node id="sklearn.svm.base" />
+    <node id="sklearn.svm.bounds" />
+    <node id="sklearn.svm.classes" />
+    <node id="sklearn.svm.setup" />
+    <node id="sklearn.svm.tests" />
+    <node id="sklearn.svm.tests.test_bounds" />
+    <node id="sklearn.svm.tests.test_sparse" />
+    <node id="sklearn.svm.tests.test_svm" />
+    <node id="sklearn.tests" />
+    <node id="sklearn.tests.test_base" />
+    <node id="sklearn.tests.test_calibration" />
+    <node id="sklearn.tests.test_check_build" />
+    <node id="sklearn.tests.test_common" />
+    <node id="sklearn.tests.test_cross_validation" />
+    <node id="sklearn.tests.test_dummy" />
+    <node id="sklearn.tests.test_grid_search" />
+    <node id="sklearn.tests.test_init" />
+    <node id="sklearn.tests.test_isotonic" />
+    <node id="sklearn.tests.test_kernel_approximation" />
+    <node id="sklearn.tests.test_kernel_ridge" />
+    <node id="sklearn.tests.test_lda" />
+    <node id="sklearn.tests.test_learning_curve" />
+    <node id="sklearn.tests.test_metaestimators" />
+    <node id="sklearn.tests.test_multiclass" />
+    <node id="sklearn.tests.test_naive_bayes" />
+    <node id="sklearn.tests.test_pipeline" />
+    <node id="sklearn.tests.test_qda" />
+    <node id="sklearn.tests.test_random_projection" />
+    <node id="sklearn.tree" />
+    <node id="sklearn.tree.export" />
+    <node id="sklearn.tree.setup" />
+    <node id="sklearn.tree.tests" />
+    <node id="sklearn.tree.tests.test_export" />
+    <node id="sklearn.tree.tests.test_tree" />
+    <node id="sklearn.tree.tree" />
+    <node id="sklearn.utils" />
+    <node id="sklearn.utils._scipy_sparse_lsqr_backport" />
+    <node id="sklearn.utils.arpack" />
+    <node id="sklearn.utils.bench" />
+    <node id="sklearn.utils.class_weight" />
+    <node id="sklearn.utils.estimator_checks" />
+    <node id="sklearn.utils.extmath" />
+    <node id="sklearn.utils.fixes" />
+    <node id="sklearn.utils.graph" />
+    <node id="sklearn.utils.linear_assignment_" />
+    <node id="sklearn.utils.metaestimators" />
+    <node id="sklearn.utils.mocking" />
+    <node id="sklearn.utils.multiclass" />
+    <node id="sklearn.utils.optimize" />
+    <node id="sklearn.utils.random" />
+    <node id="sklearn.utils.setup" />
+    <node id="sklearn.utils.sparsefuncs" />
+    <node id="sklearn.utils.sparsetools" />
+    <node id="sklearn.utils.sparsetools._graph_validation" />
+    <node id="sklearn.utils.sparsetools.setup" />
+    <node id="sklearn.utils.stats" />
+    <node id="sklearn.utils.testing" />
+    <node id="sklearn.utils.tests" />
+    <node id="sklearn.utils.tests.test_bench" />
+    <node id="sklearn.utils.tests.test_class_weight" />
+    <node id="sklearn.utils.tests.test_estimator_checks" />
+    <node id="sklearn.utils.tests.test_extmath" />
+    <node id="sklearn.utils.tests.test_fast_dict" />
+    <node id="sklearn.utils.tests.test_fixes" />
+    <node id="sklearn.utils.tests.test_graph" />
+    <node id="sklearn.utils.tests.test_linear_assignment" />
+    <node id="sklearn.utils.tests.test_metaestimators" />
+    <node id="sklearn.utils.tests.test_multiclass" />
+    <node id="sklearn.utils.tests.test_murmurhash" />
+    <node id="sklearn.utils.tests.test_optimize" />
+    <node id="sklearn.utils.tests.test_random" />
+    <node id="sklearn.utils.tests.test_shortest_path" />
+    <node id="sklearn.utils.tests.test_sparsefuncs" />
+    <node id="sklearn.utils.tests.test_stats" />
+    <node id="sklearn.utils.tests.test_testing" />
+    <node id="sklearn.utils.tests.test_utils" />
+    <node id="sklearn.utils.tests.test_validation" />
+    <node id="sklearn.utils.validation" />
+    <edge source="sklearn" target="sklearn.__check_build" />
+    <edge source="sklearn" target="sklearn.base" />
+    <edge source="sklearn.base" target="sklearn.externals" />
+    <edge source="sklearn.base" target="sklearn.externals.six" />
+    <edge source="sklearn.base" target="sklearn.metrics" />
+    <edge source="sklearn.base" target="sklearn.utils" />
+    <edge source="sklearn.base" target="sklearn.utils.validation" />
+    <edge source="sklearn.calibration" target="sklearn.base" />
+    <edge source="sklearn.calibration" target="sklearn.cross_validation" />
+    <edge source="sklearn.calibration" target="sklearn.isotonic" />
+    <edge source="sklearn.calibration" target="sklearn.metrics" />
+    <edge source="sklearn.calibration" target="sklearn.metrics.classification" />
+    <edge source="sklearn.calibration" target="sklearn.preprocessing" />
+    <edge source="sklearn.calibration" target="sklearn.svm" />
+    <edge source="sklearn.calibration" target="sklearn.utils" />
+    <edge source="sklearn.calibration" target="sklearn.utils.validation" />
+    <edge source="sklearn.cluster" target="sklearn.cluster.affinity_propagation_" />
+    <edge source="sklearn.cluster" target="sklearn.cluster.bicluster" />
+    <edge source="sklearn.cluster" target="sklearn.cluster.birch" />
+    <edge source="sklearn.cluster" target="sklearn.cluster.dbscan_" />
+    <edge source="sklearn.cluster" target="sklearn.cluster.hierarchical" />
+    <edge source="sklearn.cluster" target="sklearn.cluster.k_means_" />
+    <edge source="sklearn.cluster" target="sklearn.cluster.mean_shift_" />
+    <edge source="sklearn.cluster" target="sklearn.cluster.spectral" />
+    <edge source="sklearn.cluster._feature_agglomeration" target="sklearn.base" />
+    <edge source="sklearn.cluster._feature_agglomeration" target="sklearn.utils" />
+    <edge source="sklearn.cluster._feature_agglomeration" target="sklearn.utils.validation" />
+    <edge source="sklearn.cluster.affinity_propagation_" target="sklearn.base" />
+    <edge source="sklearn.cluster.affinity_propagation_" target="sklearn.metrics" />
+    <edge source="sklearn.cluster.affinity_propagation_" target="sklearn.utils" />
+    <edge source="sklearn.cluster.affinity_propagation_" target="sklearn.utils.validation" />
+    <edge source="sklearn.cluster.bicluster" target="sklearn" />
+    <edge source="sklearn.cluster.bicluster" target="sklearn.base" />
+    <edge source="sklearn.cluster.bicluster" target="sklearn.cluster" />
+    <edge source="sklearn.cluster.bicluster" target="sklearn.externals" />
+    <edge source="sklearn.cluster.bicluster" target="sklearn.externals.six" />
+    <edge source="sklearn.cluster.bicluster" target="sklearn.utils" />
+    <edge source="sklearn.cluster.bicluster" target="sklearn.utils.arpack" />
+    <edge source="sklearn.cluster.bicluster" target="sklearn.utils.extmath" />
+    <edge source="sklearn.cluster.bicluster" target="sklearn.utils.validation" />
+    <edge source="sklearn.cluster.birch" target="sklearn.base" />
+    <edge source="sklearn.cluster.birch" target="sklearn.cluster.hierarchical" />
+    <edge source="sklearn.cluster.birch" target="sklearn.metrics" />
+    <edge source="sklearn.cluster.birch" target="sklearn.metrics.pairwise" />
+    <edge source="sklearn.cluster.birch" target="sklearn.utils" />
+    <edge source="sklearn.cluster.birch" target="sklearn.utils.extmath" />
+    <edge source="sklearn.cluster.birch" target="sklearn.utils.validation" />
+    <edge source="sklearn.cluster.dbscan_" target="sklearn.base" />
+    <edge source="sklearn.cluster.dbscan_" target="sklearn.metrics" />
+    <edge source="sklearn.cluster.dbscan_" target="sklearn.neighbors" />
+    <edge source="sklearn.cluster.dbscan_" target="sklearn.utils" />
+    <edge source="sklearn.cluster.hierarchical" target="sklearn" />
+    <edge source="sklearn.cluster.hierarchical" target="sklearn.base" />
+    <edge source="sklearn.cluster.hierarchical" target="sklearn.cluster" />
+    <edge source="sklearn.cluster.hierarchical" target="sklearn.cluster._feature_agglomeration" />
+    <edge source="sklearn.cluster.hierarchical" target="sklearn.externals" />
+    <edge source="sklearn.cluster.hierarchical" target="sklearn.externals.joblib" />
+    <edge source="sklearn.cluster.hierarchical" target="sklearn.externals.six" />
+    <edge source="sklearn.cluster.hierarchical" target="sklearn.metrics" />
+    <edge source="sklearn.cluster.hierarchical" target="sklearn.metrics.pairwise" />
+    <edge source="sklearn.cluster.hierarchical" target="sklearn.utils" />
+    <edge source="sklearn.cluster.hierarchical" target="sklearn.utils.sparsetools" />
+    <edge source="sklearn.cluster.k_means_" target="sklearn" />
+    <edge source="sklearn.cluster.k_means_" target="sklearn.base" />
+    <edge source="sklearn.cluster.k_means_" target="sklearn.cluster" />
+    <edge source="sklearn.cluster.k_means_" target="sklearn.externals" />
+    <edge source="sklearn.cluster.k_means_" target="sklearn.externals.joblib" />
+    <edge source="sklearn.cluster.k_means_" target="sklearn.metrics" />
+    <edge source="sklearn.cluster.k_means_" target="sklearn.metrics.pairwise" />
+    <edge source="sklearn.cluster.k_means_" target="sklearn.utils" />
+    <edge source="sklearn.cluster.k_means_" target="sklearn.utils.extmath" />
+    <edge source="sklearn.cluster.k_means_" target="sklearn.utils.fixes" />
+    <edge source="sklearn.cluster.k_means_" target="sklearn.utils.random" />
+    <edge source="sklearn.cluster.k_means_" target="sklearn.utils.sparsefuncs" />
+    <edge source="sklearn.cluster.k_means_" target="sklearn.utils.validation" />
+    <edge source="sklearn.cluster.mean_shift_" target="sklearn.base" />
+    <edge source="sklearn.cluster.mean_shift_" target="sklearn.externals" />
+    <edge source="sklearn.cluster.mean_shift_" target="sklearn.externals.joblib" />
+    <edge source="sklearn.cluster.mean_shift_" target="sklearn.externals.six" />
+    <edge source="sklearn.cluster.mean_shift_" target="sklearn.metrics" />
+    <edge source="sklearn.cluster.mean_shift_" target="sklearn.metrics.pairwise" />
+    <edge source="sklearn.cluster.mean_shift_" target="sklearn.neighbors" />
+    <edge source="sklearn.cluster.mean_shift_" target="sklearn.utils" />
+    <edge source="sklearn.cluster.mean_shift_" target="sklearn.utils.extmath" />
+    <edge source="sklearn.cluster.mean_shift_" target="sklearn.utils.validation" />
+    <edge source="sklearn.cluster.setup" target="sklearn" />
+    <edge source="sklearn.cluster.setup" target="sklearn._build_utils" />
+    <edge source="sklearn.cluster.spectral" target="sklearn.base" />
+    <edge source="sklearn.cluster.spectral" target="sklearn.cluster.k_means_" />
+    <edge source="sklearn.cluster.spectral" target="sklearn.manifold" />
+    <edge source="sklearn.cluster.spectral" target="sklearn.metrics" />
+    <edge source="sklearn.cluster.spectral" target="sklearn.metrics.pairwise" />
+    <edge source="sklearn.cluster.spectral" target="sklearn.neighbors" />
+    <edge source="sklearn.cluster.spectral" target="sklearn.utils" />
+    <edge source="sklearn.cluster.spectral" target="sklearn.utils.extmath" />
+    <edge source="sklearn.cluster.spectral" target="sklearn.utils.validation" />
+    <edge source="sklearn.cluster.tests.test_affinity_propagation" target="sklearn" />
+    <edge source="sklearn.cluster.tests.test_affinity_propagation" target="sklearn.cluster" />
+    <edge source="sklearn.cluster.tests.test_affinity_propagation" target="sklearn.cluster.affinity_propagation_" />
+    <edge source="sklearn.cluster.tests.test_affinity_propagation" target="sklearn.datasets" />
+    <edge source="sklearn.cluster.tests.test_affinity_propagation" target="sklearn.datasets.samples_generator" />
+    <edge source="sklearn.cluster.tests.test_affinity_propagation" target="sklearn.metrics" />
+    <edge source="sklearn.cluster.tests.test_affinity_propagation" target="sklearn.utils" />
+    <edge source="sklearn.cluster.tests.test_affinity_propagation" target="sklearn.utils.testing" />
+    <edge source="sklearn.cluster.tests.test_bicluster" target="sklearn" />
+    <edge source="sklearn.cluster.tests.test_bicluster" target="sklearn.base" />
+    <edge source="sklearn.cluster.tests.test_bicluster" target="sklearn.cluster" />
+    <edge source="sklearn.cluster.tests.test_bicluster" target="sklearn.cluster.bicluster" />
+    <edge source="sklearn.cluster.tests.test_bicluster" target="sklearn.datasets" />
+    <edge source="sklearn.cluster.tests.test_bicluster" target="sklearn.grid_search" />
+    <edge source="sklearn.cluster.tests.test_bicluster" target="sklearn.metrics" />
+    <edge source="sklearn.cluster.tests.test_bicluster" target="sklearn.utils" />
+    <edge source="sklearn.cluster.tests.test_bicluster" target="sklearn.utils.testing" />
+    <edge source="sklearn.cluster.tests.test_birch" target="sklearn" />
+    <edge source="sklearn.cluster.tests.test_birch" target="sklearn.cluster" />
+    <edge source="sklearn.cluster.tests.test_birch" target="sklearn.cluster.birch" />
+    <edge source="sklearn.cluster.tests.test_birch" target="sklearn.cluster.hierarchical" />
+    <edge source="sklearn.cluster.tests.test_birch" target="sklearn.cluster.tests" />
+    <edge source="sklearn.cluster.tests.test_birch" target="sklearn.cluster.tests.common" />
+    <edge source="sklearn.cluster.tests.test_birch" target="sklearn.datasets" />
+    <edge source="sklearn.cluster.tests.test_birch" target="sklearn.linear_model" />
+    <edge source="sklearn.cluster.tests.test_birch" target="sklearn.metrics" />
+    <edge source="sklearn.cluster.tests.test_birch" target="sklearn.utils" />
+    <edge source="sklearn.cluster.tests.test_birch" target="sklearn.utils.testing" />
+    <edge source="sklearn.cluster.tests.test_dbscan" target="sklearn" />
+    <edge source="sklearn.cluster.tests.test_dbscan" target="sklearn.cluster" />
+    <edge source="sklearn.cluster.tests.test_dbscan" target="sklearn.cluster.dbscan_" />
+    <edge source="sklearn.cluster.tests.test_dbscan" target="sklearn.cluster.tests" />
+    <edge source="sklearn.cluster.tests.test_dbscan" target="sklearn.cluster.tests.common" />
+    <edge source="sklearn.cluster.tests.test_dbscan" target="sklearn.metrics" />
+    <edge source="sklearn.cluster.tests.test_dbscan" target="sklearn.metrics.pairwise" />
+    <edge source="sklearn.cluster.tests.test_dbscan" target="sklearn.utils" />
+    <edge source="sklearn.cluster.tests.test_dbscan" target="sklearn.utils.testing" />
+    <edge source="sklearn.cluster.tests.test_hierarchical" target="sklearn" />
+    <edge source="sklearn.cluster.tests.test_hierarchical" target="sklearn.cluster" />
+    <edge source="sklearn.cluster.tests.test_hierarchical" target="sklearn.cluster.hierarchical" />
+    <edge source="sklearn.cluster.tests.test_hierarchical" target="sklearn.feature_extraction" />
+    <edge source="sklearn.cluster.tests.test_hierarchical" target="sklearn.feature_extraction.image" />
+    <edge source="sklearn.cluster.tests.test_hierarchical" target="sklearn.metrics" />
+    <edge source="sklearn.cluster.tests.test_hierarchical" target="sklearn.metrics.cluster" />
+    <edge source="sklearn.cluster.tests.test_hierarchical" target="sklearn.metrics.pairwise" />
+    <edge source="sklearn.cluster.tests.test_hierarchical" target="sklearn.neighbors" />
+    <edge source="sklearn.cluster.tests.test_hierarchical" target="sklearn.neighbors.graph" />
+    <edge source="sklearn.cluster.tests.test_hierarchical" target="sklearn.utils" />
+    <edge source="sklearn.cluster.tests.test_hierarchical" target="sklearn.utils.testing" />
+    <edge source="sklearn.cluster.tests.test_k_means" target="sklearn" />
+    <edge source="sklearn.cluster.tests.test_k_means" target="sklearn.cluster" />
+    <edge source="sklearn.cluster.tests.test_k_means" target="sklearn.cluster.k_means_" />
+    <edge source="sklearn.cluster.tests.test_k_means" target="sklearn.datasets" />
+    <edge source="sklearn.cluster.tests.test_k_means" target="sklearn.datasets.samples_generator" />
+    <edge source="sklearn.cluster.tests.test_k_means" target="sklearn.metrics" />
+    <edge source="sklearn.cluster.tests.test_k_means" target="sklearn.metrics.cluster" />
+    <edge source="sklearn.cluster.tests.test_k_means" target="sklearn.utils" />
+    <edge source="sklearn.cluster.tests.test_k_means" target="sklearn.utils.extmath" />
+    <edge source="sklearn.cluster.tests.test_k_means" target="sklearn.utils.testing" />
+    <edge source="sklearn.cluster.tests.test_k_means" target="sklearn.utils.validation" />
+    <edge source="sklearn.cluster.tests.test_mean_shift" target="sklearn" />
+    <edge source="sklearn.cluster.tests.test_mean_shift" target="sklearn.cluster" />
+    <edge source="sklearn.cluster.tests.test_mean_shift" target="sklearn.datasets" />
+    <edge source="sklearn.cluster.tests.test_mean_shift" target="sklearn.datasets.samples_generator" />
+    <edge source="sklearn.cluster.tests.test_mean_shift" target="sklearn.utils" />
+    <edge source="sklearn.cluster.tests.test_mean_shift" target="sklearn.utils.testing" />
+    <edge source="sklearn.cluster.tests.test_spectral" target="sklearn" />
+    <edge source="sklearn.cluster.tests.test_spectral" target="sklearn.cluster" />
+    <edge source="sklearn.cluster.tests.test_spectral" target="sklearn.cluster.spectral" />
+    <edge source="sklearn.cluster.tests.test_spectral" target="sklearn.datasets" />
+    <edge source="sklearn.cluster.tests.test_spectral" target="sklearn.datasets.samples_generator" />
+    <edge source="sklearn.cluster.tests.test_spectral" target="sklearn.externals" />
+    <edge source="sklearn.cluster.tests.test_spectral" target="sklearn.externals.six" />
+    <edge source="sklearn.cluster.tests.test_spectral" target="sklearn.metrics" />
+    <edge source="sklearn.cluster.tests.test_spectral" target="sklearn.metrics.pairwise" />
+    <edge source="sklearn.cluster.tests.test_spectral" target="sklearn.utils" />
+    <edge source="sklearn.cluster.tests.test_spectral" target="sklearn.utils.testing" />
+    <edge source="sklearn.covariance" target="sklearn.covariance.empirical_covariance_" />
+    <edge source="sklearn.covariance" target="sklearn.covariance.graph_lasso_" />
+    <edge source="sklearn.covariance" target="sklearn.covariance.outlier_detection" />
+    <edge source="sklearn.covariance" target="sklearn.covariance.robust_covariance" />
+    <edge source="sklearn.covariance" target="sklearn.covariance.shrunk_covariance_" />
+    <edge source="sklearn.covariance.empirical_covariance_" target="sklearn.base" />
+    <edge source="sklearn.covariance.empirical_covariance_" target="sklearn.utils" />
+    <edge source="sklearn.covariance.empirical_covariance_" target="sklearn.utils.extmath" />
+    <edge source="sklearn.covariance.graph_lasso_" target="sklearn.covariance.empirical_covariance_" />
+    <edge source="sklearn.covariance.graph_lasso_" target="sklearn.cross_validation" />
+    <edge source="sklearn.covariance.graph_lasso_" target="sklearn.externals" />
+    <edge source="sklearn.covariance.graph_lasso_" target="sklearn.externals.joblib" />
+    <edge source="sklearn.covariance.graph_lasso_" target="sklearn.linear_model" />
+    <edge source="sklearn.covariance.graph_lasso_" target="sklearn.utils" />
+    <edge source="sklearn.covariance.graph_lasso_" target="sklearn.utils.extmath" />
+    <edge source="sklearn.covariance.graph_lasso_" target="sklearn.utils.validation" />
+    <edge source="sklearn.covariance.outlier_detection" target="sklearn" />
+    <edge source="sklearn.covariance.outlier_detection" target="sklearn.base" />
+    <edge source="sklearn.covariance.outlier_detection" target="sklearn.covariance" />
+    <edge source="sklearn.covariance.outlier_detection" target="sklearn.utils" />
+    <edge source="sklearn.covariance.outlier_detection" target="sklearn.utils.validation" />
+    <edge source="sklearn.covariance.robust_covariance" target="sklearn" />
+    <edge source="sklearn.covariance.robust_covariance" target="sklearn.covariance" />
+    <edge source="sklearn.covariance.robust_covariance" target="sklearn.utils" />
+    <edge source="sklearn.covariance.robust_covariance" target="sklearn.utils.extmath" />
+    <edge source="sklearn.covariance.shrunk_covariance_" target="sklearn.covariance.empirical_covariance_" />
+    <edge source="sklearn.covariance.shrunk_covariance_" target="sklearn.utils" />
+    <edge source="sklearn.covariance.tests.test_covariance" target="sklearn" />
+    <edge source="sklearn.covariance.tests.test_covariance" target="sklearn.covariance" />
+    <edge source="sklearn.covariance.tests.test_covariance" target="sklearn.datasets" />
+    <edge source="sklearn.covariance.tests.test_covariance" target="sklearn.utils" />
+    <edge source="sklearn.covariance.tests.test_covariance" target="sklearn.utils.testing" />
+    <edge source="sklearn.covariance.tests.test_graph_lasso" target="sklearn" />
+    <edge source="sklearn.covariance.tests.test_graph_lasso" target="sklearn.covariance" />
+    <edge source="sklearn.covariance.tests.test_graph_lasso" target="sklearn.datasets" />
+    <edge source="sklearn.covariance.tests.test_graph_lasso" target="sklearn.datasets.samples_generator" />
+    <edge source="sklearn.covariance.tests.test_graph_lasso" target="sklearn.utils" />
+    <edge source="sklearn.covariance.tests.test_graph_lasso" target="sklearn.utils.testing" />
+    <edge source="sklearn.covariance.tests.test_robust_covariance" target="sklearn" />
+    <edge source="sklearn.covariance.tests.test_robust_covariance" target="sklearn.covariance" />
+    <edge source="sklearn.covariance.tests.test_robust_covariance" target="sklearn.datasets" />
+    <edge source="sklearn.covariance.tests.test_robust_covariance" target="sklearn.utils" />
+    <edge source="sklearn.covariance.tests.test_robust_covariance" target="sklearn.utils.testing" />
+    <edge source="sklearn.covariance.tests.test_robust_covariance" target="sklearn.utils.validation" />
+    <edge source="sklearn.cross_decomposition" target="sklearn.cross_decomposition.cca_" />
+    <edge source="sklearn.cross_decomposition" target="sklearn.cross_decomposition.pls_" />
+    <edge source="sklearn.cross_decomposition.cca_" target="sklearn.cross_decomposition.pls_" />
+    <edge source="sklearn.cross_decomposition.pls_" target="sklearn.base" />
+    <edge source="sklearn.cross_decomposition.pls_" target="sklearn.externals" />
+    <edge source="sklearn.cross_decomposition.pls_" target="sklearn.externals.six" />
+    <edge source="sklearn.cross_decomposition.pls_" target="sklearn.utils" />
+    <edge source="sklearn.cross_decomposition.pls_" target="sklearn.utils.arpack" />
+    <edge source="sklearn.cross_decomposition.pls_" target="sklearn.utils.validation" />
+    <edge source="sklearn.cross_validation" target="sklearn.base" />
+    <edge source="sklearn.cross_validation" target="sklearn.externals" />
+    <edge source="sklearn.cross_validation" target="sklearn.externals.joblib" />
+    <edge source="sklearn.cross_validation" target="sklearn.externals.joblib.logger" />
+    <edge source="sklearn.cross_validation" target="sklearn.externals.six" />
+    <edge source="sklearn.cross_validation" target="sklearn.metrics" />
+    <edge source="sklearn.cross_validation" target="sklearn.metrics.scorer" />
+    <edge source="sklearn.cross_validation" target="sklearn.utils" />
+    <edge source="sklearn.cross_validation" target="sklearn.utils.fixes" />
+    <edge source="sklearn.cross_validation" target="sklearn.utils.multiclass" />
+    <edge source="sklearn.cross_validation" target="sklearn.utils.validation" />
+    <edge source="sklearn.datasets" target="sklearn.datasets.base" />
+    <edge source="sklearn.datasets" target="sklearn.datasets.california_housing" />
+    <edge source="sklearn.datasets" target="sklearn.datasets.covtype" />
+    <edge source="sklearn.datasets" target="sklearn.datasets.lfw" />
+    <edge source="sklearn.datasets" target="sklearn.datasets.mlcomp" />
+    <edge source="sklearn.datasets" target="sklearn.datasets.mldata" />
+    <edge source="sklearn.datasets" target="sklearn.datasets.olivetti_faces" />
+    <edge source="sklearn.datasets" target="sklearn.datasets.rcv1" />
+    <edge source="sklearn.datasets" target="sklearn.datasets.samples_generator" />
+    <edge source="sklearn.datasets" target="sklearn.datasets.species_distributions" />
+    <edge source="sklearn.datasets" target="sklearn.datasets.svmlight_format" />
+    <edge source="sklearn.datasets" target="sklearn.datasets.twenty_newsgroups" />
+    <edge source="sklearn.datasets.base" target="sklearn.utils" />
+    <edge source="sklearn.datasets.california_housing" target="sklearn.datasets.base" />
+    <edge source="sklearn.datasets.california_housing" target="sklearn.externals" />
+    <edge source="sklearn.datasets.california_housing" target="sklearn.externals.joblib" />
+    <edge source="sklearn.datasets.covtype" target="sklearn.datasets.base" />
+    <edge source="sklearn.datasets.covtype" target="sklearn.externals" />
+    <edge source="sklearn.datasets.covtype" target="sklearn.externals.joblib" />
+    <edge source="sklearn.datasets.covtype" target="sklearn.utils" />
+    <edge source="sklearn.datasets.covtype" target="sklearn.utils.fixes" />
+    <edge source="sklearn.datasets.lfw" target="sklearn" />
+    <edge source="sklearn.datasets.lfw" target="sklearn.datasets.base" />
+    <edge source="sklearn.datasets.lfw" target="sklearn.externals" />
+    <edge source="sklearn.datasets.lfw" target="sklearn.externals.joblib" />
+    <edge source="sklearn.datasets.lfw" target="sklearn.externals.six" />
+    <edge source="sklearn.datasets.lfw" target="sklearn.utils" />
+    <edge source="sklearn.datasets.mlcomp" target="sklearn" />
+    <edge source="sklearn.datasets.mlcomp" target="sklearn.datasets" />
+    <edge source="sklearn.datasets.mlcomp" target="sklearn.datasets.base" />
+    <edge source="sklearn.datasets.mldata" target="sklearn" />
+    <edge source="sklearn.datasets.mldata" target="sklearn.datasets.base" />
+    <edge source="sklearn.datasets.mldata" target="sklearn.utils" />
+    <edge source="sklearn.datasets.mldata" target="sklearn.utils.testing" />
+    <edge source="sklearn.datasets.olivetti_faces" target="sklearn.datasets.base" />
+    <edge source="sklearn.datasets.olivetti_faces" target="sklearn.externals" />
+    <edge source="sklearn.datasets.olivetti_faces" target="sklearn.externals.joblib" />
+    <edge source="sklearn.datasets.olivetti_faces" target="sklearn.utils" />
+    <edge source="sklearn.datasets.rcv1" target="sklearn.datasets.base" />
+    <edge source="sklearn.datasets.rcv1" target="sklearn.datasets.svmlight_format" />
+    <edge source="sklearn.datasets.rcv1" target="sklearn.externals" />
+    <edge source="sklearn.datasets.rcv1" target="sklearn.externals.joblib" />
+    <edge source="sklearn.datasets.rcv1" target="sklearn.utils" />
+    <edge source="sklearn.datasets.rcv1" target="sklearn.utils.fixes" />
+    <edge source="sklearn.datasets.samples_generator" target="sklearn.externals" />
+    <edge source="sklearn.datasets.samples_generator" target="sklearn.externals.six" />
+    <edge source="sklearn.datasets.samples_generator" target="sklearn.preprocessing" />
+    <edge source="sklearn.datasets.samples_generator" target="sklearn.utils" />
+    <edge source="sklearn.datasets.samples_generator" target="sklearn.utils.fixes" />
+    <edge source="sklearn.datasets.samples_generator" target="sklearn.utils.random" />
+    <edge source="sklearn.datasets.species_distributions" target="sklearn" />
+    <edge source="sklearn.datasets.species_distributions" target="sklearn.datasets" />
+    <edge source="sklearn.datasets.species_distributions" target="sklearn.datasets.base" />
+    <edge source="sklearn.datasets.species_distributions" target="sklearn.externals" />
+    <edge source="sklearn.datasets.species_distributions" target="sklearn.externals.joblib" />
+    <edge source="sklearn.datasets.svmlight_format" target="sklearn" />
+    <edge source="sklearn.datasets.svmlight_format" target="sklearn.externals" />
+    <edge source="sklearn.datasets.svmlight_format" target="sklearn.externals.six" />
+    <edge source="sklearn.datasets.svmlight_format" target="sklearn.utils" />
+    <edge source="sklearn.datasets.svmlight_format" target="sklearn.utils.fixes" />
+    <edge source="sklearn.datasets.tests.test_20news" target="sklearn" />
+    <edge source="sklearn.datasets.tests.test_20news" target="sklearn.datasets" />
+    <edge source="sklearn.datasets.tests.test_20news" target="sklearn.utils" />
+    <edge source="sklearn.datasets.tests.test_20news" target="sklearn.utils.testing" />
+    <edge source="sklearn.datasets.tests.test_base" target="sklearn" />
+    <edge source="sklearn.datasets.tests.test_base" target="sklearn.datasets" />
+    <edge source="sklearn.datasets.tests.test_base" target="sklearn.datasets.base" />
+    <edge source="sklearn.datasets.tests.test_base" target="sklearn.externals" />
+    <edge source="sklearn.datasets.tests.test_base" target="sklearn.externals.six" />
+    <edge source="sklearn.datasets.tests.test_base" target="sklearn.utils" />
+    <edge source="sklearn.datasets.tests.test_base" target="sklearn.utils.testing" />
+    <edge source="sklearn.datasets.tests.test_covtype" target="sklearn" />
+    <edge source="sklearn.datasets.tests.test_covtype" target="sklearn.datasets" />
+    <edge source="sklearn.datasets.tests.test_covtype" target="sklearn.utils" />
+    <edge source="sklearn.datasets.tests.test_covtype" target="sklearn.utils.testing" />
+    <edge source="sklearn.datasets.tests.test_lfw" target="sklearn" />
+    <edge source="sklearn.datasets.tests.test_lfw" target="sklearn.datasets" />
+    <edge source="sklearn.datasets.tests.test_lfw" target="sklearn.externals" />
+    <edge source="sklearn.datasets.tests.test_lfw" target="sklearn.externals.six" />
+    <edge source="sklearn.datasets.tests.test_lfw" target="sklearn.utils" />
+    <edge source="sklearn.datasets.tests.test_lfw" target="sklearn.utils.testing" />
+    <edge source="sklearn.datasets.tests.test_mldata" target="sklearn" />
+    <edge source="sklearn.datasets.tests.test_mldata" target="sklearn.datasets" />
+    <edge source="sklearn.datasets.tests.test_mldata" target="sklearn.utils" />
+    <edge source="sklearn.datasets.tests.test_mldata" target="sklearn.utils.testing" />
+    <edge source="sklearn.datasets.tests.test_rcv1" target="sklearn" />
+    <edge source="sklearn.datasets.tests.test_rcv1" target="sklearn.datasets" />
+    <edge source="sklearn.datasets.tests.test_rcv1" target="sklearn.utils" />
+    <edge source="sklearn.datasets.tests.test_rcv1" target="sklearn.utils.testing" />
+    <edge source="sklearn.datasets.tests.test_samples_generator" target="sklearn" />
+    <edge source="sklearn.datasets.tests.test_samples_generator" target="sklearn.datasets" />
+    <edge source="sklearn.datasets.tests.test_samples_generator" target="sklearn.utils" />
+    <edge source="sklearn.datasets.tests.test_samples_generator" target="sklearn.utils.testing" />
+    <edge source="sklearn.datasets.tests.test_samples_generator" target="sklearn.utils.validation" />
+    <edge source="sklearn.datasets.tests.test_svmlight_format" target="sklearn" />
+    <edge source="sklearn.datasets.tests.test_svmlight_format" target="sklearn.datasets" />
+    <edge source="sklearn.datasets.tests.test_svmlight_format" target="sklearn.externals" />
+    <edge source="sklearn.datasets.tests.test_svmlight_format" target="sklearn.externals.six" />
+    <edge source="sklearn.datasets.tests.test_svmlight_format" target="sklearn.utils" />
+    <edge source="sklearn.datasets.tests.test_svmlight_format" target="sklearn.utils.testing" />
+    <edge source="sklearn.datasets.twenty_newsgroups" target="sklearn.datasets.base" />
+    <edge source="sklearn.datasets.twenty_newsgroups" target="sklearn.externals" />
+    <edge source="sklearn.datasets.twenty_newsgroups" target="sklearn.externals.joblib" />
+    <edge source="sklearn.datasets.twenty_newsgroups" target="sklearn.externals.six" />
+    <edge source="sklearn.datasets.twenty_newsgroups" target="sklearn.feature_extraction" />
+    <edge source="sklearn.datasets.twenty_newsgroups" target="sklearn.feature_extraction.text" />
+    <edge source="sklearn.datasets.twenty_newsgroups" target="sklearn.preprocessing" />
+    <edge source="sklearn.datasets.twenty_newsgroups" target="sklearn.utils" />
+    <edge source="sklearn.decomposition" target="sklearn.decomposition.dict_learning" />
+    <edge source="sklearn.decomposition" target="sklearn.decomposition.factor_analysis" />
+    <edge source="sklearn.decomposition" target="sklearn.decomposition.fastica_" />
+    <edge source="sklearn.decomposition" target="sklearn.decomposition.incremental_pca" />
+    <edge source="sklearn.decomposition" target="sklearn.decomposition.kernel_pca" />
+    <edge source="sklearn.decomposition" target="sklearn.decomposition.nmf" />
+    <edge source="sklearn.decomposition" target="sklearn.decomposition.online_lda" />
+    <edge source="sklearn.decomposition" target="sklearn.decomposition.pca" />
+    <edge source="sklearn.decomposition" target="sklearn.decomposition.sparse_pca" />
+    <edge source="sklearn.decomposition" target="sklearn.decomposition.truncated_svd" />
+    <edge source="sklearn.decomposition" target="sklearn.utils" />
+    <edge source="sklearn.decomposition" target="sklearn.utils.extmath" />
+    <edge source="sklearn.decomposition.base" target="sklearn.base" />
+    <edge source="sklearn.decomposition.base" target="sklearn.externals" />
+    <edge source="sklearn.decomposition.base" target="sklearn.externals.six" />
+    <edge source="sklearn.decomposition.base" target="sklearn.utils" />
+    <edge source="sklearn.decomposition.base" target="sklearn.utils.extmath" />
+    <edge source="sklearn.decomposition.base" target="sklearn.utils.validation" />
+    <edge source="sklearn.decomposition.dict_learning" target="sklearn.base" />
+    <edge source="sklearn.decomposition.dict_learning" target="sklearn.externals" />
+    <edge source="sklearn.decomposition.dict_learning" target="sklearn.externals.joblib" />
+    <edge source="sklearn.decomposition.dict_learning" target="sklearn.linear_model" />
+    <edge source="sklearn.decomposition.dict_learning" target="sklearn.utils" />
+    <edge source="sklearn.decomposition.dict_learning" target="sklearn.utils.extmath" />
+    <edge source="sklearn.decomposition.dict_learning" target="sklearn.utils.validation" />
+    <edge source="sklearn.decomposition.factor_analysis" target="sklearn.base" />
+    <edge source="sklearn.decomposition.factor_analysis" target="sklearn.utils" />
+    <edge source="sklearn.decomposition.factor_analysis" target="sklearn.utils.extmath" />
+    <edge source="sklearn.decomposition.factor_analysis" target="sklearn.utils.validation" />
+    <edge source="sklearn.decomposition.fastica_" target="sklearn.base" />
+    <edge source="sklearn.decomposition.fastica_" target="sklearn.externals" />
+    <edge source="sklearn.decomposition.fastica_" target="sklearn.externals.six" />
+    <edge source="sklearn.decomposition.fastica_" target="sklearn.utils" />
+    <edge source="sklearn.decomposition.fastica_" target="sklearn.utils.extmath" />
+    <edge source="sklearn.decomposition.fastica_" target="sklearn.utils.validation" />
+    <edge source="sklearn.decomposition.incremental_pca" target="sklearn.decomposition.base" />
+    <edge source="sklearn.decomposition.incremental_pca" target="sklearn.utils" />
+    <edge source="sklearn.decomposition.incremental_pca" target="sklearn.utils.extmath" />
+    <edge source="sklearn.decomposition.kernel_pca" target="sklearn.base" />
+    <edge source="sklearn.decomposition.kernel_pca" target="sklearn.metrics" />
+    <edge source="sklearn.decomposition.kernel_pca" target="sklearn.metrics.pairwise" />
+    <edge source="sklearn.decomposition.kernel_pca" target="sklearn.preprocessing" />
+    <edge source="sklearn.decomposition.kernel_pca" target="sklearn.utils" />
+    <edge source="sklearn.decomposition.kernel_pca" target="sklearn.utils.arpack" />
+    <edge source="sklearn.decomposition.kernel_pca" target="sklearn.utils.validation" />
+    <edge source="sklearn.decomposition.nmf" target="sklearn.base" />
+    <edge source="sklearn.decomposition.nmf" target="sklearn.utils" />
+    <edge source="sklearn.decomposition.nmf" target="sklearn.utils.extmath" />
+    <edge source="sklearn.decomposition.nmf" target="sklearn.utils.validation" />
+    <edge source="sklearn.decomposition.online_lda" target="sklearn.base" />
+    <edge source="sklearn.decomposition.online_lda" target="sklearn.externals" />
+    <edge source="sklearn.decomposition.online_lda" target="sklearn.externals.joblib" />
+    <edge source="sklearn.decomposition.online_lda" target="sklearn.utils" />
+    <edge source="sklearn.decomposition.online_lda" target="sklearn.utils.extmath" />
+    <edge source="sklearn.decomposition.online_lda" target="sklearn.utils.validation" />
+    <edge source="sklearn.decomposition.pca" target="sklearn.base" />
+    <edge source="sklearn.decomposition.pca" target="sklearn.utils" />
+    <edge source="sklearn.decomposition.pca" target="sklearn.utils.extmath" />
+    <edge source="sklearn.decomposition.pca" target="sklearn.utils.validation" />
+    <edge source="sklearn.decomposition.sparse_pca" target="sklearn.base" />
+    <edge source="sklearn.decomposition.sparse_pca" target="sklearn.decomposition.dict_learning" />
+    <edge source="sklearn.decomposition.sparse_pca" target="sklearn.linear_model" />
+    <edge source="sklearn.decomposition.sparse_pca" target="sklearn.utils" />
+    <edge source="sklearn.decomposition.sparse_pca" target="sklearn.utils.validation" />
+    <edge source="sklearn.decomposition.tests.test_dict_learning" target="sklearn" />
+    <edge source="sklearn.decomposition.tests.test_dict_learning" target="sklearn.decomposition" />
+    <edge source="sklearn.decomposition.tests.test_dict_learning" target="sklearn.utils" />
+    <edge source="sklearn.decomposition.tests.test_dict_learning" target="sklearn.utils.testing" />
+    <edge source="sklearn.decomposition.tests.test_factor_analysis" target="sklearn" />
+    <edge source="sklearn.decomposition.tests.test_factor_analysis" target="sklearn.decomposition" />
+    <edge source="sklearn.decomposition.tests.test_factor_analysis" target="sklearn.utils" />
+    <edge source="sklearn.decomposition.tests.test_factor_analysis" target="sklearn.utils.testing" />
+    <edge source="sklearn.decomposition.tests.test_fastica" target="sklearn" />
+    <edge source="sklearn.decomposition.tests.test_fastica" target="sklearn.decomposition" />
+    <edge source="sklearn.decomposition.tests.test_fastica" target="sklearn.decomposition.fastica_" />
+    <edge source="sklearn.decomposition.tests.test_fastica" target="sklearn.externals" />
+    <edge source="sklearn.decomposition.tests.test_fastica" target="sklearn.externals.six" />
+    <edge source="sklearn.decomposition.tests.test_fastica" target="sklearn.utils" />
+    <edge source="sklearn.decomposition.tests.test_fastica" target="sklearn.utils.testing" />
+    <edge source="sklearn.decomposition.tests.test_incremental_pca" target="sklearn" />
+    <edge source="sklearn.decomposition.tests.test_incremental_pca" target="sklearn.datasets" />
+    <edge source="sklearn.decomposition.tests.test_incremental_pca" target="sklearn.decomposition" />
+    <edge source="sklearn.decomposition.tests.test_incremental_pca" target="sklearn.utils" />
+    <edge source="sklearn.decomposition.tests.test_incremental_pca" target="sklearn.utils.testing" />
+    <edge source="sklearn.decomposition.tests.test_kernel_pca" target="sklearn" />
+    <edge source="sklearn.decomposition.tests.test_kernel_pca" target="sklearn.datasets" />
+    <edge source="sklearn.decomposition.tests.test_kernel_pca" target="sklearn.decomposition" />
+    <edge source="sklearn.decomposition.tests.test_kernel_pca" target="sklearn.grid_search" />
+    <edge source="sklearn.decomposition.tests.test_kernel_pca" target="sklearn.linear_model" />
+    <edge source="sklearn.decomposition.tests.test_kernel_pca" target="sklearn.metrics" />
+    <edge source="sklearn.decomposition.tests.test_kernel_pca" target="sklearn.metrics.pairwise" />
+    <edge source="sklearn.decomposition.tests.test_kernel_pca" target="sklearn.pipeline" />
+    <edge source="sklearn.decomposition.tests.test_kernel_pca" target="sklearn.utils" />
+    <edge source="sklearn.decomposition.tests.test_kernel_pca" target="sklearn.utils.testing" />
+    <edge source="sklearn.decomposition.tests.test_nmf" target="sklearn" />
+    <edge source="sklearn.decomposition.tests.test_nmf" target="sklearn.decomposition" />
+    <edge source="sklearn.decomposition.tests.test_nmf" target="sklearn.decomposition.nmf" />
+    <edge source="sklearn.decomposition.tests.test_nmf" target="sklearn.utils" />
+    <edge source="sklearn.decomposition.tests.test_nmf" target="sklearn.utils.testing" />
+    <edge source="sklearn.decomposition.tests.test_online_lda" target="sklearn" />
+    <edge source="sklearn.decomposition.tests.test_online_lda" target="sklearn.decomposition" />
+    <edge source="sklearn.decomposition.tests.test_online_lda" target="sklearn.utils" />
+    <edge source="sklearn.decomposition.tests.test_online_lda" target="sklearn.utils.testing" />
+    <edge source="sklearn.decomposition.tests.test_online_lda" target="sklearn.utils.validation" />
+    <edge source="sklearn.decomposition.tests.test_pca" target="sklearn" />
+    <edge source="sklearn.decomposition.tests.test_pca" target="sklearn.datasets" />
+    <edge source="sklearn.decomposition.tests.test_pca" target="sklearn.decomposition" />
+    <edge source="sklearn.decomposition.tests.test_pca" target="sklearn.decomposition.pca" />
+    <edge source="sklearn.decomposition.tests.test_pca" target="sklearn.utils" />
+    <edge source="sklearn.decomposition.tests.test_pca" target="sklearn.utils.testing" />
+    <edge source="sklearn.decomposition.tests.test_sparse_pca" target="sklearn" />
+    <edge source="sklearn.decomposition.tests.test_sparse_pca" target="sklearn.decomposition" />
+    <edge source="sklearn.decomposition.tests.test_sparse_pca" target="sklearn.utils" />
+    <edge source="sklearn.decomposition.tests.test_sparse_pca" target="sklearn.utils.testing" />
+    <edge source="sklearn.decomposition.tests.test_truncated_svd" target="sklearn" />
+    <edge source="sklearn.decomposition.tests.test_truncated_svd" target="sklearn.decomposition" />
+    <edge source="sklearn.decomposition.tests.test_truncated_svd" target="sklearn.utils" />
+    <edge source="sklearn.decomposition.tests.test_truncated_svd" target="sklearn.utils.testing" />
+    <edge source="sklearn.decomposition.truncated_svd" target="sklearn.base" />
+    <edge source="sklearn.decomposition.truncated_svd" target="sklearn.utils" />
+    <edge source="sklearn.decomposition.truncated_svd" target="sklearn.utils.arpack" />
+    <edge source="sklearn.decomposition.truncated_svd" target="sklearn.utils.extmath" />
+    <edge source="sklearn.decomposition.truncated_svd" target="sklearn.utils.sparsefuncs" />
+    <edge source="sklearn.dummy" target="sklearn.base" />
+    <edge source="sklearn.dummy" target="sklearn.utils" />
+    <edge source="sklearn.dummy" target="sklearn.utils.multiclass" />
+    <edge source="sklearn.dummy" target="sklearn.utils.random" />
+    <edge source="sklearn.dummy" target="sklearn.utils.stats" />
+    <edge source="sklearn.dummy" target="sklearn.utils.validation" />
+    <edge source="sklearn.ensemble" target="sklearn" />
+    <edge source="sklearn.ensemble" target="sklearn.ensemble.bagging" />
+    <edge source="sklearn.ensemble" target="sklearn.ensemble.base" />
+    <edge source="sklearn.ensemble" target="sklearn.ensemble.forest" />
+    <edge source="sklearn.ensemble" target="sklearn.ensemble.gradient_boosting" />
+    <edge source="sklearn.ensemble" target="sklearn.ensemble.partial_dependence" />
+    <edge source="sklearn.ensemble" target="sklearn.ensemble.voting_classifier" />
+    <edge source="sklearn.ensemble" target="sklearn.ensemble.weight_boosting" />
+    <edge source="sklearn.ensemble.bagging" target="sklearn.base" />
+    <edge source="sklearn.ensemble.bagging" target="sklearn.ensemble.base" />
+    <edge source="sklearn.ensemble.bagging" target="sklearn.externals" />
+    <edge source="sklearn.ensemble.bagging" target="sklearn.externals.joblib" />
+    <edge source="sklearn.ensemble.bagging" target="sklearn.externals.six" />
+    <edge source="sklearn.ensemble.bagging" target="sklearn.metrics" />
+    <edge source="sklearn.ensemble.bagging" target="sklearn.tree" />
+    <edge source="sklearn.ensemble.bagging" target="sklearn.utils" />
+    <edge source="sklearn.ensemble.bagging" target="sklearn.utils.fixes" />
+    <edge source="sklearn.ensemble.bagging" target="sklearn.utils.metaestimators" />
+    <edge source="sklearn.ensemble.bagging" target="sklearn.utils.random" />
+    <edge source="sklearn.ensemble.bagging" target="sklearn.utils.validation" />
+    <edge source="sklearn.ensemble.base" target="sklearn.base" />
+    <edge source="sklearn.ensemble.base" target="sklearn.utils" />
+    <edge source="sklearn.ensemble.forest" target="sklearn.base" />
+    <edge source="sklearn.ensemble.forest" target="sklearn.ensemble.base" />
+    <edge source="sklearn.ensemble.forest" target="sklearn.externals" />
+    <edge source="sklearn.ensemble.forest" target="sklearn.externals.joblib" />
+    <edge source="sklearn.ensemble.forest" target="sklearn.externals.six" />
+    <edge source="sklearn.ensemble.forest" target="sklearn.feature_selection" />
+    <edge source="sklearn.ensemble.forest" target="sklearn.feature_selection.from_model" />
+    <edge source="sklearn.ensemble.forest" target="sklearn.metrics" />
+    <edge source="sklearn.ensemble.forest" target="sklearn.preprocessing" />
+    <edge source="sklearn.ensemble.forest" target="sklearn.tree" />
+    <edge source="sklearn.ensemble.forest" target="sklearn.utils" />
+    <edge source="sklearn.ensemble.forest" target="sklearn.utils.fixes" />
+    <edge source="sklearn.ensemble.forest" target="sklearn.utils.validation" />
+    <edge source="sklearn.ensemble.gradient_boosting" target="sklearn.base" />
+    <edge source="sklearn.ensemble.gradient_boosting" target="sklearn.ensemble.base" />
+    <edge source="sklearn.ensemble.gradient_boosting" target="sklearn.externals" />
+    <edge source="sklearn.ensemble.gradient_boosting" target="sklearn.externals.six" />
+    <edge source="sklearn.ensemble.gradient_boosting" target="sklearn.feature_selection" />
+    <edge source="sklearn.ensemble.gradient_boosting" target="sklearn.feature_selection.from_model" />
+    <edge source="sklearn.ensemble.gradient_boosting" target="sklearn.tree" />
+    <edge source="sklearn.ensemble.gradient_boosting" target="sklearn.tree.tree" />
+    <edge source="sklearn.ensemble.gradient_boosting" target="sklearn.utils" />
+    <edge source="sklearn.ensemble.gradient_boosting" target="sklearn.utils.extmath" />
+    <edge source="sklearn.ensemble.gradient_boosting" target="sklearn.utils.fixes" />
+    <edge source="sklearn.ensemble.gradient_boosting" target="sklearn.utils.stats" />
+    <edge source="sklearn.ensemble.gradient_boosting" target="sklearn.utils.validation" />
+    <edge source="sklearn.ensemble.partial_dependence" target="sklearn.ensemble.gradient_boosting" />
+    <edge source="sklearn.ensemble.partial_dependence" target="sklearn.externals" />
+    <edge source="sklearn.ensemble.partial_dependence" target="sklearn.externals.joblib" />
+    <edge source="sklearn.ensemble.partial_dependence" target="sklearn.externals.six" />
+    <edge source="sklearn.ensemble.partial_dependence" target="sklearn.utils" />
+    <edge source="sklearn.ensemble.partial_dependence" target="sklearn.utils.extmath" />
+    <edge source="sklearn.ensemble.tests.test_bagging" target="sklearn" />
+    <edge source="sklearn.ensemble.tests.test_bagging" target="sklearn.base" />
+    <edge source="sklearn.ensemble.tests.test_bagging" target="sklearn.cross_validation" />
+    <edge source="sklearn.ensemble.tests.test_bagging" target="sklearn.datasets" />
+    <edge source="sklearn.ensemble.tests.test_bagging" target="sklearn.dummy" />
+    <edge source="sklearn.ensemble.tests.test_bagging" target="sklearn.ensemble" />
+    <edge source="sklearn.ensemble.tests.test_bagging" target="sklearn.feature_selection" />
+    <edge source="sklearn.ensemble.tests.test_bagging" target="sklearn.grid_search" />
+    <edge source="sklearn.ensemble.tests.test_bagging" target="sklearn.linear_model" />
+    <edge source="sklearn.ensemble.tests.test_bagging" target="sklearn.neighbors" />
+    <edge source="sklearn.ensemble.tests.test_bagging" target="sklearn.pipeline" />
+    <edge source="sklearn.ensemble.tests.test_bagging" target="sklearn.svm" />
+    <edge source="sklearn.ensemble.tests.test_bagging" target="sklearn.tree" />
+    <edge source="sklearn.ensemble.tests.test_bagging" target="sklearn.utils" />
+    <edge source="sklearn.ensemble.tests.test_bagging" target="sklearn.utils.testing" />
+    <edge source="sklearn.ensemble.tests.test_base" target="sklearn" />
+    <edge source="sklearn.ensemble.tests.test_base" target="sklearn.datasets" />
+    <edge source="sklearn.ensemble.tests.test_base" target="sklearn.ensemble" />
+    <edge source="sklearn.ensemble.tests.test_base" target="sklearn.linear_model" />
+    <edge source="sklearn.ensemble.tests.test_base" target="sklearn.utils" />
+    <edge source="sklearn.ensemble.tests.test_base" target="sklearn.utils.testing" />
+    <edge source="sklearn.ensemble.tests.test_forest" target="sklearn" />
+    <edge source="sklearn.ensemble.tests.test_forest" target="sklearn.datasets" />
+    <edge source="sklearn.ensemble.tests.test_forest" target="sklearn.decomposition" />
+    <edge source="sklearn.ensemble.tests.test_forest" target="sklearn.ensemble" />
+    <edge source="sklearn.ensemble.tests.test_forest" target="sklearn.grid_search" />
+    <edge source="sklearn.ensemble.tests.test_forest" target="sklearn.svm" />
+    <edge source="sklearn.ensemble.tests.test_forest" target="sklearn.tree" />
+    <edge source="sklearn.ensemble.tests.test_forest" target="sklearn.tree.tree" />
+    <edge source="sklearn.ensemble.tests.test_forest" target="sklearn.utils" />
+    <edge source="sklearn.ensemble.tests.test_forest" target="sklearn.utils.testing" />
+    <edge source="sklearn.ensemble.tests.test_forest" target="sklearn.utils.validation" />
+    <edge source="sklearn.ensemble.tests.test_gradient_boosting" target="sklearn" />
+    <edge source="sklearn.ensemble.tests.test_gradient_boosting" target="sklearn.base" />
+    <edge source="sklearn.ensemble.tests.test_gradient_boosting" target="sklearn.datasets" />
+    <edge source="sklearn.ensemble.tests.test_gradient_boosting" target="sklearn.ensemble" />
+    <edge source="sklearn.ensemble.tests.test_gradient_boosting" target="sklearn.ensemble.gradient_boosting" />
+    <edge source="sklearn.ensemble.tests.test_gradient_boosting" target="sklearn.metrics" />
+    <edge source="sklearn.ensemble.tests.test_gradient_boosting" target="sklearn.utils" />
+    <edge source="sklearn.ensemble.tests.test_gradient_boosting" target="sklearn.utils.testing" />
+    <edge source="sklearn.ensemble.tests.test_gradient_boosting" target="sklearn.utils.validation" />
+    <edge source="sklearn.ensemble.tests.test_gradient_boosting_loss_functions" target="sklearn" />
+    <edge source="sklearn.ensemble.tests.test_gradient_boosting_loss_functions" target="sklearn.ensemble" />
+    <edge source="sklearn.ensemble.tests.test_gradient_boosting_loss_functions" target="sklearn.ensemble.gradient_boosting" />
+    <edge source="sklearn.ensemble.tests.test_gradient_boosting_loss_functions" target="sklearn.utils" />
+    <edge source="sklearn.ensemble.tests.test_partial_dependence" target="sklearn" />
+    <edge source="sklearn.ensemble.tests.test_partial_dependence" target="sklearn.datasets" />
+    <edge source="sklearn.ensemble.tests.test_partial_dependence" target="sklearn.ensemble" />
+    <edge source="sklearn.ensemble.tests.test_partial_dependence" target="sklearn.ensemble.partial_dependence" />
+    <edge source="sklearn.ensemble.tests.test_partial_dependence" target="sklearn.utils" />
+    <edge source="sklearn.ensemble.tests.test_partial_dependence" target="sklearn.utils.testing" />
+    <edge source="sklearn.ensemble.tests.test_voting_classifier" target="sklearn" />
+    <edge source="sklearn.ensemble.tests.test_voting_classifier" target="sklearn.cross_validation" />
+    <edge source="sklearn.ensemble.tests.test_voting_classifier" target="sklearn.datasets" />
+    <edge source="sklearn.ensemble.tests.test_voting_classifier" target="sklearn.ensemble" />
+    <edge source="sklearn.ensemble.tests.test_voting_classifier" target="sklearn.grid_search" />
+    <edge source="sklearn.ensemble.tests.test_voting_classifier" target="sklearn.linear_model" />
+    <edge source="sklearn.ensemble.tests.test_voting_classifier" target="sklearn.multiclass" />
+    <edge source="sklearn.ensemble.tests.test_voting_classifier" target="sklearn.naive_bayes" />
+    <edge source="sklearn.ensemble.tests.test_voting_classifier" target="sklearn.svm" />
+    <edge source="sklearn.ensemble.tests.test_voting_classifier" target="sklearn.utils" />
+    <edge source="sklearn.ensemble.tests.test_voting_classifier" target="sklearn.utils.testing" />
+    <edge source="sklearn.ensemble.tests.test_weight_boosting" target="sklearn" />
+    <edge source="sklearn.ensemble.tests.test_weight_boosting" target="sklearn.cluster" />
+    <edge source="sklearn.ensemble.tests.test_weight_boosting" target="sklearn.cross_validation" />
+    <edge source="sklearn.ensemble.tests.test_weight_boosting" target="sklearn.datasets" />
+    <edge source="sklearn.ensemble.tests.test_weight_boosting" target="sklearn.ensemble" />
+    <edge source="sklearn.ensemble.tests.test_weight_boosting" target="sklearn.ensemble.weight_boosting" />
+    <edge source="sklearn.ensemble.tests.test_weight_boosting" target="sklearn.grid_search" />
+    <edge source="sklearn.ensemble.tests.test_weight_boosting" target="sklearn.linear_model" />
+    <edge source="sklearn.ensemble.tests.test_weight_boosting" target="sklearn.svm" />
+    <edge source="sklearn.ensemble.tests.test_weight_boosting" target="sklearn.tree" />
+    <edge source="sklearn.ensemble.tests.test_weight_boosting" target="sklearn.utils" />
+    <edge source="sklearn.ensemble.tests.test_weight_boosting" target="sklearn.utils.testing" />
+    <edge source="sklearn.ensemble.voting_classifier" target="sklearn.base" />
+    <edge source="sklearn.ensemble.voting_classifier" target="sklearn.externals" />
+    <edge source="sklearn.ensemble.voting_classifier" target="sklearn.externals.six" />
+    <edge source="sklearn.ensemble.voting_classifier" target="sklearn.preprocessing" />
+    <edge source="sklearn.ensemble.weight_boosting" target="sklearn" />
+    <edge source="sklearn.ensemble.weight_boosting" target="sklearn.base" />
+    <edge source="sklearn.ensemble.weight_boosting" target="sklearn.ensemble.base" />
+    <edge source="sklearn.ensemble.weight_boosting" target="sklearn.ensemble.forest" />
+    <edge source="sklearn.ensemble.weight_boosting" target="sklearn.externals" />
+    <edge source="sklearn.ensemble.weight_boosting" target="sklearn.externals.six" />
+    <edge source="sklearn.ensemble.weight_boosting" target="sklearn.metrics" />
+    <edge source="sklearn.ensemble.weight_boosting" target="sklearn.tree" />
+    <edge source="sklearn.ensemble.weight_boosting" target="sklearn.tree.tree" />
+    <edge source="sklearn.ensemble.weight_boosting" target="sklearn.utils" />
+    <edge source="sklearn.ensemble.weight_boosting" target="sklearn.utils.validation" />
+    <edge source="sklearn.externals.joblib" target="sklearn.externals.joblib.hashing" />
+    <edge source="sklearn.externals.joblib" target="sklearn.externals.joblib.logger" />
+    <edge source="sklearn.externals.joblib" target="sklearn.externals.joblib.memory" />
+    <edge source="sklearn.externals.joblib" target="sklearn.externals.joblib.numpy_pickle" />
+    <edge source="sklearn.externals.joblib" target="sklearn.externals.joblib.parallel" />
+    <edge source="sklearn.externals.joblib.format_stack" target="sklearn.externals.joblib._compat" />
+    <edge source="sklearn.externals.joblib.func_inspect" target="sklearn.externals.joblib._compat" />
+    <edge source="sklearn.externals.joblib.func_inspect" target="sklearn.externals.joblib._memory_helpers" />
+    <edge source="sklearn.externals.joblib.func_inspect" target="sklearn.externals.joblib.logger" />
+    <edge source="sklearn.externals.joblib.logger" target="sklearn.externals.joblib.disk" />
+    <edge source="sklearn.externals.joblib.memory" target="sklearn" />
+    <edge source="sklearn.externals.joblib.memory" target="sklearn.externals" />
+    <edge source="sklearn.externals.joblib.memory" target="sklearn.externals.joblib" />
+    <edge source="sklearn.externals.joblib.memory" target="sklearn.externals.joblib._compat" />
+    <edge source="sklearn.externals.joblib.memory" target="sklearn.externals.joblib._memory_helpers" />
+    <edge source="sklearn.externals.joblib.memory" target="sklearn.externals.joblib.disk" />
+    <edge source="sklearn.externals.joblib.memory" target="sklearn.externals.joblib.func_inspect" />
+    <edge source="sklearn.externals.joblib.memory" target="sklearn.externals.joblib.hashing" />
+    <edge source="sklearn.externals.joblib.memory" target="sklearn.externals.joblib.logger" />
+    <edge source="sklearn.externals.joblib.memory" target="sklearn.externals.joblib.numpy_pickle" />
+    <edge source="sklearn.externals.joblib.numpy_pickle" target="sklearn.externals.joblib._compat" />
+    <edge source="sklearn.externals.joblib.parallel" target="sklearn.externals.joblib._compat" />
+    <edge source="sklearn.externals.joblib.parallel" target="sklearn.externals.joblib._multiprocessing_helpers" />
+    <edge source="sklearn.externals.joblib.parallel" target="sklearn.externals.joblib.disk" />
+    <edge source="sklearn.externals.joblib.parallel" target="sklearn.externals.joblib.format_stack" />
+    <edge source="sklearn.externals.joblib.parallel" target="sklearn.externals.joblib.logger" />
+    <edge source="sklearn.externals.joblib.parallel" target="sklearn.externals.joblib.my_exceptions" />
+    <edge source="sklearn.externals.joblib.parallel" target="sklearn.externals.joblib.pool" />
+    <edge source="sklearn.externals.joblib.pool" target="sklearn.externals.joblib._multiprocessing_helpers" />
+    <edge source="sklearn.externals.joblib.pool" target="sklearn.externals.joblib.hashing" />
+    <edge source="sklearn.externals.joblib.pool" target="sklearn.externals.joblib.numpy_pickle" />
+    <edge source="sklearn.feature_extraction" target="sklearn" />
+    <edge source="sklearn.feature_extraction" target="sklearn.feature_extraction.dict_vectorizer" />
+    <edge source="sklearn.feature_extraction" target="sklearn.feature_extraction.hashing" />
+    <edge source="sklearn.feature_extraction" target="sklearn.feature_extraction.image" />
+    <edge source="sklearn.feature_extraction" target="sklearn.feature_extraction.text" />
+    <edge source="sklearn.feature_extraction.dict_vectorizer" target="sklearn.base" />
+    <edge source="sklearn.feature_extraction.dict_vectorizer" target="sklearn.externals" />
+    <edge source="sklearn.feature_extraction.dict_vectorizer" target="sklearn.externals.six" />
+    <edge source="sklearn.feature_extraction.dict_vectorizer" target="sklearn.utils" />
+    <edge source="sklearn.feature_extraction.dict_vectorizer" target="sklearn.utils.fixes" />
+    <edge source="sklearn.feature_extraction.hashing" target="sklearn" />
+    <edge source="sklearn.feature_extraction.hashing" target="sklearn.base" />
+    <edge source="sklearn.feature_extraction.hashing" target="sklearn.feature_extraction" />
+    <edge source="sklearn.feature_extraction.image" target="sklearn.base" />
+    <edge source="sklearn.feature_extraction.image" target="sklearn.utils" />
+    <edge source="sklearn.feature_extraction.image" target="sklearn.utils.fixes" />
+    <edge source="sklearn.feature_extraction.tests.test_dict_vectorizer" target="sklearn" />
+    <edge source="sklearn.feature_extraction.tests.test_dict_vectorizer" target="sklearn.feature_extraction" />
+    <edge source="sklearn.feature_extraction.tests.test_dict_vectorizer" target="sklearn.feature_selection" />
+    <edge source="sklearn.feature_extraction.tests.test_dict_vectorizer" target="sklearn.utils" />
+    <edge source="sklearn.feature_extraction.tests.test_dict_vectorizer" target="sklearn.utils.testing" />
+    <edge source="sklearn.feature_extraction.tests.test_feature_hasher" target="sklearn" />
+    <edge source="sklearn.feature_extraction.tests.test_feature_hasher" target="sklearn.feature_extraction" />
+    <edge source="sklearn.feature_extraction.tests.test_image" target="sklearn" />
+    <edge source="sklearn.feature_extraction.tests.test_image" target="sklearn.feature_extraction" />
+    <edge source="sklearn.feature_extraction.tests.test_image" target="sklearn.feature_extraction.image" />
+    <edge source="sklearn.feature_extraction.tests.test_image" target="sklearn.utils" />
+    <edge source="sklearn.feature_extraction.tests.test_image" target="sklearn.utils.graph" />
+    <edge source="sklearn.feature_extraction.tests.test_text" target="sklearn" />
+    <edge source="sklearn.feature_extraction.tests.test_text" target="sklearn.base" />
+    <edge source="sklearn.feature_extraction.tests.test_text" target="sklearn.cross_validation" />
+    <edge source="sklearn.feature_extraction.tests.test_text" target="sklearn.feature_extraction" />
+    <edge source="sklearn.feature_extraction.tests.test_text" target="sklearn.feature_extraction.text" />
+    <edge source="sklearn.feature_extraction.tests.test_text" target="sklearn.grid_search" />
+    <edge source="sklearn.feature_extraction.tests.test_text" target="sklearn.pipeline" />
+    <edge source="sklearn.feature_extraction.tests.test_text" target="sklearn.svm" />
+    <edge source="sklearn.feature_extraction.tests.test_text" target="sklearn.utils" />
+    <edge source="sklearn.feature_extraction.tests.test_text" target="sklearn.utils.testing" />
+    <edge source="sklearn.feature_extraction.text" target="sklearn.base" />
+    <edge source="sklearn.feature_extraction.text" target="sklearn.externals" />
+    <edge source="sklearn.feature_extraction.text" target="sklearn.externals.six" />
+    <edge source="sklearn.feature_extraction.text" target="sklearn.feature_extraction.hashing" />
+    <edge source="sklearn.feature_extraction.text" target="sklearn.feature_extraction.stop_words" />
+    <edge source="sklearn.feature_extraction.text" target="sklearn.preprocessing" />
+    <edge source="sklearn.feature_extraction.text" target="sklearn.utils" />
+    <edge source="sklearn.feature_extraction.text" target="sklearn.utils.fixes" />
+    <edge source="sklearn.feature_extraction.text" target="sklearn.utils.validation" />
+    <edge source="sklearn.feature_selection" target="sklearn.feature_selection.rfe" />
+    <edge source="sklearn.feature_selection" target="sklearn.feature_selection.univariate_selection" />
+    <edge source="sklearn.feature_selection" target="sklearn.feature_selection.variance_threshold" />
+    <edge source="sklearn.feature_selection.base" target="sklearn.base" />
+    <edge source="sklearn.feature_selection.base" target="sklearn.externals" />
+    <edge source="sklearn.feature_selection.base" target="sklearn.externals.six" />
+    <edge source="sklearn.feature_selection.base" target="sklearn.utils" />
+    <edge source="sklearn.feature_selection.from_model" target="sklearn.base" />
+    <edge source="sklearn.feature_selection.from_model" target="sklearn.externals" />
+    <edge source="sklearn.feature_selection.from_model" target="sklearn.externals.six" />
+    <edge source="sklearn.feature_selection.from_model" target="sklearn.utils" />
+    <edge source="sklearn.feature_selection.from_model" target="sklearn.utils.validation" />
+    <edge source="sklearn.feature_selection.rfe" target="sklearn.base" />
+    <edge source="sklearn.feature_selection.rfe" target="sklearn.cross_validation" />
+    <edge source="sklearn.feature_selection.rfe" target="sklearn.feature_selection.base" />
+    <edge source="sklearn.feature_selection.rfe" target="sklearn.metrics" />
+    <edge source="sklearn.feature_selection.rfe" target="sklearn.metrics.scorer" />
+    <edge source="sklearn.feature_selection.rfe" target="sklearn.utils" />
+    <edge source="sklearn.feature_selection.rfe" target="sklearn.utils.metaestimators" />
+    <edge source="sklearn.feature_selection.tests.test_base" target="sklearn" />
+    <edge source="sklearn.feature_selection.tests.test_base" target="sklearn.base" />
+    <edge source="sklearn.feature_selection.tests.test_base" target="sklearn.feature_selection" />
+    <edge source="sklearn.feature_selection.tests.test_base" target="sklearn.feature_selection.base" />
+    <edge source="sklearn.feature_selection.tests.test_base" target="sklearn.utils" />
+    <edge source="sklearn.feature_selection.tests.test_chi2" target="sklearn" />
+    <edge source="sklearn.feature_selection.tests.test_chi2" target="sklearn.feature_selection" />
+    <edge source="sklearn.feature_selection.tests.test_chi2" target="sklearn.feature_selection.univariate_selection" />
+    <edge source="sklearn.feature_selection.tests.test_feature_select" target="sklearn" />
+    <edge source="sklearn.feature_selection.tests.test_feature_select" target="sklearn.datasets" />
+    <edge source="sklearn.feature_selection.tests.test_feature_select" target="sklearn.datasets.samples_generator" />
+    <edge source="sklearn.feature_selection.tests.test_feature_select" target="sklearn.feature_selection" />
+    <edge source="sklearn.feature_selection.tests.test_feature_select" target="sklearn.utils" />
+    <edge source="sklearn.feature_selection.tests.test_feature_select" target="sklearn.utils.testing" />
+    <edge source="sklearn.feature_selection.tests.test_from_model" target="sklearn" />
+    <edge source="sklearn.feature_selection.tests.test_from_model" target="sklearn.datasets" />
+    <edge source="sklearn.feature_selection.tests.test_from_model" target="sklearn.linear_model" />
+    <edge source="sklearn.feature_selection.tests.test_from_model" target="sklearn.svm" />
+    <edge source="sklearn.feature_selection.tests.test_from_model" target="sklearn.utils" />
+    <edge source="sklearn.feature_selection.tests.test_from_model" target="sklearn.utils.testing" />
+    <edge source="sklearn.feature_selection.tests.test_rfe" target="sklearn" />
+    <edge source="sklearn.feature_selection.tests.test_rfe" target="sklearn.cross_validation" />
+    <edge source="sklearn.feature_selection.tests.test_rfe" target="sklearn.datasets" />
+    <edge source="sklearn.feature_selection.tests.test_rfe" target="sklearn.ensemble" />
+    <edge source="sklearn.feature_selection.tests.test_rfe" target="sklearn.feature_selection" />
+    <edge source="sklearn.feature_selection.tests.test_rfe" target="sklearn.feature_selection.rfe" />
+    <edge source="sklearn.feature_selection.tests.test_rfe" target="sklearn.metrics" />
+    <edge source="sklearn.feature_selection.tests.test_rfe" target="sklearn.svm" />
+    <edge source="sklearn.feature_selection.tests.test_rfe" target="sklearn.utils" />
+    <edge source="sklearn.feature_selection.tests.test_rfe" target="sklearn.utils.testing" />
+    <edge source="sklearn.feature_selection.tests.test_variance_threshold" target="sklearn" />
+    <edge source="sklearn.feature_selection.tests.test_variance_threshold" target="sklearn.feature_selection" />
+    <edge source="sklearn.feature_selection.tests.test_variance_threshold" target="sklearn.utils" />
+    <edge source="sklearn.feature_selection.tests.test_variance_threshold" target="sklearn.utils.testing" />
+    <edge source="sklearn.feature_selection.univariate_selection" target="sklearn.base" />
+    <edge source="sklearn.feature_selection.univariate_selection" target="sklearn.feature_selection.base" />
+    <edge source="sklearn.feature_selection.univariate_selection" target="sklearn.preprocessing" />
+    <edge source="sklearn.feature_selection.univariate_selection" target="sklearn.utils" />
+    <edge source="sklearn.feature_selection.univariate_selection" target="sklearn.utils.extmath" />
+    <edge source="sklearn.feature_selection.univariate_selection" target="sklearn.utils.validation" />
+    <edge source="sklearn.feature_selection.variance_threshold" target="sklearn.base" />
+    <edge source="sklearn.feature_selection.variance_threshold" target="sklearn.feature_selection.base" />
+    <edge source="sklearn.feature_selection.variance_threshold" target="sklearn.utils" />
+    <edge source="sklearn.feature_selection.variance_threshold" target="sklearn.utils.sparsefuncs" />
+    <edge source="sklearn.feature_selection.variance_threshold" target="sklearn.utils.validation" />
+    <edge source="sklearn.gaussian_process" target="sklearn" />
+    <edge source="sklearn.gaussian_process" target="sklearn.gaussian_process.correlation_models" />
+    <edge source="sklearn.gaussian_process" target="sklearn.gaussian_process.gaussian_process" />
+    <edge source="sklearn.gaussian_process" target="sklearn.gaussian_process.regression_models" />
+    <edge source="sklearn.gaussian_process.gaussian_process" target="sklearn" />
+    <edge source="sklearn.gaussian_process.gaussian_process" target="sklearn.base" />
+    <edge source="sklearn.gaussian_process.gaussian_process" target="sklearn.gaussian_process" />
+    <edge source="sklearn.gaussian_process.gaussian_process" target="sklearn.gaussian_process.correlation_models" />
+    <edge source="sklearn.gaussian_process.gaussian_process" target="sklearn.gaussian_process.regression_models" />
+    <edge source="sklearn.gaussian_process.gaussian_process" target="sklearn.metrics" />
+    <edge source="sklearn.gaussian_process.gaussian_process" target="sklearn.metrics.pairwise" />
+    <edge source="sklearn.gaussian_process.gaussian_process" target="sklearn.utils" />
+    <edge source="sklearn.gaussian_process.gaussian_process" target="sklearn.utils.validation" />
+    <edge source="sklearn.gaussian_process.tests.test_gaussian_process" target="sklearn" />
+    <edge source="sklearn.gaussian_process.tests.test_gaussian_process" target="sklearn.datasets" />
+    <edge source="sklearn.gaussian_process.tests.test_gaussian_process" target="sklearn.gaussian_process" />
+    <edge source="sklearn.gaussian_process.tests.test_gaussian_process" target="sklearn.gaussian_process.correlation_models" />
+    <edge source="sklearn.gaussian_process.tests.test_gaussian_process" target="sklearn.gaussian_process.regression_models" />
+    <edge source="sklearn.gaussian_process.tests.test_gaussian_process" target="sklearn.utils" />
+    <edge source="sklearn.gaussian_process.tests.test_gaussian_process" target="sklearn.utils.testing" />
+    <edge source="sklearn.grid_search" target="sklearn.base" />
+    <edge source="sklearn.grid_search" target="sklearn.cross_validation" />
+    <edge source="sklearn.grid_search" target="sklearn.externals" />
+    <edge source="sklearn.grid_search" target="sklearn.externals.joblib" />
+    <edge source="sklearn.grid_search" target="sklearn.externals.six" />
+    <edge source="sklearn.grid_search" target="sklearn.metrics" />
+    <edge source="sklearn.grid_search" target="sklearn.metrics.scorer" />
+    <edge source="sklearn.grid_search" target="sklearn.utils" />
+    <edge source="sklearn.grid_search" target="sklearn.utils.metaestimators" />
+    <edge source="sklearn.grid_search" target="sklearn.utils.random" />
+    <edge source="sklearn.grid_search" target="sklearn.utils.validation" />
+    <edge source="sklearn.isotonic" target="sklearn.base" />
+    <edge source="sklearn.isotonic" target="sklearn.utils" />
+    <edge source="sklearn.isotonic" target="sklearn.utils.fixes" />
+    <edge source="sklearn.kernel_approximation" target="sklearn.base" />
+    <edge source="sklearn.kernel_approximation" target="sklearn.metrics" />
+    <edge source="sklearn.kernel_approximation" target="sklearn.metrics.pairwise" />
+    <edge source="sklearn.kernel_approximation" target="sklearn.utils" />
+    <edge source="sklearn.kernel_approximation" target="sklearn.utils.extmath" />
+    <edge source="sklearn.kernel_approximation" target="sklearn.utils.validation" />
+    <edge source="sklearn.kernel_ridge" target="sklearn.base" />
+    <edge source="sklearn.kernel_ridge" target="sklearn.linear_model" />
+    <edge source="sklearn.kernel_ridge" target="sklearn.linear_model.ridge" />
+    <edge source="sklearn.kernel_ridge" target="sklearn.metrics" />
+    <edge source="sklearn.kernel_ridge" target="sklearn.metrics.pairwise" />
+    <edge source="sklearn.kernel_ridge" target="sklearn.utils" />
+    <edge source="sklearn.kernel_ridge" target="sklearn.utils.validation" />
+    <edge source="sklearn.lda" target="sklearn.base" />
+    <edge source="sklearn.lda" target="sklearn.covariance" />
+    <edge source="sklearn.lda" target="sklearn.externals" />
+    <edge source="sklearn.lda" target="sklearn.externals.six" />
+    <edge source="sklearn.lda" target="sklearn.linear_model" />
+    <edge source="sklearn.lda" target="sklearn.linear_model.base" />
+    <edge source="sklearn.lda" target="sklearn.preprocessing" />
+    <edge source="sklearn.lda" target="sklearn.utils" />
+    <edge source="sklearn.lda" target="sklearn.utils.fixes" />
+    <edge source="sklearn.lda" target="sklearn.utils.multiclass" />
+    <edge source="sklearn.lda" target="sklearn.utils.validation" />
+    <edge source="sklearn.learning_curve" target="sklearn.base" />
+    <edge source="sklearn.learning_curve" target="sklearn.cross_validation" />
+    <edge source="sklearn.learning_curve" target="sklearn.externals" />
+    <edge source="sklearn.learning_curve" target="sklearn.externals.joblib" />
+    <edge source="sklearn.learning_curve" target="sklearn.metrics" />
+    <edge source="sklearn.learning_curve" target="sklearn.metrics.scorer" />
+    <edge source="sklearn.learning_curve" target="sklearn.utils" />
+    <edge source="sklearn.learning_curve" target="sklearn.utils.fixes" />
+    <edge source="sklearn.linear_model" target="sklearn.linear_model.base" />
+    <edge source="sklearn.linear_model" target="sklearn.linear_model.bayes" />
+    <edge source="sklearn.linear_model" target="sklearn.linear_model.coordinate_descent" />
+    <edge source="sklearn.linear_model" target="sklearn.linear_model.least_angle" />
+    <edge source="sklearn.linear_model" target="sklearn.linear_model.logistic" />
+    <edge source="sklearn.linear_model" target="sklearn.linear_model.omp" />
+    <edge source="sklearn.linear_model" target="sklearn.linear_model.passive_aggressive" />
+    <edge source="sklearn.linear_model" target="sklearn.linear_model.perceptron" />
+    <edge source="sklearn.linear_model" target="sklearn.linear_model.randomized_l1" />
+    <edge source="sklearn.linear_model" target="sklearn.linear_model.ransac" />
+    <edge source="sklearn.linear_model" target="sklearn.linear_model.ridge" />
+    <edge source="sklearn.linear_model" target="sklearn.linear_model.stochastic_gradient" />
+    <edge source="sklearn.linear_model" target="sklearn.linear_model.theil_sen" />
+    <edge source="sklearn.linear_model.base" target="sklearn.base" />
+    <edge source="sklearn.linear_model.base" target="sklearn.externals" />
+    <edge source="sklearn.linear_model.base" target="sklearn.externals.joblib" />
+    <edge source="sklearn.linear_model.base" target="sklearn.externals.six" />
+    <edge source="sklearn.linear_model.base" target="sklearn.utils" />
+    <edge source="sklearn.linear_model.base" target="sklearn.utils.extmath" />
+    <edge source="sklearn.linear_model.base" target="sklearn.utils.fixes" />
+    <edge source="sklearn.linear_model.base" target="sklearn.utils.sparsefuncs" />
+    <edge source="sklearn.linear_model.base" target="sklearn.utils.validation" />
+    <edge source="sklearn.linear_model.bayes" target="sklearn.base" />
+    <edge source="sklearn.linear_model.bayes" target="sklearn.linear_model.base" />
+    <edge source="sklearn.linear_model.bayes" target="sklearn.utils" />
+    <edge source="sklearn.linear_model.bayes" target="sklearn.utils.extmath" />
+    <edge source="sklearn.linear_model.coordinate_descent" target="sklearn" />
+    <edge source="sklearn.linear_model.coordinate_descent" target="sklearn.base" />
+    <edge source="sklearn.linear_model.coordinate_descent" target="sklearn.cross_validation" />
+    <edge source="sklearn.linear_model.coordinate_descent" target="sklearn.externals" />
+    <edge source="sklearn.linear_model.coordinate_descent" target="sklearn.externals.joblib" />
+    <edge source="sklearn.linear_model.coordinate_descent" target="sklearn.externals.six" />
+    <edge source="sklearn.linear_model.coordinate_descent" target="sklearn.linear_model" />
+    <edge source="sklearn.linear_model.coordinate_descent" target="sklearn.linear_model.base" />
+    <edge source="sklearn.linear_model.coordinate_descent" target="sklearn.utils" />
+    <edge source="sklearn.linear_model.coordinate_descent" target="sklearn.utils.extmath" />
+    <edge source="sklearn.linear_model.coordinate_descent" target="sklearn.utils.validation" />
+    <edge source="sklearn.linear_model.least_angle" target="sklearn.base" />
+    <edge source="sklearn.linear_model.least_angle" target="sklearn.cross_validation" />
+    <edge source="sklearn.linear_model.least_angle" target="sklearn.externals" />
+    <edge source="sklearn.linear_model.least_angle" target="sklearn.externals.joblib" />
+    <edge source="sklearn.linear_model.least_angle" target="sklearn.linear_model.base" />
+    <edge source="sklearn.linear_model.least_angle" target="sklearn.utils" />
+    <edge source="sklearn.linear_model.logistic" target="sklearn.cross_validation" />
+    <edge source="sklearn.linear_model.logistic" target="sklearn.externals" />
+    <edge source="sklearn.linear_model.logistic" target="sklearn.externals.joblib" />
+    <edge source="sklearn.linear_model.logistic" target="sklearn.externals.six" />
+    <edge source="sklearn.linear_model.logistic" target="sklearn.feature_selection" />
+    <edge source="sklearn.linear_model.logistic" target="sklearn.feature_selection.from_model" />
+    <edge source="sklearn.linear_model.logistic" target="sklearn.linear_model.base" />
+    <edge source="sklearn.linear_model.logistic" target="sklearn.metrics" />
+    <edge source="sklearn.linear_model.logistic" target="sklearn.preprocessing" />
+    <edge source="sklearn.linear_model.logistic" target="sklearn.svm" />
+    <edge source="sklearn.linear_model.logistic" target="sklearn.svm.base" />
+    <edge source="sklearn.linear_model.logistic" target="sklearn.utils" />
+    <edge source="sklearn.linear_model.logistic" target="sklearn.utils.extmath" />
+    <edge source="sklearn.linear_model.logistic" target="sklearn.utils.fixes" />
+    <edge source="sklearn.linear_model.logistic" target="sklearn.utils.optimize" />
+    <edge source="sklearn.linear_model.logistic" target="sklearn.utils.validation" />
+    <edge source="sklearn.linear_model.omp" target="sklearn.base" />
+    <edge source="sklearn.linear_model.omp" target="sklearn.cross_validation" />
+    <edge source="sklearn.linear_model.omp" target="sklearn.externals" />
+    <edge source="sklearn.linear_model.omp" target="sklearn.externals.joblib" />
+    <edge source="sklearn.linear_model.omp" target="sklearn.linear_model.base" />
+    <edge source="sklearn.linear_model.omp" target="sklearn.utils" />
+    <edge source="sklearn.linear_model.passive_aggressive" target="sklearn.linear_model.stochastic_gradient" />
+    <edge source="sklearn.linear_model.perceptron" target="sklearn.feature_selection" />
+    <edge source="sklearn.linear_model.perceptron" target="sklearn.feature_selection.from_model" />
+    <edge source="sklearn.linear_model.perceptron" target="sklearn.linear_model.stochastic_gradient" />
+    <edge source="sklearn.linear_model.randomized_l1" target="sklearn.base" />
+    <edge source="sklearn.linear_model.randomized_l1" target="sklearn.externals" />
+    <edge source="sklearn.linear_model.randomized_l1" target="sklearn.externals.joblib" />
+    <edge source="sklearn.linear_model.randomized_l1" target="sklearn.externals.six" />
+    <edge source="sklearn.linear_model.randomized_l1" target="sklearn.linear_model.base" />
+    <edge source="sklearn.linear_model.randomized_l1" target="sklearn.linear_model.least_angle" />
+    <edge source="sklearn.linear_model.randomized_l1" target="sklearn.linear_model.logistic" />
+    <edge source="sklearn.linear_model.randomized_l1" target="sklearn.utils" />
+    <edge source="sklearn.linear_model.randomized_l1" target="sklearn.utils.validation" />
+    <edge source="sklearn.linear_model.ransac" target="sklearn.base" />
+    <edge source="sklearn.linear_model.ransac" target="sklearn.linear_model.base" />
+    <edge source="sklearn.linear_model.ransac" target="sklearn.utils" />
+    <edge source="sklearn.linear_model.ransac" target="sklearn.utils.random" />
+    <edge source="sklearn.linear_model.ransac" target="sklearn.utils.validation" />
+    <edge source="sklearn.linear_model.ridge" target="sklearn.base" />
+    <edge source="sklearn.linear_model.ridge" target="sklearn.externals" />
+    <edge source="sklearn.linear_model.ridge" target="sklearn.externals.six" />
+    <edge source="sklearn.linear_model.ridge" target="sklearn.grid_search" />
+    <edge source="sklearn.linear_model.ridge" target="sklearn.linear_model.base" />
+    <edge source="sklearn.linear_model.ridge" target="sklearn.metrics" />
+    <edge source="sklearn.linear_model.ridge" target="sklearn.metrics.scorer" />
+    <edge source="sklearn.linear_model.ridge" target="sklearn.preprocessing" />
+    <edge source="sklearn.linear_model.ridge" target="sklearn.utils" />
+    <edge source="sklearn.linear_model.ridge" target="sklearn.utils.extmath" />
+    <edge source="sklearn.linear_model.setup" target="sklearn" />
+    <edge source="sklearn.linear_model.setup" target="sklearn._build_utils" />
+    <edge source="sklearn.linear_model.stochastic_gradient" target="sklearn.base" />
+    <edge source="sklearn.linear_model.stochastic_gradient" target="sklearn.externals" />
+    <edge source="sklearn.linear_model.stochastic_gradient" target="sklearn.externals.joblib" />
+    <edge source="sklearn.linear_model.stochastic_gradient" target="sklearn.externals.six" />
+    <edge source="sklearn.linear_model.stochastic_gradient" target="sklearn.feature_selection" />
+    <edge source="sklearn.linear_model.stochastic_gradient" target="sklearn.feature_selection.from_model" />
+    <edge source="sklearn.linear_model.stochastic_gradient" target="sklearn.linear_model.base" />
+    <edge source="sklearn.linear_model.stochastic_gradient" target="sklearn.utils" />
+    <edge source="sklearn.linear_model.stochastic_gradient" target="sklearn.utils.extmath" />
+    <edge source="sklearn.linear_model.stochastic_gradient" target="sklearn.utils.fixes" />
+    <edge source="sklearn.linear_model.stochastic_gradient" target="sklearn.utils.multiclass" />
+    <edge source="sklearn.linear_model.stochastic_gradient" target="sklearn.utils.validation" />
+    <edge source="sklearn.linear_model.tests.test_base" target="sklearn" />
+    <edge source="sklearn.linear_model.tests.test_base" target="sklearn.datasets" />
+    <edge source="sklearn.linear_model.tests.test_base" target="sklearn.datasets.samples_generator" />
+    <edge source="sklearn.linear_model.tests.test_base" target="sklearn.linear_model" />
+    <edge source="sklearn.linear_model.tests.test_base" target="sklearn.linear_model.base" />
+    <edge source="sklearn.linear_model.tests.test_base" target="sklearn.utils" />
+    <edge source="sklearn.linear_model.tests.test_base" target="sklearn.utils.testing" />
+    <edge source="sklearn.linear_model.tests.test_bayes" target="sklearn" />
+    <edge source="sklearn.linear_model.tests.test_bayes" target="sklearn.datasets" />
+    <edge source="sklearn.linear_model.tests.test_bayes" target="sklearn.linear_model" />
+    <edge source="sklearn.linear_model.tests.test_bayes" target="sklearn.linear_model.bayes" />
+    <edge source="sklearn.linear_model.tests.test_bayes" target="sklearn.utils" />
+    <edge source="sklearn.linear_model.tests.test_bayes" target="sklearn.utils.testing" />
+    <edge source="sklearn.linear_model.tests.test_coordinate_descent" target="sklearn" />
+    <edge source="sklearn.linear_model.tests.test_coordinate_descent" target="sklearn.datasets" />
+    <edge source="sklearn.linear_model.tests.test_coordinate_descent" target="sklearn.linear_model" />
+    <edge source="sklearn.linear_model.tests.test_coordinate_descent" target="sklearn.linear_model.coordinate_descent" />
+    <edge source="sklearn.linear_model.tests.test_coordinate_descent" target="sklearn.utils" />
+    <edge source="sklearn.linear_model.tests.test_coordinate_descent" target="sklearn.utils.testing" />
+    <edge source="sklearn.linear_model.tests.test_least_angle" target="sklearn" />
+    <edge source="sklearn.linear_model.tests.test_least_angle" target="sklearn.cross_validation" />
+    <edge source="sklearn.linear_model.tests.test_least_angle" target="sklearn.datasets" />
+    <edge source="sklearn.linear_model.tests.test_least_angle" target="sklearn.linear_model" />
+    <edge source="sklearn.linear_model.tests.test_least_angle" target="sklearn.linear_model.least_angle" />
+    <edge source="sklearn.linear_model.tests.test_least_angle" target="sklearn.utils" />
+    <edge source="sklearn.linear_model.tests.test_least_angle" target="sklearn.utils.testing" />
+    <edge source="sklearn.linear_model.tests.test_logistic" target="sklearn" />
+    <edge source="sklearn.linear_model.tests.test_logistic" target="sklearn.cross_validation" />
+    <edge source="sklearn.linear_model.tests.test_logistic" target="sklearn.datasets" />
+    <edge source="sklearn.linear_model.tests.test_logistic" target="sklearn.linear_model" />
+    <edge source="sklearn.linear_model.tests.test_logistic" target="sklearn.linear_model.logistic" />
+    <edge source="sklearn.linear_model.tests.test_logistic" target="sklearn.metrics" />
+    <edge source="sklearn.linear_model.tests.test_logistic" target="sklearn.utils" />
+    <edge source="sklearn.linear_model.tests.test_logistic" target="sklearn.utils.testing" />
+    <edge source="sklearn.linear_model.tests.test_omp" target="sklearn" />
+    <edge source="sklearn.linear_model.tests.test_omp" target="sklearn.datasets" />
+    <edge source="sklearn.linear_model.tests.test_omp" target="sklearn.linear_model" />
+    <edge source="sklearn.linear_model.tests.test_omp" target="sklearn.utils" />
+    <edge source="sklearn.linear_model.tests.test_omp" target="sklearn.utils.testing" />
+    <edge source="sklearn.linear_model.tests.test_passive_aggressive" target="sklearn" />
+    <edge source="sklearn.linear_model.tests.test_passive_aggressive" target="sklearn.base" />
+    <edge source="sklearn.linear_model.tests.test_passive_aggressive" target="sklearn.datasets" />
+    <edge source="sklearn.linear_model.tests.test_passive_aggressive" target="sklearn.linear_model" />
+    <edge source="sklearn.linear_model.tests.test_passive_aggressive" target="sklearn.utils" />
+    <edge source="sklearn.linear_model.tests.test_passive_aggressive" target="sklearn.utils.testing" />
+    <edge source="sklearn.linear_model.tests.test_perceptron" target="sklearn" />
+    <edge source="sklearn.linear_model.tests.test_perceptron" target="sklearn.datasets" />
+    <edge source="sklearn.linear_model.tests.test_perceptron" target="sklearn.linear_model" />
+    <edge source="sklearn.linear_model.tests.test_perceptron" target="sklearn.utils" />
+    <edge source="sklearn.linear_model.tests.test_perceptron" target="sklearn.utils.testing" />
+    <edge source="sklearn.linear_model.tests.test_randomized_l1" target="sklearn" />
+    <edge source="sklearn.linear_model.tests.test_randomized_l1" target="sklearn.datasets" />
+    <edge source="sklearn.linear_model.tests.test_randomized_l1" target="sklearn.feature_selection" />
+    <edge source="sklearn.linear_model.tests.test_randomized_l1" target="sklearn.linear_model" />
+    <edge source="sklearn.linear_model.tests.test_randomized_l1" target="sklearn.linear_model.base" />
+    <edge source="sklearn.linear_model.tests.test_randomized_l1" target="sklearn.linear_model.randomized_l1" />
+    <edge source="sklearn.linear_model.tests.test_randomized_l1" target="sklearn.preprocessing" />
+    <edge source="sklearn.linear_model.tests.test_randomized_l1" target="sklearn.utils" />
+    <edge source="sklearn.linear_model.tests.test_randomized_l1" target="sklearn.utils.testing" />
+    <edge source="sklearn.linear_model.tests.test_ransac" target="sklearn" />
+    <edge source="sklearn.linear_model.tests.test_ransac" target="sklearn.linear_model" />
+    <edge source="sklearn.linear_model.tests.test_ransac" target="sklearn.linear_model.ransac" />
+    <edge source="sklearn.linear_model.tests.test_ransac" target="sklearn.utils" />
+    <edge source="sklearn.linear_model.tests.test_ransac" target="sklearn.utils.testing" />
+    <edge source="sklearn.linear_model.tests.test_ridge" target="sklearn" />
+    <edge source="sklearn.linear_model.tests.test_ridge" target="sklearn.cross_validation" />
+    <edge source="sklearn.linear_model.tests.test_ridge" target="sklearn.datasets" />
+    <edge source="sklearn.linear_model.tests.test_ridge" target="sklearn.grid_search" />
+    <edge source="sklearn.linear_model.tests.test_ridge" target="sklearn.linear_model" />
+    <edge source="sklearn.linear_model.tests.test_ridge" target="sklearn.linear_model.base" />
+    <edge source="sklearn.linear_model.tests.test_ridge" target="sklearn.linear_model.ridge" />
+    <edge source="sklearn.linear_model.tests.test_ridge" target="sklearn.metrics" />
+    <edge source="sklearn.linear_model.tests.test_ridge" target="sklearn.utils" />
+    <edge source="sklearn.linear_model.tests.test_ridge" target="sklearn.utils.testing" />
+    <edge source="sklearn.linear_model.tests.test_sgd" target="sklearn" />
+    <edge source="sklearn.linear_model.tests.test_sgd" target="sklearn.base" />
+    <edge source="sklearn.linear_model.tests.test_sgd" target="sklearn.datasets" />
+    <edge source="sklearn.linear_model.tests.test_sgd" target="sklearn.linear_model" />
+    <edge source="sklearn.linear_model.tests.test_sgd" target="sklearn.metrics" />
+    <edge source="sklearn.linear_model.tests.test_sgd" target="sklearn.preprocessing" />
+    <edge source="sklearn.linear_model.tests.test_sgd" target="sklearn.utils" />
+    <edge source="sklearn.linear_model.tests.test_sgd" target="sklearn.utils.testing" />
+    <edge source="sklearn.linear_model.tests.test_sparse_coordinate_descent" target="sklearn" />
+    <edge source="sklearn.linear_model.tests.test_sparse_coordinate_descent" target="sklearn.linear_model" />
+    <edge source="sklearn.linear_model.tests.test_sparse_coordinate_descent" target="sklearn.linear_model.coordinate_descent" />
+    <edge source="sklearn.linear_model.tests.test_sparse_coordinate_descent" target="sklearn.utils" />
+    <edge source="sklearn.linear_model.tests.test_sparse_coordinate_descent" target="sklearn.utils.testing" />
+    <edge source="sklearn.linear_model.tests.test_theil_sen" target="sklearn" />
+    <edge source="sklearn.linear_model.tests.test_theil_sen" target="sklearn.linear_model" />
+    <edge source="sklearn.linear_model.tests.test_theil_sen" target="sklearn.linear_model.theil_sen" />
+    <edge source="sklearn.linear_model.tests.test_theil_sen" target="sklearn.utils" />
+    <edge source="sklearn.linear_model.tests.test_theil_sen" target="sklearn.utils.testing" />
+    <edge source="sklearn.linear_model.theil_sen" target="sklearn.base" />
+    <edge source="sklearn.linear_model.theil_sen" target="sklearn.externals" />
+    <edge source="sklearn.linear_model.theil_sen" target="sklearn.externals.joblib" />
+    <edge source="sklearn.linear_model.theil_sen" target="sklearn.linear_model.base" />
+    <edge source="sklearn.linear_model.theil_sen" target="sklearn.utils" />
+    <edge source="sklearn.linear_model.theil_sen" target="sklearn.utils.random" />
+    <edge source="sklearn.manifold" target="sklearn.manifold.isomap" />
+    <edge source="sklearn.manifold" target="sklearn.manifold.locally_linear" />
+    <edge source="sklearn.manifold" target="sklearn.manifold.mds" />
+    <edge source="sklearn.manifold" target="sklearn.manifold.spectral_embedding_" />
+    <edge source="sklearn.manifold" target="sklearn.manifold.t_sne" />
+    <edge source="sklearn.manifold.isomap" target="sklearn.base" />
+    <edge source="sklearn.manifold.isomap" target="sklearn.decomposition" />
+    <edge source="sklearn.manifold.isomap" target="sklearn.neighbors" />
+    <edge source="sklearn.manifold.isomap" target="sklearn.preprocessing" />
+    <edge source="sklearn.manifold.isomap" target="sklearn.utils" />
+    <edge source="sklearn.manifold.isomap" target="sklearn.utils.graph" />
+    <edge source="sklearn.manifold.locally_linear" target="sklearn.base" />
+    <edge source="sklearn.manifold.locally_linear" target="sklearn.neighbors" />
+    <edge source="sklearn.manifold.locally_linear" target="sklearn.utils" />
+    <edge source="sklearn.manifold.locally_linear" target="sklearn.utils.arpack" />
+    <edge source="sklearn.manifold.locally_linear" target="sklearn.utils.validation" />
+    <edge source="sklearn.manifold.mds" target="sklearn.base" />
+    <edge source="sklearn.manifold.mds" target="sklearn.externals" />
+    <edge source="sklearn.manifold.mds" target="sklearn.externals.joblib" />
+    <edge source="sklearn.manifold.mds" target="sklearn.isotonic" />
+    <edge source="sklearn.manifold.mds" target="sklearn.metrics" />
+    <edge source="sklearn.manifold.mds" target="sklearn.utils" />
+    <edge source="sklearn.manifold.spectral_embedding_" target="sklearn.base" />
+    <edge source="sklearn.manifold.spectral_embedding_" target="sklearn.externals" />
+    <edge source="sklearn.manifold.spectral_embedding_" target="sklearn.externals.six" />
+    <edge source="sklearn.manifold.spectral_embedding_" target="sklearn.metrics" />
+    <edge source="sklearn.manifold.spectral_embedding_" target="sklearn.metrics.pairwise" />
+    <edge source="sklearn.manifold.spectral_embedding_" target="sklearn.neighbors" />
+    <edge source="sklearn.manifold.spectral_embedding_" target="sklearn.utils" />
+    <edge source="sklearn.manifold.spectral_embedding_" target="sklearn.utils.arpack" />
+    <edge source="sklearn.manifold.spectral_embedding_" target="sklearn.utils.extmath" />
+    <edge source="sklearn.manifold.spectral_embedding_" target="sklearn.utils.graph" />
+    <edge source="sklearn.manifold.spectral_embedding_" target="sklearn.utils.sparsetools" />
+    <edge source="sklearn.manifold.t_sne" target="sklearn" />
+    <edge source="sklearn.manifold.t_sne" target="sklearn.base" />
+    <edge source="sklearn.manifold.t_sne" target="sklearn.decomposition" />
+    <edge source="sklearn.manifold.t_sne" target="sklearn.manifold" />
+    <edge source="sklearn.manifold.t_sne" target="sklearn.metrics" />
+    <edge source="sklearn.manifold.t_sne" target="sklearn.metrics.pairwise" />
+    <edge source="sklearn.manifold.t_sne" target="sklearn.utils" />
+    <edge source="sklearn.manifold.t_sne" target="sklearn.utils.extmath" />
+    <edge source="sklearn.metrics" target="sklearn" />
+    <edge source="sklearn.metrics" target="sklearn.metrics.classification" />
+    <edge source="sklearn.metrics" target="sklearn.metrics.cluster" />
+    <edge source="sklearn.metrics" target="sklearn.metrics.pairwise" />
+    <edge source="sklearn.metrics" target="sklearn.metrics.ranking" />
+    <edge source="sklearn.metrics" target="sklearn.metrics.regression" />
+    <edge source="sklearn.metrics" target="sklearn.metrics.scorer" />
+    <edge source="sklearn.metrics.base" target="sklearn.utils" />
+    <edge source="sklearn.metrics.base" target="sklearn.utils.multiclass" />
+    <edge source="sklearn.metrics.classification" target="sklearn.metrics.base" />
+    <edge source="sklearn.metrics.classification" target="sklearn.preprocessing" />
+    <edge source="sklearn.metrics.classification" target="sklearn.utils" />
+    <edge source="sklearn.metrics.classification" target="sklearn.utils.fixes" />
+    <edge source="sklearn.metrics.classification" target="sklearn.utils.multiclass" />
+    <edge source="sklearn.metrics.classification" target="sklearn.utils.sparsefuncs" />
+    <edge source="sklearn.metrics.classification" target="sklearn.utils.validation" />
+    <edge source="sklearn.metrics.cluster" target="sklearn.metrics.cluster.bicluster" />
+    <edge source="sklearn.metrics.cluster" target="sklearn.metrics.cluster.supervised" />
+    <edge source="sklearn.metrics.cluster" target="sklearn.metrics.cluster.unsupervised" />
+    <edge source="sklearn.metrics.cluster.bicluster" target="sklearn" />
+    <edge source="sklearn.metrics.cluster.bicluster" target="sklearn.utils" />
+    <edge source="sklearn.metrics.cluster.bicluster" target="sklearn.utils.linear_assignment_" />
+    <edge source="sklearn.metrics.cluster.bicluster" target="sklearn.utils.validation" />
+    <edge source="sklearn.metrics.cluster.supervised" target="sklearn.utils" />
+    <edge source="sklearn.metrics.cluster.supervised" target="sklearn.utils.fixes" />
+    <edge source="sklearn.metrics.cluster.tests.test_bicluster" target="sklearn" />
+    <edge source="sklearn.metrics.cluster.tests.test_bicluster" target="sklearn.metrics" />
+    <edge source="sklearn.metrics.cluster.tests.test_bicluster" target="sklearn.metrics.cluster" />
+    <edge source="sklearn.metrics.cluster.tests.test_bicluster" target="sklearn.metrics.cluster.bicluster" />
+    <edge source="sklearn.metrics.cluster.tests.test_bicluster" target="sklearn.utils" />
+    <edge source="sklearn.metrics.cluster.tests.test_bicluster" target="sklearn.utils.testing" />
+    <edge source="sklearn.metrics.cluster.tests.test_supervised" target="sklearn" />
+    <edge source="sklearn.metrics.cluster.tests.test_supervised" target="sklearn.metrics" />
+    <edge source="sklearn.metrics.cluster.tests.test_supervised" target="sklearn.metrics.cluster" />
+    <edge source="sklearn.metrics.cluster.tests.test_supervised" target="sklearn.utils" />
+    <edge source="sklearn.metrics.cluster.tests.test_supervised" target="sklearn.utils.testing" />
+    <edge source="sklearn.metrics.cluster.tests.test_unsupervised" target="sklearn" />
+    <edge source="sklearn.metrics.cluster.tests.test_unsupervised" target="sklearn.datasets" />
+    <edge source="sklearn.metrics.cluster.tests.test_unsupervised" target="sklearn.metrics" />
+    <edge source="sklearn.metrics.cluster.tests.test_unsupervised" target="sklearn.metrics.cluster" />
+    <edge source="sklearn.metrics.cluster.tests.test_unsupervised" target="sklearn.metrics.cluster.unsupervised" />
+    <edge source="sklearn.metrics.cluster.tests.test_unsupervised" target="sklearn.utils" />
+    <edge source="sklearn.metrics.cluster.tests.test_unsupervised" target="sklearn.utils.testing" />
+    <edge source="sklearn.metrics.cluster.unsupervised" target="sklearn.metrics.pairwise" />
+    <edge source="sklearn.metrics.cluster.unsupervised" target="sklearn.utils" />
+    <edge source="sklearn.metrics.metrics" target="sklearn.metrics.classification" />
+    <edge source="sklearn.metrics.metrics" target="sklearn.metrics.ranking" />
+    <edge source="sklearn.metrics.metrics" target="sklearn.metrics.regression" />
+    <edge source="sklearn.metrics.pairwise" target="sklearn.externals" />
+    <edge source="sklearn.metrics.pairwise" target="sklearn.externals.joblib" />
+    <edge source="sklearn.metrics.pairwise" target="sklearn.externals.joblib.parallel" />
+    <edge source="sklearn.metrics.pairwise" target="sklearn.preprocessing" />
+    <edge source="sklearn.metrics.pairwise" target="sklearn.utils" />
+    <edge source="sklearn.metrics.pairwise" target="sklearn.utils.extmath" />
+    <edge source="sklearn.metrics.pairwise" target="sklearn.utils.fixes" />
+    <edge source="sklearn.metrics.ranking" target="sklearn.metrics.base" />
+    <edge source="sklearn.metrics.ranking" target="sklearn.utils" />
+    <edge source="sklearn.metrics.ranking" target="sklearn.utils.fixes" />
+    <edge source="sklearn.metrics.ranking" target="sklearn.utils.multiclass" />
+    <edge source="sklearn.metrics.ranking" target="sklearn.utils.sparsefuncs" />
+    <edge source="sklearn.metrics.ranking" target="sklearn.utils.stats" />
+    <edge source="sklearn.metrics.regression" target="sklearn.utils" />
+    <edge source="sklearn.metrics.regression" target="sklearn.utils.validation" />
+    <edge source="sklearn.metrics.scorer" target="sklearn" />
+    <edge source="sklearn.metrics.scorer" target="sklearn.base" />
+    <edge source="sklearn.metrics.scorer" target="sklearn.externals" />
+    <edge source="sklearn.metrics.scorer" target="sklearn.externals.six" />
+    <edge source="sklearn.metrics.scorer" target="sklearn.metrics" />
+    <edge source="sklearn.metrics.scorer" target="sklearn.metrics.cluster" />
+    <edge source="sklearn.metrics.scorer" target="sklearn.utils" />
+    <edge source="sklearn.metrics.scorer" target="sklearn.utils.multiclass" />
+    <edge source="sklearn.metrics.setup" target="sklearn" />
+    <edge source="sklearn.metrics.setup" target="sklearn._build_utils" />
+    <edge source="sklearn.metrics.tests.test_classification" target="sklearn" />
+    <edge source="sklearn.metrics.tests.test_classification" target="sklearn.datasets" />
+    <edge source="sklearn.metrics.tests.test_classification" target="sklearn.metrics" />
+    <edge source="sklearn.metrics.tests.test_classification" target="sklearn.metrics.base" />
+    <edge source="sklearn.metrics.tests.test_classification" target="sklearn.metrics.classification" />
+    <edge source="sklearn.metrics.tests.test_classification" target="sklearn.preprocessing" />
+    <edge source="sklearn.metrics.tests.test_classification" target="sklearn.svm" />
+    <edge source="sklearn.metrics.tests.test_classification" target="sklearn.utils" />
+    <edge source="sklearn.metrics.tests.test_classification" target="sklearn.utils.fixes" />
+    <edge source="sklearn.metrics.tests.test_classification" target="sklearn.utils.testing" />
+    <edge source="sklearn.metrics.tests.test_classification" target="sklearn.utils.validation" />
+    <edge source="sklearn.metrics.tests.test_common" target="sklearn" />
+    <edge source="sklearn.metrics.tests.test_common" target="sklearn.datasets" />
+    <edge source="sklearn.metrics.tests.test_common" target="sklearn.metrics" />
+    <edge source="sklearn.metrics.tests.test_common" target="sklearn.metrics.base" />
+    <edge source="sklearn.metrics.tests.test_common" target="sklearn.preprocessing" />
+    <edge source="sklearn.metrics.tests.test_common" target="sklearn.utils" />
+    <edge source="sklearn.metrics.tests.test_common" target="sklearn.utils.multiclass" />
+    <edge source="sklearn.metrics.tests.test_common" target="sklearn.utils.testing" />
+    <edge source="sklearn.metrics.tests.test_common" target="sklearn.utils.validation" />
+    <edge source="sklearn.metrics.tests.test_pairwise" target="sklearn" />
+    <edge source="sklearn.metrics.tests.test_pairwise" target="sklearn.externals" />
+    <edge source="sklearn.metrics.tests.test_pairwise" target="sklearn.externals.six" />
+    <edge source="sklearn.metrics.tests.test_pairwise" target="sklearn.metrics" />
+    <edge source="sklearn.metrics.tests.test_pairwise" target="sklearn.metrics.pairwise" />
+    <edge source="sklearn.metrics.tests.test_pairwise" target="sklearn.preprocessing" />
+    <edge source="sklearn.metrics.tests.test_pairwise" target="sklearn.utils" />
+    <edge source="sklearn.metrics.tests.test_pairwise" target="sklearn.utils.testing" />
+    <edge source="sklearn.metrics.tests.test_ranking" target="sklearn" />
+    <edge source="sklearn.metrics.tests.test_ranking" target="sklearn.datasets" />
+    <edge source="sklearn.metrics.tests.test_ranking" target="sklearn.ensemble" />
+    <edge source="sklearn.metrics.tests.test_ranking" target="sklearn.metrics" />
+    <edge source="sklearn.metrics.tests.test_ranking" target="sklearn.metrics.base" />
+    <edge source="sklearn.metrics.tests.test_ranking" target="sklearn.random_projection" />
+    <edge source="sklearn.metrics.tests.test_ranking" target="sklearn.svm" />
+    <edge source="sklearn.metrics.tests.test_ranking" target="sklearn.utils" />
+    <edge source="sklearn.metrics.tests.test_ranking" target="sklearn.utils.testing" />
+    <edge source="sklearn.metrics.tests.test_ranking" target="sklearn.utils.validation" />
+    <edge source="sklearn.metrics.tests.test_regression" target="sklearn" />
+    <edge source="sklearn.metrics.tests.test_regression" target="sklearn.metrics" />
+    <edge source="sklearn.metrics.tests.test_regression" target="sklearn.metrics.regression" />
+    <edge source="sklearn.metrics.tests.test_regression" target="sklearn.utils" />
+    <edge source="sklearn.metrics.tests.test_regression" target="sklearn.utils.testing" />
+    <edge source="sklearn.metrics.tests.test_score_objects" target="sklearn" />
+    <edge source="sklearn.metrics.tests.test_score_objects" target="sklearn.base" />
+    <edge source="sklearn.metrics.tests.test_score_objects" target="sklearn.cluster" />
+    <edge source="sklearn.metrics.tests.test_score_objects" target="sklearn.cross_validation" />
+    <edge source="sklearn.metrics.tests.test_score_objects" target="sklearn.datasets" />
+    <edge source="sklearn.metrics.tests.test_score_objects" target="sklearn.dummy" />
+    <edge source="sklearn.metrics.tests.test_score_objects" target="sklearn.grid_search" />
+    <edge source="sklearn.metrics.tests.test_score_objects" target="sklearn.linear_model" />
+    <edge source="sklearn.metrics.tests.test_score_objects" target="sklearn.metrics" />
+    <edge source="sklearn.metrics.tests.test_score_objects" target="sklearn.metrics.cluster" />
+    <edge source="sklearn.metrics.tests.test_score_objects" target="sklearn.metrics.scorer" />
+    <edge source="sklearn.metrics.tests.test_score_objects" target="sklearn.multiclass" />
+    <edge source="sklearn.metrics.tests.test_score_objects" target="sklearn.pipeline" />
+    <edge source="sklearn.metrics.tests.test_score_objects" target="sklearn.svm" />
+    <edge source="sklearn.metrics.tests.test_score_objects" target="sklearn.tree" />
+    <edge source="sklearn.metrics.tests.test_score_objects" target="sklearn.utils" />
+    <edge source="sklearn.metrics.tests.test_score_objects" target="sklearn.utils.testing" />
+    <edge source="sklearn.mixture" target="sklearn.mixture.dpgmm" />
+    <edge source="sklearn.mixture" target="sklearn.mixture.gmm" />
+    <edge source="sklearn.mixture.dpgmm" target="sklearn" />
+    <edge source="sklearn.mixture.dpgmm" target="sklearn.cluster" />
+    <edge source="sklearn.mixture.dpgmm" target="sklearn.mixture.gmm" />
+    <edge source="sklearn.mixture.dpgmm" target="sklearn.utils" />
+    <edge source="sklearn.mixture.dpgmm" target="sklearn.utils.extmath" />
+    <edge source="sklearn.mixture.dpgmm" target="sklearn.utils.validation" />
+    <edge source="sklearn.mixture.gmm" target="sklearn" />
+    <edge source="sklearn.mixture.gmm" target="sklearn.base" />
+    <edge source="sklearn.mixture.gmm" target="sklearn.cluster" />
+    <edge source="sklearn.mixture.gmm" target="sklearn.utils" />
+    <edge source="sklearn.mixture.gmm" target="sklearn.utils.extmath" />
+    <edge source="sklearn.mixture.gmm" target="sklearn.utils.validation" />
+    <edge source="sklearn.mixture.tests.test_dpgmm" target="sklearn" />
+    <edge source="sklearn.mixture.tests.test_dpgmm" target="sklearn.datasets" />
+    <edge source="sklearn.mixture.tests.test_dpgmm" target="sklearn.mixture" />
+    <edge source="sklearn.mixture.tests.test_dpgmm" target="sklearn.mixture.dpgmm" />
+    <edge source="sklearn.mixture.tests.test_dpgmm" target="sklearn.mixture.tests" />
+    <edge source="sklearn.mixture.tests.test_dpgmm" target="sklearn.mixture.tests.test_gmm" />
+    <edge source="sklearn.mixture.tests.test_dpgmm" target="sklearn.utils" />
+    <edge source="sklearn.mixture.tests.test_dpgmm" target="sklearn.utils.testing" />
+    <edge source="sklearn.mixture.tests.test_gmm" target="sklearn" />
+    <edge source="sklearn.mixture.tests.test_gmm" target="sklearn.datasets" />
+    <edge source="sklearn.mixture.tests.test_gmm" target="sklearn.datasets.samples_generator" />
+    <edge source="sklearn.mixture.tests.test_gmm" target="sklearn.metrics" />
+    <edge source="sklearn.mixture.tests.test_gmm" target="sklearn.metrics.cluster" />
+    <edge source="sklearn.mixture.tests.test_gmm" target="sklearn.mixture" />
+    <edge source="sklearn.mixture.tests.test_gmm" target="sklearn.utils" />
+    <edge source="sklearn.mixture.tests.test_gmm" target="sklearn.utils.testing" />
+    <edge source="sklearn.multiclass" target="sklearn.base" />
+    <edge source="sklearn.multiclass" target="sklearn.externals" />
+    <edge source="sklearn.multiclass" target="sklearn.externals.joblib" />
+    <edge source="sklearn.multiclass" target="sklearn.metrics" />
+    <edge source="sklearn.multiclass" target="sklearn.metrics.pairwise" />
+    <edge source="sklearn.multiclass" target="sklearn.preprocessing" />
+    <edge source="sklearn.multiclass" target="sklearn.utils" />
+    <edge source="sklearn.multiclass" target="sklearn.utils.validation" />
+    <edge source="sklearn.naive_bayes" target="sklearn.base" />
+    <edge source="sklearn.naive_bayes" target="sklearn.externals" />
+    <edge source="sklearn.naive_bayes" target="sklearn.externals.six" />
+    <edge source="sklearn.naive_bayes" target="sklearn.preprocessing" />
+    <edge source="sklearn.naive_bayes" target="sklearn.utils" />
+    <edge source="sklearn.naive_bayes" target="sklearn.utils.extmath" />
+    <edge source="sklearn.naive_bayes" target="sklearn.utils.fixes" />
+    <edge source="sklearn.naive_bayes" target="sklearn.utils.multiclass" />
+    <edge source="sklearn.naive_bayes" target="sklearn.utils.validation" />
+    <edge source="sklearn.neighbors" target="sklearn.neighbors.approximate" />
+    <edge source="sklearn.neighbors" target="sklearn.neighbors.classification" />
+    <edge source="sklearn.neighbors" target="sklearn.neighbors.graph" />
+    <edge source="sklearn.neighbors" target="sklearn.neighbors.kde" />
+    <edge source="sklearn.neighbors" target="sklearn.neighbors.nearest_centroid" />
+    <edge source="sklearn.neighbors" target="sklearn.neighbors.regression" />
+    <edge source="sklearn.neighbors" target="sklearn.neighbors.unsupervised" />
+    <edge source="sklearn.neighbors.approximate" target="sklearn.base" />
+    <edge source="sklearn.neighbors.approximate" target="sklearn.metrics" />
+    <edge source="sklearn.neighbors.approximate" target="sklearn.metrics.pairwise" />
+    <edge source="sklearn.neighbors.approximate" target="sklearn.neighbors.base" />
+    <edge source="sklearn.neighbors.approximate" target="sklearn.random_projection" />
+    <edge source="sklearn.neighbors.approximate" target="sklearn.utils" />
+    <edge source="sklearn.neighbors.approximate" target="sklearn.utils.validation" />
+    <edge source="sklearn.neighbors.base" target="sklearn.base" />
+    <edge source="sklearn.neighbors.base" target="sklearn.externals" />
+    <edge source="sklearn.neighbors.base" target="sklearn.externals.joblib" />
+    <edge source="sklearn.neighbors.base" target="sklearn.externals.six" />
+    <edge source="sklearn.neighbors.base" target="sklearn.metrics" />
+    <edge source="sklearn.neighbors.base" target="sklearn.metrics.pairwise" />
+    <edge source="sklearn.neighbors.base" target="sklearn.utils" />
+    <edge source="sklearn.neighbors.base" target="sklearn.utils.fixes" />
+    <edge source="sklearn.neighbors.base" target="sklearn.utils.validation" />
+    <edge source="sklearn.neighbors.classification" target="sklearn.base" />
+    <edge source="sklearn.neighbors.classification" target="sklearn.neighbors.base" />
+    <edge source="sklearn.neighbors.classification" target="sklearn.utils" />
+    <edge source="sklearn.neighbors.classification" target="sklearn.utils.extmath" />
+    <edge source="sklearn.neighbors.graph" target="sklearn.neighbors.base" />
+    <edge source="sklearn.neighbors.graph" target="sklearn.neighbors.unsupervised" />
+    <edge source="sklearn.neighbors.kde" target="sklearn.base" />
+    <edge source="sklearn.neighbors.kde" target="sklearn.utils" />
+    <edge source="sklearn.neighbors.kde" target="sklearn.utils.extmath" />
+    <edge source="sklearn.neighbors.nearest_centroid" target="sklearn.base" />
+    <edge source="sklearn.neighbors.nearest_centroid" target="sklearn.metrics" />
+    <edge source="sklearn.neighbors.nearest_centroid" target="sklearn.metrics.pairwise" />
+    <edge source="sklearn.neighbors.nearest_centroid" target="sklearn.preprocessing" />
+    <edge source="sklearn.neighbors.nearest_centroid" target="sklearn.utils" />
+    <edge source="sklearn.neighbors.nearest_centroid" target="sklearn.utils.sparsefuncs" />
+    <edge source="sklearn.neighbors.nearest_centroid" target="sklearn.utils.validation" />
+    <edge source="sklearn.neighbors.regression" target="sklearn.base" />
+    <edge source="sklearn.neighbors.regression" target="sklearn.neighbors.base" />
+    <edge source="sklearn.neighbors.regression" target="sklearn.utils" />
+    <edge source="sklearn.neighbors.tests.test_approximate" target="sklearn" />
+    <edge source="sklearn.neighbors.tests.test_approximate" target="sklearn.metrics" />
+    <edge source="sklearn.neighbors.tests.test_approximate" target="sklearn.metrics.pairwise" />
+    <edge source="sklearn.neighbors.tests.test_approximate" target="sklearn.neighbors" />
+    <edge source="sklearn.neighbors.tests.test_approximate" target="sklearn.utils" />
+    <edge source="sklearn.neighbors.tests.test_approximate" target="sklearn.utils.testing" />
+    <edge source="sklearn.neighbors.tests.test_ball_tree" target="sklearn" />
+    <edge source="sklearn.neighbors.tests.test_ball_tree" target="sklearn.utils" />
+    <edge source="sklearn.neighbors.tests.test_ball_tree" target="sklearn.utils.testing" />
+    <edge source="sklearn.neighbors.tests.test_dist_metrics" target="sklearn" />
+    <edge source="sklearn.neighbors.tests.test_dist_metrics" target="sklearn.neighbors" />
+    <edge source="sklearn.neighbors.tests.test_kd_tree" target="sklearn" />
+    <edge source="sklearn.neighbors.tests.test_kd_tree" target="sklearn.neighbors" />
+    <edge source="sklearn.neighbors.tests.test_kd_tree" target="sklearn.utils" />
+    <edge source="sklearn.neighbors.tests.test_kd_tree" target="sklearn.utils.testing" />
+    <edge source="sklearn.neighbors.tests.test_kde" target="sklearn" />
+    <edge source="sklearn.neighbors.tests.test_kde" target="sklearn.datasets" />
+    <edge source="sklearn.neighbors.tests.test_kde" target="sklearn.grid_search" />
+    <edge source="sklearn.neighbors.tests.test_kde" target="sklearn.neighbors" />
+    <edge source="sklearn.neighbors.tests.test_kde" target="sklearn.pipeline" />
+    <edge source="sklearn.neighbors.tests.test_kde" target="sklearn.preprocessing" />
+    <edge source="sklearn.neighbors.tests.test_kde" target="sklearn.utils" />
+    <edge source="sklearn.neighbors.tests.test_kde" target="sklearn.utils.testing" />
+    <edge source="sklearn.neighbors.tests.test_nearest_centroid" target="sklearn" />
+    <edge source="sklearn.neighbors.tests.test_nearest_centroid" target="sklearn.datasets" />
+    <edge source="sklearn.neighbors.tests.test_nearest_centroid" target="sklearn.metrics" />
+    <edge source="sklearn.neighbors.tests.test_nearest_centroid" target="sklearn.metrics.pairwise" />
+    <edge source="sklearn.neighbors.tests.test_nearest_centroid" target="sklearn.neighbors" />
+    <edge source="sklearn.neighbors.tests.test_neighbors" target="sklearn" />
+    <edge source="sklearn.neighbors.tests.test_neighbors" target="sklearn.cross_validation" />
+    <edge source="sklearn.neighbors.tests.test_neighbors" target="sklearn.datasets" />
+    <edge source="sklearn.neighbors.tests.test_neighbors" target="sklearn.metrics" />
+    <edge source="sklearn.neighbors.tests.test_neighbors" target="sklearn.metrics.pairwise" />
+    <edge source="sklearn.neighbors.tests.test_neighbors" target="sklearn.neighbors" />
+    <edge source="sklearn.neighbors.tests.test_neighbors" target="sklearn.utils" />
+    <edge source="sklearn.neighbors.tests.test_neighbors" target="sklearn.utils.testing" />
+    <edge source="sklearn.neighbors.tests.test_neighbors" target="sklearn.utils.validation" />
+    <edge source="sklearn.neighbors.unsupervised" target="sklearn.neighbors.base" />
+    <edge source="sklearn.neural_network" target="sklearn.neural_network.rbm" />
+    <edge source="sklearn.neural_network.rbm" target="sklearn.base" />
+    <edge source="sklearn.neural_network.rbm" target="sklearn.utils" />
+    <edge source="sklearn.neural_network.rbm" target="sklearn.utils.extmath" />
+    <edge source="sklearn.neural_network.rbm" target="sklearn.utils.fixes" />
+    <edge source="sklearn.neural_network.rbm" target="sklearn.utils.validation" />
+    <edge source="sklearn.pipeline" target="sklearn.base" />
+    <edge source="sklearn.pipeline" target="sklearn.externals" />
+    <edge source="sklearn.pipeline" target="sklearn.externals.joblib" />
+    <edge source="sklearn.pipeline" target="sklearn.externals.six" />
+    <edge source="sklearn.pipeline" target="sklearn.utils" />
+    <edge source="sklearn.pipeline" target="sklearn.utils.metaestimators" />
+    <edge source="sklearn.preprocessing" target="sklearn.preprocessing._function_transformer" />
+    <edge source="sklearn.preprocessing" target="sklearn.preprocessing.data" />
+    <edge source="sklearn.preprocessing" target="sklearn.preprocessing.imputation" />
+    <edge source="sklearn.preprocessing" target="sklearn.preprocessing.label" />
+    <edge source="sklearn.preprocessing._function_transformer" target="sklearn.base" />
+    <edge source="sklearn.preprocessing._function_transformer" target="sklearn.utils" />
+    <edge source="sklearn.preprocessing._weights" target="sklearn.utils" />
+    <edge source="sklearn.preprocessing._weights" target="sklearn.utils.fixes" />
+    <edge source="sklearn.preprocessing.data" target="sklearn.base" />
+    <edge source="sklearn.preprocessing.data" target="sklearn.externals" />
+    <edge source="sklearn.preprocessing.data" target="sklearn.externals.six" />
+    <edge source="sklearn.preprocessing.data" target="sklearn.utils" />
+    <edge source="sklearn.preprocessing.data" target="sklearn.utils.extmath" />
+    <edge source="sklearn.preprocessing.data" target="sklearn.utils.fixes" />
+    <edge source="sklearn.preprocessing.data" target="sklearn.utils.sparsefuncs" />
+    <edge source="sklearn.preprocessing.data" target="sklearn.utils.validation" />
+    <edge source="sklearn.preprocessing.imputation" target="sklearn.base" />
+    <edge source="sklearn.preprocessing.imputation" target="sklearn.externals" />
+    <edge source="sklearn.preprocessing.imputation" target="sklearn.externals.six" />
+    <edge source="sklearn.preprocessing.imputation" target="sklearn.utils" />
+    <edge source="sklearn.preprocessing.imputation" target="sklearn.utils.fixes" />
+    <edge source="sklearn.preprocessing.imputation" target="sklearn.utils.sparsefuncs" />
+    <edge source="sklearn.preprocessing.imputation" target="sklearn.utils.validation" />
+    <edge source="sklearn.preprocessing.label" target="sklearn.base" />
+    <edge source="sklearn.preprocessing.label" target="sklearn.externals" />
+    <edge source="sklearn.preprocessing.label" target="sklearn.externals.six" />
+    <edge source="sklearn.preprocessing.label" target="sklearn.utils" />
+    <edge source="sklearn.preprocessing.label" target="sklearn.utils.fixes" />
+    <edge source="sklearn.preprocessing.label" target="sklearn.utils.multiclass" />
+    <edge source="sklearn.preprocessing.label" target="sklearn.utils.validation" />
+    <edge source="sklearn.preprocessing.tests.test_data" target="sklearn" />
+    <edge source="sklearn.preprocessing.tests.test_data" target="sklearn.datasets" />
+    <edge source="sklearn.preprocessing.tests.test_data" target="sklearn.preprocessing" />
+    <edge source="sklearn.preprocessing.tests.test_data" target="sklearn.preprocessing.data" />
+    <edge source="sklearn.preprocessing.tests.test_data" target="sklearn.utils" />
+    <edge source="sklearn.preprocessing.tests.test_data" target="sklearn.utils.sparsefuncs" />
+    <edge source="sklearn.preprocessing.tests.test_data" target="sklearn.utils.testing" />
+    <edge source="sklearn.preprocessing.tests.test_data" target="sklearn.utils.validation" />
+    <edge source="sklearn.preprocessing.tests.test_function_transformer" target="sklearn" />
+    <edge source="sklearn.preprocessing.tests.test_function_transformer" target="sklearn.preprocessing" />
+    <edge source="sklearn.preprocessing.tests.test_imputation" target="sklearn" />
+    <edge source="sklearn.preprocessing.tests.test_imputation" target="sklearn.grid_search" />
+    <edge source="sklearn.preprocessing.tests.test_imputation" target="sklearn.pipeline" />
+    <edge source="sklearn.preprocessing.tests.test_imputation" target="sklearn.preprocessing" />
+    <edge source="sklearn.preprocessing.tests.test_imputation" target="sklearn.preprocessing.imputation" />
+    <edge source="sklearn.preprocessing.tests.test_imputation" target="sklearn.random_projection" />
+    <edge source="sklearn.preprocessing.tests.test_imputation" target="sklearn.tree" />
+    <edge source="sklearn.preprocessing.tests.test_imputation" target="sklearn.utils" />
+    <edge source="sklearn.preprocessing.tests.test_imputation" target="sklearn.utils.testing" />
+    <edge source="sklearn.preprocessing.tests.test_label" target="sklearn" />
+    <edge source="sklearn.preprocessing.tests.test_label" target="sklearn.datasets" />
+    <edge source="sklearn.preprocessing.tests.test_label" target="sklearn.preprocessing" />
+    <edge source="sklearn.preprocessing.tests.test_label" target="sklearn.preprocessing.label" />
+    <edge source="sklearn.preprocessing.tests.test_label" target="sklearn.utils" />
+    <edge source="sklearn.preprocessing.tests.test_label" target="sklearn.utils.multiclass" />
+    <edge source="sklearn.preprocessing.tests.test_label" target="sklearn.utils.testing" />
+    <edge source="sklearn.preprocessing.tests.test_weights" target="sklearn" />
+    <edge source="sklearn.preprocessing.tests.test_weights" target="sklearn.preprocessing" />
+    <edge source="sklearn.preprocessing.tests.test_weights" target="sklearn.preprocessing._weights" />
+    <edge source="sklearn.preprocessing.tests.test_weights" target="sklearn.utils" />
+    <edge source="sklearn.preprocessing.tests.test_weights" target="sklearn.utils.testing" />
+    <edge source="sklearn.qda" target="sklearn.base" />
+    <edge source="sklearn.qda" target="sklearn.utils" />
+    <edge source="sklearn.qda" target="sklearn.utils.fixes" />
+    <edge source="sklearn.qda" target="sklearn.utils.validation" />
+    <edge source="sklearn.random_projection" target="sklearn.base" />
+    <edge source="sklearn.random_projection" target="sklearn.externals" />
+    <edge source="sklearn.random_projection" target="sklearn.externals.six" />
+    <edge source="sklearn.random_projection" target="sklearn.utils" />
+    <edge source="sklearn.random_projection" target="sklearn.utils.extmath" />
+    <edge source="sklearn.random_projection" target="sklearn.utils.random" />
+    <edge source="sklearn.random_projection" target="sklearn.utils.validation" />
+    <edge source="sklearn.semi_supervised" target="sklearn.semi_supervised.label_propagation" />
+    <edge source="sklearn.semi_supervised.label_propagation" target="sklearn.base" />
+    <edge source="sklearn.semi_supervised.label_propagation" target="sklearn.externals" />
+    <edge source="sklearn.semi_supervised.label_propagation" target="sklearn.externals.six" />
+    <edge source="sklearn.semi_supervised.label_propagation" target="sklearn.metrics" />
+    <edge source="sklearn.semi_supervised.label_propagation" target="sklearn.metrics.pairwise" />
+    <edge source="sklearn.semi_supervised.label_propagation" target="sklearn.neighbors" />
+    <edge source="sklearn.semi_supervised.label_propagation" target="sklearn.neighbors.unsupervised" />
+    <edge source="sklearn.semi_supervised.label_propagation" target="sklearn.utils" />
+    <edge source="sklearn.semi_supervised.label_propagation" target="sklearn.utils.extmath" />
+    <edge source="sklearn.semi_supervised.label_propagation" target="sklearn.utils.graph" />
+    <edge source="sklearn.semi_supervised.label_propagation" target="sklearn.utils.validation" />
+    <edge source="sklearn.semi_supervised.tests.test_label_propagation" target="sklearn" />
+    <edge source="sklearn.semi_supervised.tests.test_label_propagation" target="sklearn.semi_supervised" />
+    <edge source="sklearn.semi_supervised.tests.test_label_propagation" target="sklearn.semi_supervised.label_propagation" />
+    <edge source="sklearn.svm" target="sklearn" />
+    <edge source="sklearn.svm" target="sklearn.svm.bounds" />
+    <edge source="sklearn.svm" target="sklearn.svm.classes" />
+    <edge source="sklearn.svm.base" target="sklearn" />
+    <edge source="sklearn.svm.base" target="sklearn.base" />
+    <edge source="sklearn.svm.base" target="sklearn.externals" />
+    <edge source="sklearn.svm.base" target="sklearn.externals.six" />
+    <edge source="sklearn.svm.base" target="sklearn.multiclass" />
+    <edge source="sklearn.svm.base" target="sklearn.preprocessing" />
+    <edge source="sklearn.svm.base" target="sklearn.svm" />
+    <edge source="sklearn.svm.base" target="sklearn.utils" />
+    <edge source="sklearn.svm.base" target="sklearn.utils.extmath" />
+    <edge source="sklearn.svm.base" target="sklearn.utils.validation" />
+    <edge source="sklearn.svm.bounds" target="sklearn.preprocessing" />
+    <edge source="sklearn.svm.bounds" target="sklearn.utils" />
+    <edge source="sklearn.svm.bounds" target="sklearn.utils.extmath" />
+    <edge source="sklearn.svm.bounds" target="sklearn.utils.validation" />
+    <edge source="sklearn.svm.classes" target="sklearn.base" />
+    <edge source="sklearn.svm.classes" target="sklearn.feature_selection" />
+    <edge source="sklearn.svm.classes" target="sklearn.feature_selection.from_model" />
+    <edge source="sklearn.svm.classes" target="sklearn.linear_model" />
+    <edge source="sklearn.svm.classes" target="sklearn.linear_model.base" />
+    <edge source="sklearn.svm.classes" target="sklearn.svm.base" />
+    <edge source="sklearn.svm.classes" target="sklearn.utils" />
+    <edge source="sklearn.svm.classes" target="sklearn.utils.validation" />
+    <edge source="sklearn.svm.setup" target="sklearn" />
+    <edge source="sklearn.svm.setup" target="sklearn._build_utils" />
+    <edge source="sklearn.svm.tests.test_bounds" target="sklearn" />
+    <edge source="sklearn.svm.tests.test_bounds" target="sklearn.linear_model" />
+    <edge source="sklearn.svm.tests.test_bounds" target="sklearn.linear_model.logistic" />
+    <edge source="sklearn.svm.tests.test_bounds" target="sklearn.svm" />
+    <edge source="sklearn.svm.tests.test_bounds" target="sklearn.svm.bounds" />
+    <edge source="sklearn.svm.tests.test_bounds" target="sklearn.utils" />
+    <edge source="sklearn.svm.tests.test_bounds" target="sklearn.utils.testing" />
+    <edge source="sklearn.svm.tests.test_sparse" target="sklearn" />
+    <edge source="sklearn.svm.tests.test_sparse" target="sklearn.base" />
+    <edge source="sklearn.svm.tests.test_sparse" target="sklearn.datasets" />
+    <edge source="sklearn.svm.tests.test_sparse" target="sklearn.linear_model" />
+    <edge source="sklearn.svm.tests.test_sparse" target="sklearn.svm" />
+    <edge source="sklearn.svm.tests.test_sparse" target="sklearn.svm.tests" />
+    <edge source="sklearn.svm.tests.test_sparse" target="sklearn.svm.tests.test_svm" />
+    <edge source="sklearn.svm.tests.test_sparse" target="sklearn.utils" />
+    <edge source="sklearn.svm.tests.test_sparse" target="sklearn.utils.extmath" />
+    <edge source="sklearn.svm.tests.test_sparse" target="sklearn.utils.testing" />
+    <edge source="sklearn.svm.tests.test_svm" target="sklearn" />
+    <edge source="sklearn.svm.tests.test_svm" target="sklearn.base" />
+    <edge source="sklearn.svm.tests.test_svm" target="sklearn.cross_validation" />
+    <edge source="sklearn.svm.tests.test_svm" target="sklearn.datasets" />
+    <edge source="sklearn.svm.tests.test_svm" target="sklearn.linear_model" />
+    <edge source="sklearn.svm.tests.test_svm" target="sklearn.metrics" />
+    <edge source="sklearn.svm.tests.test_svm" target="sklearn.metrics.pairwise" />
+    <edge source="sklearn.svm.tests.test_svm" target="sklearn.svm" />
+    <edge source="sklearn.svm.tests.test_svm" target="sklearn.utils" />
+    <edge source="sklearn.svm.tests.test_svm" target="sklearn.utils.testing" />
+    <edge source="sklearn.svm.tests.test_svm" target="sklearn.utils.validation" />
+    <edge source="sklearn.tests.test_base" target="sklearn" />
+    <edge source="sklearn.tests.test_base" target="sklearn.base" />
+    <edge source="sklearn.tests.test_base" target="sklearn.datasets" />
+    <edge source="sklearn.tests.test_base" target="sklearn.feature_selection" />
+    <edge source="sklearn.tests.test_base" target="sklearn.grid_search" />
+    <edge source="sklearn.tests.test_base" target="sklearn.pipeline" />
+    <edge source="sklearn.tests.test_base" target="sklearn.svm" />
+    <edge source="sklearn.tests.test_base" target="sklearn.tree" />
+    <edge source="sklearn.tests.test_base" target="sklearn.utils" />
+    <edge source="sklearn.tests.test_base" target="sklearn.utils.testing" />
+    <edge source="sklearn.tests.test_calibration" target="sklearn" />
+    <edge source="sklearn.tests.test_calibration" target="sklearn.calibration" />
+    <edge source="sklearn.tests.test_calibration" target="sklearn.datasets" />
+    <edge source="sklearn.tests.test_calibration" target="sklearn.ensemble" />
+    <edge source="sklearn.tests.test_calibration" target="sklearn.linear_model" />
+    <edge source="sklearn.tests.test_calibration" target="sklearn.metrics" />
+    <edge source="sklearn.tests.test_calibration" target="sklearn.naive_bayes" />
+    <edge source="sklearn.tests.test_calibration" target="sklearn.pipeline" />
+    <edge source="sklearn.tests.test_calibration" target="sklearn.preprocessing" />
+    <edge source="sklearn.tests.test_calibration" target="sklearn.svm" />
+    <edge source="sklearn.tests.test_calibration" target="sklearn.utils" />
+    <edge source="sklearn.tests.test_calibration" target="sklearn.utils.testing" />
+    <edge source="sklearn.tests.test_check_build" target="sklearn" />
+    <edge source="sklearn.tests.test_check_build" target="sklearn.__check_build" />
+    <edge source="sklearn.tests.test_check_build" target="sklearn.utils" />
+    <edge source="sklearn.tests.test_check_build" target="sklearn.utils.testing" />
+    <edge source="sklearn.tests.test_common" target="sklearn" />
+    <edge source="sklearn.tests.test_common" target="sklearn.cluster" />
+    <edge source="sklearn.tests.test_common" target="sklearn.cluster.bicluster" />
+    <edge source="sklearn.tests.test_common" target="sklearn.externals" />
+    <edge source="sklearn.tests.test_common" target="sklearn.externals.six" />
+    <edge source="sklearn.tests.test_common" target="sklearn.linear_model" />
+    <edge source="sklearn.tests.test_common" target="sklearn.linear_model.base" />
+    <edge source="sklearn.tests.test_common" target="sklearn.utils" />
+    <edge source="sklearn.tests.test_common" target="sklearn.utils.estimator_checks" />
+    <edge source="sklearn.tests.test_common" target="sklearn.utils.testing" />
+    <edge source="sklearn.tests.test_cross_validation" target="sklearn" />
+    <edge source="sklearn.tests.test_cross_validation" target="sklearn.cluster" />
+    <edge source="sklearn.tests.test_cross_validation" target="sklearn.cross_validation" />
+    <edge source="sklearn.tests.test_cross_validation" target="sklearn.datasets" />
+    <edge source="sklearn.tests.test_cross_validation" target="sklearn.externals" />
+    <edge source="sklearn.tests.test_cross_validation" target="sklearn.externals.six" />
+    <edge source="sklearn.tests.test_cross_validation" target="sklearn.linear_model" />
+    <edge source="sklearn.tests.test_cross_validation" target="sklearn.metrics" />
+    <edge source="sklearn.tests.test_cross_validation" target="sklearn.multiclass" />
+    <edge source="sklearn.tests.test_cross_validation" target="sklearn.neighbors" />
+    <edge source="sklearn.tests.test_cross_validation" target="sklearn.pipeline" />
+    <edge source="sklearn.tests.test_cross_validation" target="sklearn.preprocessing" />
+    <edge source="sklearn.tests.test_cross_validation" target="sklearn.svm" />
+    <edge source="sklearn.tests.test_cross_validation" target="sklearn.utils" />
+    <edge source="sklearn.tests.test_cross_validation" target="sklearn.utils.mocking" />
+    <edge source="sklearn.tests.test_cross_validation" target="sklearn.utils.testing" />
+    <edge source="sklearn.tests.test_dummy" target="sklearn" />
+    <edge source="sklearn.tests.test_dummy" target="sklearn.base" />
+    <edge source="sklearn.tests.test_dummy" target="sklearn.dummy" />
+    <edge source="sklearn.tests.test_dummy" target="sklearn.utils" />
+    <edge source="sklearn.tests.test_dummy" target="sklearn.utils.stats" />
+    <edge source="sklearn.tests.test_dummy" target="sklearn.utils.testing" />
+    <edge source="sklearn.tests.test_grid_search" target="sklearn" />
+    <edge source="sklearn.tests.test_grid_search" target="sklearn.base" />
+    <edge source="sklearn.tests.test_grid_search" target="sklearn.cluster" />
+    <edge source="sklearn.tests.test_grid_search" target="sklearn.cross_validation" />
+    <edge source="sklearn.tests.test_grid_search" target="sklearn.datasets" />
+    <edge source="sklearn.tests.test_grid_search" target="sklearn.grid_search" />
+    <edge source="sklearn.tests.test_grid_search" target="sklearn.metrics" />
+    <edge source="sklearn.tests.test_grid_search" target="sklearn.neighbors" />
+    <edge source="sklearn.tests.test_grid_search" target="sklearn.pipeline" />
+    <edge source="sklearn.tests.test_grid_search" target="sklearn.preprocessing" />
+    <edge source="sklearn.tests.test_grid_search" target="sklearn.svm" />
+    <edge source="sklearn.tests.test_grid_search" target="sklearn.tree" />
+    <edge source="sklearn.tests.test_grid_search" target="sklearn.utils" />
+    <edge source="sklearn.tests.test_grid_search" target="sklearn.utils.mocking" />
+    <edge source="sklearn.tests.test_grid_search" target="sklearn.utils.testing" />
+    <edge source="sklearn.tests.test_init" target="sklearn" />
+    <edge source="sklearn.tests.test_init" target="sklearn.utils" />
+    <edge source="sklearn.tests.test_init" target="sklearn.utils.testing" />
+    <edge source="sklearn.tests.test_isotonic" target="sklearn" />
+    <edge source="sklearn.tests.test_isotonic" target="sklearn.isotonic" />
+    <edge source="sklearn.tests.test_isotonic" target="sklearn.utils" />
+    <edge source="sklearn.tests.test_isotonic" target="sklearn.utils.testing" />
+    <edge source="sklearn.tests.test_kernel_approximation" target="sklearn" />
+    <edge source="sklearn.tests.test_kernel_approximation" target="sklearn.kernel_approximation" />
+    <edge source="sklearn.tests.test_kernel_approximation" target="sklearn.metrics" />
+    <edge source="sklearn.tests.test_kernel_approximation" target="sklearn.metrics.pairwise" />
+    <edge source="sklearn.tests.test_kernel_approximation" target="sklearn.utils" />
+    <edge source="sklearn.tests.test_kernel_approximation" target="sklearn.utils.testing" />
+    <edge source="sklearn.tests.test_kernel_ridge" target="sklearn" />
+    <edge source="sklearn.tests.test_kernel_ridge" target="sklearn.datasets" />
+    <edge source="sklearn.tests.test_kernel_ridge" target="sklearn.kernel_ridge" />
+    <edge source="sklearn.tests.test_kernel_ridge" target="sklearn.linear_model" />
+    <edge source="sklearn.tests.test_kernel_ridge" target="sklearn.metrics" />
+    <edge source="sklearn.tests.test_kernel_ridge" target="sklearn.metrics.pairwise" />
+    <edge source="sklearn.tests.test_kernel_ridge" target="sklearn.utils" />
+    <edge source="sklearn.tests.test_kernel_ridge" target="sklearn.utils.testing" />
+    <edge source="sklearn.tests.test_lda" target="sklearn" />
+    <edge source="sklearn.tests.test_lda" target="sklearn.datasets" />
+    <edge source="sklearn.tests.test_lda" target="sklearn.lda" />
+    <edge source="sklearn.tests.test_lda" target="sklearn.utils" />
+    <edge source="sklearn.tests.test_lda" target="sklearn.utils.testing" />
+    <edge source="sklearn.tests.test_learning_curve" target="sklearn" />
+    <edge source="sklearn.tests.test_learning_curve" target="sklearn.base" />
+    <edge source="sklearn.tests.test_learning_curve" target="sklearn.cross_validation" />
+    <edge source="sklearn.tests.test_learning_curve" target="sklearn.datasets" />
+    <edge source="sklearn.tests.test_learning_curve" target="sklearn.learning_curve" />
+    <edge source="sklearn.tests.test_learning_curve" target="sklearn.linear_model" />
+    <edge source="sklearn.tests.test_learning_curve" target="sklearn.utils" />
+    <edge source="sklearn.tests.test_learning_curve" target="sklearn.utils.testing" />
+    <edge source="sklearn.tests.test_metaestimators" target="sklearn" />
+    <edge source="sklearn.tests.test_metaestimators" target="sklearn.base" />
+    <edge source="sklearn.tests.test_metaestimators" target="sklearn.datasets" />
+    <edge source="sklearn.tests.test_metaestimators" target="sklearn.ensemble" />
+    <edge source="sklearn.tests.test_metaestimators" target="sklearn.externals" />
+    <edge source="sklearn.tests.test_metaestimators" target="sklearn.externals.six" />
+    <edge source="sklearn.tests.test_metaestimators" target="sklearn.feature_selection" />
+    <edge source="sklearn.tests.test_metaestimators" target="sklearn.grid_search" />
+    <edge source="sklearn.tests.test_metaestimators" target="sklearn.pipeline" />
+    <edge source="sklearn.tests.test_metaestimators" target="sklearn.utils" />
+    <edge source="sklearn.tests.test_metaestimators" target="sklearn.utils.testing" />
+    <edge source="sklearn.tests.test_multiclass" target="sklearn" />
+    <edge source="sklearn.tests.test_multiclass" target="sklearn.datasets" />
+    <edge source="sklearn.tests.test_multiclass" target="sklearn.grid_search" />
+    <edge source="sklearn.tests.test_multiclass" target="sklearn.linear_model" />
+    <edge source="sklearn.tests.test_multiclass" target="sklearn.metrics" />
+    <edge source="sklearn.tests.test_multiclass" target="sklearn.multiclass" />
+    <edge source="sklearn.tests.test_multiclass" target="sklearn.naive_bayes" />
+    <edge source="sklearn.tests.test_multiclass" target="sklearn.pipeline" />
+    <edge source="sklearn.tests.test_multiclass" target="sklearn.preprocessing" />
+    <edge source="sklearn.tests.test_multiclass" target="sklearn.svm" />
+    <edge source="sklearn.tests.test_multiclass" target="sklearn.tree" />
+    <edge source="sklearn.tests.test_multiclass" target="sklearn.utils" />
+    <edge source="sklearn.tests.test_multiclass" target="sklearn.utils.testing" />
+    <edge source="sklearn.tests.test_naive_bayes" target="sklearn" />
+    <edge source="sklearn.tests.test_naive_bayes" target="sklearn.cross_validation" />
+    <edge source="sklearn.tests.test_naive_bayes" target="sklearn.datasets" />
+    <edge source="sklearn.tests.test_naive_bayes" target="sklearn.naive_bayes" />
+    <edge source="sklearn.tests.test_naive_bayes" target="sklearn.utils" />
+    <edge source="sklearn.tests.test_naive_bayes" target="sklearn.utils.testing" />
+    <edge source="sklearn.tests.test_pipeline" target="sklearn" />
+    <edge source="sklearn.tests.test_pipeline" target="sklearn.base" />
+    <edge source="sklearn.tests.test_pipeline" target="sklearn.cluster" />
+    <edge source="sklearn.tests.test_pipeline" target="sklearn.datasets" />
+    <edge source="sklearn.tests.test_pipeline" target="sklearn.decomposition" />
+    <edge source="sklearn.tests.test_pipeline" target="sklearn.feature_extraction" />
+    <edge source="sklearn.tests.test_pipeline" target="sklearn.feature_extraction.text" />
+    <edge source="sklearn.tests.test_pipeline" target="sklearn.feature_selection" />
+    <edge source="sklearn.tests.test_pipeline" target="sklearn.linear_model" />
+    <edge source="sklearn.tests.test_pipeline" target="sklearn.pipeline" />
+    <edge source="sklearn.tests.test_pipeline" target="sklearn.preprocessing" />
+    <edge source="sklearn.tests.test_pipeline" target="sklearn.svm" />
+    <edge source="sklearn.tests.test_pipeline" target="sklearn.utils" />
+    <edge source="sklearn.tests.test_pipeline" target="sklearn.utils.testing" />
+    <edge source="sklearn.tests.test_qda" target="sklearn" />
+    <edge source="sklearn.tests.test_qda" target="sklearn.qda" />
+    <edge source="sklearn.tests.test_qda" target="sklearn.utils" />
+    <edge source="sklearn.tests.test_qda" target="sklearn.utils.testing" />
+    <edge source="sklearn.tests.test_random_projection" target="sklearn" />
+    <edge source="sklearn.tests.test_random_projection" target="sklearn.metrics" />
+    <edge source="sklearn.tests.test_random_projection" target="sklearn.random_projection" />
+    <edge source="sklearn.tests.test_random_projection" target="sklearn.utils" />
+    <edge source="sklearn.tests.test_random_projection" target="sklearn.utils.testing" />
+    <edge source="sklearn.tree" target="sklearn.tree.export" />
+    <edge source="sklearn.tree" target="sklearn.tree.tree" />
+    <edge source="sklearn.tree.export" target="sklearn" />
+    <edge source="sklearn.tree.export" target="sklearn.externals" />
+    <edge source="sklearn.tree.export" target="sklearn.externals.six" />
+    <edge source="sklearn.tree.export" target="sklearn.tree" />
+    <edge source="sklearn.tree.tests.test_export" target="sklearn" />
+    <edge source="sklearn.tree.tests.test_export" target="sklearn.ensemble" />
+    <edge source="sklearn.tree.tests.test_export" target="sklearn.externals" />
+    <edge source="sklearn.tree.tests.test_export" target="sklearn.externals.six" />
+    <edge source="sklearn.tree.tests.test_export" target="sklearn.tree" />
+    <edge source="sklearn.tree.tests.test_export" target="sklearn.utils" />
+    <edge source="sklearn.tree.tests.test_export" target="sklearn.utils.testing" />
+    <edge source="sklearn.tree.tests.test_tree" target="sklearn" />
+    <edge source="sklearn.tree.tests.test_tree" target="sklearn.datasets" />
+    <edge source="sklearn.tree.tests.test_tree" target="sklearn.metrics" />
+    <edge source="sklearn.tree.tests.test_tree" target="sklearn.preprocessing" />
+    <edge source="sklearn.tree.tests.test_tree" target="sklearn.preprocessing._weights" />
+    <edge source="sklearn.tree.tests.test_tree" target="sklearn.random_projection" />
+    <edge source="sklearn.tree.tests.test_tree" target="sklearn.tree" />
+    <edge source="sklearn.tree.tests.test_tree" target="sklearn.tree.tree" />
+    <edge source="sklearn.tree.tests.test_tree" target="sklearn.utils" />
+    <edge source="sklearn.tree.tests.test_tree" target="sklearn.utils.testing" />
+    <edge source="sklearn.tree.tests.test_tree" target="sklearn.utils.validation" />
+    <edge source="sklearn.tree.tree" target="sklearn" />
+    <edge source="sklearn.tree.tree" target="sklearn.base" />
+    <edge source="sklearn.tree.tree" target="sklearn.externals" />
+    <edge source="sklearn.tree.tree" target="sklearn.externals.six" />
+    <edge source="sklearn.tree.tree" target="sklearn.feature_selection" />
+    <edge source="sklearn.tree.tree" target="sklearn.feature_selection.from_model" />
+    <edge source="sklearn.tree.tree" target="sklearn.tree" />
+    <edge source="sklearn.tree.tree" target="sklearn.utils" />
+    <edge source="sklearn.tree.tree" target="sklearn.utils.validation" />
+    <edge source="sklearn.utils" target="sklearn.externals" />
+    <edge source="sklearn.utils" target="sklearn.externals.joblib" />
+    <edge source="sklearn.utils" target="sklearn.utils.class_weight" />
+    <edge source="sklearn.utils" target="sklearn.utils.validation" />
+    <edge source="sklearn.utils.class_weight" target="sklearn.externals" />
+    <edge source="sklearn.utils.class_weight" target="sklearn.externals.six" />
+    <edge source="sklearn.utils.class_weight" target="sklearn.preprocessing" />
+    <edge source="sklearn.utils.class_weight" target="sklearn.utils" />
+    <edge source="sklearn.utils.class_weight" target="sklearn.utils.fixes" />
+    <edge source="sklearn.utils.estimator_checks" target="sklearn" />
+    <edge source="sklearn.utils.estimator_checks" target="sklearn.base" />
+    <edge source="sklearn.utils.estimator_checks" target="sklearn.cross_validation" />
+    <edge source="sklearn.utils.estimator_checks" target="sklearn.datasets" />
+    <edge source="sklearn.utils.estimator_checks" target="sklearn.externals" />
+    <edge source="sklearn.utils.estimator_checks" target="sklearn.externals.joblib" />
+    <edge source="sklearn.utils.estimator_checks" target="sklearn.feature_selection" />
+    <edge source="sklearn.utils.estimator_checks" target="sklearn.lda" />
+    <edge source="sklearn.utils.estimator_checks" target="sklearn.metrics" />
+    <edge source="sklearn.utils.estimator_checks" target="sklearn.pipeline" />
+    <edge source="sklearn.utils.estimator_checks" target="sklearn.preprocessing" />
+    <edge source="sklearn.utils.estimator_checks" target="sklearn.random_projection" />
+    <edge source="sklearn.utils.estimator_checks" target="sklearn.svm" />
+    <edge source="sklearn.utils.estimator_checks" target="sklearn.svm.base" />
+    <edge source="sklearn.utils.estimator_checks" target="sklearn.utils" />
+    <edge source="sklearn.utils.estimator_checks" target="sklearn.utils.testing" />
+    <edge source="sklearn.utils.estimator_checks" target="sklearn.utils.validation" />
+    <edge source="sklearn.utils.extmath" target="sklearn" />
+    <edge source="sklearn.utils.extmath" target="sklearn.externals" />
+    <edge source="sklearn.utils.extmath" target="sklearn.externals.six" />
+    <edge source="sklearn.utils.extmath" target="sklearn.utils" />
+    <edge source="sklearn.utils.extmath" target="sklearn.utils.fixes" />
+    <edge source="sklearn.utils.extmath" target="sklearn.utils.validation" />
+    <edge source="sklearn.utils.fixes" target="sklearn.utils._scipy_sparse_lsqr_backport" />
+    <edge source="sklearn.utils.graph" target="sklearn.utils.sparsetools" />
+    <edge source="sklearn.utils.graph" target="sklearn.utils.validation" />
+    <edge source="sklearn.utils.linear_assignment_" target="sklearn.utils.fixes" />
+    <edge source="sklearn.utils.mocking" target="sklearn.base" />
+    <edge source="sklearn.utils.mocking" target="sklearn.utils.testing" />
+    <edge source="sklearn.utils.mocking" target="sklearn.utils.validation" />
+    <edge source="sklearn.utils.multiclass" target="sklearn.externals" />
+    <edge source="sklearn.utils.multiclass" target="sklearn.externals.six" />
+    <edge source="sklearn.utils.multiclass" target="sklearn.utils" />
+    <edge source="sklearn.utils.multiclass" target="sklearn.utils.fixes" />
+    <edge source="sklearn.utils.multiclass" target="sklearn.utils.validation" />
+    <edge source="sklearn.utils.random" target="sklearn" />
+    <edge source="sklearn.utils.random" target="sklearn.utils" />
+    <edge source="sklearn.utils.random" target="sklearn.utils.fixes" />
+    <edge source="sklearn.utils.setup" target="sklearn" />
+    <edge source="sklearn.utils.setup" target="sklearn._build_utils" />
+    <edge source="sklearn.utils.sparsefuncs" target="sklearn.utils.fixes" />
+    <edge source="sklearn.utils.stats" target="sklearn.utils.fixes" />
+    <edge source="sklearn.utils.testing" target="sklearn" />
+    <edge source="sklearn.utils.testing" target="sklearn.base" />
+    <edge source="sklearn.utils.testing" target="sklearn.datasets" />
+    <edge source="sklearn.utils.testing" target="sklearn.externals" />
+    <edge source="sklearn.utils.testing" target="sklearn.externals.joblib" />
+    <edge source="sklearn.utils.tests.test_bench" target="sklearn" />
+    <edge source="sklearn.utils.tests.test_bench" target="sklearn.utils" />
+    <edge source="sklearn.utils.tests.test_bench" target="sklearn.utils.bench" />
+    <edge source="sklearn.utils.tests.test_class_weight" target="sklearn" />
+    <edge source="sklearn.utils.tests.test_class_weight" target="sklearn.datasets" />
+    <edge source="sklearn.utils.tests.test_class_weight" target="sklearn.linear_model" />
+    <edge source="sklearn.utils.tests.test_class_weight" target="sklearn.utils" />
+    <edge source="sklearn.utils.tests.test_class_weight" target="sklearn.utils.class_weight" />
+    <edge source="sklearn.utils.tests.test_class_weight" target="sklearn.utils.testing" />
+    <edge source="sklearn.utils.tests.test_estimator_checks" target="sklearn" />
+    <edge source="sklearn.utils.tests.test_estimator_checks" target="sklearn.base" />
+    <edge source="sklearn.utils.tests.test_estimator_checks" target="sklearn.linear_model" />
+    <edge source="sklearn.utils.tests.test_estimator_checks" target="sklearn.utils" />
+    <edge source="sklearn.utils.tests.test_estimator_checks" target="sklearn.utils.estimator_checks" />
+    <edge source="sklearn.utils.tests.test_estimator_checks" target="sklearn.utils.testing" />
+    <edge source="sklearn.utils.tests.test_estimator_checks" target="sklearn.utils.validation" />
+    <edge source="sklearn.utils.tests.test_extmath" target="sklearn" />
+    <edge source="sklearn.utils.tests.test_extmath" target="sklearn.datasets" />
+    <edge source="sklearn.utils.tests.test_extmath" target="sklearn.datasets.samples_generator" />
+    <edge source="sklearn.utils.tests.test_extmath" target="sklearn.utils" />
+    <edge source="sklearn.utils.tests.test_extmath" target="sklearn.utils.extmath" />
+    <edge source="sklearn.utils.tests.test_extmath" target="sklearn.utils.testing" />
+    <edge source="sklearn.utils.tests.test_fixes" target="sklearn" />
+    <edge source="sklearn.utils.tests.test_fixes" target="sklearn.utils" />
+    <edge source="sklearn.utils.tests.test_fixes" target="sklearn.utils.fixes" />
+    <edge source="sklearn.utils.tests.test_graph" target="sklearn" />
+    <edge source="sklearn.utils.tests.test_graph" target="sklearn.utils" />
+    <edge source="sklearn.utils.tests.test_graph" target="sklearn.utils.graph" />
+    <edge source="sklearn.utils.tests.test_linear_assignment" target="sklearn" />
+    <edge source="sklearn.utils.tests.test_linear_assignment" target="sklearn.utils" />
+    <edge source="sklearn.utils.tests.test_linear_assignment" target="sklearn.utils.linear_assignment_" />
+    <edge source="sklearn.utils.tests.test_metaestimators" target="sklearn" />
+    <edge source="sklearn.utils.tests.test_metaestimators" target="sklearn.utils" />
+    <edge source="sklearn.utils.tests.test_metaestimators" target="sklearn.utils.metaestimators" />
+    <edge source="sklearn.utils.tests.test_multiclass" target="sklearn" />
+    <edge source="sklearn.utils.tests.test_multiclass" target="sklearn.externals" />
+    <edge source="sklearn.utils.tests.test_multiclass" target="sklearn.externals.six" />
+    <edge source="sklearn.utils.tests.test_multiclass" target="sklearn.utils" />
+    <edge source="sklearn.utils.tests.test_multiclass" target="sklearn.utils.multiclass" />
+    <edge source="sklearn.utils.tests.test_multiclass" target="sklearn.utils.testing" />
+    <edge source="sklearn.utils.tests.test_murmurhash" target="sklearn" />
+    <edge source="sklearn.utils.tests.test_murmurhash" target="sklearn.externals" />
+    <edge source="sklearn.utils.tests.test_murmurhash" target="sklearn.externals.six" />
+    <edge source="sklearn.utils.tests.test_murmurhash" target="sklearn.utils" />
+    <edge source="sklearn.utils.tests.test_optimize" target="sklearn" />
+    <edge source="sklearn.utils.tests.test_optimize" target="sklearn.utils" />
+    <edge source="sklearn.utils.tests.test_optimize" target="sklearn.utils.optimize" />
+    <edge source="sklearn.utils.tests.test_optimize" target="sklearn.utils.testing" />
+    <edge source="sklearn.utils.tests.test_random" target="sklearn" />
+    <edge source="sklearn.utils.tests.test_random" target="sklearn.utils" />
+    <edge source="sklearn.utils.tests.test_random" target="sklearn.utils.random" />
+    <edge source="sklearn.utils.tests.test_random" target="sklearn.utils.testing" />
+    <edge source="sklearn.utils.tests.test_shortest_path" target="sklearn" />
+    <edge source="sklearn.utils.tests.test_shortest_path" target="sklearn.utils" />
+    <edge source="sklearn.utils.tests.test_shortest_path" target="sklearn.utils.graph" />
+    <edge source="sklearn.utils.tests.test_sparsefuncs" target="sklearn" />
+    <edge source="sklearn.utils.tests.test_sparsefuncs" target="sklearn.datasets" />
+    <edge source="sklearn.utils.tests.test_sparsefuncs" target="sklearn.utils" />
+    <edge source="sklearn.utils.tests.test_sparsefuncs" target="sklearn.utils.sparsefuncs" />
+    <edge source="sklearn.utils.tests.test_sparsefuncs" target="sklearn.utils.testing" />
+    <edge source="sklearn.utils.tests.test_stats" target="sklearn" />
+    <edge source="sklearn.utils.tests.test_stats" target="sklearn.utils" />
+    <edge source="sklearn.utils.tests.test_stats" target="sklearn.utils.stats" />
+    <edge source="sklearn.utils.tests.test_stats" target="sklearn.utils.testing" />
+    <edge source="sklearn.utils.tests.test_testing" target="sklearn" />
+    <edge source="sklearn.utils.tests.test_testing" target="sklearn.lda" />
+    <edge source="sklearn.utils.tests.test_testing" target="sklearn.tree" />
+    <edge source="sklearn.utils.tests.test_testing" target="sklearn.utils" />
+    <edge source="sklearn.utils.tests.test_testing" target="sklearn.utils.testing" />
+    <edge source="sklearn.utils.tests.test_utils" target="sklearn" />
+    <edge source="sklearn.utils.tests.test_utils" target="sklearn.utils" />
+    <edge source="sklearn.utils.tests.test_utils" target="sklearn.utils.extmath" />
+    <edge source="sklearn.utils.tests.test_utils" target="sklearn.utils.mocking" />
+    <edge source="sklearn.utils.tests.test_utils" target="sklearn.utils.testing" />
+    <edge source="sklearn.utils.tests.test_validation" target="sklearn" />
+    <edge source="sklearn.utils.tests.test_validation" target="sklearn.datasets" />
+    <edge source="sklearn.utils.tests.test_validation" target="sklearn.ensemble" />
+    <edge source="sklearn.utils.tests.test_validation" target="sklearn.linear_model" />
+    <edge source="sklearn.utils.tests.test_validation" target="sklearn.neighbors" />
+    <edge source="sklearn.utils.tests.test_validation" target="sklearn.random_projection" />
+    <edge source="sklearn.utils.tests.test_validation" target="sklearn.svm" />
+    <edge source="sklearn.utils.tests.test_validation" target="sklearn.utils" />
+    <edge source="sklearn.utils.tests.test_validation" target="sklearn.utils.estimator_checks" />
+    <edge source="sklearn.utils.tests.test_validation" target="sklearn.utils.mocking" />
+    <edge source="sklearn.utils.tests.test_validation" target="sklearn.utils.testing" />
+    <edge source="sklearn.utils.tests.test_validation" target="sklearn.utils.validation" />
+    <edge source="sklearn.utils.validation" target="sklearn.externals" />
+    <edge source="sklearn.utils.validation" target="sklearn.externals.six" />
+  </graph>
+</graphml>
