@@ -63,12 +63,20 @@ def draw_metric(graphs: list[nx.DiGraph], metric, title: str):
     plt.setp(plt.gca().get_xticklabels(), rotation=45, horizontalalignment='right')
     # sample x labels so they don't overlap
     plt.gca().xaxis.set_major_locator(mpt.MaxNLocator(80))
-    filename = title.replace(' ', '_').lower()
+    filename = title.replace(' ', '_').replace('/', '_').lower()
     plt.savefig(filename + '.pdf', bbox_inches='tight')
     plt.draw()
 
+giant_components = []
+for graph, month in graphs:
+    giant_components.append(max(nx.weakly_connected_components(graph), key=len))
+just_graphs = [g for g, _ in graphs]
+
 draw_metric(graphs, lambda g: g.number_of_nodes(), 'Number of nodes')
 draw_metric(graphs, lambda g: g.number_of_edges(), 'Number of edges')
+draw_metric(graphs, lambda g: g.number_of_edges() / g.number_of_nodes(), 'Edges/nodes ratio')
+draw_metric(graphs, lambda g: sum(nx.betweenness_centrality(g).values()) / g.number_of_nodes(), 'Average betweenness centrality')
+
 draw_metric(graphs, lambda g: nx.number_strongly_connected_components(g), 'Number of strongly connected components')
 draw_metric(graphs, lambda g: nx.number_weakly_connected_components(g), 'Number of weakly connected components')
 draw_metric(graphs, lambda g: sum([t[1] for t in g.in_degree()]) / g.number_of_nodes(), 'Average in-degree')
@@ -77,16 +85,11 @@ draw_metric(graphs, lambda g: nx.average_clustering(g), 'Average clustering coef
 draw_metric(graphs, lambda g: nx.degree_assortativity_coefficient(g), 'Degree assortativity coefficient')
 draw_metric(graphs, lambda g: nx.algorithms.community.modularity(g, nx.algorithms.community.greedy_modularity_communities(g)), 'Modularity')
 
-giant_components = []
-for graph, month in graphs:
-    giant_components.append(max(nx.weakly_connected_components(graph), key=len))
-just_graphs = [g for g, _ in graphs]
-# giant component size by number of nodes
+# based on giant components
 draw_metric(graphs, lambda g: len(giant_components[just_graphs.index(g)]), 'Giant component size by number of nodes')
-
-# average shortest path length in giant component
 draw_metric(graphs, lambda g: nx.average_shortest_path_length(g.subgraph(giant_components[just_graphs.index(g)])), 'Average shortest path length in giant component')
 
+# seemingly goes into infinite loop on some graphs...
 draw_metric(graphs, lambda g: len(set(chain(*nx.simple_cycles(g)))), 'Number of nodes in cycles')
 
 # finally, show all plots
