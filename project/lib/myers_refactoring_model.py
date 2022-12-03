@@ -59,22 +59,22 @@ def splitting_probability_distribution(length: int, l0: int, T: float) -> float:
 
 def choose_node_for_splitting(G: nx.DiGraph, l0: int, T: float) -> Optional[str]:
     # initial interpretation of the model:
-    # # select a random node
-    # node = random.choice(list(G.nodes))
-    # # calculate the probability of splitting the node
-    # probability = 1 / (1 + math.exp(-(len(node) - l0) / T))
-    # # decide whether to split the node
-    # if random.random() < probability:
-    #     return node
-    # else:
-    #     return None
+    # select a random node
+    node = random.choice(list(G.nodes))
+    # calculate the probability of splitting the node
+    probability = 1 / (1 + math.exp(-(len(node) - l0) / T))
+    # decide whether to split the node
+    if random.random() < probability:
+        return node
+    else:
+        return None
 
     # new interpretation of the model:
-    # sample a random node from the graph according to the splitting probability distribution
-    nodes = list(G.nodes)
-    probabilities = [splitting_probability_distribution(len(node), l0, T) for node in nodes]
-    node = random.choices(nodes, probabilities)[0]
-    return node
+    # # sample a random node from the graph according to the splitting probability distribution
+    # nodes = list(G.nodes)
+    # probabilities = [splitting_probability_distribution(len(node), l0, T) for node in nodes]
+    # node = random.choices(nodes, probabilities)[0]
+    # return node
 
 # 3) In detail:
 # The final refactoring process (removing "excessive indirection") is carried out with probability 1-p. Specifically
@@ -84,7 +84,7 @@ def choose_node_for_splitting(G: nx.DiGraph, l0: int, T: float) -> Optional[str]
 # nodes.
 
 def remove_node(G: nx.DiGraph, node: str) -> None:
-    # get the parent and children of the node
+    # get the parents and children of the node
     parents = list(G.predecessors(node))
     children = list(G.successors(node))
     # remove the node
