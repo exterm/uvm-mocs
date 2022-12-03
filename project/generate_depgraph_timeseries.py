@@ -40,9 +40,9 @@ def draw_metric(graphs: list[nx.DiGraph], metric, title: str):
         print('.', end='', flush=True)
         try:
             values.append(metric(graph))
-        except (ZeroDivisionError, nx.exception.NetworkXError):
+        except (ZeroDivisionError):
             values.append(0)
-            print(sys.exc_info()[0].__name__, 'for metric', title, 'in month', month)
+            print(sys.exc_info()[0].__name__, 'for metric', title, 'in month', month) # type: ignore
         except KeyboardInterrupt:
             print("Interrupted in month", month)
             raise KeyboardInterrupt
@@ -76,6 +76,17 @@ draw_metric(graphs, lambda g: sum([t[1] for t in g.out_degree()]) / g.number_of_
 draw_metric(graphs, lambda g: nx.average_clustering(g), 'Average clustering coefficient')
 draw_metric(graphs, lambda g: nx.degree_assortativity_coefficient(g), 'Degree assortativity coefficient')
 draw_metric(graphs, lambda g: nx.algorithms.community.modularity(g, nx.algorithms.community.greedy_modularity_communities(g)), 'Modularity')
+
+giant_components = []
+for graph, month in graphs:
+    giant_components.append(max(nx.weakly_connected_components(graph), key=len))
+just_graphs = [g for g, _ in graphs]
+# giant component size by number of nodes
+draw_metric(graphs, lambda g: len(giant_components[just_graphs.index(g)]), 'Giant component size by number of nodes')
+
+# average shortest path length in giant component
+draw_metric(graphs, lambda g: nx.average_shortest_path_length(g.subgraph(giant_components[just_graphs.index(g)])), 'Average shortest path length in giant component')
+
 draw_metric(graphs, lambda g: len(set(chain(*nx.simple_cycles(g)))), 'Number of nodes in cycles')
 
 # finally, show all plots
