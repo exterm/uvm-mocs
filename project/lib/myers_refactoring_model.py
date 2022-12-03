@@ -58,9 +58,14 @@ def splitting_probability_distribution(length: int, l0: int, T: float) -> float:
     return 1 / (1 + math.exp(-(length - l0) / T))
 
 def choose_node_for_splitting(G: nx.DiGraph, l0: int, T: float) -> Optional[str]:
+    split_candidates = [node for node in G.nodes if G.out_degree(node) == 0]
+
+    if len(split_candidates) == 0:
+        return None
+
     # initial interpretation of the model:
     # select a random node
-    node = random.choice(list(G.nodes))
+    node = random.choice(split_candidates)
     # calculate the probability of splitting the node
     probability = 1 / (1 + math.exp(-(len(node) - l0) / T))
     # decide whether to split the node
@@ -71,9 +76,8 @@ def choose_node_for_splitting(G: nx.DiGraph, l0: int, T: float) -> Optional[str]
 
     # new interpretation of the model:
     # # sample a random node from the graph according to the splitting probability distribution
-    # nodes = list(G.nodes)
-    # probabilities = [splitting_probability_distribution(len(node), l0, T) for node in nodes]
-    # node = random.choices(nodes, probabilities)[0]
+    # probabilities = [splitting_probability_distribution(len(node), l0, T) for node in split_candidates]
+    # node = random.choices(split_candidates, probabilities)[0]
     # return node
 
 # 3) In detail:

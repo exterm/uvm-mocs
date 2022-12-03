@@ -65,3 +65,15 @@ def test_choose_node_for_removal():
     G.add_edge('10', '11')
     G.add_edge('10', '00')
     assert mrm.choose_node_for_removal(G) in ['10']
+
+def test_choose_node_for_splitting():
+    # don't split nodes with children
+    G = nx.DiGraph()
+    G.add_node('10')
+    G.add_node('1')
+    G.add_node('0')
+
+    G.add_edge('10', '1')
+    G.add_edge('10', '0')
+
+    assert mrm.choose_node_for_splitting(G, 1, 1) == None
