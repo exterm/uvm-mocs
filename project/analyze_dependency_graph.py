@@ -76,7 +76,7 @@ def print_metrics(gs: List[nx.DiGraph]):
     modularities = [nx.algorithms.community.modularity(g, nx.algorithms.community.greedy_modularity_communities(g)) for g in gs]
     print("Modularity:", np.mean(modularities), "+/-", np.std(modularities))
 
-    giant_components = [max(nx.connected_components(g), key=len) for g in gs]
+    giant_components = [max(nx.weakly_connected_components(g), key=len) for g in gs]
     giant_component_sizes = [len(giant_component) for giant_component in giant_components]
     print("Giant component size:", np.mean(giant_component_sizes), "+/-", np.std(giant_component_sizes))
 
