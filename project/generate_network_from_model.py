@@ -25,10 +25,10 @@ duplicate_rewire_params = duplicate_rewire_wagtail_latest
 
 if args.model == 'refactoring':
     with Timer('Generating Myers refactoring graph'):
-        network: nx.DiGraph = mrm.generate_network()
+        networks.append(mrm.generate_network())
 
     with Timer("export to graphml"):
-        nx.write_graphml(network, "myers_refactoring_model.graphml")
+        nx.write_graphml(networks[0], "myers_refactoring_model.graphml")
 else:
     with Timer('Generating duplicate rewire graphs'):
         for i in range(NUMBER_SAMPLES):
