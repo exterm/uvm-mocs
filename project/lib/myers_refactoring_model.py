@@ -58,7 +58,7 @@ def splitting_probability_distribution(length: int, l0: int, T: float) -> float:
     return 1 / (1 + math.exp(-(length - l0) / T))
 
 def choose_node_for_splitting(G: nx.DiGraph, l0: int, T: float) -> Optional[str]:
-    split_candidates = [node for node in G.nodes if G.out_degree(node) == 0]
+    split_candidates = [node for node in G.nodes if len(node) > 1 and G.out_degree(node) == 0]
 
     if len(split_candidates) == 0:
         return None
