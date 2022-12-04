@@ -3,6 +3,8 @@
 # - out-degree distribution
 # - in-degree distribution over out-degree distribution
 
+from itertools import chain
+
 import networkx as nx
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -58,11 +60,23 @@ if __name__ == '__main__':
 
     args = argparse.ArgumentParser()
     args.add_argument('input', help='input graphml file')
+    args.add_argument('--no-show', action='store_true', help='do not show the plots')
 
     args = args.parse_args()
 
-    G = nx.read_graphml(args.input)
+    G: nx.DiGraph = nx.read_graphml(args.input)
 
-    plot_distributions(G)
+    print("Number of nodes:", G.number_of_nodes())
+    print("Number of edges:", G.number_of_edges())
 
-    plt.show()
+    print("Clustering coefficient:", nx.average_clustering(G))
+    print("Degree assortativity coefficient:", nx.degree_assortativity_coefficient(G))
+    print("Modularity:", nx.algorithms.community.modularity(G, nx.algorithms.community.greedy_modularity_communities(G)))
+
+    giant_component = max(nx.weakly_connected_components(G), key=len)
+    print("Average shortest path length:", nx.average_shortest_path_length(G.subgraph(giant_component)))
+    print("Number of nodes in cycles:", len(set(chain(*nx.simple_cycles(G)))))
+
+    if not args.no_show:
+        plot_distributions(G)
+        plt.show()
