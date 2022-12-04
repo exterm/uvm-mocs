@@ -4,10 +4,12 @@
 # - in-degree distribution over out-degree distribution
 
 from itertools import chain
+from typing import List
 
 import networkx as nx
 import matplotlib.pyplot as plt
 import pandas as pd
+import numpy as np
 
 def plot_distributions(g: nx.DiGraph):
     # remove outliers (nodes with very high in-or out-degree)
@@ -55,6 +57,35 @@ def plot_distributions(g: nx.DiGraph):
     # plt.yscale('log')
     plt.draw()
 
+def print_metrics(gs: List[nx.DiGraph]):
+    node_numbers = [g.number_of_nodes() for g in gs]
+    print("Number of nodes:", np.mean(node_numbers), "+/-", np.std(node_numbers))
+
+    edge_numbers = [g.number_of_edges() for g in gs]
+    print("Number of edges:", np.mean(edge_numbers), "+/-", np.std(edge_numbers))
+
+    edges_per_node = [g.number_of_edges() / g.number_of_nodes() for g in gs]
+    print("Edges per node:", np.mean(edges_per_node), "+/-", np.std(edges_per_node))
+
+    clustering_coefficients = [nx.average_clustering(g) for g in gs]
+    print("Clustering coefficient:", np.mean(clustering_coefficients), "+/-", np.std(clustering_coefficients))
+
+    assortativity_coefficients = [nx.degree_assortativity_coefficient(g) for g in gs]
+    print("Degree assortativity coefficient:", np.mean(assortativity_coefficients), "+/-", np.std(assortativity_coefficients))
+
+    modularities = [nx.algorithms.community.modularity(g, nx.algorithms.community.greedy_modularity_communities(g)) for g in gs]
+    print("Modularity:", np.mean(modularities), "+/-", np.std(modularities))
+
+    giant_components = [max(nx.connected_components(g), key=len) for g in gs]
+    giant_component_sizes = [len(giant_component) for giant_component in giant_components]
+    print("Giant component size:", np.mean(giant_component_sizes), "+/-", np.std(giant_component_sizes))
+
+    average_shortest_paths = [nx.average_shortest_path_length(g) for g in gs]
+    print("Average shortest path length:", np.mean(average_shortest_paths), "+/-", np.std(average_shortest_paths))
+
+    cycle_node_counts = [len(list(nx.simple_cycles(g))) for g in gs]
+    print("Number of cycles:", np.mean(cycle_node_counts), "+/-", np.std(cycle_node_counts))
+
 if __name__ == '__main__':
     import argparse
 
@@ -66,16 +97,7 @@ if __name__ == '__main__':
 
     G: nx.DiGraph = nx.read_graphml(args.input)
 
-    print("Number of nodes:", G.number_of_nodes())
-    print("Number of edges:", G.number_of_edges())
-
-    print("Clustering coefficient:", nx.average_clustering(G))
-    print("Degree assortativity coefficient:", nx.degree_assortativity_coefficient(G))
-    print("Modularity:", nx.algorithms.community.modularity(G, nx.algorithms.community.greedy_modularity_communities(G)))
-
-    giant_component = max(nx.weakly_connected_components(G), key=len)
-    print("Average shortest path length:", nx.average_shortest_path_length(G.subgraph(giant_component)))
-    print("Number of nodes in cycles:", len(set(chain(*nx.simple_cycles(G)))))
+    print_metrics([G])
 
     if not args.no_show:
         plot_distributions(G)
