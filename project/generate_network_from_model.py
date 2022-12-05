@@ -13,6 +13,7 @@ import analyze_dependency_graph as adg
 # the only argument is the model, which is one of 'refactoring' or 'duplicate_rewire'
 parser = argparse.ArgumentParser()
 parser.add_argument('model', choices=['refactoring', 'duplicate_rewire'])
+parser.add_argument('--dump-graphs', action='store_true', help='Dump the graphs to graphml files. Skips metrics calculation.')
 args = parser.parse_args()
 
 networks = []
@@ -24,21 +25,21 @@ duplicate_rewire_wagtail_latest = {'m0': 10, 'k0': 2, 'N': 849, 'beta': 0.42, 'd
 # actual params to use
 duplicate_rewire_params = duplicate_rewire_wagtail_latest
 
+if args.dump_graphs:
+    NUMBER_SAMPLES = 1
 if args.model == 'refactoring':
     with Timer('Generating Myers refactoring graph'):
         networks.append(mrm.generate_network())
 
-    with Timer("export to graphml"):
-        nx.write_graphml(networks[0], "myers_refactoring_model.graphml")
+    if args.dump_graphs:
+        with Timer("export to graphml"):
+            nx.write_graphml(networks[0], "myers_refactoring_model.graphml")
 else:
-    with Timer('Generating duplicate rewire graphs'):
+    with Timer(f'Generating {NUMBER_SAMPLES} duplicate rewire graphs'):
         for i in range(NUMBER_SAMPLES):
-            networks.append(drm.generate_network(**duplicate_rewire_params))
+            networks.append(drm.generate_network(**duplicate_rewire_params, dump_graphs=args.dump_graphs))
 
-    with Timer("export to graphml"):
-        nx.write_graphml(networks[0], "duplicate_rewire_model.graphml")
-    print(f"Results from {NUMBER_SAMPLES} samples:")
+if not args.dump_graphs:
+    adg.print_metrics(networks)
 
-adg.print_metrics(networks)
-
-adg.print_regression_results(networks)
+    adg.print_regression_results(networks)

@@ -21,8 +21,9 @@ def generate_initial_network(m0: int, k0: int) -> nx.DiGraph:
 # iii) Cross linking. In addition, the target and new node are linked (w -> v) with probability \beta. This rule is
 # important in order to generate triads or 3-subgraphs.
 
-def generate_network(m0: int, k0: int, N: int, beta: float, delta: float) -> nx.DiGraph:
+def generate_network(m0: int, k0: int, N: int, beta: float, delta: float, dump_graphs: bool = False) -> nx.DiGraph:
     G = generate_initial_network(m0, k0)
+    steps = 0
     while len(G.nodes) < N:
         i = len(G.nodes)
         G.add_node(i)
@@ -38,4 +39,7 @@ def generate_network(m0: int, k0: int, N: int, beta: float, delta: float) -> nx.
         else:
             if random.random() < beta:
                 G.add_edge(i, v)
+        if dump_graphs and steps % 20 == 0:
+            nx.write_graphml(G, f"step{steps:04d}-node{i:04d}.graphml")
+        steps += 1
     return G
