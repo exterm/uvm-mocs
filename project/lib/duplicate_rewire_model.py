@@ -40,6 +40,6 @@ def generate_network(m0: int, k0: int, N: int, beta: float, delta: float, dump_g
             if random.random() < beta:
                 G.add_edge(i, v)
         if dump_graphs and steps % 20 == 0:
-            nx.write_graphml(G, f"step{steps:04d}-node{i:04d}.graphml")
+            nx.write_graphml(G, f"step{steps:04d}-node{i:04d}-duplicate_rewire.graphml")
         steps += 1
     return G
