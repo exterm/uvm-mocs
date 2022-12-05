@@ -12,6 +12,7 @@ args.add_argument('graph1', help='path to "before" graphml file')
 args.add_argument('graph2', help='path to "after" graphml file')
 args.add_argument('-o', '--output', help='path to output graphml file')
 args.add_argument('-d', '--dot-layout', action='store_true', help='use dot layout')
+args.add_argument('-s', '--show', action='store_true', help='show the graph')
 
 args = args.parse_args()
 
@@ -31,7 +32,7 @@ if args.output:
 else:
     print('No output file specified')
 
-if args.dot_layout or not args.output:
+if args.dot_layout or args.show:
     # render the graph and show it
     # highlight added and removed nodes and edges in green and red respectively
 
