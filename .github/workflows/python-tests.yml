@@ -13,16 +13,12 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Install apt prerequisites
-      run: sudo apt-get install graphviz graphviz-dev
-    - name: Install poetry
-      run: pipx install poetry
-    - name: Set up Python
-      uses: actions/setup-python@v4
+      run: sudo apt-get install -y graphviz graphviz-dev
+    - name: "Setup Python, Poetry and Dependencies"
+      uses: packetcoders/action-setup-cache-python-poetry@main
       with:
-        python-version: '3.11'
-        cache: 'poetry'
-    - name: Install dependencies
-      run: poetry install
+        python-version: 3.11
+        poetry-version: 1.2.2
     - name: Run assignment 02 tests
       run: cd assignment-02; poetry run pytest -vv
     - name: Run project tests
