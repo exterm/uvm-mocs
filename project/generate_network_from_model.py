@@ -40,3 +40,5 @@ else:
     print(f"Results from {NUMBER_SAMPLES} samples:")
 
 adg.print_metrics(networks)
+
+adg.print_regression_results(networks)
