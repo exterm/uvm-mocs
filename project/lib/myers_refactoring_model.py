@@ -16,9 +16,12 @@ import networkx as nx
 
 TEMPERATURE = 10000
 
-def generate_network(N0: int = 50, L0: int = 1000, p: float = 0.7, l0: int = 4, T: float = 1.0) -> nx.DiGraph:
+def generate_network(
+        N0: int = 50, L0: int = 1000, p: float = 0.7, l0: int = 4, T: float = 1.0,
+        dump_graphs: bool = False) -> nx.DiGraph:
     G = generate_initial_network(N0, L0)
     temperature = TEMPERATURE
+    steps = 0
     while temperature > 0:
         G_before = G.copy()
         rand = random.random()
@@ -30,13 +33,19 @@ def generate_network(N0: int = 50, L0: int = 1000, p: float = 0.7, l0: int = 4, 
             node_to_remove = choose_node_for_removal(G)
             if node_to_remove is not None:
                 remove_node(G, node_to_remove)
-        if G.number_of_nodes() == G_before.number_of_nodes():
+
+        n = G.number_of_nodes()
+        if n == G_before.number_of_nodes():
             temperature -= 1
             print('.', end='', flush=True)
         else:
             temperature = TEMPERATURE
-            print("\nNumber of nodes:", G.number_of_nodes(), end='', flush=True)
+            print("\nNumber of nodes:", n, end='', flush=True)
+        if dump_graphs and temperature > TEMPERATURE - 100 and steps % 230 == 0:
+            nx.write_graphml(G, f"step{steps:05d}-nodes{n:04d}-refactoring.graphml")
+        steps += 1
     print()
+    print("Steps:", steps)
     return G
 
 # split a previously chosen node
