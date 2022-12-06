@@ -28,5 +28,5 @@ def generate_network(N: int, C: int, m: int, alpha: float, dump_graphs: bool = F
                     node_choose = choice(eligible_nodes, 1, p=np.array(out_degrees)/sum(out_degrees))[0]
                     G.add_edge(node_choose, step)
         if dump_graphs and step % (N//100) == 0:
-            nx.write_graphml(G, f"/model-output/symmetric-attach/step{step:04d}-symmetric-attachment.graphml")
+            nx.write_graphml(G, f"step{step:04d}-symmetric-attachment.graphml")
     return G
