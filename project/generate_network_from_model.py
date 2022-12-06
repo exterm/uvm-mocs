@@ -18,9 +18,6 @@ parser.add_argument('model', choices=['refactoring', 'symmetrical', 'symmetrical
 parser.add_argument('--dump-graphs', action='store_true', help='Dump the graphs to graphml files. Skips metrics calculation.')
 args = parser.parse_args()
 
-import os
-print(os.path.abspath(__file__))
-
 networks = []
 NUMBER_SAMPLES = 100
 
