@@ -36,11 +36,7 @@ if args.dump_graphs:
     NUMBER_SAMPLES = 1
 if args.model == 'refactoring':
     with Timer('Generating Myers refactoring graph'):
-        networks.append(mrm.generate_network())
-
-    if args.dump_graphs:
-        with Timer("export to graphml"):
-            nx.write_graphml(networks[0], "myers_refactoring_model.graphml")
+        networks.append(mrm.generate_network(dump_graphs=args.dump_graphs))
 elif args.model == 'symmetrical':
     with Timer(f'Generating {NUMBER_SAMPLES} duplicate Symmetrical Attachment graphs'):
         for i in range(NUMBER_SAMPLES):
