@@ -27,7 +27,7 @@ NUMBER_SAMPLES = 100
 # examples that we have found to roughly replicate the graphs from our data
 duplicate_rewire_wagtail_latest = {'m0': 10, 'k0': 2, 'N': 849, 'beta': 0.42, 'delta': 0.68}
 symm_attach_params = {"N": 849, "C": 1, "m": 5, "alpha": .70} ## trying to match wagtail
-symm_attach_aging_params = {"N": 849, "C": 1, "v": 1.5, "m": 5, "alpha": .70} ## trying to match wagtail
+symm_attach_aging_params = {"N": 849, "C": 1, "v": .95, "m": 5, "alpha": .70} ## trying to match wagtail
 
 # actual params to use
 duplicate_rewire_params = duplicate_rewire_wagtail_latest
