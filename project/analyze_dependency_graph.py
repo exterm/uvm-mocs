@@ -54,7 +54,7 @@ def print_regression_results(gs: List[nx.DiGraph]):
     print(f"CCDF equivalent slope: {1/np.mean(out_slopes)-1:.6f}")
     print(f"mean out-degree quality of fit(r^2): {np.mean(out_qualities):.6f} +/- {np.std(out_qualities):.6f}")
 
-def plot_distributions(g: nx.DiGraph):
+def plot_distributions(g: nx.DiGraph, dump: bool = False):
     # remove outliers (nodes with very high in-or out-degree)
     # this is done to make the plots more readable
     # g.remove_nodes_from([n for n, d in g.in_degree() if d > 50])
@@ -67,6 +67,8 @@ def plot_distributions(g: nx.DiGraph):
     plt.ylabel('In-degree')
     plt.xlabel('Rank')
     plt.loglog(in_df['rank'], in_df['in_degree'], 'o')
+    if dump:
+        plt.savefig('in_degree_distribution.pdf')
     plt.draw()
 
     plt.figure()
@@ -75,6 +77,17 @@ def plot_distributions(g: nx.DiGraph):
     plt.xlabel('Rank')
     # only rank is logarithmic
     plt.semilogx(out_df['rank'], out_df['out_degree'], 'o')
+    if dump:
+        plt.savefig('out_degree_distribution-semilog.pdf')
+    plt.draw()
+
+    plt.figure()
+    plt.title('Out-degree distribution (loglog)')
+    plt.ylabel('Out-degree')
+    plt.xlabel('Rank')
+    plt.loglog(out_df['rank'], out_df['out_degree'], 'o')
+    if dump:
+        plt.savefig('out_degree_distribution-loglog.pdf')
     plt.draw()
 
     # in-degree over out-degree.
@@ -86,8 +99,8 @@ def plot_distributions(g: nx.DiGraph):
     plt.title('in-degree distribution over out-degree distribution')
     plt.xlabel('out-degree')
     plt.ylabel('in-degree')
-    # plt.xscale('log')
-    # plt.yscale('log')
+    if dump:
+        plt.savefig('in_degree_over_out_degree_distribution.pdf')
     plt.draw()
 
 def print_metrics(gs: List[nx.DiGraph]):
@@ -126,6 +139,7 @@ if __name__ == '__main__':
     args = argparse.ArgumentParser()
     args.add_argument('input', help='input graphml file')
     args.add_argument('--no-show', action='store_true', help='do not show the plots')
+    args.add_argument('-w', '--write-plots', action='store_true', help='write the plots to files')
 
     args = args.parse_args()
 
@@ -135,6 +149,7 @@ if __name__ == '__main__':
 
     print_regression_results([G])
 
-    if not args.no_show:
-        plot_distributions(G)
-        plt.show()
+    if args.write_plots or not args.no_show:
+        plot_distributions(G, dump=args.write_plots)
+        if not args.no_show:
+            plt.show()
