@@ -61,14 +61,24 @@ if args.dot_layout or args.show:
         pos = nx.nx_agraph.graphviz_layout(annotated_graph, prog='dot', args='-GTBbalance=min -Grankdir=BT')
     else:
         pos = nx.random_layout(annotated_graph)
+    draw_opts = {
+        'node_color': node_colors,
+        'edge_color': edge_colors,
+        'node_size': 50,
+        'width': 0.3,
+        'with_labels': False,
+        'alpha': 0.7,
+    }
+
+    # for smaller graphs, draw things larger
+    if len(annotated_graph.edges) < 20:
+        draw_opts['node_size'] = 150
+        draw_opts['width'] = 2.5
+        draw_opts['arrowsize'] = 25
+
     nx.draw(
         annotated_graph,
         pos,
-        with_labels=False,
-        node_color=node_colors,
-        edge_color=edge_colors,
-        node_size=50,
-        width=0.3,
-        alpha=0.7,
+        **draw_opts
     )
     plt.show()
