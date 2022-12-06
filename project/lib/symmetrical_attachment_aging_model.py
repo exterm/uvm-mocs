@@ -10,8 +10,9 @@ def initialize_network() -> nx.DiGraph: # initializes a directed network with tw
     G.add_edge(0,1)
     return G
 
-def generate_network(N: int, C: int, v: float, m: int, alpha: float) -> nx.DiGraph:
+def generate_network(N: int, C: int, v: float, m: int, alpha: float, dump_graphs: bool = False) -> nx.DiGraph:
     G = initialize_network()
+
     for step in range(len(G.nodes()), N): ## one step for each node to add, we already have 2 nodes (id 0 and 1)
         for _ in range(m): ## one step for each edge to add
             rand = random.random()
@@ -27,4 +28,6 @@ def generate_network(N: int, C: int, v: float, m: int, alpha: float) -> nx.DiGra
                 if len(eligible_nodes) > 0:
                     node_choose = choice(eligible_nodes, 1, p=np.array(out_degrees)/sum(out_degrees))[0]
                     G.add_edge(node_choose, step)
+        if dump_graphs and step % (N//100) == 0:
+            nx.write_graphml(G, f"/model-output/symmetric-attach-aging/step{step:04d}-symmetric-attachment-aging.graphml")
     return G

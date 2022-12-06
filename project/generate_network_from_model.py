@@ -24,7 +24,7 @@ NUMBER_SAMPLES = 100
 # examples that we have found to roughly replicate the graphs from our data
 duplicate_rewire_wagtail_latest = {'m0': 10, 'k0': 2, 'N': 849, 'beta': 0.42, 'delta': 0.68}
 symm_attach_params = {"N": 849, "C": 1, "m": 5, "alpha": .70} ## trying to match wagtail
-symm_attach_aging_params = {"N": 849, "C": 1, "v": .8, "m": 5, "alpha": .70} ## trying to match wagtail
+symm_attach_aging_params = {"N": 849, "C": 1, "v": 1.5, "m": 5, "alpha": .70} ## trying to match wagtail
 
 # actual params to use
 duplicate_rewire_params = duplicate_rewire_wagtail_latest
@@ -41,14 +41,14 @@ if args.model == 'refactoring':
 elif args.model == 'symmetrical':
     with Timer(f'Generating {NUMBER_SAMPLES} duplicate Symmetrical Attachment graphs'):
         for i in range(NUMBER_SAMPLES):
-            networks.append(sam.generate_network(**symm_attach_params))
+            networks.append(sam.generate_network(**symm_attach_params, dump_graphs=args.dump_graphs))
     # if args.dump_graphs:
     #     with Timer("export to graphml"):
     #         nx.write_graphml(networks[0], "symmetrical_attachment_model.graphml")
 elif args.model == 'symmetrical-aging':
     with Timer(f'Generating {NUMBER_SAMPLES} duplicate Symmetrical Attachment Aging graphs'):
         for i in range(NUMBER_SAMPLES):
-            networks.append(sama.generate_network(**symm_attach_aging_params))
+            networks.append(sama.generate_network(**symm_attach_aging_params, dump_graphs=args.dump_graphs))
 else:
     with Timer(f'Generating {NUMBER_SAMPLES} duplicate rewire graphs'):
         for i in range(NUMBER_SAMPLES):
