@@ -63,7 +63,7 @@ def draw_metric(graphs: list[nx.DiGraph], metric, title: str):
     plt.setp(plt.gca().get_xticklabels(), rotation=45, horizontalalignment='right')
     # sample x labels so they don't overlap
     plt.gca().xaxis.set_major_locator(mpt.MaxNLocator(20))
-    plt.gcf().subplots_adjust(bottom=0.25)
+    plt.gcf().subplots_adjust(bottom=0.20)
     filename = title.replace(' ', '_').replace('/', '_').lower()
     plt.savefig(filename + '.pdf', bbox_inches='tight')
     plt.draw()
