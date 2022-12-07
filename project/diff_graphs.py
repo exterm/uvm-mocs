@@ -71,7 +71,7 @@ if args.dot_layout or args.show:
     }
 
     # for smaller graphs, draw things larger
-    if len(annotated_graph.edges) < 20:
+    if len(annotated_graph.edges) < 30:
         draw_opts['node_size'] = 150
         draw_opts['width'] = 2.5
         draw_opts['arrowsize'] = 25
